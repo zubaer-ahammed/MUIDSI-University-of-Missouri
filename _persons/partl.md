@@ -4,7 +4,7 @@ first_name: Christian
 last_name: Partl
 key: partl
 permalink: /persons/partl/
-role: core
+role: collaborator
 email: partl@icg.tugray.at
 image: /assets/images/team/partl.jpg
 organization: Graz University of Technology

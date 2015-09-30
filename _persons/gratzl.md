@@ -4,7 +4,7 @@ first_name: Samuel
 last_name: Gratzl
 key: gratzl
 permalink: /persons/gratzl/
-role: core
+role: collaborator
 email: samuel.gratzl@jku.at
 image: /assets/images/team/gratzl.jpg
 organization: Johannes Kepler University Linz
