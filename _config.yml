@@ -1,0 +1,55 @@
+# Site settings
+title: Visualization Design Lab
+email: alex@sci.utah.edu
+description: "Data visualization reserach lab at SCI, SoC, University of Utah"
+baseurl: ""
+url: "http://visdesignlab.github.io"
+twitter_username: caleydo_org
+github_username:  visdesignlab
+youtube_username:
+facebook_page:
+license_url: https://raw.githubusercontent.com/Caleydo/caleydo/develop/LICENSE
+safe: false
+lsi: false
+plugins: ./_plugins
+google_analytics: "'UA-45998043-1'"
+use_analytics: true
+
+paper_content_url: http://data.caleydo.org/papers/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+sass:
+  sass_dir: _sass
+# exclude from build
+exclude: ["README.md", "Rakefile", "changelog.md", ".idea/", "Gemfile", "Gemfile.lock", "rvm.env"]
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  persons:
+    output: false
+    permalink: /persons/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  thesis:
+    output: true
+    permalink: /thesis/:path/
+  videos:
+    output: false
+    permalink: /videos/:path/
+  datasets:
+    output: false
+    permalink: /datasets/:path/
+  institutions:
+    output: false
+    permalink: /institutions/:path/
+  funding:
+    output: false
+    permalink: /funding/:path/
