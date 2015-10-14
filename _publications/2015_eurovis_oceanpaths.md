@@ -6,7 +6,7 @@ permalink: /publications/2015_eurovis_oceanpaths/
 type: paper
 
 shortname: oceanpaths
-image: /assets/images/papers/2015_eurovis_oceanpaths.png
+image: 2015_eurovis_oceanpaths.png
 
 authors:
 - Carolina Nobre

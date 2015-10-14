@@ -8,7 +8,8 @@ type: paper
 
 # The shortname is used for auto-generated titels
 shortname: Vials
-image: /assets/images/papers/2015_infovis_vials.png
+# add a 2:1 aspect ration (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
+image: 2015_infovis_vials.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
