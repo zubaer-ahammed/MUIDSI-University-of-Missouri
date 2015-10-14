@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "OceanPaths: Visualizing Multivariate Oceanography Data "
+title: "OceanPaths: Visualizing Multivariate Oceanography Data"
 key: 2015_eurovis_oceanpaths
 permalink: /publications/2015_eurovis_oceanpaths/
 type: paper
