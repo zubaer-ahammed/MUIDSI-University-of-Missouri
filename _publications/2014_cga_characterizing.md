@@ -9,7 +9,7 @@ shortname: DualMeetsCaleydo
 image: 2014_cga_characterizing.png
 
 authors:
-- turkay
+- Cagatay Turkay
 - lex
 - streit
 - pfister

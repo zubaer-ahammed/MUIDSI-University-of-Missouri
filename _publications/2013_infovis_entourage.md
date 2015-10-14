@@ -12,9 +12,9 @@ image: 2013_infovis_entourage.png
 authors:
 - lex
 - partl
-- kalkofen
+- Denis Kalkofen
 - streit
-- wassermann
+- Anne Mai Wassermann
 - gratzl
 - schmalstieg
 - pfister

@@ -15,7 +15,7 @@ authors:
 - partl
 - schmalstieg
 - pfister
-- park
+- Peter Park
 - gehlenborg
 
 journal: Nature Methods, 11, pp. 884–885

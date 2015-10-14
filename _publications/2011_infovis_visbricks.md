@@ -11,7 +11,7 @@ image: 2011_infovis_visbricks.png
 
 authors:
 - lex
-- schulz
+- Hans-Jörg Schulz
 - streit
 - partl
 - schmalstieg

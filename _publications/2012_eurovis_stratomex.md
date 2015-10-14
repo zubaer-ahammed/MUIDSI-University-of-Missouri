@@ -12,10 +12,10 @@ image: 2012_eurovis_stratomex.png
 authors: 
 - lex
 - streit
-- schulz
+- Hans-Jörg Schulz
 - partl
 - schmalstieg
-- park
+- Peter Park
 - gehlenborg
 
 journal: Computer Graphics Forum (EuroVis '12), 31(3), pp. 1175-1184

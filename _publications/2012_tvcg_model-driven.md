@@ -11,7 +11,7 @@ image: 2012_tvcg_model-driven.png
 
 authors:
 - streit
-- schulz
+- Hans-Jörg Schulz
 - lex
 - schmalstieg
 - Heidrun Schumann

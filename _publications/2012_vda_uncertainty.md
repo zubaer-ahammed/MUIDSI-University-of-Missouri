@@ -13,7 +13,7 @@ authors:
 - Clemens Holzhüter
 - lex
 - schmalstieg
-- schulz
+- Hans-Jörg Schulz
 - Heidrun Schumann
 - streit
 

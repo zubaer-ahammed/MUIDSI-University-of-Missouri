@@ -12,7 +12,7 @@ authors:
 - partl
 - lex
 - strobelt
-- wassermann
+- Anne Mai Wassermann
 - pfister
 - schmalstieg
 

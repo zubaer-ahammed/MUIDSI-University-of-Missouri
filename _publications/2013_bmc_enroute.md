@@ -13,7 +13,7 @@ authors:
 - partl
 - lex
 - streit
-- kalkofen
+- Denis Kalkofen
 - Karl Kashofer
 - schmalstieg
 
