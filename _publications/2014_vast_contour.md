@@ -11,7 +11,6 @@ image: /assets/images/papers/2014_vast_contour.png
 authors:
 - partl
 - lex
-- Hendrik Strobelt
 - strobelt
 - wassermann
 - pfister
