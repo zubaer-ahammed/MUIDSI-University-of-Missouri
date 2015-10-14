@@ -11,3 +11,6 @@ organization: University of Utah
 position: Assistant Professor
 website: http://alexander-lex.net
 ---
+
+ * BioVis
+ * Design Studies
