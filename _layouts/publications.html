@@ -10,6 +10,7 @@ layout: default
     <h1>Peer-Reviewed Journal and Conference Papers </h1>
     
     {% for publication in site.publications reversed %}
+      {% if publication.type == "paper" %}
 
     <div class="paper-list-block">
 
@@ -43,7 +44,47 @@ layout: default
       </p>
 
     </div>
+      {% endif %}
+    {% endfor %}
+      
+    <h1>Posters </h1>
+    
+    {% for publication in site.publications reversed %}
+      {% if publication.type == "poster" %}
 
+    <div class="paper-list-block">
+
+      <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
+                                                             class="paper-image-small"
+                                                             src="/assets/images/papers/{{ publication.image }}"></a>
+
+      <p>
+        {% for author in publication.authors %}
+
+        {% assign known = false %}
+        {% for person in site.persons %}
+        {% if author == person.key %}
+        <span class="paper-author">
+          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        </span>
+        {% assign known = true %}
+        {% endif %}
+        {% endfor %}
+
+        {% if known == false %}
+        <span class="paper-author">        
+          {{ author }}{% if author != publication.authors.last %}, {% endif %}
+        </span>
+        {% endif %}
+
+        {% endfor %}
+        <br/>
+        <b> <a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+        {{ publication.journal }}, {{publication.year}}
+      </p>
+
+    </div>
+      {% endif %}
     {% endfor %}
 
     <h1>Theses </h1>
