@@ -21,7 +21,7 @@ authors:
 - pfister
 - lex
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15), to appear, 2015.
+journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15), to appear
 year: 2015
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
@@ -31,7 +31,7 @@ doi: 10.1109/TVCG.2015.2467911
 publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
-project: stratomex
+project:
 
 # Use this if you have an external project website 
 external-project: http://vials.io
