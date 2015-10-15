@@ -49,8 +49,13 @@ supplement: 2015_infovis_vials_supplement.pdf
 # Extra supplements, such as talk slides, data sets, etc. 
 supplements:
 - name: Vials Conference Talk Slides
+  # use link instead of abslink if you want to link to the master directory
   abslink: http://vials.io/vis2015/
-# use link instead of abslink if you want to link to the master directory
+  # defaults to a download icon, use this if you want a link-out icon
+  linksym: true
+
+# Link to the repository where the code is hostet
+code: https://github.com/caleydo/vials/
 
 bibtex: 2015_infovis_vials.bib
 
