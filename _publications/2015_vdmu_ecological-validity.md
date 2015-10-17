@@ -14,7 +14,7 @@ authors:
 - Sarah H. Creem-Regehr
 - meyer
 
-journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty, at VIS '15, <em>to appear</em>"
+journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty, at VIS '15, to appear"
 year: 2015
 award: 
 note: 

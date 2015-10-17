@@ -1,6 +1,6 @@
 ---
 layout: person
-first_name: P Samuel
+first_name: P. Samuel
 last_name: Quinan
 key: quinan
 permalink: /persons/quinan/
