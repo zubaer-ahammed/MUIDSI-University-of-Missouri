@@ -1,8 +1,8 @@
 ---
 layout: publication
-title: "MulteeSum: A Tool for Comparative Spatial and Temporal Gene Expression Data,"
+title: "MulteeSum: A Tool for Comparative Spatial and Temporal Gene Expression Data"
 key: 2010_infovis_multeesum
-permalink: /publications/2 2010_infovis_multeesum/
+permalink: /publications/2010_infovis_multeesum/
 type: paper
 
 
