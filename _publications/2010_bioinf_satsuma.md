@@ -7,7 +7,7 @@ type: paper
 
 
 shortname: Satsuma
-image: 2010_infovis_multeesum.png
+image: 2010_bioinf_satsuma.png
 
 authors:
 - Manfred Grabherr
