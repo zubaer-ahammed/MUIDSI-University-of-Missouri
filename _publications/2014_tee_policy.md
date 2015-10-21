@@ -1,7 +1,7 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Mu-8: Visualizing Differences between Proteins and their Families "
+title: "Information visualisation for science and policy: engaging users and avoiding bias"
 key: 2014_tee_policy
 permalink: /publications/2014_tee_policy/
 type: paper
