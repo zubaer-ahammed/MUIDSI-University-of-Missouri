@@ -10,5 +10,5 @@ image: /assets/images/team/meyer.jpg
 organization: University of Utah
 position: Assistant Professor
 website: http://www.cs.utah.edu/~miriah/
-interests: Visualization Design Models, Exploratory Visualization for Scientists, Visualization in the Humanities, User-centered Design
+interests: Visualization Design Models, Design Studies, User-centered Design
 ---
