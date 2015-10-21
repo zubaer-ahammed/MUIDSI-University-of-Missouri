@@ -10,7 +10,7 @@ layout: default
   <article class="funding-content">
 
 
-    <p> Caleydo is supported by several funding agencies.</p>
+    <p>We are greatful for support from these organizations.</p>
 
 
     <div class="cards">
@@ -46,17 +46,13 @@ layout: default
           {%endif%}
           <p>Period: {{grant.time}}</p>
 
-          {% for person in site.persons %}
-          {% if grant.recipient == person.key) %}
-          <p>Recipient: <a href="{{person.website}}">{{person.first_name}} {{person.last_name}}</a></p>
-          {% endif %}
-          {% endfor %}
 
-          {% for institution in site.institutions %}
-          {% if grant.recipient == institution.key) %}
-          <p>Recipient: <a href="{{institution.website}}">{{institution.name}}</a></p>
-          {% endif %}
+          <p>Recipient(s):</p>
+          <ul>
+          {% for recipient in grant.recipients %}
+           <li> {{ recipient }} </li>
           {% endfor %}
+          </ul>
 
           {% if grant.partners %}
           <p>Partners: {{grant.partners}}</p>

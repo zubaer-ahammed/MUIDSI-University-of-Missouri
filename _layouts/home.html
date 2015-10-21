@@ -24,7 +24,8 @@
 
   <h1>About</h1>
 
- <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. VDL is part of the <a href="http://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="http://www.cs.utah.edu/">School of Computing</a>. </p>
+ <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
+      <p>VDL is part of the <a href="http://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="http://www.cs.utah.edu/">School of Computing</a>. </p>
 
 
 
@@ -39,7 +40,7 @@
           {{ post.date | date: "%-d %b %Y" }} | {{ post.title }}
         </div>
         <div class="post-list-excerpt">
-          {{ post.excerpt }}
+          {{ post.content }}
           <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a>
         </div>              
       </li>
@@ -52,7 +53,7 @@
       <ul class="publication-icon-list">
           {% assign sorted_publications = (site.publications | sort: 'year' %}
           {% for publication in sorted_publications reversed%}
-          {% if publication.year > 2013 %}
+          {% if publication.year > 2014 %}
           <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><br>{{publication.year}}</li>
           {% endif %}
           {% endfor %}
@@ -61,22 +62,36 @@
   </article>
 
   <article class="home-content-aside">
-    <h1>Partners</h1>
-    <ul class="institution-icon-list">
-      {% for institution in site.institutions reversed %}
-      <li><a href="{{ institution.website }}">{{ institution.name }}</a><br>{{ institution.location }}</li>
+
+      <h1>Members</h1>
+      {% for person in site.persons %}
+      {% if person.role != "collaborator") %}
+    <div class="person-container">
+          <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
+          <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a>
+          <br />
+      </div>
+      {% endif %}
       {% endfor %}
-    </ul>
 
-    <h1>Projects</h1>
-    <ul class="project-icon-list">
-      {% assign sorted_projects = (site.projects | sort: 'order' %}
-      {%for project in sorted_projects %}
 
-      <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
-      {% endfor %}
-    </ul>
+      <!--
+   <h1>Partners</h1>
+   <ul class="institution-icon-list">
+     {% for institution in site.institutions reversed %}
+     <li><a href="{{ institution.website }}">{{ institution.name }}</a><br>{{ institution.location }}</li>
+     {% endfor %}
+   </ul>
 
+ <h1>Projects</h1>
+   <ul class="project-icon-list">
+     {% assign sorted_projects = (site.projects | sort: 'order' %}
+     {%for project in sorted_projects %}
+
+     <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
+     {% endfor %}
+   </ul>
+-->
 
     <h1>Funding</h1>
     <ul class="funding-icon-list">

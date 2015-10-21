@@ -4,7 +4,7 @@ first_name: Sean
 last_name: McKenna
 key: mckenna
 permalink: /persons/mckenna/
-role: core
+role: phdstudent
 email: sean@cs.utah.edu
 image: /assets/images/team/mckenna.jpg
 organization: University of Utah
