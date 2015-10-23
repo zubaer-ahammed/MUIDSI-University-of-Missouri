@@ -4,8 +4,8 @@ email: alex@sci.utah.edu
 description: "Data visualization reserach lab at SCI, SoC, University of Utah"
 baseurl: ""
 url: "http://visdesignlab.github.io"
-twitter_username: caleydo_org
-github_username:  visdesignlab
+twitter_username:
+github_username: visdesignlab
 youtube_username:
 facebook_page:
 license_url: https://raw.githubusercontent.com/Caleydo/caleydo/develop/LICENSE

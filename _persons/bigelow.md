@@ -10,4 +10,5 @@ image: /assets/images/team/bigelow.png
 organization: University of Utah
 position: PhD Student
 website: http://www.cs.utah.edu/~abigelow/
+interests: Visualization Design Toolkits, Graph Data, User-centered Design
 ---
