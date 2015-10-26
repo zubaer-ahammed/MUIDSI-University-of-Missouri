@@ -18,10 +18,10 @@ authors:
 - Tamara Munzner
 
 journal: "Information Visualization, 14(3), pp. 234–249"
-year: "2015 (available online 2013)"
+year: 2015
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
-note: extended journal version of 2012 BELIV article
+note: extended journal version of 2012 BELIV article, available online 2013
 
 
 doi: 10.1177/1473871613510429
