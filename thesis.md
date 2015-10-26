@@ -1,6 +1,6 @@
 ---
 layout: thesis
-title: Thesis | Caleydo
+title: Thesis | Vis Design Lab
 tag: thesis
 permalink: /thesis/
 ---

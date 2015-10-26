@@ -4,7 +4,7 @@ first_name: P. Samuel
 last_name: Quinan
 key: quinan
 permalink: /persons/quinan/
-role: core
+role: phdstudent
 email: samquinan@sci.utah.edu
 image: /assets/images/team/quinan.png
 organization: University of Utah

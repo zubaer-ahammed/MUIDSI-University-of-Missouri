@@ -1,0 +1,10 @@
+
+{% for person in site.persons %}
+{% if person.key == include.key  or person.role == include.role %}
+<p>
+    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
+    <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+    Interests: {{person.interests}}
+</p>
+{% endif %}
+{% endfor %}

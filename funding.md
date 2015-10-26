@@ -1,6 +1,6 @@
 ---
 layout: funding
-title: Funding | Caleydo
+title: Funding | Vis Design Lab
 tag: funding
 permalink: /funding/
 ---
