@@ -35,6 +35,6 @@ supplement:
 bibtex: 
 
 abstract: "
-<p>In this short-paper we establish the need for better ecological validity in evaluating the visualization of uncertainty information. Using weather forecasting as a framework, we also discuss the both the design and results for a pilot user-study that attempts to evaluate the effect of uncertianty visualizations in decisions.</p>"
+<p>In this extended abstract we establish the need for better ecological validity in evaluating the visualization of uncertainty information. Using weather forecasting as a framework, we also discuss the both the design and results for a pilot user-study that attempts to evaluate the effect of uncertianty visualizations in decisions.</p>"
 
 ---
