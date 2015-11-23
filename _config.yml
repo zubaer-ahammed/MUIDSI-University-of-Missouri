@@ -1,7 +1,7 @@
 # Site settings
 title: Visualization Design Lab
 email: alex@sci.utah.edu
-description: "Data visualization reserach lab at SCI, SoC, University of Utah"
+description: "Data visualization research lab at SCI, SoC, University of Utah"
 baseurl: ""
 url: "http://visdesignlab.github.io"
 twitter_username:
