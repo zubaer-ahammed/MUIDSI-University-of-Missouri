@@ -1,18 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
-$old_sans-serif-font-family: Montserrat, Trebuchet, sans-serif;
-$old_serif-font-family: Montserrat, Trebuchet, sans-serif; //Vollkorn, Times, serif;
-$old_slab-font-family: Rokkitt, Trebuchet, sans-serif;
-
-$condensed-font-family: RobotoCondensed-regular, Montserrat, sans-serif;
-
-$sans-serif-font-family: Roboto, Trebuchet, sans-serif;
-$serif-font-family: Roboto, Trebuchet, sans-serif; //Vollkorn, Times, serif;
-$slab-font-family: Roboto Slab, Trebuchet, sans-serif;
+$sans-serif-font-family: Montserrat, Trebuchet, sans-serif;
+$serif-font-family: Montserrat, Trebuchet, sans-serif; //Vollkorn, Times, serif;
+$slab-font-family: Rokkitt, Trebuchet, sans-serif;
 
 $page-title-font-family: $sans-serif-font-family;
 $page-title-font-weight: 900;
@@ -20,23 +11,23 @@ $page-title-font-style: normal;
 $page-title-font-size: $base-font-size * 3;
 
 $content-title-font-family: $slab-font-family;
-$content-title-font-weight: 400;
+$content-title-font-weight: 700;
 $content-title-font-style: normal;
 
 $page-content-font-family: $serif-font-family;
-$page-content-font-weight: 300;
-$page-content-font-style: light;
-$page-content-font-size: 1.1em;
+$page-content-font-weight: 400;
+$page-content-font-style: normal;
+$page-content-font-size: 1em;
 
 $footer-content-font-family: $sans-serif-font-family;
 $footer-content-font-weight: 400;
 $footer-content-font-style: normal;
 $footer-content-font-size: .7em;
 
-$navigation-button-font-family: $condensed-font-family;
+$navigation-button-font-family: $sans-serif-font-family;
 $navigation-button-font-weight: 700;
-$navigation-button-font-style: bold;
-$navigation-button-font-size: $base-font-size * 1.0;
+$navigation-button-font-style: normal;
+$navigation-button-font-size: $base-font-size * 0.9;
 
 
 body {
@@ -56,17 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h5 {
   font-family: $content-title-font-family;
   font-weight: $content-title-font-weight;
-  font-style: $content-title-font-style; 
-  color:#2C3E50;
+  font-style: $content-title-font-style;  
   margin-bottom: 10px;
-  //padding-left: 5px;
+  padding-left: 5px;
   padding-bottom: 0px;
 }
 
 h1 {
-  //font-size: $base-font-size * 1.75; // 16 * 2.25 = 36px
-  font-size: $base-font-size * 1.2; 
-  //border-bottom: 2px $light-gray solid;
+  font-size: $base-font-size * 1.75; // 16 * 2.25 = 36px
+  border-bottom: 2px $light-gray solid;
 }
 
 h2 {
@@ -92,7 +81,6 @@ h6 {
 
 p {
   margin: 0 0 ($base-line-height * .5);
-  color:#2B2F33;
 }
 
 a {

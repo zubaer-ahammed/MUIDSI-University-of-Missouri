@@ -18,15 +18,15 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 /* site specific changes that do not fit into base */
 
 @mixin navigation-button($color) {
-  color: white;
+  color: #2C3E50;
   font-family: $navigation-button-font-family;
   font-weight: $navigation-button-font-weight;
   font-style: $navigation-button-font-style;
   font-size: $navigation-button-font-size;
   float: left;
-  text-align: center;
-  margin-right: 5px;
-  width: 110px;
+  text-align: left;
+  margin-right: 25px;
+  width: 112px;
 
   &:last-child {
     margin-right: 0px;
@@ -34,13 +34,13 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 
   a {
     display: block;
-    height: 30px;
-    padding-bottom: 5px;
+    height: 28px;
+    padding-bottom: 3px;
     padding-top: 3px;
-    color: #eee;
+    color: #2C3E50;
 
-    border-bottom: 4px $color solid;
-    background-color: #444;
+    border-bottom: 2px $color solid;
+    //background-color: #444;
 
     transition-property: background-color, color;
     transition-duration: 500ms;
@@ -48,12 +48,13 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
     transition-delay: 25ms;
 
     &:focus, &:hover, &:active {
-      background-color: darken( $color, 20% );
-      color: white;
+      //background-color: darken( $color, 20% );
+      //color: #2C3E50;
+	  //color: darken( $color, 20% );
+	  height:30px;
+	  border-bottom: 4px $color solid;
     }
   }
-
-
 
   @include media($small-display) {
     width: 25px;
@@ -65,7 +66,7 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 }
 
 .nav-icon {
-  margin-right: 0.2em;
+ margin-right: 0.2em;
   display: inline-block;
 
   @include media($medium-display) {
@@ -89,35 +90,46 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
   }
 }
 
+.banner {	
+    display: block;
+    //height: 40px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    width:100%;	
+	min-height:20px;
+}
+
 .navigation {
   display: block;
   height: 40px;
   margin-bottom: 20px;
+  padding-bottom:20px;
+  width:100%;
 
   @include media($small-display) {
-    margin-right: 0px;
+    margin-left: 0px;
     height: 30px;
   }
 }
 
 .navigation-buttons {
   display: block;
-  float: right;
-  padding-top: 6px;
+  float: left;
+  padding-top: 65px;
 
   @include media($small-display) {
-    margin-right: 0px;
+    margin-left: 0px;
     padding-top: 0px;
   }
 }
 
 .logo {
-  float: left;
-  margin-left: -34px;
+  float: right;
+  margin-right: 0px;
 
   @include media($small-display) {
     padding-top: 5px;
-    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -137,6 +149,7 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 
 
 body {
+  width: 750px;	
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
@@ -257,7 +270,8 @@ body {
 
 @mixin dotted-link-underline() {
   a {
-    color: #444;
+	  color: #444;
+    //color: #E64C3C;
     position: relative;
     text-decoration: none;
   }
@@ -270,6 +284,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: dotted;
     display: inline;
+	color: #E64C3C;
   }
 }
 
@@ -466,14 +481,33 @@ ul.post-list {
       margin-bottom: 0px;
       display: inline;
     }
+	.right-text{
+		text-align:right;
+	}
+	
+	b{
+		
+		color:#3376A0;
+	}
+	
     .post-list-title {
-      color: $home-color;
-      font-family: $sans-serif-font-family;
+      color: #F1F2F2;
+	  //color: lighten(#F1F2F2,0.5);
+	  background:$home-color;
+      //font-family: $sans-serif-font-family;
+	  font-family: $condensed-font-family;
       font-weight: 700;
       font-style: normal;
       display: block;
+	  font-size:1em;
       margin-bottom: 5px;
+	  padding-left:5px;
     }
+	
+	/*.post-list-excerpt {
+		height:160px;
+		overflow:hidden;
+	}*/
   }
 }
 
@@ -606,6 +640,11 @@ ul.post-list {
     @include single-column-content();
     */
   }
+}
+.paper-title {
+	font-family:$condensed-font-family;
+	color:$blue2;
+	font-weight:700;
 }
 
 .paper-author {

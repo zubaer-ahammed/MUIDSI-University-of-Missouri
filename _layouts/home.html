@@ -14,19 +14,15 @@
 <body>
 
 <div class="wrap">
-    {% include header.html %}
+{% include header.html %}
 
-  <header class="home-title">
-    <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
-  </header>
+<div class="banner">
+	<img src="{{site.baseurl}}/assets/images/teaser/vdl_teaser.png" />
+</div>
 
   <article class="home-content-main">
 
-
-
   <h1>About</h1>
-
-      <img src="{{site.baseurl}}/assets/images/teaser/vdl_teaser.png" />
 
 
       <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
@@ -35,48 +31,42 @@
 
 
 
-  <h1>News <span class="right-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+  <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
       <li class="post-list-item">
+		   <!--<p style="text-align:right;">{{ post.date | date: "%-d %b %Y" }}</p>-->
+		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
         <div class="post-list-title">
-          {{ post.date | date: "%-d %b %Y" }} | {{ post.title }}
+          {{ post.title }}
         </div>
         <div class="post-list-excerpt">
-          {{ post.content }}
-          <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a>
-        </div>              
+		  {{ post.content | truncatewords: 50 }}
+  		<a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a> 
+
+        </div>         
       </li>
     {% endfor %}
   </ul>
-  <p><a href="news">Earlier news ...</a></p>
-
-  <h1>Recent Publications</h1>
-
-      <ul class="publication-icon-list">
-          {% assign sorted_publications = (site.publications | sort: 'year' %}
-          {% for publication in sorted_publications reversed%}
-          {% if publication.year > 2014 %}
-          <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><br>{{publication.year}}</li>
-          {% endif %}
-          {% endfor %}
-      </ul>
+  <p style="font-family:$condensed-font-family;"><b><a href="news">See All News</a></b></p>
 
   </article>
 
   <article class="home-content-aside">
+	  
+	  <h1>Recent</h1>
 
-      <h1>Members</h1>
-      {% for person in site.persons %}
-      {% if person.role != "collaborator") %}
-    <div class="person-container">
-          <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
-          <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a>
-          <br />
-      </div>
-      {% endif %}
-      {% endfor %}
+	      <ul class="publication-icon-list">
+	          {% assign sorted_publications = (site.publications | sort: 'year' %}
+	          {% for publication in sorted_publications reversed%}
+	          {% if publication.year > 2014 %}
+	          <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><div class="right-text">{{publication.year}}</div></li>
+	          {% endif %}
+	          {% endfor %}
+	      </ul>
+
+
 
 
       <!--
@@ -108,6 +98,15 @@
       {% endif %}
       {% assign agency = grant.agency %}
       {% endfor %}
+    </ul>
+  
+    <h1>Associated</h1>
+    <ul>
+       {% for institution in site.institutions %}
+         <li>
+           <a href="{{ institution.website }}"><img class="institution-logo" src="{{ institution.logo }}" alt="{{ institution.website }}"></a>
+         </li>
+       {% endfor %}
     </ul>
   </article>
 

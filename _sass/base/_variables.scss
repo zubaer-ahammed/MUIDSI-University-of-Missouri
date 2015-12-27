@@ -12,6 +12,7 @@ $base-border-radius: em(3);
 
 
 // Colors
+//$blue:#3376A0;
 $blue: #477DCA;
 $dark-gray: #333;
 $medium-gray: #999;
@@ -19,16 +20,24 @@ $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$blue2:#3376A0;
 
 
-$home-color: #AD3A33;
+//$home-color: #AD3A33;
+$home-color: #C03A2B;
 //$home-color: #149747;
-$team-color: #D44942;
+//$team-color: #D44942;
+$team-color:#3376A0;
 //$team-color: #3DB7DD;
 $project-color: #EB0021;
 $download-color: #F36229;
 
-$publication-color: #D66157;
+//$publication-color: #D66157;
+//$publication-color: #3376A0;
+//$publication-color: #48A5D3;
+$publication-color: #E58035;
+$recent-publications-color:#3376A0; //this is being darkened somewhere...
+//$publication-color: #4CB0D8;
 //$publication-color: #FDB938;
 $presentation-color: $download-color;
 $help-color: #B2B2B2;

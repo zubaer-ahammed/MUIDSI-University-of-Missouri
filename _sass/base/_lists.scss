@@ -55,6 +55,40 @@ ul, ol {
       display: block;
     }  
   }
+      
+	  
+  @mixin pub-list($color) {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        padding-left: -0.1em;
+        //padding-bottom: 0.5em;
+        line-height: $base-font-size * 1.2;
+        vertical-align: top;
+		//text-align:right;
+        color: $base-font-color;
+        font-family: $condensed-font-family;
+        font-weight: 400;
+        font-size: $base-font-size * 0.9;
+        font-style: normal;
+        min-height: 2.5em;
+
+        a {        
+          font-weight: 700;
+          //color: darken( $color, 20% );
+  		color: $color;
+        }
+        a:after{
+           border-bottom-width: 0;
+        }
+		.right-text{
+			text-align:right;
+		}    
+      }
+    }
+  
 
 ul.project-icon-list {
   @include icon-list($project-color,"\f013");
@@ -65,11 +99,12 @@ ul.release-icon-list {
 }
 
 ul.publication-icon-list {
-  @include icon-list($publication-color,"\f02d");
+  //@include icon-list($publication-color,"\f02d");
+  @include pub-list($recent-publications-color);
 }
 
 ul.institution-icon-list {
-  @include icon-list($team-color,"\f19c");
+  @include icon-list($team-color,"\f19c;");
 }
 
 ul.person-icon-list {
@@ -77,13 +112,12 @@ ul.person-icon-list {
 }
 
 ul.funding-icon-list {
-  @include icon-list($neutral-color,"\f024");
+  @include icon-list($neutral-color,"\f19c");
 }
 
 ul.source-icon-list {
   @include icon-list($neutral-color,"\f09b");
 }
-
 
 
 
