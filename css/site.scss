@@ -852,3 +852,26 @@ iframe {
   }
 }
 
+.person-list-block {
+  @include outer-container;
+  @include span-columns(12);
+  margin: 0 0 0 20px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  display: block;
+  
+  .name {
+    font-size: $page-content-font-size * 1.25;
+    @include span-columns(6 of 16);
+  }
+  
+  .spacer {
+    float: right;
+    font-weight: 700;
+    color: #3476A0;
+  }
+  
+  .interests {
+    @include span-columns(10 of 16);
+  }
+}

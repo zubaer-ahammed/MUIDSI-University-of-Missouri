@@ -1,10 +1,26 @@
 
 {% for person in site.persons %}
 {% if person.key == include.key  or person.role == include.role %}
-<p>
+<p class="person-list-block">
     <!--<img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">-->
-    <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a>
-    Interests: {{person.interests}}
+    
+    {% capture name %}{{ person.first_name }} {{ person.last_name }}{% endcapture %}
+    
+    <span class="name">
+      <a href="{{ person.website }}">{{ name }}</a>
+      
+      <span class="spacer">
+        {% capture numDots %}{{name | size | minus: 20 | times: -1}}{% endcapture %}
+        {% for i in (1..numDots) %}
+          &middot;
+        {% endfor %}
+      </span>
+    </span>
+    
+    <span class="interests">
+      {{person.interests}}
+    </span>
+    
 </p>
 {% endif %}
 {% endfor %}
