@@ -7,20 +7,27 @@
 	
     <div class="navigation-buttons">
 	  <ul>
-        <li class="home-button">
-          <a href="{{ site.baseurl }}/"><span class="nav-text">HOME</span></a>
-        </li>
-        <li class="team-button">
-          <a href="{{ site.baseurl }}/team/"><span class="nav-text">TEAM</span></a>
-        </li>
-          <!--
-        <li class="project-button">
-          <a href="{{ site.baseurl }}/projects/"><span class="nav-icon"><i class="fa fa-cog"></i></span><span class="nav-text">Projects</span></a>
-        </li>
--->
-        <li class="publication-button">
-          <a href="{{ site.baseurl }}/publications/"><span class="nav-text">PUBLICATIONS</span></a>
-        </li>
+      {% assign navButtons = "home|team|publications" | split: "|" %}
+      {% for nav in navButtons %}
+        {% assign navURL = nav %}
+        {% assign pageURL = page.url | remove: "/" %}
+        {% if nav == "home" %}
+          {% assign navURL = "" %}
+        {% endif %}
+        
+        {% if pageURL == navURL %}
+          <li class="{{ nav }}-button">
+            <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+        
+        {% else %}
+          <li class="{{ nav }}-button">
+            <a href="{{ site.baseurl }}/{{ navURL }}">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+        {% endif %}
+      {% endfor %}
 	  </ul>
     </div>
 </div>

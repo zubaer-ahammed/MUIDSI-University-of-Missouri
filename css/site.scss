@@ -47,7 +47,7 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
     transition-timing-function: ease;
     transition-delay: 25ms;
 
-    &:focus, &:hover, &:active {
+    &:focus, &:hover, &:active, &.active {
       //background-color: darken( $color, 20% );
       //color: #2C3E50;
 	  //color: darken( $color, 20% );
@@ -173,7 +173,7 @@ body {
   @include navigation-button($project-color);
 }
 
-.publication-button {
+.publications-button {
   @include navigation-button($publication-color);
 }
 
