@@ -1,7 +1,26 @@
 
+{% assign iter = 0 %}
 {% for person in site.persons %}
-{% if person.key == include.key  or person.role == include.role %}
-    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
-   <!-- <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a><br> -->
+{% if person.role == "faculty" %}
+  <a href="{{ person.website }}">
+  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ person.image }}">
+  </a>
+  {% assign iter = iter | plus: 1 | modulo: 2 %}
+{% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "msstudent" or person.role == "undergrad" %}
+  <a href="{{ person.website }}">
+  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="{{ person.image }}">
+  </a>
+  {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% endif %}
 {% endfor %}
+
+<script>
+  // assign random colors to profile pictures
+  (function () {
+    var people = document.getElementsByClassName("person-img");
+    for(var i in people){
+      var rand = Math.floor(Math.random() * 4);
+      people[i].className = people[i].className + " color" + rand;
+    }
+  })();
+</script>

@@ -596,19 +596,42 @@ ul.post-list {
   vertical-align: middle;
 }
 
+.person-img {
+  filter: gray;
+  border-style: solid;
+  padding: 1px;
+  &.color0 {
+    border-color: #C03A2B;
+  }
+  &.color1 {
+    border-color: #3476A0;
+  }
+  &.color2 {
+    border-color: #2C3E50;
+  }
+  &.color3 {
+    border-color: #E66558;
+  }
+}
+
 .person-image {
   width: 100px;
   height: 100px;
   @include border-radius( 50% );
-  @include desaturation(100%);
+  &.offset0 {
+    margin-bottom: 65px;
+  }
 }
 
 .person-image-small {
   @extend .person-image;
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: -10px;
+  margin-bottom: 25px;
+  &.offset0 {
+    margin-bottom: 75px;
+  }
 }
 
 
@@ -874,4 +897,12 @@ iframe {
   .interests {
     @include span-columns(10 of 16);
   }
+}
+
+.banner-team {
+  display: block;
+  margin: 30px 0 -20px 0;
+  padding: 50px 0 50px 0;
+  width: 100%; 
+  min-height: 50px;
 }
