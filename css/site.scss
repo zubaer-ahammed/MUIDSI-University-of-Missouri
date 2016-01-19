@@ -875,6 +875,12 @@ iframe {
   }
 }
 
+.team-content {
+  .space {
+    line-height: 0;
+  }
+}
+
 .person-list-block {
   @include outer-container;
   @include span-columns(12);
@@ -884,18 +890,26 @@ iframe {
   display: block;
   
   .name {
-    font-size: $page-content-font-size * 1.25;
     @include span-columns(6 of 16);
+    font-weight: 400;
   }
   
   .spacer {
     float: right;
+    margin-top: -3px;
+    font-size: $page-content-font-size * 1.15;
     font-weight: 700;
     color: #3476A0;
+    .dot {
+      margin: 0 1px 0 1px;
+    }
   }
   
   .interests {
     @include span-columns(10 of 16);
+    font-family: $condensed-font-family;
+    font-size: $page-content-font-size * 0.75;
+    line-height: 1;
   }
 }
 
