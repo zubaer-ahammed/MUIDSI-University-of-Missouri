@@ -879,6 +879,12 @@ iframe {
   .space {
     line-height: 0;
   }
+  .space-alumni {
+    margin: auto;
+    width: 85%;
+    border-bottom: 2px solid $footer-border-color;
+    margin-bottom: 20px;
+  }
 }
 
 .person-list-block {
@@ -910,6 +916,10 @@ iframe {
     font-family: $condensed-font-family;
     font-size: $page-content-font-size * 0.75;
     line-height: 1;
+  }
+  
+  .alumni {
+    @include span-columns(5 of 16);
   }
 }
 

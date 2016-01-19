@@ -22,8 +22,8 @@ layout: default
 
       {% include person.html role="phdstudent" %}
       
-      <p class="space">&nbsp;</p>
-      <h1>Masters Students</h1>
+      <!-- <p class="space">&nbsp;</p> -->
+      <!-- <h1>Masters Students</h1> -->
       
       {% include person.html role="msstudent" %}
       
@@ -31,6 +31,20 @@ layout: default
       <h1>Undergraduate Students</h1>
       
       {% include person.html role="undergrad" %}
+      
+      <p class="space-alumni">&nbsp;</p>
+      <h1>Alumni</h1>
+      <p class="person-list-block">
+      {% for p in site.persons %}
+        {% if p.graduated %}
+        {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
+          <span class="alumni">
+          <a href="{{ p.website }}">{{ name }}</a>, {{ p.graduated }}
+          </span>
+        {% endif %}
+      {% endfor %}
+      </p>
+      
   </article>
 
 

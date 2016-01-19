@@ -1,5 +1,6 @@
 
 {% for person in site.persons %}
+{% if person.graduated == null %}
 {% if person.key == include.key  or person.role == include.role %}
 <p class="person-list-block">
     <!--<img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">-->
@@ -24,5 +25,6 @@
     </span>
     
 </p>
+{% endif %}
 {% endif %}
 {% endfor %}
