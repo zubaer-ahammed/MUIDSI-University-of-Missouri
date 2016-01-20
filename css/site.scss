@@ -989,6 +989,18 @@ iframe {
   }
 }
 
+.team-content {
+  .space {
+    line-height: 0;
+  }
+  .space-alumni {
+    margin: auto;
+    width: 85%;
+    border-bottom: 2px solid $footer-border-color;
+    margin-bottom: 20px;
+  }
+}
+
 .person-list-block {
   @include outer-container;
   @include span-columns(12);
@@ -999,20 +1011,30 @@ iframe {
   min-height: 50px;
   
   .name {
-    //font-size: $page-content-font-size * 1.25;
-	font-size: $page-content-font-size;
-    @include span-columns(5 of 16);
+    @include span-columns(6 of 16);
+    font-weight: 400;
   }
   
   .spacer {
     float: right;
+    margin-top: -3px;
+    font-size: $page-content-font-size * 1.15;
     font-weight: 700;
     color: #3476A0;
+    .dot {
+      margin: 0 1px 0 1px;
+    }
   }
   
   .interests {
-    @include span-columns(9 of 16);
-	font-size: $page-content-font-size*0.8;
+    @include span-columns(10 of 16);
+    font-family: $condensed-font-family;
+    font-size: $page-content-font-size * 0.75;
+    line-height: 1;
+  }
+  
+  .alumni {
+    @include span-columns(5 of 16);
   }
 }
 

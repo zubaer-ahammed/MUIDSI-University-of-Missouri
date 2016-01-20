@@ -1,4 +1,5 @@
 {% for person in site.persons %}
+{% if person.graduated == null %}
 {% if person.key == include.key  or person.role == include.role %}
 <p class="person-list-block">
     <!--<img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">-->
@@ -16,9 +17,11 @@
       <a href="{{ person.website }}">{{ name }}</a>
       
       <span class="spacer">
-        {% capture numDots %}{{name | size | minus: 20 | times: -1}}{% endcapture %}
+        {% capture numDots %}{{name | size | minus: 23 | times: -1}}{% endcapture %}
         {% for i in (1..numDots) %}
+          <span class="dot">
           &middot;
+          </span>
         {% endfor %}
       </span>
     </span>
@@ -28,5 +31,6 @@
     </span>
 	{% endif %}
 </p>
+{% endif %}
 {% endif %}
 {% endfor %}

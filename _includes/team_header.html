@@ -15,12 +15,31 @@
 {% endfor %}
 
 <script>
-  // assign random colors to profile pictures
+  // randomness to profile pictures (color, rotation, translation)
   (function () {
     var people = document.getElementsByClassName("person-img");
     for(var i in people){
-      var rand = Math.floor(Math.random() * 4);
-      people[i].className = people[i].className + " color" + rand;
+      // catch non-properties
+      if(!people.hasOwnProperty(i)){
+        break;
+      }
+      
+      var rTransform = "";
+      // random colors
+      var rColor = Math.floor(Math.random() * 4);
+      people[i].className = people[i].className + " color" + rColor;
+      
+      // random rotation
+      var rRotation = Math.floor(Math.random() * 21) - 10;
+      rTransform += "rotate(" + rRotation + "deg)";
+      
+      // random translation
+      var rTranslationX = Math.floor(Math.random() * 11) - 5;
+      var rTranslationY = Math.floor(Math.random() * 11) - 5;
+      rTransform += " translate(" + rTranslationX + "px," + rTranslationY + "px)";
+      
+      // update random transformations
+      people[i].style.transform = rTransform;
     }
   })();
 </script>

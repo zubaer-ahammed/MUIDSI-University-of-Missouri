@@ -16,25 +16,33 @@ layout: default
 
       {% include person.html key="meyer" %}
       {% include person.html key="lex" %}
-
+      
+      <p class="space">&nbsp;</p>
       <h1>PhD Students</h1>
 
       {% include person.html role="phdstudent" %}
       
-      <h1>Masters Students</h1>
+      <!-- <p class="space">&nbsp;</p> -->
+      <!-- <h1>Masters Students</h1> -->
       
       {% include person.html role="msstudent" %}
-      
-	  <h1>Undergraduate Students</h1>
+      <p class="space">&nbsp;</p>
+      <h1>Undergraduate Students</h1>
       
       {% include person.html role="undergrad" %}
-	   </article>
-</div>
+      
+      <p class="space-alumni">&nbsp;</p>
+      <h1>Alumni</h1>
+      <p class="person-list-block">
+      {% for p in site.persons %}
+        {% if p.graduated %}
+        {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
+          <span class="alumni">
+          <a href="{{ p.website }}">{{ name }}</a>, {{ p.graduated }}
+          </span>
+        {% endif %}
+      {% endfor %}
+      </p>
+      
+  </article>
 
-<div class="team-content">
-	<div class="rule"></div>
-	<h1>Alumni</h1>
-	  
-      {% include person.html role="alumnus" %}
-	  
-</div>
