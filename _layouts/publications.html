@@ -30,7 +30,7 @@ layout: default
 
     <div class="paper-list-block">
 
-      <img alt="{{ thesis.shortname }} screenshot" class="paper-image-small" src="{{ thesis.image }}">
+      <img alt="{{ thesis.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}{{ thesis.image }}">
 
       <p>
         {% assign known = false %}
@@ -45,7 +45,7 @@ layout: default
         {% endif %}
         {% endif %}
         {% endfor %} <br/>
-        <b> <a href="{{ site.baseurl }}{{ thesis.url }}">{{ thesis.title }}</a></b><br/>
+        <span class="paper-title"><a href="{{ site.baseurl }}{{ thesis.url }}">{{ thesis.title }}</a></span><br/>
         {{ thesis.institution }}, {{thesis.thesis_type}}, {{thesis.year}}
       </p>
 
