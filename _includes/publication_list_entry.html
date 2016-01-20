@@ -1,9 +1,7 @@
 <div class="paper-list-block">
-
-    <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
+	<a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
                                                            class="paper-image-small"
                                                            src="/assets/images/papers/{{ publication.image }}"></a>
-
     <p>
         {% for author in publication.authors %}
 
@@ -24,9 +22,8 @@
         {% endif %}
 
         {% endfor %}
-        <br/>
+		<br/>
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
         {{ publication.journal }}, {{publication.year}}
     </p>
-
 </div>

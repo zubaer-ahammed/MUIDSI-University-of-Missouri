@@ -10,7 +10,7 @@ layout: default
 	  <div class="banner-team">
       {% include team_header.html %}
 	  </div>
-
+	  
   <article class="team-content">
       <h1>Faculty</h1>
 
@@ -25,10 +25,16 @@ layout: default
       
       {% include person.html role="msstudent" %}
       
-      <h1>Undergraduate Students</h1>
+	  <h1>Undergraduate Students</h1>
       
       {% include person.html role="undergrad" %}
-  </article>
+	   </article>
+</div>
 
-
+<div class="team-content">
+	<div class="rule"></div>
+	<h1>Alumni</h1>
+	  
+      {% include person.html role="alumnus" %}
+	  
 </div>

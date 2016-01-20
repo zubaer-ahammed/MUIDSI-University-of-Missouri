@@ -93,10 +93,66 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 .banner {	
     display: block;
     //height: 40px;
-    margin-bottom: 20px;
-    padding-bottom:20px;
+	margin-top:40px;
+	margin-bottom:40px;
+    //margin-bottom: 20px;
+    //padding-bottom:20px;
     width:100%;	
 	min-height:20px;
+	
+	.home-image{
+		padding-top:50px;
+		padding-bottom:50px;
+		padding-left:0px;
+		padding-right:0px;
+		width:100%;
+		margin-bottom:250px;
+	}
+	
+	
+	.left-banner-image {
+	  //width: 400px;
+	  //height: 200px;
+	  width:67.3%;
+	  //width: 31em;
+	  //height: 15.5em;
+	  float: left;
+	  margin-right: 5px;
+	  padding:10px;
+	  border: 2px solid $dark-gray;
+	  /*
+	  @include span-columns(2);
+	  @include single-column-content();
+	  */
+	}
+	.top-right-banner-image {
+	  //width: 15.2em;
+	  width: 31.5%;
+	  //height: 7.6em;
+	  float: left;
+	  margin-right: 0px;
+	  margin-bottom: 5px;
+	  padding:10px;
+	  border: 2px solid $dark-gray;
+	  /*
+	  @include span-columns(2);
+	  @include single-column-content();
+	  */
+	}
+	.bottom-right-banner-image {
+	  width: 31.5%;
+  	  //width: 15.2em;
+  	  //height: 7.6em;
+	  float: left;
+	  margin-right: 0px;
+	  padding:10px;
+	  border: 2px solid $dark-gray;
+	  /*
+	  @include span-columns(2);
+	  @include single-column-content();
+	  */
+	}
+	
 }
 
 .navigation {
@@ -186,7 +242,7 @@ body {
 }
 
 
-@mixin page-title($color) {
+/*@mixin page-title($color) {
   @include span-columns(12);
   @include omega();
   color: $color;
@@ -203,7 +259,28 @@ body {
     border-bottom: none;
     margin-bottom: 0px;
   }
+}*/
+
+@mixin page-title($color) {
+  @include span-columns(12);
+  @include omega();
+  color: $color;
+  //background-color: tint($color,95%);
+  padding: 30px 0px 0px 0px;
+  //border-bottom: 4px $color solid;
+  margin-bottom: 20px;
+
+  h1 {
+    font-family: $page-title-font-family;
+    font-weight: $page-title-font-weight;
+    font-style: $page-title-font-style;
+    font-size: $page-title-font-size;
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
 }
+
+
 
 @mixin subpage-title($color) {
   @include page-title($color);
@@ -251,6 +328,9 @@ body {
 
 .publication-title {
   @include subpage-title($publication-color);
+  h1 {
+	  color:$blue2;
+  }
 }
 
 .download-title {
@@ -271,7 +351,7 @@ body {
 @mixin dotted-link-underline() {
   a {
 	  color: #444;
-    //color: #E64C3C;
+    //color: $blue2;
     position: relative;
     text-decoration: none;
   }
@@ -314,6 +394,7 @@ body {
     }
     float: right;
   }
+  
 }
 
 @mixin page-meta() {
@@ -383,6 +464,12 @@ body {
 
 .team-content {
   @include page-content();
+  margin-bottom:100px;
+}
+
+.alumni-content {
+  @include page-content();
+  font-size: $page-title-font-size * 0.35;
 }
 
 .team-content-left {
@@ -440,12 +527,12 @@ body {
 
 .post-content-main {
   @include page-content();
-  @include span-columns(8);
+  @include span-columns(12);
 }
 
 .post-content-aside {
   @include page-content();
-  @include span-columns(4);
+  @include span-columns(0);
   @include omega();
 }
 
@@ -500,7 +587,7 @@ ul.post-list {
       font-style: normal;
       display: block;
 	  font-size:1em;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
 	  padding-left:5px;
     }
 	
@@ -547,6 +634,7 @@ ul.post-list {
 
 .publications-content {
   @include page-content();
+  @include span-columns(12);
 }
 
 .publication-meta {
@@ -641,12 +729,14 @@ ul.post-list {
   padding-bottom: 10px;
   padding-top: 10px;
   display: block;
+ 
 
   .paper-image-small {
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 90px;
     float: left;
     margin-right: 20px;
+	margin-bottom: 20px;
     @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
     @include border-radius( 3px );
 
@@ -654,25 +744,42 @@ ul.post-list {
     @include span-columns(2);
     @include single-column-content();
     */
-  }
+}
+
 
   p {
+	  font-size:0.9em;
+	  font-family:$light-condensed-font-family;
+	  
+	  .paper-title{
+		  a {
+		 color:$blue2;
+		 font-weight:700; 
+	   }
+	  a:after{
+	  	border-bottom-width: 0px;
+	  }
+	  .paper-author {
+	    font-size: $page-content-font-size*0.9;
+	    font-family: $sans-serif-font-family;
+	  }
+  	}
+	  
     /*
     @include span-columns(10);
     @include omega;
     @include single-column-content();
     */
-  }
 }
-.paper-title {
+}
+/*.paper-title {
 	font-family:$condensed-font-family;
 	color:$blue2;
 	font-weight:700;
-}
-
-.paper-author {
-  font-size: $page-content-font-size;
-}
+	a{
+	font-weight:700;
+	}
+}*/
 
 
 // Uncomment this for a sticky footer.
@@ -814,11 +921,18 @@ footer {
     p {
       text-align: center;
 
-      font-family: $sans-serif-font-family;
+      font-family: $light-condensed-font-family;
       font-size: $footer-content-font-size * 1.2;
-      font-weight: 700;
+      //font-weight: 700;
     }
+	a {
+		color:$dark-gray;
+		@include dotted-link-underline;
+	}
   }
+i{
+	color:$blue2;
+}
 }
 
 
@@ -882,10 +996,12 @@ iframe {
   padding-bottom: 3px;
   padding-top: 3px;
   display: block;
+  min-height: 50px;
   
   .name {
-    font-size: $page-content-font-size * 1.25;
-    @include span-columns(6 of 16);
+    //font-size: $page-content-font-size * 1.25;
+	font-size: $page-content-font-size;
+    @include span-columns(5 of 16);
   }
   
   .spacer {
@@ -895,8 +1011,19 @@ iframe {
   }
   
   .interests {
-    @include span-columns(10 of 16);
+    @include span-columns(9 of 16);
+	font-size: $page-content-font-size*0.8;
   }
+}
+
+.rule {
+  display: block;
+  border-top: 4px solid $footer-border-color;
+  margin-left: 100px;
+  margin-right: 100px;
+  height:24px;
+  padding-top:20px;
+  padding-bottom:5px;
 }
 
 .banner-team {
@@ -905,4 +1032,55 @@ iframe {
   padding: 50px 0 50px 0;
   width: 100%; 
   min-height: 50px;
+}
+
+.publication-content-main {
+	.citation{
+		p{
+		.paper-title{
+			font-weight:700;
+			font-family:$condensed-font-family;
+			color:$blue2;
+			
+		}
+		.paper-citation{
+			font-family:$italicized-font-family;
+		}
+	}
+		
+	}
+	i{
+		color:$blue2;
+	}
+	
+}
+
+.publication-content-aside {
+		i{
+			color:$blue2;
+		}
+		h1 {
+			padding-top:15px;
+		}
+		.video{
+			p{
+				color:$blue2;	
+			}
+		}
+		
+	    .paper-image-small-aside {
+	      width: 200px;
+	      height: 100px;
+	      float: left;
+	      margin-right: 20px;
+	  	margin-bottom: 20px;
+		border: 2px solid $dark-gray;
+	      //@include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
+	      //@include border-radius( 3px );
+
+	      /*
+	      @include span-columns(2);
+	      @include single-column-content();
+	      */
+	  }
 }

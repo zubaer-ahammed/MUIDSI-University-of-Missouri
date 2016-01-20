@@ -2,10 +2,8 @@
 layout: default
 ---
 <div class="publication">
-
-  <header class="publication-title">
-    <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
-  </header>
+	
+	<header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></div>
 
   <article class="publication-content-main">
     <h1>Abstract</h1> 
@@ -34,9 +32,10 @@ layout: default
 
 
         <br/>
-        <b>{{page.title}}</b><br/>
-        {{ page.journal }}, {% if page.doi %} <a href="http://dx.doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>, {%endif%}
-        {{ page.year }}.
+        <span class="paper-title">
+		<b>{{page.title}}</b></span><br/>
+        <span class="paper-citation">{{ page.journal }}, {% if page.doi %} <a href="http://dx.doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>, {%endif%}
+        {{ page.year }}.</span>
       </p>
 
       {%if page.award %}
@@ -52,7 +51,7 @@ layout: default
 
       {%if page.bibtex %}
       <p>
-        <i class="fa fa-download"></i>&nbsp; <a href="{{site.paper_content_url}}{{ page.bibtex }}">BibTeX</a>
+        <i class="fa fa-file"></i>&nbsp; <a href="{{site.paper_content_url}}{{ page.bibtex }}">BibTeX</a>
       </p>
       {% endif %}
     </div>
@@ -62,6 +61,7 @@ layout: default
   </article>
 
   <article class="publication-content-aside">
+	<img alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="/assets/images/papers/{{ page.image }}">
     {% if page.project %}
     <h1>Software</h1>
     <ul class="project-icon-list">
@@ -75,41 +75,43 @@ layout: default
 
     {% if page.external-project %}
     <h1>Project Website</h1>
-    <ul class="project-icon-list">
-            <li><a href="{{page.external-project}}">{{ page.shortname }} Website</a></li>
+    <ul>
+            
+		    <li>
+		      <i class="fa fa-sitemap"></i> &nbsp;<a href="{{page.external-project}}">{{ page.shortname }}Website</a></li>
+		    </li>
     </ul>
     {% endif %}
-
 
     <h1>Resources</h1>
     <ul>
     {% if page.doi %}
     <li>
-      <i class="fa fa-external-link"></i> &nbsp;<a href="http://dx.doi.org/{{ page.doi }}">Publisher</a>
+      <i class="fa fa-globe"></i> &nbsp;<a href="http://dx.doi.org/{{ page.doi }}">Publisher</a>
     </li>
     {% elsif page.publisher %}
     <li>
-      <i class="fa fa-external-link"></i> &nbsp;<a href="{{page.publisher}}">Publisher</a>
+      <i class="fa fa-globe"></i> &nbsp;<a href="{{page.publisher}}">Publisher</a>
     </li>
     {% endif %}
 
     {% if page.pdf %}
     <li>
-      <i class="fa fa-download"></i> &nbsp;<a href="{{site.paper_content_url}}{{ page.pdf }}">Paper (PDF)</a>
+      <i class="fa fa-file-text"></i> &nbsp;<a href="{{site.paper_content_url}}{{ page.pdf }}">Paper (PDF)</a>
     </li>
     {% endif %}
     {% if page.supplement %}
     <li>
-      <i class="fa fa-download"></i> &nbsp;<a href="{{site.paper_content_url}}{{ page.supplement }}">Supplementary Material</a>
+      <i class="fa fa-folder-open"></i> &nbsp;<a href="{{site.paper_content_url}}{{ page.supplement }}">Supplementary Material</a>
     </li>
     {% endif %}
     {% if page.supplements %}
 	{% for supplement in page.supplements %}
     <li>
       {% if supplement.linksym %}
-      <i class="fa fa-external-link"></i>
+      <i class="fa fa-folder-open"></i>
       {% else %}
-      <i class="fa fa-download"></i>
+      <i class="fa fa-folder-open"></i>
       {% endif %}
       &nbsp;<a href="{% if supplement.abslink %}{{ supplement.abslink }}{% else %}{{site.paper_content_url}}{{ supplement.link }}{% endif %}">{{supplement.name}}</a>
     </li>
@@ -118,12 +120,13 @@ layout: default
       
     {% if page.code %}
     <li>
-      <i class="fa  fa-github"></i> &nbsp;<a href="{{ page.code }}">Source Code</a>
+      <i class="fa  fa-code-fork"></i> &nbsp;<a href="{{ page.code }}">Source Code</a>
     </li>
     {% endif %}
     </ul>
 
     {% if page.video or page.preview-video %}
+	
     <h1>Videos</h1>
     {% endif %}
     {% for video in site.videos %}

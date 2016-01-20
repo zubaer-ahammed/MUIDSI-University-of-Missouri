@@ -4,7 +4,7 @@ first_name: Joshua
 last_name: Dawson
 key: dawson
 permalink: /persons/dawson/
-role: msstudent
+role: alumnus
 email: joshua.dawson@milsci.utah.edu
 image: /assets/images/team/dawson.jpg
 organization: University of Utah

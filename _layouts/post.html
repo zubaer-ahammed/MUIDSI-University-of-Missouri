@@ -1,22 +1,28 @@
 ---
 layout: default
+title: Post | Caleydo
 ---
-<div class="post">
 
-  <header class="post-title">
-    <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
-  </header>
+<div class="home">
+
+  <div class="banner">
+  </div>	
 
   <article class="post-content-main">
-  {{ content }}
-  </article>
-  
-  <article class="post-content-aside">
-    <p>
-      <i>Published {{ page.date | date: "%b %-d, %Y" }}</i>
-    </p>
+	  
+<h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+  <ul class="post-list">
+      <li class="post-list-item">
+		<div class="right-text">{{ page.date | date: "%-d %b %Y" }}</div>
+        <span class="post-list-title">
+          {{ page.title }}
+        </span>
+        <span class="post-list-excerpt">
+          {{ content }}
+        </span>              
+      </li>
+  </ul>
 
-      {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>  
   </article>
 
 </div>

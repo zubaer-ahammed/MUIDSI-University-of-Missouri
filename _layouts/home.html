@@ -16,9 +16,7 @@
 <div class="wrap">
 {% include header.html %}
 
-<div class="banner">
-	<img src="{{site.baseurl}}/assets/images/teaser/vdl_teaser.png" />
-</div>
+	{% include banner.html %}
 
   <article class="home-content-main">
 
@@ -42,7 +40,7 @@
           {{ post.title }}
         </div>
         <div class="post-list-excerpt">
-		  {{ post.content | truncatewords: 50 }}
+		  {{ post.content | truncatewords: 60 }}
   		<a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a> 
 
         </div>         
@@ -101,7 +99,7 @@
     </ul>
   
     <h1>Associated</h1>
-    <ul>
+    <ul class="institution-icon-list">
        {% for institution in site.institutions %}
          <li>
            <a href="{{ institution.website }}"><img class="institution-logo" src="{{ institution.logo }}" alt="{{ institution.website }}"></a>
