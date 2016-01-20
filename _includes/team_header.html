@@ -3,12 +3,12 @@
 {% for person in site.persons %}
 {% if person.role == "faculty" %}
   <a href="{{ person.website }}">
-  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ person.image }}">
+  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "msstudent" or person.role == "undergrad" %}
   <a href="{{ person.website }}">
-  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="{{ person.image }}">
+  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% endif %}
