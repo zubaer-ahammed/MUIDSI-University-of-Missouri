@@ -920,6 +920,7 @@ footer {
     display: block;
     margin-top: 0.25em;
     opacity: 0.33;
+    @include dotted-link-underline;
 
     p {
       text-align: center;
@@ -930,7 +931,6 @@ footer {
     }
 	a {
 		color:$dark-gray;
-		@include dotted-link-underline;
 	}
   }
 i{
