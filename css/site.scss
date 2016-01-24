@@ -746,6 +746,7 @@ ul.post-list {
   p {
 	  font-size:0.9em;
 	  font-family:$light-condensed-font-family;
+    font-weight: 300;
 	  
 	  .paper-title{
 		  a {
@@ -755,10 +756,6 @@ ul.post-list {
 	  a:after{
 	  	border-bottom-width: 0px;
 	  }
-	  .paper-author {
-	    font-size: $page-content-font-size*0.9;
-	    font-family: $sans-serif-font-family;
-	  }
   	}
 	  
     /*
@@ -767,6 +764,11 @@ ul.post-list {
     @include single-column-content();
     */
 }
+  .paper-author{
+    font-family: $sans-serif-font-family;
+    font-size: $page-content-font-size * 0.9;
+    font-weight: 300;
+  }
 }
 /*.paper-title {
 	font-family:$condensed-font-family;
@@ -919,7 +921,7 @@ footer {
 
       font-family: $light-condensed-font-family;
       font-size: $footer-content-font-size * 1.2;
-      //font-weight: 700;
+      font-weight: 300;
     }
 	a {
 		color:$dark-gray;
