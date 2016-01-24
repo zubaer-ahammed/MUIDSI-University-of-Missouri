@@ -57,11 +57,11 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
   }
 
   @include media($small-display) {
-    width: 25px;
+    width: 50px;
   }
 
   @include media($medium-display) {
-    width: 25px;
+    width: 100px;
   }
 }
 
@@ -82,11 +82,11 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
   display: inline-block;
 
   @include media($medium-display) {
-    display: none;
+    /*display: none;*/
   }
 
   @include media($small-display) {
-    display: none;
+    /*display: none;*/
   }
 }
 
