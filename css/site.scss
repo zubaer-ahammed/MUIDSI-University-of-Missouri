@@ -205,15 +205,11 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
 
 
 body {
-  width: 750px;	
-  margin-top: 30px;
-  margin-left: 60px;
-  margin-right: 60px;
+  width: 750px;
+  margin: 30px auto 0px auto;
 
   @include media($small-display) {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px auto 0px auto;
   }
 }
 
