@@ -732,8 +732,8 @@ ul.post-list {
   display: block;
  
 
-  .paper-image-small {
-    width: 180px;
+  .paper-image-small {;
+    @include span-columns(2);
     height: 90px;
     float: left;
     margin-right: 20px;
@@ -747,8 +747,12 @@ ul.post-list {
     */
 }
 
+  p.pubs {
+    margin: 0 0 0 1.3em;
+  }
 
   p {
+    @include span-columns(10);
 	  font-size:0.9em;
 	  font-family:$light-condensed-font-family;
     font-weight: 300;
