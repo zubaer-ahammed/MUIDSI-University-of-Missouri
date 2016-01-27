@@ -109,7 +109,20 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 		margin-bottom:250px;
 	}
 	
-	
+	.banner-image-title {
+    font-family: $condensed-font-family;
+    font-weight: 300;
+    text-align: right;
+    color: #3376A0;
+    display: none;
+  }
+  a.banner-image:hover .banner-image-title {
+    display: inline;
+  }
+  #left-banner-image-title {
+    position: absolute;
+    margin: -25px 0 0 -100px;
+  }
 	.left-banner-image {
 	  //width: 400px;
 	  //height: 200px;
@@ -125,6 +138,10 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 	  @include single-column-content();
 	  */
 	}
+  #top-right-banner-image-title {
+    position: absolute;
+    margin: -25px 0 0 -100px;
+  }
 	.top-right-banner-image {
 	  //width: 15.2em;
 	  width: 31.5%;
@@ -139,6 +156,10 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 	  @include single-column-content();
 	  */
 	}
+  #bottom-right-banner-image-title {
+    position: absolute;
+    margin: 375px 0 0 -100px;
+  }
 	.bottom-right-banner-image {
 	  width: 31.5%;
   	  //width: 15.2em;
