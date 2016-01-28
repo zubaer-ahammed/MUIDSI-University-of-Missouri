@@ -109,6 +109,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 		margin-bottom:250px;
 	}
 	
+  /* TODO: the banner images need to be redone into columns or something... pixels are hard-coded and break with other titles */
 	.banner-image-title {
     font-family: $condensed-font-family;
     font-weight: 300;
@@ -121,7 +122,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
   #left-banner-image-title {
     position: absolute;
-    margin: -25px 0 0 -100px;
+    margin: -25px 0 0 -280px;
   }
 	.left-banner-image {
 	  //width: 400px;
@@ -141,7 +142,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 	}
   #top-right-banner-image-title {
     position: absolute;
-    margin: -25px 0 0 -100px;
+    margin: -25px 0 0 -350px;
   }
 	.top-right-banner-image {
 	  //width: 15.2em;
@@ -159,7 +160,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 	}
   #bottom-right-banner-image-title {
     position: absolute;
-    margin: 375px 0 0 -100px;
+    margin: 375px 0 0 -400px;
   }
 	.bottom-right-banner-image {
 	  width: 31.5%;
