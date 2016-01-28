@@ -1,7 +1,8 @@
 
 {% assign iter = 0 %}
 {% for person in site.persons %}
-{% if person.role == "faculty" %}
+{% if person.graduated %}
+{% elsif person.role == "faculty" %}
   <a href="{{ person.website }}">
   <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
   </a>
