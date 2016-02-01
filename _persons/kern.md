@@ -6,9 +6,8 @@ key: kern
 permalink: /persons/kern/
 role: masterstudent
 email: kernm@in.tum.de
-image: /assets/images/team/kern.png
+image: /assets/images/team/kern.jpg
 organization: Technical University of Munich
 position: Master Student
-website: -
-interests: Scientific Visualization, Computer Graphics
+website: not available
 ---
