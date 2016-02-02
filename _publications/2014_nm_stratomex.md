@@ -7,6 +7,7 @@ type: paper
 
 shortname: GuidedVisualExploration
 image: 2014_nm_stratomex.png
+image_large: 2014_nm_stratomex_teaser.png
 
 authors:
 - streit

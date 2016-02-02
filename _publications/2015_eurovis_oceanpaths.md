@@ -7,6 +7,8 @@ type: paper
 
 shortname: oceanpaths
 image: 2015_eurovis_oceanpaths.png
+image_large: 2015_eurovis_oceanpaths_large.png
+
 
 authors:
 - Carolina Nobre

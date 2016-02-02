@@ -7,6 +7,7 @@ type: paper
 
 shortname: Contour
 image: 2014_vast_contour.png
+image: 2014_vast_contour_teaser.png
 
 authors:
 - partl
