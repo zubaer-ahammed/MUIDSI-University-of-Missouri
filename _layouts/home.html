@@ -9,6 +9,28 @@
             /*height: 180px;*/
         /*}*/
     </style>
+
+    <!-- Here we write the publications into the publications javascript variable -->
+
+    {% capture publications %}
+    [
+    {% for publication in site.publications %}
+
+    {% if publication.image_large %}
+    {
+    "title"    : "{{ publication.title }}",
+    "shortname" : "{{ publication.shortname }}",
+    "url"      : "{{ publication.permalink }}",
+    "image_large"     : "{{ publication.image_large }}",
+    }
+    {% endif %}
+    {% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+    ]
+    {% endcapture %}
+    <script>
+    var publications = {{ publications | strip_newlines }}
+    </script>
 </head>
 
 <body>

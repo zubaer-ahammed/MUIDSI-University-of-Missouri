@@ -15,7 +15,7 @@ authors:
 - meyer
 - Pilar Orero
 
-journal: Proceedings of the ACM Symposium on Eye Tracking Research & Applications (ETRA)
+journal: "Proceedings of the ACM Symposium on Eye Tracking Research & Applications (ETRA)"
 year: 2012
 note: 
 

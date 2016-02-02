@@ -24,7 +24,7 @@ award:
 
 doi: 
 # The publisher URL - use only if no doi is available
-publisher:http://www.aclweb.org/anthology/W15-0702
+publisher: http://www.aclweb.org/anthology/W15-0702
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
