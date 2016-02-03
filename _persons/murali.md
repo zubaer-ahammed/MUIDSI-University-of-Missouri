@@ -7,6 +7,7 @@ permalink: /persons/murali/
 role: msstudent
 email: krishnateja@pec.edu
 website: www.linkedin.com/in/muralikrishnateja
+image: 
 organization: University of Utah
 position: MS Student
 interests: Machine Learning, Data mining, Natural Language Processing and Data Visualization
