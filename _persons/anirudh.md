@@ -8,7 +8,7 @@ role: Masters student
 email: anirudhnmurthy@gmail.com
 image: /assets/images/team/anirudh.png
 organization: University of Utah
-position: Developer on #PatientFlow project (Independent Study) 
+position: Developer on PatientFlow project (Independent Study) 
 website: 
 interests: Databases, Visualization, Machine Learning and Data Mining
 ---
