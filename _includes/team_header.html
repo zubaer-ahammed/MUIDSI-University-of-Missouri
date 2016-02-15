@@ -4,12 +4,20 @@
 {% if person.graduated %}
 {% elsif person.role == "faculty" %}
   <a href="{{ person.website }}">
-  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
+  {% if person.image %}
+    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
+  {% else %}
+    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" src="http://www.centonovelosgatos.com/wp-content/uploads/2013/08/unknown-female.jpg">
+  {% endif %}
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "msstudent" or person.role == "undergrad" %}
   <a href="{{ person.website }}">
-  <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
+  {% if person.image %}
+    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="{{ site.baseurl }}{{ person.image }}">
+  {% else %}
+    <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" src="http://www.centonovelosgatos.com/wp-content/uploads/2013/08/unknown-female.jpg">
+  {% endif %}
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% endif %}
