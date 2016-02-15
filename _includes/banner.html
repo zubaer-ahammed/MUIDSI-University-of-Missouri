@@ -1,5 +1,6 @@
 <div class="banner">
     <div class="home-image">
+        
         <div id="main-banner-image">
             <a class="banner-image" href="">
                 <img alt="" class="left-banner-image" src="{{ site.baseurl }}/assets/images/papers/"/>
@@ -8,19 +9,18 @@
         </div>
 
         <div id="top-right-banner-image">
-            <a class="banner-image" href=""><img alt="" class="top-right-banner-image"
-                                                 src="{{ site.baseurl }}/assets/images/papers/">
-                <span id="top-right-banner-image-title" class="banner-image-title"></span>
+            <a class="banner-image" href="">
+                <img alt="" class="top-right-banner-image" src="{{ site.baseurl }}/assets/images/papers/">
+                <span id="top-right-banner-image-title" class="banner-image-title"></span><br>
             </a>
         </div>
 
         <div id="bottom-right-banner-image">
-            <a class="banner-image" href=""><img alt="" class="bottom-right-banner-image"
-                                                 src="{{ site.baseurl }}/assets/images/papers/">
+            <a class="banner-image" href="">
+                <img alt="" class="bottom-right-banner-image" src="{{ site.baseurl }}/assets/images/papers/">
                 <span id="bottom-right-banner-image-title" class="banner-image-title"></span>
             </a>
         </div>
-
 
         <script src="http://code.jquery.com/jquery-latest.min.js"
                 type="text/javascript"></script>
@@ -42,7 +42,18 @@
 
                 var bannerLink = $(id + "  a")
                 bannerLink.attr("href", pub.url);
-
+                
+                // shorten title of too long
+                var titleLength = -1;
+                if(i == 1){
+                    titleLength = 66;
+                }else{
+                    titleLength = 30;
+                }
+                if(pub.title.length > titleLength){
+                    pub.title = pub.title.substring(0, titleLength) + "...";
+                }
+                
                 var bannerText = $(id + " span")
                 bannerText.text(pub.title);
             });

@@ -11,8 +11,8 @@ $small-display-columns: 4;
 $medium-display-columns: 12;
 $large-display-columns: 12;
 
-$small-display: new-breakpoint(max-width 519px $small-display-columns);
-$medium-display: new-breakpoint(min-width 520px max-width 1200px $medium-display-columns);
+$small-display: new-breakpoint(max-width 749px $small-display-columns);
+$medium-display: new-breakpoint(min-width 750px max-width 1200px $medium-display-columns);
 $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
 /* site specific changes that do not fit into base */
@@ -109,71 +109,60 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 		margin-bottom:250px;
 	}
 	
-  /* TODO: the banner images need to be redone into columns or something... pixels are hard-coded and break with other titles */
 	.banner-image-title {
     font-family: $condensed-font-family;
     font-weight: 300;
-    text-align: right;
     color: #3376A0;
-    display: none;
-  }
-  a.banner-image:hover .banner-image-title {
-    display: inline;
-  }
-  #left-banner-image-title {
-    position: absolute;
-    margin: -25px 0 0 -280px;
-  }
-	.left-banner-image {
-	  //width: 400px;
-	  //height: 200px;
-	  width:67.3%;
-	  //width: 31em;
-	  //height: 15.5em;
+    margin-left: 2px;
+    @include media($small-display){
+      display: none;
+    }
+  } 
+	#main-banner-image {
+    @include span-columns(8);
 	  float: left;
 	  margin-right: 5px;
-    margin-bottom: 40px;
-	  padding:10px;
+    margin-bottom: 30px;
+	  padding: 15px;
+    padding-bottom: 44px;
 	  border: 2px solid $dark-gray;
-	  /*
-	  @include span-columns(2);
-	  @include single-column-content();
-	  */
+    @include media($medium-display) {
+      padding: 18px;
+      padding-bottom: 48px;
+    }
+    @include media($small-display) {
+      @include span-columns(12 of 12);
+      margin-top: 15px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
 	}
-  #top-right-banner-image-title {
-    position: absolute;
-    margin: -25px 0 0 -350px;
-  }
-	.top-right-banner-image {
-	  //width: 15.2em;
-	  width: 31.5%;
-	  //height: 7.6em;
-	  float: left;
-	  margin-right: 0px;
+	#top-right-banner-image {
+    @include span-columns(4);
+    margin-right: 0;
 	  margin-bottom: 5px;
-	  padding:10px;
+	  padding: 10px;
 	  border: 2px solid $dark-gray;
-	  /*
-	  @include span-columns(2);
-	  @include single-column-content();
-	  */
+    @include media($medium-display) {
+      
+    }
+    @include media($small-display) {
+      @include span-columns(49 of 100);
+      margin-right: 6px;
+      margin-bottom: 15px;
+    }
 	}
-  #bottom-right-banner-image-title {
-    position: absolute;
-    margin: 375px 0 0 -400px;
-  }
-	.bottom-right-banner-image {
-	  width: 31.5%;
-  	  //width: 15.2em;
-  	  //height: 7.6em;
-	  float: left;
-	  margin-right: 0px;
-	  padding:10px;
+  #bottom-right-banner-image {
+	  @include span-columns(4);
+	  padding: 10px;
+    margin-right: 0;
 	  border: 2px solid $dark-gray;
-	  /*
-	  @include span-columns(2);
-	  @include single-column-content();
-	  */
+    @include media($medium-display) {
+      
+    }
+    @include media($small-display) {
+      @include span-columns(49 of 100);
+    }
 	}
 	
 }
