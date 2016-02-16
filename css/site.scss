@@ -752,11 +752,10 @@ ul.post-list {
 	margin-bottom: 20px;
     @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
     @include border-radius( 3px );
-
-    /*
-    @include span-columns(2);
-    @include single-column-content();
-    */
+    
+    @include media($small-display) {
+      width: 175px;
+    }
 }
 
   p.pubs {
