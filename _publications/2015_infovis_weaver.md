@@ -10,6 +10,8 @@ type: paper
 shortname: WeaVER
 # add a 2:1 aspect ration (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2015_infovis_weaver.png
+image_large: 2015_infovis_weaver_teaser.png
+
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
