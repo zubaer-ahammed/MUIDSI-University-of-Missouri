@@ -10,4 +10,5 @@ image: /assets/images/team/quinan.png
 organization: University of Utah
 position: PhD Student
 website: http://www.sci.utah.edu/~samquinan/
+interests: Uncertainty Visualization, User-Centered Design, Cognition / Decision-Making, Color
 ---
