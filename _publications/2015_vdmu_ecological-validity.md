@@ -14,16 +14,14 @@ authors:
 - Sarah H. Creem-Regehr
 - meyer
 
-journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty, at VIS '15, to appear"
+journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty (VIS '15)"
 year: 2015
 award: 
 note: 
 
 doi:
 # use publisher only if no doi is available
-publisher: http://vda.univie.ac.at/uncertainty2015/
-
-
+publisher: 
 project:
 
 video:
@@ -31,7 +29,14 @@ preview-video:
 
 
 pdf: 2015_vdmu_ecological-validity.pdf
-supplement:
+
+supplements:
+- name: VDMU Workshop Home
+  # use link instead of abslink if you want to link to the master directory
+  abslink: http://vda.univie.ac.at/uncertainty2015/
+  # defaults to a download icon, use this if you want a link-out icon
+  linksym: true
+
 bibtex: 
 
 abstract: "
