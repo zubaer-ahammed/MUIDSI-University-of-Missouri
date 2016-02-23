@@ -25,8 +25,8 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   font-size: $navigation-button-font-size;
   float: left;
   text-align: left;
-  margin-right: 25px;
-  width: 112px;
+  margin-right: 30px;
+  width: 100px;
 
   &:last-child {
     margin-right: 0px;
@@ -35,8 +35,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   a {
     display: block;
     height: 28px;
-    padding-bottom: 3px;
-    padding-top: 3px;
+    padding: 3px 0px;
     color: $dark-blue;
 
     border-bottom: 2px $color solid;
@@ -52,17 +51,19 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
       //color: #2C3E50;
 	  //color: darken( $color, 20% );
 	  height:30px;
-	  border-bottom: 4px $color solid;
+	  border-bottom: 5px $color solid;
     }
   }
 
   @include media($small-display) {
-    width: 50px;
+	  margin-right: 40px;
+	  width: auto;
+	  
   }
 
-  @include media($medium-display) {
-    width: 100px;
-  }
+//  @include media($medium-display) {
+//    width: 100px;
+//  }
 }
 
 .nav-icon {
@@ -88,6 +89,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   @include media($small-display) {
     /*display: none;*/
   }
+  
 }
 
 .banner {	
