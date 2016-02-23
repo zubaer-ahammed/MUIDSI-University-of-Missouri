@@ -81,7 +81,7 @@
 	          {% assign sorted_publications = (site.publications | sort: 'year' %}
 	          {% for publication in sorted_publications reversed%}
 	          {% if publication.year > 2014 %}
-	          <li><div class="pub-custom"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div><div class="right-text">{{publication.year}}</div></li>
+	          <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><div class="right-text">{{publication.year}}</div></li>
 	          {% endif %}
 	          {% endfor %}
 	      </ul>
