@@ -20,8 +20,8 @@ title: News | Caleydo
         </span>
         <span class="post-list-excerpt">
           {{ post.excerpt }}
-          <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a>
-        </span>              
+        </span>
+		<div><a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a></div>  
       </li>
     {% endfor %}
   </ul>

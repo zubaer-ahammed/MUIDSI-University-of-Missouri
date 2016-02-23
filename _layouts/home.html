@@ -62,13 +62,14 @@
         </div>
         <div class="post-list-excerpt">
 		  {{ post.content | truncatewords: 60 }}
-  		<a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a> 
-
-        </div>         
+        </div>
+  		<div><a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a></div>         
       </li>
     {% endfor %}
   </ul>
-  <p style="font-family:$condensed-font-family;"><b><a href="news">See All News</a></b></p>
+  <!-- <p style="font-family:$condensed-font-family;"><b><a href="news">See All News</a></b></p> -->
+  <p><a class="all-news-link" href="news">See All News</a></p>
+  
 
   </article>
 
