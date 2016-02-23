@@ -586,6 +586,14 @@ body {
   @include page-meta();
 }
 
+a.project-website{
+	@include reverse-dotted-link-underline;
+	font-family: $condensed-font-family;
+	font-size:1em;
+	font-weight: 700;
+	color: $dark-blue;
+}
+
 .all-news-link{
 	@include dotted-link-underline;
 	a{
