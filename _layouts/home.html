@@ -68,7 +68,7 @@
     {% endfor %}
   </ul>
   <!-- <p style="font-family:$condensed-font-family;"><b><a href="news">See All News</a></b></p> -->
-  <p><a class="all-news-link" href="news">See All News</a></p>
+  <div class="all-news-link"><a href="news">See All News</a></div>
   
 
   </article>
@@ -76,15 +76,16 @@
   <article class="home-content-aside">
 	  
 	  <h1>Recent</h1>
-
+	  	  
 	      <ul class="publication-icon-list">
 	          {% assign sorted_publications = (site.publications | sort: 'year' %}
 	          {% for publication in sorted_publications reversed%}
 	          {% if publication.year > 2014 %}
-	          <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><div class="right-text">{{publication.year}}</div></li>
+	          <li><div class="pub-custom"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div><div class="right-text">{{publication.year}}</div></li>
 	          {% endif %}
 	          {% endfor %}
 	      </ul>
+	  	  
 
 
 

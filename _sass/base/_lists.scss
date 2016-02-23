@@ -55,8 +55,25 @@ ul, ol {
       display: block;
     }  
   }
-   
-	  
+  
+  
+  @mixin reverse-dotted-link-underline() {
+    a {
+  	-moz-transition: border-bottom-color 0.2s ease-in-out;
+  	-webkit-transition: border-bottom-color 0.2s ease-in-out;
+  	-ms-transition: border-bottom-color 0.2s ease-in-out;
+  	transition: border-bottom-color 0.2s ease-in-out;
+      //color: #444;
+      //color: $blue2;
+      position: relative;
+      text-decoration: none;
+  	border-bottom: dotted 1px transparent;
+    }
+    a:hover {
+  	border-bottom-color: #E64C3C;
+    }
+  } 
+  	  
   @mixin pub-list($color) {
       margin: 0;
       padding: 0;
@@ -74,15 +91,16 @@ ul, ol {
         font-size: $base-font-size * 0.9;
         font-style: normal;
         min-height: 2.5em;
-
+		
+	    @include reverse-dotted-link-underline();
         a {        
           font-weight: 700;
           //color: darken( $color, 20% );
-  		color: $color;
+  		  color: $color;
         }
-        a:after{
-           border-bottom-width: 0;
-        }
+//        a:after{
+//           border-bottom-width: 0;
+//        }
 		.right-text{
 			text-align:right;
 		}    
