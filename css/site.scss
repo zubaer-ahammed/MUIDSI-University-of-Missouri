@@ -919,7 +919,7 @@ footer {
 
   .institution-logo {
     height: 30px;
-
+	
     @include media($small-display) {
       height: 20px;
     }
@@ -1190,3 +1190,16 @@ iframe {
 	      */
 	  }
 }
+
+.institution-logo {
+  width: 40%;
+  margin-top: 1em;  
+  
+  @include media($medium-display) {
+	width :50%;
+  }
+  @include media($small-display) {
+    width :40%;
+  }
+}
+

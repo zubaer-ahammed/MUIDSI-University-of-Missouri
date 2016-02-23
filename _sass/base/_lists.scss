@@ -129,7 +129,34 @@ ul, ol {
 	         border-bottom-width: 0;
 	      }
   	  }
-      } 
+      }
+	  
+      @mixin no-icon-list-images($color) {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+
+          li {
+            padding-left: -0.1em;
+            //padding-bottom: 0.5em;
+            line-height: $base-font-size * 1.2;
+            vertical-align: top;
+    		text-align:center;
+//            color: $base-font-color;
+//            font-family: $condensed-font-family;
+//            font-weight: 400;
+//            font-size: $base-font-size * 0.9;
+//            font-style: normal;
+            min-height: 2.5em;
+		  a{
+		  	  border-bottom: none;
+		  }
+  	      a:after{
+  	         border-bottom-width: 0;
+  	      }
+    	  }
+        } 
+	   
 
 ul.project-icon-list {
   @include icon-list($project-color,"\f013");
@@ -145,8 +172,7 @@ ul.publication-icon-list {
 }
 
 ul.institution-icon-list {
-  @include no-icon-list($team-color);
-  
+  @include no-icon-list-images($team-color);  
 }
 
 ul.person-icon-list {
