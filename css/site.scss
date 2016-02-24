@@ -956,7 +956,7 @@ footer {
   border-top: 4px solid $footer-border-color;
 
   .logo-footer-svg {
-    height: 30px;
+    height: 50px;
 
     @include media($small-display) {
       height: 20px;
@@ -969,8 +969,8 @@ footer {
   }
 
   .institution-logo {
-    height: 30px;
-	
+    height: 50px;
+
     @include media($small-display) {
       height: 20px;
     }
@@ -1003,7 +1003,7 @@ footer {
       left: 50%;
 
       li {
-        opacity: 0.33;
+        opacity: 0.73;
         float: left;
         padding-right: $padding-default;
         padding-left: $padding-default;
@@ -1044,22 +1044,15 @@ footer {
     display: block;
     margin-top: 0.25em;
     opacity: 0.33;
-    @include dotted-link-underline;
 
     p {
       text-align: center;
 
-      font-family: $light-condensed-font-family;
+      font-family: $sans-serif-font-family;
       font-size: $footer-content-font-size * 1.2;
-      font-weight: 300;
+      font-weight: 700;
     }
-	a {
-		color:$dark-gray;
-	}
   }
-i{
-	color:$blue2;
-}
 }
 
 
@@ -1244,14 +1237,10 @@ iframe {
 
 
 .institution-logo {
-  width: 40%;
-  margin-top: 1em;  
-  
-  @include media($medium-display) {
-	width :50%;
-  }
+  height: 80px;
+
   @include media($small-display) {
-    width :40%;
+    height: 60px;
   }
 }
 
