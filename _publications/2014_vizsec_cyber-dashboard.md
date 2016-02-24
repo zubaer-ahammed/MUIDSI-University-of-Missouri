@@ -12,6 +12,7 @@ authors:
 - mckenna
 
 journal: Proceedings of the 11th International Symposium on Visualization for Cyber Security (VIS ’14)
+journal-short: VizSec
 year: 2014
 
 external-project: http://mckennapsean.com/projects/cybersecurity-dashboard/

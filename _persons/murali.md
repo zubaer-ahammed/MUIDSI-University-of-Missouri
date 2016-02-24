@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Murali krishna teja
 last_name: Kilari
 key: murali

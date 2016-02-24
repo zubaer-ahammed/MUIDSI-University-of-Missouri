@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Kristen
 last_name: Zygmunt
 key: zygmunt

@@ -18,6 +18,7 @@ authors:
 - Tamara Munzner
 
 journal: "Information Visualization, 14(3), pp. 234–249"
+journal-short: Information Visualization
 year: 2015
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:

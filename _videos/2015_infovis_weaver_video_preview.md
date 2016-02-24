@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 key: 2015_infovis_weaver_video_preview
 name: WeaVER Preview Video
 year: 2015

@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: P. Samuel
 last_name: Quinan
 key: quinan

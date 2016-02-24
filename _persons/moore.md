@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Jimmy
 last_name: Moore
 key: moore

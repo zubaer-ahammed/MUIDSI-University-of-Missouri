@@ -15,6 +15,7 @@ authors:
 - meyer
 
 journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty (VIS '15)"
+journal-short: Vis. for Decision Making Under Uncertainty
 year: 2015
 award: 
 note: 

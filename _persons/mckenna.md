@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Sean
 last_name: McKenna
 key: mckenna

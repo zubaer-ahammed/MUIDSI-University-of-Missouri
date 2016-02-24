@@ -566,6 +566,8 @@ body {
 
 .funding-content {
   @include page-content();
+  @include span-columns(12);
+  @include omega();
 }
 
 .funding-meta {

@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Joshua
 last_name: Dawson
 key: dawson

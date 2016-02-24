@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 key: 2015_eurovis_oceanpaths_video_preview
 name: Oceanpaths Preview Video
 year: 2015

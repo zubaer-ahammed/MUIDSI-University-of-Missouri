@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Ethan
 last_name: Kerzner
 key: kerzner
