@@ -113,6 +113,9 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 		padding-right:0px;
 		width:100%;
 		margin-bottom:250px;
+		@include media($small-display) {
+			margin-bottom:100px;
+		}
 	}
 
 	#left-banner-image-title, #top-right-banner-image-title, #bottom-right-banner-image-title{
