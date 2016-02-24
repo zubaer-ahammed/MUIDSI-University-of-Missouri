@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Michael
 last_name: Kern
 key: kern

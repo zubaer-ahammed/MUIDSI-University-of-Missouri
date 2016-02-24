@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Sunny
 last_name: Hardasani
 key: sunny

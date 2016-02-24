@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Nina
 last_name: McCurdy
 key: mccurdy

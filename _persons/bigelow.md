@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Alex
 last_name: Bigelow
 key: bigelow

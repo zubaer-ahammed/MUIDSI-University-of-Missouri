@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: default
 first_name: Anirudh
 last_name: Narasimhamurthy
 key: anirudh
