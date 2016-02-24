@@ -61,7 +61,7 @@ layout: default
   </article>
 
   <article class="publication-content-aside">
-	<img alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/papers/{{ page.image }}">
+	<img id="publication-image" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/papers/{{ page.image }}">
     {% if page.project %}
     <h1>Software</h1>
     <ul class="project-icon-list">
@@ -143,6 +143,54 @@ layout: default
     {% endif %}
     {% endfor %}
 
+  <script src="http://code.jquery.com/jquery-latest.min.js"
+          type="text/javascript"></script>
+  <script>
+  	 //on load
+  	 responsive_change_box_order();
+  	 //on resize
+   	 window.addEventListener('resize', responsive_change_box_order );
+	 
+	 function responsive_change_box_order() {
+	    if (window.matchMedia("(max-width: 749px)").matches) {
+	        jQuery("#publication-image").remove().prependTo(jQuery(".publication-content-main"));
+	    }
+	    else{
+	        jQuery("#publication-image").remove().prependTo(jQuery(".publication-content-aside"));
+	    }
+	  }
+      // var i = 0;
+      // ["#main-banner-image", "#top-right-banner-image", "#bottom-right-banner-image"].forEach(function (id) {
+      //
+      //     var pub = publications[i];
+      //     i++;
+      //     var bannerImg = $(id + " img");
+      //     bannerImg.attr("alt", pub.shortname)
+      //
+      //     var src = bannerImg.attr("src");
+      //     bannerImg.attr("src", src + pub.image_large);
+      //
+      //     var bannerLink = $(id + "  a")
+      //     bannerLink.attr("href", pub.url);
+      //
+      //     // // shorten title of too long
+      //     // var titleLength = -1;
+      //     // if(i == 1){
+      //     //     titleLength = 66;
+      //     // }else{
+      //     //     titleLength = 30;
+      //     // }
+      //     // if(pub.title.length > titleLength){
+      //     //     pub.title = pub.title.substring(0, titleLength) + "...";
+      //     // }
+      //
+      //     var bannerText = $(id + " span")
+      //     bannerText.text(pub.title);
+      // });
+
+  </script>
+  
+  
   </article>
 
 

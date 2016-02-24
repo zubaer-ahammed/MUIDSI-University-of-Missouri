@@ -1197,23 +1197,24 @@ iframe {
 				color:$blue2;	
 			}
 		}
-		
-	    .paper-image-small-aside {
-	      width: auto;
-	      height: auto;
-	      float: left;
-	      margin-right: 20px;
-	  	  margin-bottom: 20px;
-		  border: 2px solid $dark-blue;
-	      //@include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
-	      //@include border-radius( 3px );
-
-	      /*
-	      @include span-columns(2);
-	      @include single-column-content();
-	      */
-	  }
 }
+
+.paper-image-small-aside {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+	  margin-bottom: 20px;
+  border: 2px solid $dark-blue;
+    //@include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
+    //@include border-radius( 3px );
+
+    /*
+    @include span-columns(2);
+    @include single-column-content();
+    */
+}
+
 
 .institution-logo {
   width: 40%;
