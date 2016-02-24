@@ -127,6 +127,11 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
     font-weight: 500;
     color: #3376A0;
     margin-left: 2px;
+	display: block;		
+	max-width: 95%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
     @include media($small-display){
       display: none;
     }

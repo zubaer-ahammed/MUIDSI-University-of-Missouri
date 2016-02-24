@@ -43,16 +43,16 @@
                 var bannerLink = $(id + "  a")
                 bannerLink.attr("href", pub.url);
                 
-                // shorten title of too long
-                var titleLength = -1;
-                if(i == 1){
-                    titleLength = 66;
-                }else{
-                    titleLength = 30;
-                }
-                if(pub.title.length > titleLength){
-                    pub.title = pub.title.substring(0, titleLength) + "...";
-                }
+                // // shorten title of too long
+                // var titleLength = -1;
+                // if(i == 1){
+                //     titleLength = 66;
+                // }else{
+                //     titleLength = 30;
+                // }
+                // if(pub.title.length > titleLength){
+                //     pub.title = pub.title.substring(0, titleLength) + "...";
+                // }
                 
                 var bannerText = $(id + " span")
                 bannerText.text(pub.title);
