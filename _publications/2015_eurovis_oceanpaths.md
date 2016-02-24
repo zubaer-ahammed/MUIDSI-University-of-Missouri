@@ -15,6 +15,7 @@ authors:
 - lex
 
 journal: Proceedings of the Eurographics Conference on Visualization (EuroVis ’15) - Short Papers
+journal-short: EuroVis Short Papers
 year: 2015
 award:
 

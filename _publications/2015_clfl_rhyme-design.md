@@ -18,6 +18,7 @@ authors:
 - meyer
 
 journal: Proceedings of the Workshop on Computational Linguistics for Literature, NAACL HLT
+journal-short: Computational Linguistics for Literature
 year: 2015
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:

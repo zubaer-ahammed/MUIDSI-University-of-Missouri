@@ -15,6 +15,7 @@ authors:
 - Samuel Gerber
 
 journal: Journal of Computational and Graphical Statistics
+journal-short: Computational and Graphical Statistics
 year: 2015
 
 doi: 10.1080/10618600.2015.1021926

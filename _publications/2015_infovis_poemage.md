@@ -19,7 +19,8 @@ authors:
 - meyer
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15), to appear
-year: 2015
+journal-short: TVCG (InfoVis '15)
+year: 2016
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
 

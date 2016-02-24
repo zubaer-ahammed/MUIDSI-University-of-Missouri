@@ -14,6 +14,7 @@ authors:
 - meyer
 
 journal: Proceedings of the 12th International Symposium on Visualization for Cyber Security (VIS ’15)
+journal-short: VizSec '15
 year: 2015
 
 external-project: http://mckennapsean.com/projects/vizsec-design-methods/
