@@ -10,5 +10,6 @@ image: /assets/images/team/pruss.jpg
 organization: University of Utah
 position: Undergraduate Student
 website: http://dashapruss.com
+graduated: B.S. '16
 interests: Biology Visualization
 ---

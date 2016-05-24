@@ -10,5 +10,5 @@ image: /assets/images/team/sunny.jpg
 organization: University of Utah
 position: MS Student
 website: http://sunny.hardasani.in
-interests: Visualization Design Toolkits, User-centered Design, Information Visualization, Heterogeneous Data
+interests: Information Visualization, Heterogeneous Data
 ---

@@ -10,5 +10,6 @@ image: /assets/images/team/kern.jpg
 organization: Technical University of Munich
 position: Master Student
 website:
+graduated: M.S. '16
 interests: Computer Graphics, Scientific Visualization
 ---

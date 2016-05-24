@@ -10,5 +10,6 @@ image: /assets/images/team/zygmunt.jpg
 organization: University of Utah
 position: Software Engineer, PhD Student
 website:
+graduated: N
 interests: Coordinated Multiple Views, Polyglot Visualization, Rapid Prototyping
 ---
