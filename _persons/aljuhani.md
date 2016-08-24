@@ -6,7 +6,7 @@ key: aaljuhani
 permalink: /persons/aljuhani/
 role: phdstudent
 email: asmaa.aljuhani@utah.edu
-image: /assets/images/team/aljuhani.jpg
+image: /assets/images/team/aljuhani.jpeg
 organization: University of Utah
 position: PhD Student
 ---
