@@ -7,6 +7,7 @@ type: paper
 
 shortname: Design Activity Framework
 image: 2014_infovis_design-activity.png
+image_large: 2014_infovis_design-activity_teaser.png
 
 authors:
 - mckenna

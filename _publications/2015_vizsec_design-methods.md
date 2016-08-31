@@ -7,6 +7,7 @@ type: paper
 
 shortname: Design Methods for Cyber Security
 image: 2015_vizsec_design-methods.png
+image_large: 2015_vizsec_design-methods_teaser.png
 
 authors:
 - mckenna

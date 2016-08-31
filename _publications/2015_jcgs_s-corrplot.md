@@ -7,6 +7,7 @@ type: paper
 
 shortname: s-CorrPlot
 image: 2015_jcgs_s-corrplot.png
+image_large: 2015_jcgs_s-corrplot_teaser.png
 
 authors:
 - mckenna
