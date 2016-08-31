@@ -21,13 +21,13 @@ authors:
 - Nicola Cosgrove
 - streit
 
-journal: Computer Graphics Forum (EuroVis '16) (to appear)
+journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
 journal-short: CGF (EuroVis '16)
 year: 2016
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
 
-doi:
+doi: 10.1111/cgf.12925
 # The publisher URL - use only if no doi is available
 publisher:
 
@@ -49,11 +49,10 @@ supplement: 2016_eurovis_clue_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: Vials Conference Talk Slides
-#  # use link instead of abslink if you want to link to the master directory
-#  abslink: http://vials.io/talk/
-#  # defaults to a download icon, use this if you want a link-out icon
-#  linksym: true
+ - name: Samuel Gratzl's Talk @ EuroVis'16 (PDF)
+   link: 2016_eurovis_clue_talk.pdf
+ - name: Samuel Gratzl's Talk  @ EuroVis'16 (PPTX)
+   link: 2016_eurovis_clue_talk.pptx
 
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/caleydo_clue/
