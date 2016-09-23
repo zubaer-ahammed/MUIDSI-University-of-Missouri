@@ -53,7 +53,7 @@ supplements:
   linksym: true
 
 # Link to the repository where the code is hostet
-code: 
+code: https://github.com/samquinan/WeaVER
 
 bibtex: 2015_infovis_weaver.bib
 
