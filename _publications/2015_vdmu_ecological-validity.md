@@ -10,8 +10,8 @@ image: 2015_vdmu_ecological-validity.png
 
 authors:
 - quinan
-- Lace M. Padilla
-- Sarah H. Creem-Regehr
+- padilla
+- creem-regehr
 - meyer
 
 journal: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty (VIS '15)"
