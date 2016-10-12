@@ -8,7 +8,7 @@ We are happy to receive your feedback!
 
 ### Email
 
-[contact@caleydo.org ](mailto:contact@caleydo.org)
+[alex@sci.utah.edu](mailto:alex@sci.utah.edu)
 
 ### Street Address
 
