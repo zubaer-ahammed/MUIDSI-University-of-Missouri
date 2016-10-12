@@ -3,3 +3,4 @@ _site/
 .idea/
 *.sublime-*
 css/site.css
+.jekyll-metadata
