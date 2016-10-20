@@ -94,10 +94,11 @@
   min-height: 50px;
   @include media($medium-display) {
     width: 75%;
+    margin-bottom: -50px;
   }
   @include media($small-display) {
     margin-top: 90px;
-    margin-bottom: -30px;
+    margin-bottom: -100px;
   }
 }
 
