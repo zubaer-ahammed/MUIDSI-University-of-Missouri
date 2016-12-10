@@ -16,7 +16,7 @@ authors:
 journal: "Proceedings of Workshop on Visualization in Practice (VIP '16), 2016"
 journal-short: Visualization in Practice
 year: 2016
-# award:
+award: Best Paper Award
 note: Selected for oral presentation
 
 doi:
