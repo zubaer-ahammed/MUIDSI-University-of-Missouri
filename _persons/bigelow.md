@@ -9,6 +9,6 @@ email: abigelow@cs.utah.edu
 image: /assets/images/team/bigelow.png
 organization: University of Utah
 position: PhD Student
-website: hhttp://alex-r-bigelow.github.io/
+website: http://alex-r-bigelow.github.io/
 interests: Visualization Design Toolkits, Graph Data, User-centered Design
 ---
