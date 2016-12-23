@@ -24,6 +24,18 @@ graduated:
 ---
 ```
 
+### Picture
+
+Pictures are only necessary for active members of VDL, not for collaborators.
+
+And add a black and white headshot to this folder: 
+https://github.com/visdesignlab/visdesignlab.github.io/tree/master/assets/images/team
+And a colored one here: 
+https://github.com/visdesignlab/visdesignlab.github.io/tree/master/assets/images/team_colored
+Format: square JPG, up to 400x400 px, make sure **this is under 20kb**!
+
+
 ## Creating a collaborator profile 
 
 Use "role: collaborator" for collaborators on papers. Note that this isn't strictly necessary, you can just type the person's full name in the author list, but it might be useful if you're collaborating with a person a lot.
+
