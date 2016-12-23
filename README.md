@@ -1,8 +1,8 @@
-### Vis Design Lab Website
+# Vis Design Lab Website
 
 The Vis Design Lab website is based on the Caleydo website and built with [Jekyll](http://jekyllrb.com), [SASS](http://www.sass-lang.com), [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), and [Bitters](http://bitters.bourbon.io).
 
-#### Setup
+## Setup
 
 If you have Ruby on your machine, just install Jekyll:
 
@@ -13,13 +13,13 @@ $ gem install jekyll
 Further details on installing Jekyll and its requirements:
 https://jekyllrb.com/docs/installation/
 
-#### Running a Jekyll Server
+### Running a Jekyll Server
 
 ```ShellSession
 $ jekyll serve
 ```
 
-#### View the Generated Site
+### View the Generated Site
 
 ```ShellSession
 $ open http://0.0.0.0:4000/
@@ -50,3 +50,9 @@ Installation instructions above for Jekyll will work for the most part, but you 
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 To install the GitHub Pages gem, you may need to install the Ruby DevKit for your operating system.
+
+## Contributing
+
+ * [Adding a team member](_persons/README.md)
+ * [Adding a paper](_publications/README.md)
+
