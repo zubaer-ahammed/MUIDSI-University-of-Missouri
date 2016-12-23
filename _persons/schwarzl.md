@@ -11,4 +11,5 @@ organization: University of Utah
 position: Master Student
 website: 
 interests: Computergraphics, Visualization
+graduated: N
 ---

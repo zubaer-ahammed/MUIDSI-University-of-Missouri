@@ -9,4 +9,6 @@ email: cnobre@sci.utah.edu
 image: /assets/images/team/nobre.jpg
 organization: University of Utah
 position: PhD Student
+website: 
+interests: Multivariate Graphs, Genealogies, Social Networks
 ---

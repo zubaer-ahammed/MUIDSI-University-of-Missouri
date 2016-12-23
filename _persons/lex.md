@@ -10,8 +10,6 @@ image: /assets/images/team/lex.jpg
 organization: University of Utah
 position: Assistant Professor
 website: http://alexander-lex.net
-interests: Biology Visualization, Multivariate Graphs, Heterogeneous Data, Exploratory Visualization for Scientists 
+interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists 
+graduated: 
 ---
-
- * BioVis
- * Design Studies

@@ -10,4 +10,5 @@ image: /assets/images/team/cherkaev.jpg
 organization: University of Utah
 position: PhD Student
 website: http://anniecherkaev.com/
+interests: Genealogies, Clinical and Genetic Data
 ---
