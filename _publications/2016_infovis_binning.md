@@ -6,8 +6,8 @@ permalink: /publications/2016_infovis_binning/
 type: paper
 
 shortname: Binning
-image: 2016_infovis_binning_teaser.png
-image_large: 2016_infovis_binning.png
+image: 2016_infovis_binning.png
+image_large: 2016_infovis_binning_teaser.png
 
 authors:
 - padilla
