@@ -20,6 +20,7 @@ note: BioVis Redesign Contest submission
 
 pdf: 2013_biovis_compariseq.pdf
 bibtex: 2013_biovis_compariseq.bib
+code: "https://github.com/visdesignlab/compariSeq"
 supplements:
 - name: Poster
   link: 2013_biovis_compariseq_poster.pdf
