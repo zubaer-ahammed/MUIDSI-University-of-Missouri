@@ -11,7 +11,7 @@ image: /assets/images/team/lex.jpg
 organization: University of Utah
 position: Assistant Professor
 degree: PhD, MSc
-website: http://alexander-lex.net
+website: /team/lex/
 interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists 
 graduated:
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
