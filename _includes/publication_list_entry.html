@@ -4,7 +4,6 @@
                                                            src="{{ site.baseurl }}/assets/images/papers/{{ publication.image }}"></a>
     <p class="pubs">
         {% for author in publication.authors %}
-
         {% assign known = false %}
         {% for person in site.persons %}
         {% if author == person.key %}

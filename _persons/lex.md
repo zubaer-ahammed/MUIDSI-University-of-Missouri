@@ -10,16 +10,50 @@ email: alex@sci.utah.edu
 image: /assets/images/team/lex.jpg
 organization: University of Utah
 position: Assistant Professor
+title: PhD
 website: http://alexander-lex.net
 interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists 
 graduated:
+gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
+gh: https://github.com/alexsb
+twitter: "@alexander_lex"
 address: |
     Scientific Computing and Imaging Institute, <br>
-    School of Computing, <br>
-    University of Utah <br>
-    Room 3887 <br>
-    72 South Central Campus Drive <br>
+    School of Computing, University of Utah <br>
+    72 South Central Campus Drive, Room 3887 <br>
     Salt Lake City, Utah 84112
+    
+phd_students: 
+ - nobre
+ - waller
+ - Christian Partl (co-supervised with Dieter Schmalstieg)
+
+phd_rotation_students:
+ - aljuhani
+ - cherkaev
+ - mehrpour
+ - mengjiao
+ 
+ms_students:
+ - Pranav Dommata
+
+former_students:
+ - anirudh
+ - kern
+ - murali
+ - hardasani
+ - Sateesh Tata, MS '16
+ - Roy Bastien, BS '16
+ - Priyanka Parekh, BS '16
+ - Shreya Singh, MS '15
+ - Varsha Alangar, MS '15
+ - Rasvan Iliescu, MS '14
+ - Alain Ibrahim, MS '14
+ - Tamar Rucham, MS '14
+ - Gabriel Hase, MS '14
+ - Conor Myhrvold, MS '14
+ - Ran Sofia Hou, BS '13
+
 ---
 
 I develop interactive data analysis methods for experts and scientists. My primary research interests are **interactive data visualization and analysis** especially applied to molecular biology and pharmacology. I concern myself with data analysis challenges that require human reasoning and human intervention. I like to think of my work as **human data interaction**, as interactive visualization, combined with algorithmic and statistical methods, make data accessible for human consumption.
