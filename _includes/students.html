@@ -7,7 +7,12 @@
     {% if person.key == person_key %}
     {% capture name %}{{ person.first_name }} {{ person.last_name }}{% endcapture %}
         {% if person.graduated%}
-          <a href="{{ p.website }}">{{ name }}</a>{% if person.graduated != "N" %}, {{ person.graduated }}{% endif %} <br>
+             {% if person.website %}
+            <a href="{{ person.website }}">{{ name }}</a>
+        {% else %}
+        {{ name }}
+        {% endif %}
+        {% if person.graduated != "N" %}, {{ person.graduated }}{% endif %} <br>
         {% else %}
         {% if person.website %}
         <a href="{{ person.website }}">{{ name }}</a>

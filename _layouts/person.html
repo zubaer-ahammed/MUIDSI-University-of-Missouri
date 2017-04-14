@@ -40,7 +40,7 @@ layout: default
          title="{{ page.first_name }} {{ page.last_name }}" src="{{ site.baseurl }}{{ page.image }}">
     <br>
 
-    {{ page.first_name }} {{ page.last_name }}, {{ page.title}} <br>
+    {{ page.first_name }} {{ page.last_name }}, {{ page.degree}} <br>
     {{ page.position}} <br>
     <p>
         <b>Contact</b> <br>
@@ -49,7 +49,7 @@ layout: default
     </p>
 
     <p>
-
+        <a href="{{page.cv}}">Curriculum Vitae</a><br>
         <a href="{{ page.gs }}">Google Scholar</a><br>
         <a href="http://twitter.com/{{page.twitter}}">Twitter</a><br>
         <a href="{{page.gh}}">GitHub</a><br>
@@ -119,7 +119,14 @@ layout: default
 
     {% include students.html students=page.former_students %}
 
-    <h2 id="Press">Press</h2>
+    <h3>Courses</h3>
+
+    {% include courses.html instructor=page.key %}
+
+    <h2 id="press">Press</h2>
+
+    {% include press.html user=page.key %}
+
 
 </article>
 
