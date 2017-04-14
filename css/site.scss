@@ -336,7 +336,7 @@ body {
 }
 
 .person-title {
-  @include page-title($team-color);
+  @include  subpage-title($team-color);
 }
 
 .team-title {
@@ -823,6 +823,12 @@ ul.post-list {
     font-size: $page-content-font-size * 0.9;
     font-weight: 300;
   }
+}
+
+.talk{
+  font-family: $sans-serif-font-family;
+  font-size: $page-content-font-size * 0.8;
+  font-weight: 300;
 }
 
 
