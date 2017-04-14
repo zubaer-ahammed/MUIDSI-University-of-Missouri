@@ -34,7 +34,7 @@ collections:
     output: true
     permalink: /projects/:path/
   persons:
-    output: false
+    output: true
     permalink: /persons/:path/
   publications:
     output: true
@@ -54,3 +54,7 @@ collections:
   funding:
     output: false
     permalink: /funding/:path/
+  talks:
+    output: false
+    permalink: /talks/:path/
+
