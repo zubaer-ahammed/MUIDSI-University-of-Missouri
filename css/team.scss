@@ -126,6 +126,15 @@
   }
 }
 
+.person-image-large {
+  width: 200px;
+  height: 200px;
+  @include border-radius( 50% );
+  &.offset0 {
+    margin-bottom: 65px;
+  }
+}
+
 .person-image {
   width: 100px;
   height: 100px;

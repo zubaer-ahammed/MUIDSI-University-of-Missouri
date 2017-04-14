@@ -1,6 +1,6 @@
 ---
 layout: default
-first_name: Murali krishna teja
+first_name: Murali Krishna Teja
 last_name: Kilari
 key: murali
 permalink: /persons/murali/
