@@ -4,7 +4,7 @@ first_name: Annie
 last_name: Cherkaev
 key: cherkaev
 permalink: /persons/cherkaev/
-role: phdstudent
+role: phd_rotation
 email: acherk@cs.utah.edu
 image: /assets/images/team/cherkaev.jpg
 organization: University of Utah

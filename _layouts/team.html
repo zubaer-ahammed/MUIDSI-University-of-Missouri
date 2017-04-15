@@ -15,6 +15,8 @@ layout: default
       {% if person.graduated == null %}
         {% if person.role == 'phdstudent' %}
           {% assign ifphdstudent = 'true' %}
+        {% elsif person.role == 'phd_rotation' %}
+            {% assign phd_rotation = 'true' %}
         {% elsif person.role == 'postdoc' %}
             {% assign ifpostdoc = 'true' %}
         {% elsif person.role == 'msstudent' %}
@@ -40,12 +42,17 @@ layout: default
 
 
       {% if ifphdstudent == 'true' %}
-        <p class="space">&nbsp;</p>
-        <h1>PhD Students</h1>
-        
-        {% include person.html role="phdstudent" %}
+      <p class="space">&nbsp;</p>
+      <h1>PhD Students</h1>
+      {% include person.html role="phdstudent" %}
       {% endif %}
-      
+
+      {% if phd_rotation == 'true' %}
+      <p class="space">&nbsp;</p>
+      <h1>PhD Rotation Students</h1>
+      {% include person.html role="phd_rotation" %}
+      {% endif %}
+
       {% if ifmsstudent == 'true' %}
         <p class="space">&nbsp;</p>
         <h1>Master's Students</h1>
@@ -67,7 +74,12 @@ layout: default
         {% if p.graduated %}
         {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
           <span class="alumni">
-          <a href="{{ p.website }}">{{ name }}</a>{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
+              {% if p.website %}
+              <a href="{{ p.website }}">{{ name }}</a>
+              {% else %}
+              {{ name }}
+              {% endif %}
+              {% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
           </span>
         {% endif %}
       {% endfor %}

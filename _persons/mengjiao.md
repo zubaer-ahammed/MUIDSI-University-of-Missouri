@@ -5,7 +5,7 @@ last_name: Han
 key: mengjiao
 permalink: 
 # Pick one of the following
-role:  phdstudent
+role:  phd_rotation
 email: u1078078@utah.edu
 image: /assets/images/team/Han.jpg
 organization: University of Utah
