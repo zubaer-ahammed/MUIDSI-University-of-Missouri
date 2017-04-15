@@ -4,7 +4,7 @@ first_name: Asmaa
 last_name: Aljuhani
 key: aljuhani
 permalink: /persons/aljuhani/
-role: phdstudent
+role: phd_rotation
 email: asmaa.aljuhani@utah.edu
 image: /assets/images/team/aljuhani.png
 organization: University of Utah
