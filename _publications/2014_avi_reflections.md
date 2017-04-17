@@ -21,7 +21,7 @@ authors:
 journal: AVI 2014 International Working Conference on Advanced Visual Interfaces (AVI ’14)
 year: 2014
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
-award: Best Paper Award
+award: AVI 2014 Best Paper Award
 
 doi: 10.1145/2598153.2598175
 # The publisher URL - use only if no doi is available

@@ -22,7 +22,7 @@ authors:
 journal: Proceedings of the Graphics Interface (GI) 2010, Ottawa, Ontario, Canada
 year: 2010
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
-award: Best Student Paper Award
+award: GI 2010 Best Student Paper Award
 
 doi:
 # The publisher URL - use only if no doi is available

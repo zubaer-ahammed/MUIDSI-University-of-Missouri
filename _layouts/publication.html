@@ -36,13 +36,15 @@ layout: default
 		<b>{{page.title}}</b></span><br/>
         <span class="paper-citation">{{ page.journal }}, {% if page.doi %} <a href="http://dx.doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>, {%endif%}
         {{ page.year }}.</span>
-      </p>
+
 
       {%if page.award %}
-      <p class="award" style="font-style:italic;">
-        <i class="fa fa-trophy"></i>&nbsp;{{page.award}}
-      </p>
+      <br>
+      <span class="award">
+        <span class="fa fa-trophy"></span>&nbsp;{{page.award}}
+      </span>
       {% endif %}
+      </p>
       {%if page.note %}
       <p class="note" style="font-style:italic;">
         <b>Note:</b> {{page.note}}

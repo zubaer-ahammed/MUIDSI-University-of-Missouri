@@ -21,7 +21,7 @@ authors:
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '14), 20(12), pp. 2023-2032
 year: 2014
-award: IEEE InfoVis 2014 Honorable Mention
+award: IEEE InfoVis 2014 Honorable Mention Award
 
 doi: 10.1109/TVCG.2014.2346260
 # use publisher only if no doi is available
