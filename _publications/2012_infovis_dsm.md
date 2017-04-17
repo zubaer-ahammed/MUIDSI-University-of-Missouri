@@ -16,7 +16,7 @@ authors:
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '12), 18(12), pp. 2431
 year: 2012
-award: Best Paper Honorable Mention
+award: IEEE InfoVis 2012 Honorable Mention Award
 
 doi: 10.1109/TVCG.2012.213
 # use publisher only if no doi is available

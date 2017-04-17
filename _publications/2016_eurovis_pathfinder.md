@@ -27,7 +27,7 @@ journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
 journal-short: CGF (EuroVis '16)
 year: 2016
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
-award: Honorable Mention Award
+award: EuroVis 2016 Honorable Mention Award
 
 doi: 10.1111/cgf.12883
 # The publisher URL - use only if no doi is available

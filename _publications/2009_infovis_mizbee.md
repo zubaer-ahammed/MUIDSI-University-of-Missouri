@@ -16,7 +16,7 @@ authors:
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '2009), 15(6), pp. 897
 year: 2009
-award: Best Paper Honorable Mention
+award: IEEE InfoVis 2009 Honorable Mention Award
 
 
 doi: 10.1109/TVCG.2009.167

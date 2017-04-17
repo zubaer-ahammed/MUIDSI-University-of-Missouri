@@ -24,5 +24,12 @@
 		<br/>
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
         {{ publication.journal }}, {{publication.year}}
+
+        {%if publication.award %}
+        <br>
+        <span class="award">
+        <i class="fa fa-trophy"></i>&nbsp;{{publication.award}}
+        </span>
+        {% endif %}
     </p>
 </div>

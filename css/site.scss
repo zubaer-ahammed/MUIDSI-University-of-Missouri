@@ -279,6 +279,10 @@ body {
 }
 
 
+.award{
+  color: $publication-color
+}
+
 /*@mixin page-title($color) {
   @include span-columns(12);
   @include omega();

@@ -22,7 +22,7 @@ authors:
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'11), 2249-2258, 17(12)
 year: 2011
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
-award: Best Paper Award
+award: IEEE InfoVis 2011 Best Paper Award
 
 doi: 10.1109/TVCG.2011.183
 # The publisher URL - use only if no doi is available
