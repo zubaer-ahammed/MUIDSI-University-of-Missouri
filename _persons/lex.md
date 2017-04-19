@@ -1,10 +1,12 @@
 ---
+# use person if you want to have a personal website created
 layout: person
 first_name: Alexander
 last_name: Lex
 title: Alexander Lex 
 key: lex
 permalink: /team/lex/
+# faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role: faculty
 email: alex@sci.utah.edu
 image: /assets/images/team/lex.jpg
@@ -14,6 +16,7 @@ degree: PhD, MSc
 website: /team/lex/
 interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists 
 graduated:
+# stuff below can be ignored if you don't use the group website for your private website
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 gh: https://github.com/alexsb
 twitter: "@alexander_lex"
@@ -24,6 +27,9 @@ address: |
     72 South Central Campus Drive, Room 3887 <br>
     Salt Lake City, Utah 84112
     
+# flag used to determine whether to show teaching   
+showteaching: true
+ 
 phd_students: 
  - nobre
  - waller

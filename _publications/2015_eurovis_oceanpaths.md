@@ -9,9 +9,8 @@ shortname: oceanpaths
 image: 2015_eurovis_oceanpaths.png
 image_large: 2015_eurovis_oceanpaths_teaser.png
 
-
 authors:
-- Carolina Nobre
+- nobre
 - lex
 
 journal: Proceedings of the Eurographics Conference on Visualization (EuroVis ’15) - Short Papers

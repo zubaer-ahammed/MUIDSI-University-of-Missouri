@@ -4,7 +4,6 @@ first_name: Sahar
 last_name: Mehrpour
 key: mehrpour
 permalink: /persons/mehrpour/
-# Pick one of the following
 role: phd_rotation
 email: mehrpour@cs.utah.edu
 image: /assets/images/team/mehrpour.jpg
