@@ -4,7 +4,7 @@ layout: publication
 title: "Interactive Visual Exploration And Refinement Of Cluster Assignments"
 key: 2017_preprint_clustering
 permalink: /publications/2017_preprint_clustering/
-type: paper
+type: preprint
 
 # The shortname is used for auto-generated titels
 shortname: Interactive Clustering

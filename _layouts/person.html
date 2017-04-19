@@ -61,6 +61,18 @@ layout: default
 
 
     <h2 id="publications">Publications</h2>
+    <h3>Preprints</h3>
+    {% for publication in site.publications reversed %}
+    {% if publication.type == "preprint" %}
+    {% for author in publication.authors %}
+    {% if author == page.key %}
+    {% include publication_list_entry.html %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+
+    <h3>Peer-reviewed Journal and Conference Publications</h3>
     {% for publication in site.publications reversed %}
     {% if publication.type == "paper" %}
     {% for author in publication.authors %}

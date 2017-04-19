@@ -4,7 +4,8 @@ layout: publication
 title: "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs"
 key: 2017_preprint_lineage
 permalink: /publications/2017_preprint_lineage/
-type: paper
+# paper | preprint | poster
+type: preprint
 
 # The shortname is used for auto-generated titels
 shortname: Lineage

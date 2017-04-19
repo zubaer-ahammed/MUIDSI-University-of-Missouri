@@ -4,7 +4,7 @@ layout: publication
 title: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 key: 2017_preprint_upsetr
 permalink: /preprint/2017_preprint_upsetr/
-type: paper
+type: preprint
 
 # The shortname is used for auto-generated titels
 shortname: UpSetR
