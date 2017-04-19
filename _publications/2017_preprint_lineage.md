@@ -27,7 +27,7 @@ year: 2017
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
 
-doi: 
+doi: 10.1101/128579
 # The publisher URL - use only if no doi is available
 publisher:
 
