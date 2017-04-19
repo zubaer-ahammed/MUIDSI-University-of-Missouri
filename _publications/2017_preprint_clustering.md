@@ -37,7 +37,7 @@ project:
 external-project: http://ec2-52-58-105-31.eu-central-1.compute.amazonaws.com/stratomex_clustering/
 
 # The reference to the video entry
-video: 2017_preprint_clustering
+video: 2017_preprint_clustering_video
 # The reference to the preview viedo entry
 #preview-video:
 
