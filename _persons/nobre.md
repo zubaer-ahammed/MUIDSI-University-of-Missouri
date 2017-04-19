@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 first_name: Carolina
 last_name: Nobre
 key: nobre
@@ -9,6 +9,10 @@ email: cnobre@sci.utah.edu
 image: /assets/images/team/nobre.jpg
 organization: University of Utah
 position: PhD Student
-website: 
+website: /team/nobre
 interests: Multivariate Graphs, Genealogies, Social Networks
+github: https://github.com/cnobre
+twitter: "@carolinanobre84"
 ---
+
+I'm a first year PhD student working with Alexander Lex on multivariate graph visualization.
