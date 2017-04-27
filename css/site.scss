@@ -26,7 +26,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   float: left;
   text-align: left;
   margin-right: 30px;
-  width: 100px;
+  width: 110px;
 
   &:last-child {
     margin-right: 0px;
@@ -39,6 +39,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
     color: $dark-blue;
 
     border-bottom: 2px $color solid;
+    height:30px;
     //background-color: #444;
 
     transition-property: background-color, color;
@@ -200,7 +201,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
   @include media($small-display) {
     margin-left: 0px;
-    height: 30px;
+    height: 35px;
   }
 }
 
@@ -208,10 +209,12 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   display: block;
   float: left;
   padding-top: 65px;
+  padding-bottom: 15px;
 
   @include media($small-display) {
     margin-left: 0px;
     padding-top: 0px;
+    padding-bottom: 15px;
   }
 }
 
