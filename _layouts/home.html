@@ -53,7 +53,7 @@
   <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:2 %}
       <li class="post-list-item">
 		   <!--<p style="text-align:right;">{{ post.date | date: "%-d %b %Y" }}</p>-->
 		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
@@ -108,18 +108,18 @@
    </ul>
 -->
 
-    <h1>Funding</h1>
-    <ul class="funding-icon-list">
-        {% assign sorted_grants = (site.funding | sort: 'agency' %}
-      {% for grant in sorted_grants %}
-      {% if grant.active != empty %}
-      {% if agency != grant.agency %}
-      <li><a href="{{ site.baseurl }}/funding">{{ grant.agency }}</a></li>
-      {% endif %}
-      {% endif %}
-      {% assign agency = grant.agency %}
-      {% endfor %}
-    </ul>
+    <!--<h1>Funding</h1>-->
+    <!--<ul class="funding-icon-list">-->
+        <!--{% assign sorted_grants = (site.funding | sort: 'agency' %}-->
+      <!--{% for grant in sorted_grants %}-->
+      <!--{% if grant.active != empty %}-->
+      <!--{% if agency != grant.agency %}-->
+      <!--<li><a href="{{ site.baseurl }}/funding">{{ grant.agency }}</a></li>-->
+      <!--{% endif %}-->
+      <!--{% endif %}-->
+      <!--{% assign agency = grant.agency %}-->
+      <!--{% endfor %}-->
+    <!--</ul>-->
   
 
   </article>
