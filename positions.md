@@ -5,7 +5,7 @@ tag: positions
 permalink: /positions/
 ---
 
-We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows focusing on data visualization. 
+We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows to do research in data visualization. 
 
 The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](htpp://csrankings.org).** 
 
@@ -15,20 +15,21 @@ Current topics of interest include:
 
  * Visualization techniques, including multivariate graphs, multivariate data, heterogeneous data, etc.
  * BioMedical data visualization, such as integrated visualization and algorithmic approaches for genomic data, biological networks, patient data, etc.
+ * Design studies.
  * Web-based systems for scalable visualization.
  * Methods and models for applied visualization research.
- * Design studies.
  * Perceptual and cognitive principles for visualization.
- * Visualization for communication and behavior change. 
+ * Visualization for communication and behavior change.
+ * Provenance tracking, reproducibility and storytelling. 
 
 
 ## PhD Students
 
-We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed a year of funding by the school, with subsequent years funded by the lab faculty for qualified candidates**. 
+We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed a year of funding by the school, with subsequent years funded by the lab faculty**. 
 
 We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
 
-Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); the admission deadline is **December 15**. If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
+Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
 
 ## Postdoctoral Fellows
 
@@ -68,7 +69,7 @@ The University of Utah offers a very competitive benefits package.
 Applicants claiming Veterans or Disabled Veterans preference must submit a photocopy of their DD-214 and complete the Utah State Veteran's Preference Addendum.
 
 #### How to apply: 
-Please apply to the University of Utah Human Resources Department (www.hr.utah.edu/careers).  Please include the names of at least three references along with a curriculum vitae and list of publications.
+Please apply to the University of [Utah Human Resources Department](www.hr.utah.edu/careers).  Please include the names of at least three references along with a curriculum vitae and list of publications.
 
 #### Start date: 
 Immediate. The initial appointment will be for a one-year period, with the possibility of an extension based upon performance and availability of funding.
