@@ -32,7 +32,7 @@ Admissions are handled by the [School of Computing](http://www.cs.utah.edu/gradu
 
 ## Postdoctoral Fellows
 
-Postdoctoral fellowships are available for specific positions (see below), but we are also looking to hire exceptional candidates with a proven track-record of visualization research independent, regardless of these specific positions. 
+Postdoctoral fellowships are available for specific positions (see below), but we are also looking to hire exceptional candidates with a proven track-record of visualization research, regardless of these specific positions. 
 
 Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, mentoring undergraduate and graduate students, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are encouraged.
 
