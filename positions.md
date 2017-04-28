@@ -9,41 +9,40 @@ We are always looking for talented and motivated individuals to join our group a
 
 The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](htpp://csrankings.org).** 
 
-Our group commonly takes a problem-oriented approach to visualization development. We closely work with collaborators from the sciences or humanities to develop novel techniques and tools to support exploratory, complex data analysis tasks.
+Our group commonly takes a problem-oriented approach to visualization development. We closely work with collaborators from the sciences to humanities to develop novel techniques and tools to support exploratory, complex data analysis tasks.
 
 Current topics of interest include: 
 
  * Visualization techniques, including multivariate graphs, multivariate data, heterogeneous data, etc.
  * BioMedical data visualization, such as integrated visualization and algorithmic approaches for genomic data, biological networks, patient data, etc.
- * Visualization design models.
  * Web-based systems for scalable visualization.
- * Perception in visualization, e.g., perception of color maps.
- * Visualization in the humanities.
- * Computational Creativity.
- * Geospatial data, such as air-quality data. 
+ * Methods and models for applied visualization research.
+ * Design studies.
+ * Perceptual and cognitive principles for visualization.
+ * Visualization for communication and behavior change. 
 
 
 ## PhD Students
 
-We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed a year of funding by the school, afterwards qualified candidates will be funded by the lab faculty**. 
+We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed a year of funding by the school, with subsequent years funded by the lab faculty for qualified candidates**. 
 
-We encourage both students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. to apply. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:alex@sci.utah.edu).  
+We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
 
-Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/), the admission deadline is **December 15**. If you have any questions, please [contact us before applying](mailto:alex@sci.utah.edu).  
+Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); the admission deadline is **December 15**. If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
 
 ## Postdoctoral Fellows
 
-Postdoctoral fellowships are available for specific positions (see below), but we are also looking to hire exceptional candidates with a proven track-record of visualization research independent of specific positions. 
+Postdoctoral fellowships are available for specific positions (see below), but we are also looking to hire exceptional candidates with a proven track-record of visualization research independent, regardless of these specific positions. 
 
-Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are expected.
+Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, mentoring undergraduate and graduate students, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are encouraged.
 
-Candidates must have a PhD degree in computer science or related fields, and have a track-record of publication in the top visualization journals or conferences. Excellent programming skills and working knowledge of state-of-the-art software development techniques are a plus. The candidates interested in these positions must be highly motivated, willing to learn and demonstrate initiative in assigned tasks. Excellent written and verbal communication skills are crucial.
+Candidates must have a PhD degree in computer science or related fields, and have a track-record of publication in the top visualization journals or conferences. Excellent programming skills, working knowledge of state-of-the-art software development techniques, experience collaborating with domain experts, and broad training in evaluation methods are a plus. The candidates interested in these positions must be highly motivated, willing to learn and demonstrate initiative in assigned tasks. Excellent written and verbal communication skills are crucial.
 
-Candidates should submit their CV, a research statement, PDFs of their three best papers, and contact information for three references to [alex@sci.utah.edu](mailto:alex@sci.utah.edu).
+Candidates should submit their CV, a research statement, PDFs of their three best papers, and contact information for three references to [vdl-faculty@sci.utah.edu](mailto:vdl-faculty@sci.utah.edu).
 
 ## Open Position for a Postdoctoral Fellow: Biomolecular Data Visualization
 
-[ARUP laboratories](https://www.aruplab.com/) and the Scientific Computing and Imaging (SCI) Institute at the University of Utah are offering a post-doctoral position in biomolecular data visualization. ARUP Laboratories is a national clinical and anatomic pathology reference laboratory and a worldwide leader in innovative laboratory research and development. The SCI Institute is an internationally renowned research specializing in scientific computing, image processing and analysis, and data visualization. ARUP and the SCI Institute are teaming up to collaboratively create innovative methods and tools for the understanding of complex genetic information. An early focus of this work and the position offered is the creation of a visualization tool to display Copy Number Variation data (CNVs) detected by next generation sequencing (NGS) methods for clinical NGS laboratory testing. This work will result in novel and scalable software that enables efficient interpretation of copy number variants from high throughput NGS data by a domain expert.   
+[ARUP laboratories](https://www.aruplab.com/) and the Scientific Computing and Imaging (SCI) Institute at the University of Utah are offering a post-doctoral position in biomolecular data visualization. ARUP Laboratories is a national clinical and anatomic pathology reference laboratory and a worldwide leader in innovative laboratory research and development. The SCI Institute is an internationally renowned research institute specializing in scientific computing, image processing and analysis, and data visualization. ARUP and the SCI Institute are teaming up to collaboratively create innovative methods and tools for the understanding of complex genetic information. An early focus of this work and the position offered is the creation of a visualization tool to display Copy Number Variation data (CNVs) detected by next generation sequencing (NGS) methods for clinical NGS laboratory testing. This work will result in novel and scalable software that enables efficient interpretation of copy number variants from high throughput NGS data by a domain expert.   
                     
 We seek a highly talented and committed individual with a demonstrated ability to work independently and take on leadership in a multi-disciplinary research environment. The successful candidate will contribute to the world-class research and software development and have the opportunity to develop their research, publication, grant writing and presentation skills under mentorship from established faculty investigators. 
                    
