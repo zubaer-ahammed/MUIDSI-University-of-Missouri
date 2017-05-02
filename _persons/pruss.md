@@ -9,7 +9,7 @@ email: dapruss@sci.utah.edu
 image: /assets/images/team/pruss.jpg
 organization: University of Utah
 position: Undergraduate Student
-website: http://dashapruss.com
+website: http://dapruss.github.io/
 graduated: B.S. '16
 interests: Biology Visualization
 ---

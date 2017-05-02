@@ -25,9 +25,9 @@ video:
 preview-video:
 
 
-pdf: 2013_cga_collaborations.pdf
+pdf: 
 supplement:
-bibtex: 2013_cga_collaborations.bib
+bibtex: 
 
 abstract: "
 <p>For over 25 years, the visualization community has grown and evolved as a function of collaboration with other areas. It's now commonplace for visualization scientists to engage with other researchers in scientific teams. Commonplace, however, doesn't mean easy. Two visualization researchers' years of experience have led to a set of observations and recommendations on what works (and what doesn't) and why in visualization collaborations. These insights can help guide the visualization community as it moves forward.</p>"

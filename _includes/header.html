@@ -10,7 +10,7 @@
       {% assign navButtons = "home|team|publications|positions" | split: "|" %}
       {% for nav in navButtons %}
         {% assign navURL = nav %}
-        {% assign pageURL = page.url | remove: "/" %}
+        {% assign pageURL = page.url %}
         {% if nav == "home" %}
           {% assign navURL = "" %}
         {% endif %}

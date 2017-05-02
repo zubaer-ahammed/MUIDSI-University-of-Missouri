@@ -36,7 +36,7 @@ preview-video:
 
 pdf: 2013_eurovis_poemviewer.pdf
 supplement:
-bibtex: 2013_eurovis_poemviewer.bib
+bibtex:
 
 abstract: "
 <p>In this paper, we present a user-centered design study on poetry visualization. We develop a rule-based solution to address the conflicting needs for maintaining the flexibility of visualizing a large set of poetic variables and for reducing the tedium and cognitive load in interacting with the visual mapping control panel. We adopt Munzner’s nested design model to maintain high-level interactions with the end users in a closed loop. In addition, we examine three design options for alleviating the difficulty in visualizing poems latitudinally. We present several example uses of poetry visualization in scholarly research on poetry.</p>"
