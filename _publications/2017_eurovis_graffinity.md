@@ -23,7 +23,7 @@ authors:
 - Robert E. Marc
 - meyer
 
-journal: Computer Graphics Forum (EuroVis '17)
+journal: Computer Graphics Forum (EuroVis '17) (to appear)
 journal-short: CGF (EuroVis '17)
 year: 2017
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
