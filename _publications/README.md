@@ -38,4 +38,6 @@ Here is a sync script that you can run to sync a local folder with the sci folde
 ```bash
 rsync * alex@shell.sci.utah.edu:/usr/sci/www/vdl/papers --protocol=29 -r
 ```
+
+
  
