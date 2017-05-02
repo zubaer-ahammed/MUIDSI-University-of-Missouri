@@ -15,9 +15,9 @@ authors:
 - meyer
 - creem-regehr
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16), to appear
+journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16), vol. 23, no. 1, pp. 431-440
 journal-short: TVCG (InfoVis '16)
-year: 2016
+year: 2017
 award:
 
 doi: 10.1109/TVCG.2016.2599106
