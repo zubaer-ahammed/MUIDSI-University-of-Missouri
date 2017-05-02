@@ -20,7 +20,7 @@ year: 2012
 note: 
 
 pdf: 2012_etra_gaze.pdf
-bibtex: 2012_etra_gaze.bib
+bibtex:
 supplements:
 
 

@@ -7,7 +7,7 @@ permalink: /positions/
 
 We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows to do research in data visualization. 
 
-The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](htpp://csrankings.org).** 
+The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](http://csrankings.org).** 
 
 Our group commonly takes a problem-oriented approach to visualization development. We closely work with collaborators from the sciences to humanities to develop novel techniques and tools to support exploratory, complex data analysis tasks.
 
@@ -69,7 +69,7 @@ The University of Utah offers a very competitive benefits package.
 Applicants claiming Veterans or Disabled Veterans preference must submit a photocopy of their DD-214 and complete the Utah State Veteran's Preference Addendum.
 
 #### How to apply: 
-Please apply to the University of [Utah Human Resources Department](www.hr.utah.edu/careers).  Please include the names of at least three references along with a curriculum vitae and list of publications.
+Please apply to the University of [Utah Human Resources Department](http://www.hr.utah.edu/careers).  Please include the names of at least three references along with a curriculum vitae and list of publications.
 
 #### Start date: 
 Immediate. The initial appointment will be for a one-year period, with the possibility of an extension based upon performance and availability of funding.

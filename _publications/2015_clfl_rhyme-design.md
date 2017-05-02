@@ -39,17 +39,17 @@ video:
 preview-video: 
 
 # the prerint
-pdf: 2015_infovis_rhyme-design.pdf
+pdf: 2015_clfl_rhyme-design.pdf
 # A supplement PDF
 supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc. 
-supplements:
-- name: 
+#supplements:
+#- name: 
   # use link instead of abslink if you want to link to the master directory
-  abslink: 
+  #abslink: 
   # defaults to a download icon, use this if you want a link-out icon
-  linksym:
+  #linksym:
 
 # Link to the repository where the code is hostet
 code: 
