@@ -28,7 +28,7 @@ doi: 10.1109/TVCG.2014.2346260
 publisher: 
 
 
-project: domino
+external-project: http://caleydo.org/tools/domino/
 
 video: 2014_infovis_domino_video
 preview-video: 2014_infovis_domino_video_preview

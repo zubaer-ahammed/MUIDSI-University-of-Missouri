@@ -28,7 +28,7 @@ doi: 10.1109/TVCG.2013.154
 # use publisher only if no doi is available
 publisher: 
 
-project: pathways
+external-project: http://caleydo.org/tools/pathways/
 
 video: 2013_infovis_entourage_video
 preview-video: 2013_infovis_entourage_video_preview

@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Genome-wide synteny through highly sensitive sequence alignment: Satsuma,"
+title: "Genome-wide synteny through highly sensitive sequence alignment: Satsuma."
 key: 2010_bioinf_satsuma
 permalink: /publications/2010_bioinf_satsuma/
 type: paper
@@ -34,7 +34,7 @@ preview-video:
 
 pdf: 
 supplement:
-bibtex: 2010_bioinf_satsuma.bib
+bibtex:
 
 abstract: "
 <p>Motivation: Comparative genomics heavily relies on alignments of large and often complex DNA sequences. From an engineering perspective, the problem here is to provide maximum sensitivity (to find all there is to find), specificity (to only find real homology) and speed (to accommodate the billions of base pairs of vertebrate genomes).

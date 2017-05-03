@@ -28,7 +28,7 @@ doi: 10.1109/TVCG.2013.173
 publisher: 
 
 
-project: lineup
+external-project: http://caleydo.org/tools/lineup/
 
 video: 2013_infovis_lineup_video
 preview-video: 2013_infovis_lineup_video_preview

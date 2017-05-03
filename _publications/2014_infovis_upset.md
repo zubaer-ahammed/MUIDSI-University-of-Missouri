@@ -25,8 +25,6 @@ doi: 10.1109/TVCG.2014.2346248
 publisher: 
 
 
-project:
-
 external-project: http://vcg.github.io/upset/
 code: https://github.com/vcg/upset
 
@@ -38,8 +36,8 @@ pdf: 2014_infovis_upset.pdf
 supplement:  2014_infovis_upset_supplement.pdf
 
 supplements:
-- name: UpSet About Page
-  abslink: http://vcg.github.io/upset/about/
+- name: UpSet Concept Info
+  abslink: http://caleydo.org/tools/upset/
   linksym: true
 - name: UpSet Documentation
   abslink: https://github.com/VCG/upset/wiki
