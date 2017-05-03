@@ -26,7 +26,6 @@ doi: 10.1109/TVCG.2011.250
 publisher: 
 
 
-project: stratomex
 
 video: 2011_infovis_visbricks_video
 preview-video:

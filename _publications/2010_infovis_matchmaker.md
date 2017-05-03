@@ -26,8 +26,6 @@ doi: 10.1109/TVCG.2010.138
 publisher: 
 
 
-project: stratomex
-
 video: 2010_infovis_matchmaker_video
 preview-video:
 

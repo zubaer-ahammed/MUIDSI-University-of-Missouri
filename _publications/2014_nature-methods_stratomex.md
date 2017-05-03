@@ -29,7 +29,7 @@ doi: 10.1038/nmeth.3088
 publisher:
 
 
-project: stratomex
+external-project: http://caleydo.org/tools/stratomex/
 
 video: 2014_nature-methods_stratomex_video
 preview-video:
