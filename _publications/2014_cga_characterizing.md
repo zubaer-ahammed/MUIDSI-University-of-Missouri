@@ -24,7 +24,6 @@ doi: 10.1109/MCG.2014.1
 publisher:
 
 
-project: stratomex
 
 video: 2014_cga_characterizing_video
 preview-video:
