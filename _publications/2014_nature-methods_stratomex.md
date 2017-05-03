@@ -6,7 +6,7 @@ permalink: /publications/2014_nature-methods_stratomex/
 redirect_from: /publications/2014_nm_stratomex/
 type: paper
 
-shortname: GuidedVisualExploration
+shortname: StratomeX
 image: 2014_nature-methods_stratomex.png
 image_large: 2014_nature-methods_stratomex_teaser.png
 
