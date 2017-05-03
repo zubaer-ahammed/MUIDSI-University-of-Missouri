@@ -26,9 +26,6 @@ doi: 10.1111/j.1467-8659.2012.03110.x
 # use publisher only if no doi is available
 publisher: 
 
-
-project: stratomex
-
 website: http://stratomex.caleydo.org
 
 video: 2012_eurovis_stratomex_video

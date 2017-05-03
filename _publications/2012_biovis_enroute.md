@@ -26,8 +26,7 @@ doi: 10.1109/BioVis.2012.6378600
 # use publisher only if no doi is available
 publisher: 
 
-project: pathways
-
+external-project: http://caleydo.org/tools/pathways/
 video: 2012_biovis_enroute_video
 preview-video: 
 
