@@ -41,7 +41,7 @@ Candidates must have a PhD degree in computer science or related fields, and hav
 
 Candidates should submit their CV, a research statement, PDFs of their three best papers, and contact information for three references to [vdl-faculty@sci.utah.edu](mailto:vdl-faculty@sci.utah.edu).
 
-## Open Position for a Postdoctoral Fellow: Biomolecular Data Visualization
+## Open Position for a Postdoctoral Fellow: Biomolecular Data Visualization - PRN14120B
 
 [ARUP laboratories](https://www.aruplab.com/) and the Scientific Computing and Imaging (SCI) Institute at the University of Utah are offering a post-doctoral position in biomolecular data visualization. ARUP Laboratories is a national clinical and anatomic pathology reference laboratory and a worldwide leader in innovative laboratory research and development. The SCI Institute is an internationally renowned research institute specializing in scientific computing, image processing and analysis, and data visualization. ARUP and the SCI Institute are teaming up to collaboratively create innovative methods and tools for the understanding of complex genetic information. An early focus of this work and the position offered is the creation of a visualization tool to display Copy Number Variation data (CNVs) detected by next generation sequencing (NGS) methods for clinical NGS laboratory testing. This work will result in novel and scalable software that enables efficient interpretation of copy number variants from high throughput NGS data by a domain expert.   
                     
@@ -69,7 +69,7 @@ The University of Utah offers a very competitive benefits package.
 Applicants claiming Veterans or Disabled Veterans preference must submit a photocopy of their DD-214 and complete the Utah State Veteran's Preference Addendum.
 
 #### How to apply: 
-Please apply to the University of [Utah Human Resources Department](http://www.hr.utah.edu/careers).  Please include the names of at least three references along with a curriculum vitae and list of publications.
+Please apply to the University of [Utah Human Resources Department](https://utah.peopleadmin.com/postings/63954). Please include the names of at least three references along with a curriculum vitae and list of publications.
 
 #### Start date: 
 Immediate. The initial appointment will be for a one-year period, with the possibility of an extension based upon performance and availability of funding.
