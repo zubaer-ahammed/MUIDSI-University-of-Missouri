@@ -15,9 +15,9 @@ authors:
 - Christopher Gregg
 - Samuel Gerber
 
-journal: Journal of Computational and Graphical Statistics
-journal-short: Computational and Graphical Statistics
-year: 2015
+journal: Journal of Computational and Graphical Statistics, vol. 25, no. 2, pp. 445-463
+journal-short: J. Computational and Graph. Statist.
+year: 2016
 
 doi: 10.1080/10618600.2015.1021926
 
