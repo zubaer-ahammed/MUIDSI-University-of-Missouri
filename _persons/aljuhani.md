@@ -10,6 +10,6 @@ image: /assets/images/team/aljuhani.png
 organization: University of Utah
 interests: Visualization
 position: PhD Student
-graduated:
+graduated: N
 website:
 ---

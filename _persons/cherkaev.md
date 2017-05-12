@@ -11,4 +11,5 @@ organization: University of Utah
 position: PhD Student
 website: http://anniecherkaev.com/
 interests: Genealogies, Clinical and Genetic Data
+graduated: PhD rotation '17
 ---
