@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contact | Vis Design Lab
 permalink: /contact/
 ---
