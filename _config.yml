@@ -28,13 +28,11 @@ exclude: ["README.md", ".idea/"]
 # Collections
 collections:
   persons:
-    output: false
+    output: true
   publications:
     output: true
-    permalink: /publications/:path/
   thesis:
     output: true
-    permalink: /thesis/:path/
   videos:
     output: false
   institutions:
