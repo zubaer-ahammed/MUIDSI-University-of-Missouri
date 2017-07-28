@@ -40,9 +40,6 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-  thesis:
-    output: true
-    permalink: /thesis/:path/
   videos:
     output: false
     permalink: /videos/:path/
