@@ -2,7 +2,6 @@
 layout: publication
 title: "Driving Genetics With Experimental Visualization"
 key: 2012-thesis-bigelow
-permalink: /thesis/2012_thesis_bigelow/
 type: thesis
 
 
