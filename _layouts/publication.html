@@ -79,6 +79,15 @@ layout: default
         <i class="fa fa-file"></i>&nbsp; <a href="{{site.paper_content_url}}{{ page.bibtex }}">BibTeX</a>
       </p>
       {% endif %}
+
+{% capture newLine %}
+{% endcapture %}
+<pre class="bibtex">
+@{{ page.bibentry }}{ {{ page.key }},
+  title = { {{ page.title }} },
+  author = { {{ bibauthors }} },
+{% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = { {{ bibItem[1] }} },{{ newLine }}{% endif %}{% endfor %}}
+</pre>
     </div>
 
     <!-- main markdown content -->
