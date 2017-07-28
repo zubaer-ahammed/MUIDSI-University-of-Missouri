@@ -9,7 +9,8 @@ type: thesis
 shortname: BS-Thesis-Bigelow
 image: 2012_thesis_bigelow.png
 
-author: bigelow
+authors:
+- bigelow
 advisors: Miriah Meyer
 year: 2012
 month: May
