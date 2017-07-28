@@ -20,7 +20,19 @@ journal: Computer Graphics Forum (EuroVis '17), vol. 36, no. 3
 journal-short: CGF (EuroVis '17)
 year: 2017
 
-# doi:
+bibentry: article
+bib:
+  journal: Computer Graphics Forum
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 
+  url: 
+  volume: 36
+  number: 3
+  pages: 
+  month: 
 
 external-project: http://mckennapsean.com/projects/narrative-flow/
 

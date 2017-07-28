@@ -26,6 +26,21 @@ authors:
 journal:  Bioinformatics btx364
 journal-short: Bioinformatics
 year: 2017
+
+bibentry: article
+bib:
+  journal: Bioinformatics (to appear)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1101/120600
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
 

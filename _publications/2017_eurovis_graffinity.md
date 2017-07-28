@@ -26,12 +26,23 @@ authors:
 journal: Computer Graphics Forum (EuroVis '17) (to appear)
 journal-short: CGF (EuroVis '17)
 year: 2017
+
+bibentry: article
+bib:
+  journal: Computer Graphics Forum
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 
+  url: 
+  volume: 36
+  number: 3
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award
-
-doi:
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:

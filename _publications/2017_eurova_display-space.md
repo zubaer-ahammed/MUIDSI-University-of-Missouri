@@ -23,12 +23,23 @@ authors:
 journal: EuroVis Workshop on Visual Analytics (EuroVA '17), to appear
 journal-short: EuroVA '17
 year: 2017
+
+bibentry: inproceedings
+bib:
+  journal: 
+  booktitle: EuroVis Workshop on Visual Analytics (EuroVA '17), to appear
+  editor: 
+  publisher: 
+  address: 
+  doi: 
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award
-
-doi:
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
