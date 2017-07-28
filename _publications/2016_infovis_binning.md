@@ -18,10 +18,22 @@ authors:
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16), vol. 23, no. 1, pp. 431-440
 journal-short: TVCG (InfoVis '16)
 year: 2017
-award:
 
-doi: 10.1109/TVCG.2016.2599106
-publisher:
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1109/TVCG.2016.2599106
+  url: 
+  volume: 23
+  number: 1
+  pages: 431--440
+  month: jan
+
+award:
 
 project:
 external-project:

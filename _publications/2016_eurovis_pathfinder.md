@@ -26,12 +26,23 @@ authors:
 journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
 journal-short: CGF (EuroVis '16)
 year: 2016
+
+bibentry: article
+bib:
+  journal: Computer Graphics Forum (EuroVis '16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1111/cgf.12883
+  url: 
+  volume: 35
+  number: 3
+  pages: 71--80
+  month: jun
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: EuroVis 2016 Honorable Mention Award
-
-doi: 10.1111/cgf.12883
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:

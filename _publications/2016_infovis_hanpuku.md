@@ -21,12 +21,23 @@ authors:
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16)
 journal-short: TVCG (InfoVis '16)
 year: 2016
+
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1109/TVCG.2016.2598609
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 # award: Best Paper Award
-
-doi: 10.1109/TVCG.2016.2598609
-# The publisher URL - use only if no doi is available
-# publisher:
 
 pdf: 2016_infovis_hanpuku.pdf
 
