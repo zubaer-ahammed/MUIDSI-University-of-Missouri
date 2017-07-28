@@ -16,12 +16,24 @@ authors:
 journal: "Proceedings of Workshop on Visualization in Practice (VIP '16), 2016"
 journal-short: Visualization in Practice
 year: 2016
+
+bibentry: inproceedings
+bib:
+  journal: 
+  booktitle: "Proceedings of Workshop on Visualization in Practice (VIP '16)"
+  editor: 
+  publisher: 
+  address: 
+  doi: 
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 award: VIP 2016 Best Paper Award
 note: Selected for oral presentation
 
-doi:
-# use publisher only if no doi is available
-publisher:
 project:
 
 video: 2016_vip_resonant_lab_video
