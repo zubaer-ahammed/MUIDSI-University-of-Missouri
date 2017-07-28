@@ -21,9 +21,13 @@
         {% endif %}
 
         {% endfor %}
-		<br/>
+        <br/>
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
-        {{ publication.journal }}, {{publication.year}}
+        {% if publication.type == "thesis" %}
+          {{ publication.institution }}, {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
+        {% else %}
+          {{ publication.journal }}, {{ publication.year }}
+        {% endif %}
 
         {%if publication.award %}
         <br>

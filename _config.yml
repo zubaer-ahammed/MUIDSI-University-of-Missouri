@@ -31,8 +31,7 @@ collections:
     output: true
   publications:
     output: true
-  thesis:
-    output: true
+    permalink: /publications/:path/
   videos:
     output: false
   institutions:
