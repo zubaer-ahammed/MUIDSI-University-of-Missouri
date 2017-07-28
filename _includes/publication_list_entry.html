@@ -24,11 +24,10 @@
         <br/>
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
         {% if publication.type == "thesis" %}
-          {{ publication.institution }}, {{ publication.thesis_type }},
+          {{ publication.institution }}, {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
         {% else %}
-          {{ publication.journal }},
+          {{ publication.journal }}, {{ publication.year }}
         {% endif %}
-        {{ publication.year }}
 
         {%if publication.award %}
         <br>
