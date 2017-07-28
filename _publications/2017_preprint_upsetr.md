@@ -23,15 +23,26 @@ authors:
 - gehlenborg
 
 # add journal and bibliographic information, e.g., 
-journal:  Bioinformatics (to appear)
+journal: Bioinformatics (to appear)
 journal-short: Bioinformatics
 year: 2017
+
+bibentry: article
+bib:
+  journal: Bioinformatics (to appear)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1101/120600
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
-
-doi: 10.1101/120600
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 # project: upset

@@ -21,15 +21,26 @@ authors:
 - Hilary Coon
 - lex
 
-journal:  bioRxiv preprint
+journal: bioRxiv preprint
 journal-short: bioRxiv
 year: 2017
+
+bibentry: article
+bib:
+  journal: bioRxiv preprint
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1101/128579
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month: 
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
-
-doi: 10.1101/128579
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 # project: upset

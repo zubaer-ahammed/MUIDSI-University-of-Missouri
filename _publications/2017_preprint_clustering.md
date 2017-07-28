@@ -20,15 +20,26 @@ authors:
 - gehlenborg
 - Chris R. Johnson
 
-journal:  bioRxiv preprint
+journal: bioRxiv preprint
 journal-short: bioRxiv
 year: 2017
+
+bibentry: article
+bib:
+  journal: bioRxiv preprint
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1101/123844
+  url: http://biorxiv.org/content/early/2017/04/04/123844 
+  volume: 
+  number: 
+  pages: 
+  month: apr
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
-
-doi: 10.1101/123844
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
