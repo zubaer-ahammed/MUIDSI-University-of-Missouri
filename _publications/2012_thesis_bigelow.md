@@ -1,5 +1,5 @@
 ---
-layout: thesis
+layout: publication
 title: "Driving Genetics With Experimental Visualization"
 key: 2012-thesis-bigelow
 permalink: /thesis/2012_thesis_bigelow/
@@ -7,11 +7,12 @@ type: thesis
 
 
 shortname: BS-Thesis-Bigelow
-image: /assets/images/papers/2012_thesis_bigelow.png
+image: 2012_thesis_bigelow.png
 
 author: bigelow
 advisors: Miriah Meyer
-year: May 2012
+year: 2012
+month: May
 institution: University of Utah
 thesis_type: Bachelor Thesis
 
