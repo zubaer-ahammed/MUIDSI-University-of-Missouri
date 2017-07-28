@@ -75,7 +75,8 @@ layout: default
 @{{ page.bibentry }}{ {{ page.key }},
   title = { {{ page.title }} },
   author = { {{ bibauthors }} },
-{% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = { {{ bibItem[1] }} },{{ newLine }}{% endif %}{% endfor %}}
+{% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = { {{ bibItem[1] }} },{{ newLine }}{% endif %}{% endfor %}  year = { {{ page.year }} }
+}
 </pre>
     </div>
 
