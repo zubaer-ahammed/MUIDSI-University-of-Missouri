@@ -19,7 +19,19 @@ journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 281-290
 journal-short: CGF (EuroVis '16)
 year: 2016
 
-doi: 10.1111/cgf.12904
+bibentry: article
+bib:
+  journal: Computer Graphics Forum (EuroVis '16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1111/cgf.12904
+  url: http://dx.doi.org/10.1111/cgf.12904
+  volume: 35
+  number: 3
+  pages: 281--290
+  month: 
 
 external-project: http://mckennapsean.com/projects/bubble-net/
 
