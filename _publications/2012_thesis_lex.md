@@ -1,5 +1,5 @@
 ---
-layout: thesis
+layout: publication
 title: "Visualization of Multidimensional Data with Applications in Molecular Biology"
 key: 2012-thesis-lex
 permalink: /thesis/2012_thesis_lex/
@@ -7,11 +7,12 @@ type: thesis
 
 
 shortname: Thesis-Lex
-image: /assets/images/papers/2012_eurovis_stratomex.png
+image: 2012_eurovis_stratomex.png
 
 author: lex
 advisors: Dieter Schmalstieg, Nils Gehlenborg, Robert Kosara
-year: March 2012
+year: 2012
+month: March
 award: Best Dissertation Award, awarded by "Forum Technology and Society", Graz University of Technology,
 institution: Graz University of Technology
 thesis_type: PhD Thesis
