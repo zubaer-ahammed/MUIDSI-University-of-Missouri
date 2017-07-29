@@ -57,7 +57,7 @@ layout: default
         {% if page.type == "thesis" %}
           {{ page.institution }}, {{ page.thesis_type }}, {{ page.month }} {{ page.year }}.
         {% else %}
-          {{ page.journal }}, {% if page.doi %} <a href="http://dx.doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>, {%endif%}{{ page.year }}.
+          {{ page.journal }}, {% if page.bib.doi %} <a href="http://dx.doi.org/{{ page.bib.doi }}">doi:{{ page.bib.doi }}</a>, {%endif%}{{ page.year }}.
         {% endif %}
         </span>
 

@@ -23,18 +23,17 @@ authors:
 - gehlenborg
 
 # add journal and bibliographic information, e.g., 
-journal:  Bioinformatics btx364
 journal-short: Bioinformatics
 year: 2017
 
 bibentry: article
 bib:
-  journal: Bioinformatics (to appear)
+  journal: Bioinformatics btx364
   booktitle: 
   editor: 
   publisher: 
   address: 
-  doi: 10.1101/120600
+  doi: 10.1093/bioinformatics/btx364
   url: 
   volume: 
   number: 
@@ -43,10 +42,6 @@ bib:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
-
-doi: 10.1093/bioinformatics/btx364
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 # project: upset
