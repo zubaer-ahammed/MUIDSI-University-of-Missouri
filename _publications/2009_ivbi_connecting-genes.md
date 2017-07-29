@@ -22,7 +22,7 @@ year: 2009
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the Conference on Information Visualisation (IV ’2009)
+  booktitle: Proceedings of the Conference on Information Visualisation (IV ’09)
   doi: 10.1109/IV.2009.86
   pages: 323--330
   month: jul

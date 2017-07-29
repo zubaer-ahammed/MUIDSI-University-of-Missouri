@@ -17,7 +17,7 @@ year: 2009
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '2009)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '09)
   doi: 10.1109/TVCG.2009.167
   volume: 15
   number: 6
