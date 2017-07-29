@@ -2,7 +2,6 @@
 layout: publication
 title: "OceanPaths: Visualizing Multivariate Oceanography Data"
 key: 2015_eurovis_oceanpaths
-permalink: /publications/2015_eurovis_oceanpaths/
 type: paper
 
 shortname: oceanpaths
@@ -13,15 +12,16 @@ authors:
 - nobre
 - lex
 
-journal: Proceedings of the Eurographics Conference on Visualization (EuroVis ’15) - Short Papers
 journal-short: EuroVis Short Papers
 year: 2015
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the Eurographics Conference on Visualization (EuroVis ’15) - Short Papers
+  publisher: The Eurographics Association
+  doi: 10.2312/eurovisshort.20151124
+
 award:
-
-doi: 10.2312/eurovisshort.20151124
-# use publisher only if no doi is available
-publisher:
-
 
 project:
 

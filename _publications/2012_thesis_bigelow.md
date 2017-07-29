@@ -16,8 +16,12 @@ month: May
 institution: University of Utah
 thesis_type: Bachelor Thesis
 
+bibentry: bachelorthesis
+bib:
+  school: University of Utah
+  month: May
+
 pdf: 2012_thesis_bigelow.pdf
-bibtex: 2012_thesis_bigelow.bib
 
 abstract: "
 <p>Some misunderstanding is inevitable in any interdisciplinary work, and recognizing and handling misunderstanding quickly is vital to the success of a collaboration. Many misunderstandings arise from what appears to be common knowledge to a domain scientist, but is not something that a computer scientist would think to ask about. The use of experimental visualization as an inter-collaboration communication tool can highlight these important misunderstandings that would otherwise severely impair the collaboration.</p>

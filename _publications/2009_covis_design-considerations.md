@@ -2,7 +2,6 @@
 layout: publication
 title: "Design Considerations for Collaborative Information Workspaces in Multi-Display Environments"
 key: 2009_covis_design-considerations
-permalink: /publications/2009_covis_design-considerations/
 type: paper
 
 
@@ -15,14 +14,18 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS'09), at VisWeek, ISSN 1862-5207, pp. 5-8, Atlantic City, USA
 year: 2009
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS'09, VisWeek)
+  url: http://www.medien.ifi.lmu.de/team/dominikus.baur/files/covis09/index.html
+  pages: 36--39
+
 award: 
 note: 
 
-doi:
-# use publisher only if no doi is available
-publisher: http://www.medien.ifi.lmu.de/team/dominikus.baur/files/covis09/index.html
+publisherURL: http://www.medien.ifi.lmu.de/team/dominikus.baur/files/covis09/index.html
 
 
 project:
@@ -33,7 +36,6 @@ preview-video:
 
 pdf: 2009_covis_design-considerations.pdf
 supplement:
-bibtex: 2009_covis_design-considerations.bib
 
 abstract: "
 <p>The incorporation of massive amounts of data from different sources is a challenging task for the conception of any information visualization system. Especially the data heterogeneity often makes it necessary to include people from multiple domains

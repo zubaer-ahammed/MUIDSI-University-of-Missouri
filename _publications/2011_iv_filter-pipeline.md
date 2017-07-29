@@ -2,7 +2,6 @@
 layout: publication
 title: "Visualizing the Effects of Logically Combined Filters"
 key: 2011_iv_filter-pipeline
-permalink: /publications/2011_iv_filter-pipeline/
 type: paper
 
 
@@ -15,15 +14,16 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the Conference on Information Visualisation (IV ’2011), pp. 47-52
 year: 2011
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the Conference on Information Visualisation (IV ’2011)
+  publisher: IEEE Computer Society Press
+  doi: 10.1109/IV.2011.52
+  pages: 47--52
+
 award: 
-
-
-doi: 10.1109/IV.2011.52
-# use publisher only if no doi is available
-publisher: 
-
 
 project:
 

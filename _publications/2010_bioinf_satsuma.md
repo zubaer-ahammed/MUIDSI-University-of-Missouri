@@ -2,7 +2,6 @@
 layout: publication
 title: "Genome-wide synteny through highly sensitive sequence alignment: Satsuma."
 key: 2010_bioinf_satsuma
-permalink: /publications/2010_bioinf_satsuma/
 type: paper
 
 
@@ -18,15 +17,16 @@ authors:
 - Federica Di Palma
 - Kerstin Lindblad-Toh
 
-journal: Bioinformatics, 26(9):1145-1151
 year: 2010
+
+bibentry: article
+  journal: Bioinformatics
+  doi: 10.1093/bioinformatics/btq102
+  volume: 26
+  number: 9
+  pagse: 1145--1151
+
 award: 
-
-
-doi: 10.1093/bioinformatics/btq102
-# use publisher only if no doi is available
-publisher: 
-
 
 video: 
 preview-video:
@@ -34,7 +34,6 @@ preview-video:
 
 pdf: 
 supplement:
-bibtex:
 
 abstract: "
 <p>Motivation: Comparative genomics heavily relies on alignments of large and often complex DNA sequences. From an engineering perspective, the problem here is to provide maximum sensitivity (to find all there is to find), specificity (to only find real homology) and speed (to accommodate the billions of base pairs of vertebrate genomes).

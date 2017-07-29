@@ -2,7 +2,6 @@
 layout: publication
 title: "Designing STAR: A Cyber Dashboard Prototype"
 key: 2014_vizsec_cyber-dashboard
-permalink: /publications/2014_vizsec_cyber-dashboard/
 type: poster
 
 shortname: Cyber Dashboard poster
@@ -11,9 +10,12 @@ image: 2014_vizsec_cyber-dashboard.png
 authors:
 - mckenna
 
-journal: Proceedings of the 11th International Symposium on Visualization for Cyber Security (VIS ’14)
 journal-short: VizSec
 year: 2014
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the 11th International Symposium on Visualization for Cyber Security - Posters (VIS ’14)
 
 external-project: http://mckennapsean.com/projects/cybersecurity-dashboard/
 
