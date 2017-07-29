@@ -56,8 +56,18 @@ layout: default
         <span class="paper-citation">
         {% if page.type == "thesis" %}
           {{ page.institution }}, {{ page.thesis_type }}, {{ page.month }} {{ page.year }}.
+
         {% else %}
-          {{ page.journal }}, {% if page.bib.doi %} <a href="http://dx.doi.org/{{ page.bib.doi }}">doi:{{ page.bib.doi }}</a>, {%endif%}{{ page.year }}.
+          {% assign published-where = '' %}
+          {% if page.bib.journal %}
+            {% assign published-where = page.bib.journal %}
+          {% elsif page.bib.booktitle %}
+            {% assign published-where = page.bib.booktitle %}
+          {% elsif page.bib.publisher %}
+            {% assign published-where = page.bib.publisher %}
+          {% endif %}
+
+          {{ published-where }}, {% if page.bib.doi %} <a href="http://dx.doi.org/{{ page.bib.doi }}">doi:{{ page.bib.doi }}</a>, {%endif%}{{ page.year }}.
         {% endif %}
         </span>
 

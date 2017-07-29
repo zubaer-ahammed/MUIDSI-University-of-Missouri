@@ -25,8 +25,18 @@
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
         {% if publication.type == "thesis" %}
           {{ publication.institution }}, {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
+
         {% else %}
-          {{ publication.journal }}, {{ publication.year }}
+          {% assign published-where = '' %}
+          {% if publication.bib.journal %}
+            {% assign published-where = publication.bib.journal %}
+          {% elsif publication.bib.booktitle %}
+            {% assign published-where = publication.bib.booktitle %}
+          {% elsif publication.bib.publisher %}
+            {% assign published-where = publication.bib.publisher %}
+          {% endif %}
+
+          {{ published-where }}, {{ publication.year }}
         {% endif %}
 
         {%if publication.award %}
