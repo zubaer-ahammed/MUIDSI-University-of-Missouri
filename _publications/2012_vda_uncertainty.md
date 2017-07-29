@@ -16,7 +16,6 @@ authors:
 - Heidrun Schumann
 - streit
 
-journal:, pp. 82940O
 year: 2012
 
 bibentry: inproceedings

@@ -13,7 +13,6 @@ authors:
 - meyer
 - Tamara Munzner
 
-, 18(12), pp. 2431
 year: 2012
 
 bibentry: article

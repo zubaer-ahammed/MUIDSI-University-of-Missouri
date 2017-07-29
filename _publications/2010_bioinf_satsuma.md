@@ -20,6 +20,7 @@ authors:
 year: 2010
 
 bibentry: article
+bib:
   journal: Bioinformatics
   doi: 10.1093/bioinformatics/btq102
   volume: 26
