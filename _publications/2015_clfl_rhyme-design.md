@@ -27,6 +27,8 @@ bib:
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
 
+publisherURL: http://www.aclweb.org/anthology/W15-0702
+
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
 
