@@ -4,7 +4,7 @@ layout: publication
 title: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 key: 2017_bioinformatics_upsetr
 # use for old preprint link
-redirect_from: /preprint/2017_preprint_upsetr/
+redirect_from: /publications/2017_preprint_upsetr/
 # paper | poster | preprint
 type: paper
 
