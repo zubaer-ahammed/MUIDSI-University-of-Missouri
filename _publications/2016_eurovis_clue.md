@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "From Visual Exploration to Storytelling and Back Again"
 key: 2016_eurovis_clue
-permalink: /publications/2016_eurovis_clue/
 type: paper
 
 # The shortname is used for auto-generated titels

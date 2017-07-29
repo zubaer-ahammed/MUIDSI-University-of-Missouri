@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Interactive Visual Exploration And Refinement Of Cluster Assignments"
 key: 2017_preprint_clustering
-permalink: /publications/2017_preprint_clustering/
 type: preprint
 
 # The shortname is used for auto-generated titels
@@ -20,7 +19,6 @@ authors:
 - gehlenborg
 - Chris R. Johnson
 
-journal: bioRxiv preprint
 journal-short: bioRxiv
 year: 2017
 
@@ -67,8 +65,6 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: https://github.com/K3rn1n4tor/stratomex_js
-
-bibtex: 2017_preprint_clustering.bib
 
 abstract: "
 <p>Background: With ever-increasing amounts of data produced in biology research, scientists are in need of efficient data analysis methods. Cluster analysis, combined with visualization of the results, is one such method that can be used to make sense of large data volumes. At the same time, cluster analysis is known to be imperfect and depends on the choice of algorithms, parameters, and distance measures. Most clustering algorithms don't properly account for ambiguity in the source data, as records are often assigned to discrete clusters, even if an assignment is unclear. While there are metrics and visualization techniques that allow analysts to compare clusterings or to judge cluster quality, there is no comprehensive method that allows analysts to evaluate, compare, and refine cluster assignments based on the source data, derived scores, and contextual data. </p>

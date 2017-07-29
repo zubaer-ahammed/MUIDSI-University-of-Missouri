@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 key: 2017_bioinformatics_upsetr
-permalink: /publications/2017_bioinformatics_upsetr/
 # use for old preprint link
 redirect_from: /preprint/2017_preprint_upsetr/
 # paper | poster | preprint
@@ -29,16 +28,10 @@ year: 2017
 bibentry: article
 bib:
   journal: Bioinformatics btx364
-  booktitle: 
-  editor: 
-  publisher: 
-  address: 
   doi: 10.1093/bioinformatics/btx364
-  url: 
   volume: 
   number: 
   pages: 
-  month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
@@ -69,8 +62,6 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: https://github.com/hms-dbmi/UpSetR
-
-bibtex: 2017_bioinformatics_upsetr.bib
 
 abstract: '
 <p>Venn and Euler diagrams are a popular yet inadequate solution for quantitative visualization of set intersections. A scalable alternative to Venn and Euler diagrams for visualizing intersecting sets and their properties is needed. We developed UpSetR, an open source R package that employs a scalable matrix-based visualization to show intersections of sets, their size, and other properties. UpSetR is available at <a href="https://cran.r-project.org/package=UpSetR">https://cran.r-project.org/package=UpSetR</a> and released under the MIT License. A Shiny app is available at <a href="https://gehlenborglab.shinyapps.io/upsetr">https://gehlenborglab.shinyapps.io/upsetr</a>.</p>'
