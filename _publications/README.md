@@ -31,7 +31,6 @@ However, if there are multiple files of the same extension type, then the
 4. Upload the following files to `/usr/sci/www/vdl/papers`:
     - publication PDF (`KEY.pdf`) - *mandatory*
     - thumbnail figure (`KEY.png`) - *mandatory*
-    - bibtex file (`KEY.bib`) - *mandatory*
     - Supplementary Material PDF (`KEY_supplement.pdf`)
     - full video (`KEY.mp4`)
     - preview video (`KEY_preview.mp4`)
