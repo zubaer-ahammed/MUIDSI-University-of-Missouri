@@ -8,7 +8,7 @@ permalink:
 # Pick one of the following
 role: msstudent
 email: pranav99@cs.utah.edu
-image: /assets/images/team/pranav.jpg
+image: /assets/images/people/pranav.jpg
 organization: University of Utah
 position: Graduate Student
 # use either a local link like here, or a URL

@@ -6,7 +6,7 @@ key: meyer
 permalink: /persons/meyer/
 role: faculty
 email: miriah@cs.utah.edu
-image: /assets/images/team/meyer.jpg
+image: /assets/images/people/meyer.jpg
 organization: University of Utah
 position: Assistant Professor
 website: http://www.cs.utah.edu/~miriah/

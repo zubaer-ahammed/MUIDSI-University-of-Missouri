@@ -6,7 +6,7 @@ key: mehrpour
 permalink: /persons/mehrpour/
 role: phd_rotation
 email: mehrpour@cs.utah.edu
-image: /assets/images/team/mehrpour.jpg
+image: /assets/images/people/mehrpour.jpg
 organization: University of Utah
 position: PhD student
 website: https://www.cs.utah.edu/~mehrpour/

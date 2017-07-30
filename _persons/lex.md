@@ -9,7 +9,7 @@ permalink: /team/lex/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role: faculty
 email: alex@sci.utah.edu
-image: /assets/images/team/lex.jpg
+image: /assets/images/people/lex.jpg
 organization: University of Utah
 position: Assistant Professor
 degree: PhD, MSc

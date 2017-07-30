@@ -6,7 +6,7 @@ key: pgoffin
 permalink: /persons/pgoffin/
 role: postdoc
 email: pascal.goffin@sci.utah.edu
-image: /assets/images/team/pgoffin.jpg
+image: /assets/images/people/pgoffin.jpg
 organization: University of Utah
 position: Postdoctoral Fellow
 website: 

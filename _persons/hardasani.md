@@ -6,7 +6,7 @@ key: sunny
 permalink: /persons/hardasani/
 role: msstudent
 email: sunny.hardasani@gmail.com
-image: /assets/images/team/sunny.jpg
+image: /assets/images/people/sunny.jpg
 organization: University of Utah
 position: MS Student
 website: http://sunny.hardasani.in

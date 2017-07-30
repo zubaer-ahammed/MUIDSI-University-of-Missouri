@@ -25,7 +25,7 @@ permalink: /team/lex/
 # Pick one of the following
 role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | collaborator
 email: alex@sci.utah.edu
-image: /assets/images/team/lex.jpg
+image: /assets/images/people/lex.jpg
 organization: University of Utah
 position: Assistant Professor
 # use either a local link like here, or a URL

@@ -6,7 +6,7 @@ key: pruss
 permalink: /persons/pruss/
 role: undergrad
 email: dapruss@sci.utah.edu
-image: /assets/images/team/pruss.jpg
+image: /assets/images/people/pruss.jpg
 organization: University of Utah
 position: Undergraduate Student
 website: http://dapruss.github.io/
