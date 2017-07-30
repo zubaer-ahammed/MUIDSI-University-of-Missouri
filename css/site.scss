@@ -1121,6 +1121,14 @@ iframe {
   }
 }
 
+// publication's bib entry
+pre.bibtex {
+  padding: 20px;
+  overflow-x: auto;
+  background: $dark-blue;
+  color: #FFF;
+}
+
 // team page in separate sass file
 @import '../css/team';
 
