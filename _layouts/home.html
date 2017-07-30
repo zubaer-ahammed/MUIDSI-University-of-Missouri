@@ -73,8 +73,17 @@
               {% assign sorted_publications = (site.publications | sort: 'year' %}
 	          {% for publication in sorted_publications reversed %}
 	          {% if publication.year > 2015 %}
-	          <li><div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div><div style="margin-bottom: 5px;">{{publication.journal-short}}, {{publication.year}}</div></li>
+            <li>
+              <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
+              <div style="margin-bottom: 5px;">
+              {% if publication.type == "thesis" %}
+                {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
+              {% else %}
+                {{publication.journal-short}}, {{publication.year}}
               {% endif %}
+              </div>
+            </li>
+            {% endif %}
 	          {% endfor %}
 	      </ul>  
 
