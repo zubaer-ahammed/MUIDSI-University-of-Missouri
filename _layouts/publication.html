@@ -243,3 +243,37 @@ layout: default
   <article class="publication-resources">
   </article>
 </div>
+
+<script>
+  // enable bibtex pre tag to select full range automatically
+  // http://www.satya-weblog.com/2013/11/javascript-select-all-content-html-element.html
+  (function() {
+
+    // automatically select all text within an element
+    function selectText (element) {
+      var doc = document
+      var text = element
+      var range
+      var selection
+
+      if (doc.body.createTextRange) { //ms
+          range = doc.body.createTextRange()
+          range.moveToElementText(text)
+          range.select()
+
+      } else if (window.getSelection) { //all others
+          selection = window.getSelection()
+          range = doc.createRange()
+          range.selectNodeContents(text)
+          selection.removeAllRanges()
+          selection.addRange(range)
+      }
+    }
+
+    // add click-select-all functionality to bibtex tag
+    bibtex = document.querySelector('.bibtex')
+    bibtex.ondblclick = function() {
+      selectText(this)
+    }
+  })();
+</script>
