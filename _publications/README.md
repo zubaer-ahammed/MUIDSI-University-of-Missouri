@@ -8,7 +8,123 @@ the publication details, such as the volume, issue, and page numbers.
 
 
 
-## Keys and File Names
+## Steps to Adding a Publication
+
+1. Add a `*.md` file in this folder following the template below. Use a unique key, specified below, for your publication's filenames.
+2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/papers](../assets/images/papers] folder. [Read more about adding images here](../assets/images/README.md).
+3. Upload your publication video (if you have one) and your preview video to YouTube and create an entry in the [videos folder](../_videos) folder.
+4. Upload the following files to `/usr/sci/www/vdl/papers`:
+    - publication PDF (`KEY.pdf`) - *mandatory*
+    - thumbnail figure (`KEY.png`) - *mandatory*
+    - Supplementary Material PDF (`KEY_supplement.pdf`)
+    - full video (`KEY.mp4`)
+    - preview video (`KEY_preview.mp4`)
+
+
+
+## Publication Template
+
+Modify the template below for your publication. Feel free to leave entries
+blank if they are not needed. You can also remove comments or unused fields.
+Each publication _**must**_ specify a `title`, `authors`, `bibentry`, and `year`
+in order to render proper BibTeX output.
+
+
+``` yaml
+---
+layout: publication
+# Quotes make the : possible, otherwise you can type this without quotes
+title: "Pathfinder: Visual Analysis of Paths in Graphs"
+# Keys must be unique to each paper, see section below for more details
+key: 2016_eurovis_pathfinder
+# Select one of the options below
+type: paper | preprint | poster | thesis
+
+# Auto-generates titles and alt-descriptors
+shortname: Pathfinder
+# Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
+image: 2016_eurovis_pathfinder.png
+# Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
+image_large: 2016_eurovis_pathfinder_teaser.png
+
+# Authors in the "database" can be used with just their person "key"
+authors:
+- partl
+- gratzl
+- streit
+- Anne Mai Wassermann
+- pfister
+- schmalstieg
+- lex
+
+# Include a shortened name for the journal or conference/proceedings
+journal-short: CGF (EuroVis '16)
+year: 2016
+
+# Create BibTeX info, using one of the entry choices
+# Articles have a "journal", and inproceedings have a "booktitle"
+# Preprints are articles with the location of preprint mentioned in "journal"
+# You can remove fields you don't need, or else leave them blank
+# Try to include a DOI, or use the publisher URL below
+# Specify new BibTeX fields by adding a new key and value inside "bib:"
+bibentry: article | inproceedings | phdthesis | book
+bib:
+  journal: Computer Graphics Forum (EuroVis '16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1111/cgf.12883
+  url: 
+  volume: 35
+  number: 3
+  pages: 71--80
+  month: jun
+
+# Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
+award: EuroVis 2016 Honorable Mention Award
+
+# Provide a link to the publisher's webpage if no DOI is available
+publisherURL: 
+
+# Links to a project hosted on VDL, or else externally on your own site
+project: 
+external-project: https://pathfinder.caleydoapp.org/
+
+# Video entry and preview video
+video: 2016_eurovis_pathfinder_video
+preview-video: 2016_eurovis_pathfinder_video_preview
+
+# Provide a preprint and supplement pdf
+pdf: 2016_eurovis_pathfinder.pdf
+supplement: 2016_eurovis_pathfinder_supplement.pdf
+
+# Extra supplements, such as talk slides, data sets, etc.
+supplements:
+- name: Vials Conference Talk Slides
+  # Use link instead of abslink if you want to link to the master directory
+  abslink: http://vials.io/talk/
+  # Defaults to a download icon, use this if you want a link-out icon
+  linksym: true
+
+# Link to the repository where the code is hosted
+code: https://github.com/Caleydo/pathfinder/
+
+abstract: "<p>
+The analysis of paths in graphs....
+</p>"
+
+# After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
+---
+
+# Acknowledgements
+
+This work was co-funded by ....
+```
+
+
+
+## Keys and Filenames
 
 Each publication must have a unique key following this pattern:
 `YYYY_CONFSHORTNAME_PAPERSHORTNAME`
@@ -23,17 +139,11 @@ However, if there are multiple files of the same extension type, then the
 `2016_eurovis_pathfinder_supplement.pdf`.
 
 
-## Steps to Adding a Publication
-
-1. Add a `*.md` file in this folder following [this template](2016_eurovis_pathfinder.md).
-2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/papers](../assets/images/papers] folder. [Read more about adding images here](../assets/images/README.md).
-3. Upload you publication video (if you have one) and your preview video to YouTube and create an entry in the [videos folder](../_videos) folder.
-4. Upload the following files to `/usr/sci/www/vdl/papers`:
-    - publication PDF (`KEY.pdf`) - *mandatory*
-    - thumbnail figure (`KEY.png`) - *mandatory*
-    - Supplementary Material PDF (`KEY_supplement.pdf`)
-    - full video (`KEY.mp4`)
-    - preview video (`KEY_preview.mp4`)
+_NOTE:_ We currently require you to re-type this key when specifying your files
+and images. See the template for an example. In the future, we could remove
+this if all publications follow the keys exactly. We would need to specify to
+Jekyll/Liquid when it should look for such a file/image, though, perhaps using
+the file extension or even just a simple period/dot or true/y would work.
 
 
 
