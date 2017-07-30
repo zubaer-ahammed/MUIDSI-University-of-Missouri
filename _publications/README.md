@@ -42,9 +42,9 @@ type: paper | preprint | poster | thesis
 
 # Auto-generates titles and alt-descriptors
 shortname: Pathfinder
-# Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
+# Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
 image: 2016_eurovis_pathfinder.png
-# Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
+# Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
 image_large: 2016_eurovis_pathfinder_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
