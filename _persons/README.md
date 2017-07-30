@@ -71,7 +71,7 @@ All active members of VDL should add a headshot. Please following the
 
 ## Creating a Collaborator Profile
 
-Use "`role: collaborator`" for collaborators on papers. Please note that this is
-not strictly necessary. You can just type the person's full name in the author
-list, but it might be useful if you're collaborating with a person a lot.
+Use "`role: collaborator`" for collaborators on publications. Please note that
+this is not strictly necessary. You can just type the person's full name in the
+author list, but it might be useful if you're collaborating with a person a lot.
 

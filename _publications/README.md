@@ -11,7 +11,7 @@ the publication details, such as the volume, issue, and page numbers.
 ## Steps to Adding a Publication
 
 1. Add a `*.md` file in this folder following the template below. Use a unique key, specified below, for your publication's filenames.
-2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/papers](../assets/images/papers] folder. [Read more about adding images here](../assets/images/README.md).
+2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/publications](../assets/images/publications] folder. [Read more about adding images here](../assets/images/README.md).
 3. Upload your publication video (if you have one) and your preview video to YouTube and create an entry in the [videos folder](../_videos) folder.
 4. Upload the following files to `/usr/sci/www/vdl/papers`:
     - publication PDF (`KEY.pdf`) - *mandatory*
