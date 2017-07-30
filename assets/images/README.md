@@ -8,11 +8,11 @@ on the SCI webserver, **NOT** on GitHub.
 
 ## Image Compression
 
-We recommend using [Optimizilla](http://optimizilla.com/) for your images, since
-it has a quality slider to shrink down your image size. If you have Adobe
+We recommend using [TinyPNG](https://tinypng.com/) for your images, since it
+produces small, quality images for both JPG and PNG. If you have Adobe
 Photoshop, there is a function to
 [export to web](http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html).
-Other useful compression sites are [tinypng](https://tinypng.com/) and
+Other useful compression sites are [Optimizilla](http://optimizilla.com/) and
 [jpeg.io](https://www.jpeg.io/).
 
 
