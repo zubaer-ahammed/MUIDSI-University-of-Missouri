@@ -1,7 +1,7 @@
 <div class="paper-list-block">
 	<a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
                                                            class="paper-image-small"
-                                                           src="{{ site.baseurl }}/assets/images/papers/{{ publication.image }}"></a>
+                                                           src="{{ site.baseurl }}/assets/images/publications/{{ publication.image }}"></a>
     <p class="pubs">
         {% for author in publication.authors %}
         {% assign known = false %}
@@ -25,8 +25,18 @@
         <span class="paper-title"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></span><br/>
         {% if publication.type == "thesis" %}
           {{ publication.institution }}, {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
+
         {% else %}
-          {{ publication.journal }}, {{ publication.year }}
+          {% assign published-where = '' %}
+          {% if publication.bib.journal %}
+            {% assign published-where = publication.bib.journal %}
+          {% elsif publication.bib.booktitle %}
+            {% assign published-where = publication.bib.booktitle %}
+          {% elsif publication.bib.publisher %}
+            {% assign published-where = publication.bib.publisher %}
+          {% endif %}
+
+          {{ published-where }}, {{ publication.year }}
         {% endif %}
 
         {%if publication.award %}

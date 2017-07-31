@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "RhymeDesign: A Tool for Analyzing Sonic Devices in Poetry"
 key: 2015_clfl_rhyme-design
-permalink: /publications/2015_clfl_rhyme-design/
 type: paper
 
 # The shortname is used for auto-generated titels
@@ -17,15 +16,18 @@ authors:
 - Vivek Srikumar
 - meyer
 
-journal: Proceedings of the Workshop on Computational Linguistics for Literature, NAACL HLT
 journal-short: Computational Linguistics for Literature
 year: 2015
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the Workshop on Computational Linguistics for Literature, NAACL HLT
+  url: http://www.aclweb.org/anthology/W15-0702
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
 
-doi: 
-# The publisher URL - use only if no doi is available
-publisher: http://www.aclweb.org/anthology/W15-0702
+publisherURL: http://www.aclweb.org/anthology/W15-0702
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
@@ -53,8 +55,6 @@ supplement:
 
 # Link to the repository where the code is hostet
 code: 
-
-bibtex: 
 
 abstract: "
 <p>The analysis of sound and sonic devices in poetry is the focus of much poetic scholarship, and poetry scholars are becoming increasingly interested in the role that computation might play in their research. Since the nature of such sonic analysis is unique, the associated tasks are not supported by standard text analysis techniques. We introduce a formalism for analyzing sonic devices in poetry. In addition, we present RhymeDesign, an open-source implementation of our formalism, through which poets and poetry scholars can explore their individual notion of rhyme.</p>"

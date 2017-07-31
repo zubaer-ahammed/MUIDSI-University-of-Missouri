@@ -2,7 +2,6 @@
 layout: publication
 title: Unlocking User-Centered Design Methods for Building Cyber Security Visualizations
 key: 2015_vizsec_design-methods
-permalink: /publications/2015_vizsec_design-methods/
 type: paper
 
 shortname: Design Methods for Cyber Security
@@ -14,9 +13,12 @@ authors:
 - Diane Staheli
 - meyer
 
-journal: Proceedings of the 12th International Symposium on Visualization for Cyber Security (VIS ’15)
 journal-short: VizSec '15
 year: 2015
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the 12th International Symposium on Visualization for Cyber Security (VIS ’15)
 
 external-project: http://mckennapsean.com/projects/vizsec-design-methods/
 

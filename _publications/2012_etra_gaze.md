@@ -2,7 +2,6 @@
 layout: publication
 title: "Aggregate Gaze Visualization with Real-time Heatmaps"
 key: 2012_etra_gaze
-permalink: /publications/2012_etra_gaze/
 type: paper
 
 
@@ -15,12 +14,15 @@ authors:
 - meyer
 - Pilar Orero
 
-journal: "Proceedings of the ACM Symposium on Eye Tracking Research & Applications (ETRA)"
 year: 2012
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the ACM Symposium on Eye Tracking Research & Applications (ETRA)
+
 note: 
 
 pdf: 2012_etra_gaze.pdf
-bibtex:
 supplements:
 
 

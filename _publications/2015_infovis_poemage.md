@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Poemage: Visualizing the Sonic Topology of a Poem"
 key: 2015_infovis_poemage
-permalink: /publications/2015_infovis_poemage/
 type: paper
 
 # The shortname is used for auto-generated titels
@@ -18,15 +17,19 @@ authors:
 - Katharine Coles
 - meyer
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15), vol. 22, no. 1, pp. 439-448
 journal-short: TVCG (InfoVis '15)
 year: 2016
+
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15)
+  doi: 10.1109/TVCG.2015.2467811
+  volume: 22
+  number: 1
+  pages: 439--448
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
-
-doi: 10.1109/TVCG.2015.2467811
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
@@ -54,8 +57,6 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: 
-
-bibtex: 
 
 abstract: "
 <p>The digital humanities have experienced tremendous growth within the last decade, mostly in the context of developing computational tools that support what is called distant reading — collecting and analyzing huge amounts of textual data for synoptic evaluation. On the other end of the spectrum is a practice at the heart of the traditional humanities, close reading — the careful, in-depth analysis of a single text in order to extract, engage, and even generate as much productive meaning as possible. The true value of computation to close reading is still very much an open question. During a two-year design study, we explored this question with several poetry scholars, focusing on an investigation of sound and linguistic devices in poetry. The contributions of our design study include a problem characterization and data abstraction of the use of sound in poetry as well as Poemage, a visualization tool for interactively exploring the sonic topology of a poem. The design of Poemage is grounded in the evaluation of a series of technology probes we deployed to our poetry collaborators, and we validate the final design with several case studies that illustrate the disruptive impact technology can have on poetry scholarship. Finally, we also contribute a reflection on the challenges we faced conducting visualization research in literary studies.</p>"

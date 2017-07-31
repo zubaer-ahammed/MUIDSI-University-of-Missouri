@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "How Sensemaking Tools Influence Display Space Usage"
 key: 2017_eurova_display-space
-permalink: /publications/2017_eurova_display-space/
 type: paper
 
 # The shortname is used for auto-generated titles
@@ -20,15 +19,15 @@ authors:
 - lex
 - Dieter Schmalstieg
 
-journal: EuroVis Workshop on Visual Analytics (EuroVA '17), to appear
 journal-short: EuroVA '17
 year: 2017
+
+bibentry: inproceedings
+bib:
+  booktitle: EuroVis Workshop on Visual Analytics (EuroVA '17), to appear
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award
-
-doi:
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
@@ -56,8 +55,6 @@ supplements:
 
 # Link to the repository where the code is hostet
 #code: https://github.com/visdesignlab/graffinity
-
-bibtex: 2017_eurova_display-space.bib
 
 abstract: "
 <p>We explore how the availability of a sensemaking tool influences users' knowledge externalization strategies. On a large display, users were asked to solve an intelligence analysis task with or without a bidirectionally linked concept-graph (BLC) to organize insights into concepts (nodes) and relations (edges). In BLC, both nodes and edges maintain 'deep links' to the exact source phrases and sections in associated documents. In our control condition, we were able to reproduce previously described spatial organization behaviors using document windows on the large display. When using BLC, however, we found that analysts apply spatial organization to BLC nodes instead, use significantly less display space and have significantly fewer open windows.</p>"

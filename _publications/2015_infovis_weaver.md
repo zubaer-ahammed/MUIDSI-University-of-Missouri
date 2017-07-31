@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Visually Comparing Weather Features in Forecasts"
 key: 2015_infovis_weaver
-permalink: /publications/2015_infovis_weaver/
 type: paper
 
 # The shortname is used for auto-generated titels
@@ -18,15 +17,20 @@ authors:
 - quinan
 - meyer
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15), vol. 22, no. 1, pp. 389-398
 journal-short: TVCG (InfoVis '15)
 year: 2016
+
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’15)
+  doi: 10.1109/TVCG.2015.2467754
+  volume: 22
+  number: 1
+  pages: 389--398
+  month: jan
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions" 
 award:
-
-doi: 10.1109/TVCG.2015.2467754
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
@@ -54,8 +58,6 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: https://github.com/samquinan/WeaVER
-
-bibtex: 2015_infovis_weaver.bib
 
 abstract: "
 <p>Meteorologists process and analyze weather forecasts using visualization in order to examine the behaviors of and relationships among weather features. In this design study conducted with meteorologists in decision support roles, we identified and attempted to address two significant common challenges in weather visualization: the employment of inconsistent and often ineffective visual encoding practices across a wide range of visualizations, and a lack of support for directly visualizing how different weather features relate across an ensemble of possible forecast outcomes. In this work, we present a characterization of the problems and data associated with meteorological forecasting, we propose a set of informed default encoding choices that integrate existing meteorological conventions with effective visualization practice, and we extend a set of techniques as an initial step toward directly visualizing the interactions of multiple features over an ensemble forecast. We discuss the integration of these contributions into a functional prototype tool, and also reflect on the many practical challenges that arise when working with weather data.</p>"

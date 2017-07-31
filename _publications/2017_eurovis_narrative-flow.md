@@ -2,7 +2,6 @@
 layout: publication
 title: "Visual Narrative Flow: Exploring Factors Shaping Data Visualization Story Reading Experiences"
 key: 2017_eurovis_narrative-flow
-permalink: /publications/2017_eurovis_narrative-flow/
 type: paper
 
 shortname: narrative-flow
@@ -16,17 +15,22 @@ authors:
 - Jeremy Boy
 - meyer
 
-journal: Computer Graphics Forum (EuroVis '17), vol. 36, no. 3
 journal-short: CGF (EuroVis '17)
 year: 2017
 
-# doi:
+bibentry: article
+bib:
+  journal: Computer Graphics Forum (EuroVis '17)
+  doi: 
+  url: 
+  volume: 36
+  number: 3
+  pages: 
 
 external-project: http://mckennapsean.com/projects/narrative-flow/
 
 pdf: 2017_eurovis_narrative-flow.pdf
 code: https://github.com/narrative-flow/narrative-flow.github.io
-bibtex: 2017_eurovis_narrative-flow.bib
 
 supplements:
 - name: Supplemental Materials

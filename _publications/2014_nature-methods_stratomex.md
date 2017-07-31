@@ -2,7 +2,6 @@
 layout: publication
 title: "Guided Visual Exploration of Genomic Stratifications in Cancer"
 key: 2014_nature-methods_stratomex
-permalink: /publications/2014_nature-methods_stratomex/
 redirect_from: /publications/2014_nm_stratomex/
 type: paper
 
@@ -20,14 +19,19 @@ authors:
 - Peter Park
 - gehlenborg
 
-journal: Nature Methods, 11, pp. 884–885
 year: 2014
+
+bibentry: article
+bib:
+  journal: Nature Methods
+  doi: 10.1038/nmeth.3088
+  url: http://www.nature.com/nmeth/journal/v11/n9/full/nmeth.3088.html
+  volume: 11
+  number: 9
+  pages: 884--885
+  month: sep
+
 award:
-
-doi: 10.1038/nmeth.3088
-# use publisher only if no doi is available
-publisher:
-
 
 external-project: http://caleydo.org/tools/stratomex/
 
@@ -50,8 +54,6 @@ supplements:
 - 
   name: mutation rates (TXT)
   link: 2014_nature-methods_stratomex_mutated.txt
-
-bibtex: 2014_nature-methods_stratomex.bib
 
 abstract: "
 <p>Cancer is a heterogeneous disease, and molecular profiling of tumors from large cohorts has enabled characterization of new tumor subtypes. This is a prerequisite for improving personalized treatment and ultimately achieving better patient outcomes. Potential tumor subtypes can be identified with methods such as unsupervised clustering or network-based stratification, which assign patients to sets based on high-dimensional molecular profiles. Detailed characterization of identified sets and their interpretation, however, remain a time-consuming exploratory process.

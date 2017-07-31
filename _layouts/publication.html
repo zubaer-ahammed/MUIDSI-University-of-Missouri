@@ -13,6 +13,7 @@ layout: default
     <div class="citation">
       <p>
 
+        {% assign bibauthors = '' %}
         {% for author in page.authors %}
 
         {% assign known = false %}
@@ -20,12 +21,23 @@ layout: default
         {% if author == person.key %}
         <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != page.authors.last%}, {% endif %}
 
+        {% if author == page.authors.first %}
+          {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
+        {% else %}
+          {% assign bibauthors = bibauthors | append: ' and ' | append: person.first_name | append: ' ' | append: person.last_name %}
+        {% endif %}
+
         {% assign known = true %}
         {% endif %}
         {% endfor %}
 
         {% if known == false %}
         {{ author }}{% if author != page.authors.last%}, {% endif %}
+        {% if author == page.authors.first %}
+          {% assign bibauthors = author %}
+        {% else %}
+          {% assign bibauthors = bibauthors | append: ' and ' | append: author %}
+        {% endif %}
         {% endif %}
 
         {% endfor %}
@@ -44,8 +56,18 @@ layout: default
         <span class="paper-citation">
         {% if page.type == "thesis" %}
           {{ page.institution }}, {{ page.thesis_type }}, {{ page.month }} {{ page.year }}.
+
         {% else %}
-          {{ page.journal }}, {% if page.doi %} <a href="http://dx.doi.org/{{ page.doi }}">doi:{{ page.doi }}</a>, {%endif%}{{ page.year }}.
+          {% assign published-where = '' %}
+          {% if page.bib.journal %}
+            {% assign published-where = page.bib.journal %}
+          {% elsif page.bib.booktitle %}
+            {% assign published-where = page.bib.booktitle %}
+          {% elsif page.bib.publisher %}
+            {% assign published-where = page.bib.publisher %}
+          {% endif %}
+
+          {{ published-where }}, {% if page.bib.doi %} <a href="http://dx.doi.org/{{ page.bib.doi }}">doi:{{ page.bib.doi }}</a>, {%endif%}{{ page.year }}.
         {% endif %}
         </span>
 
@@ -62,11 +84,17 @@ layout: default
       </p>
       {% endif %}
 
-      {%if page.bibtex %}
-      <p>
-        <i class="fa fa-file"></i>&nbsp; <a href="{{site.paper_content_url}}{{ page.bibtex }}">BibTeX</a>
-      </p>
-      {% endif %}
+      <h1>BibTeX</h1>
+{% capture newLine %}
+{% endcapture %}
+      <!-- here replacing the curly brackets with html special characters. { is &#123; ; } is &#125; -->
+<pre class="bibtex">
+@{{ page.bibentry }}&#123;{{ page.key }},
+  title = &#123;{{ page.title }}&#125;,
+  author = &#123;{{ bibauthors }}&#125;,
+{% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = &#123;{{ bibItem[1] }}&#125;,{{ newLine }}{% endif %}{% endfor %}  year = &#123;{{ page.year }}&#125;
+}
+</pre>
     </div>
 
     <!-- main markdown content -->
@@ -74,7 +102,7 @@ layout: default
   </article>
 
   <article class="publication-content-aside">
-	<img id="publication-image" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/papers/{{ page.image }}">
+	<img id="publication-image" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image }}">
     {% if page.project %}
     <h1>Software</h1>
     <ul class="project-icon-list">
@@ -98,13 +126,13 @@ layout: default
 
     <h1>Resources</h1>
     <ul>
-    {% if page.doi %}
+    {% if page.bib.doi %}
     <li>
-      <i class="fa fa-globe"></i> &nbsp;<a href="http://dx.doi.org/{{ page.doi }}">Publisher</a>
+      <i class="fa fa-globe"></i> &nbsp;<a href="http://dx.doi.org/{{ page.bib.doi }}">Publisher</a>
     </li>
-    {% elsif page.publisher %}
+    {% elsif page.publisherURL %}
     <li>
-      <i class="fa fa-globe"></i> &nbsp;<a href="{{page.publisher}}">Publisher</a>
+      <i class="fa fa-globe"></i> &nbsp;<a href="{{page.publisherURL}}">Publisher</a>
     </li>
     {% endif %}
 
@@ -216,3 +244,37 @@ layout: default
   <article class="publication-resources">
   </article>
 </div>
+
+<script>
+  // enable bibtex pre tag to select full range automatically
+  // http://www.satya-weblog.com/2013/11/javascript-select-all-content-html-element.html
+  (function() {
+
+    // automatically select all text within an element
+    function selectText (element) {
+      var doc = document
+      var text = element
+      var range
+      var selection
+
+      if (doc.body.createTextRange) { //ms
+          range = doc.body.createTextRange()
+          range.moveToElementText(text)
+          range.select()
+
+      } else if (window.getSelection) { //all others
+          selection = window.getSelection()
+          range = doc.createRange()
+          range.selectNodeContents(text)
+          selection.removeAllRanges()
+          selection.addRange(range)
+      }
+    }
+
+    // add click-select-all functionality to bibtex tag
+    bibtex = document.querySelector('.bibtex')
+    bibtex.ondblclick = function() {
+      selectText(this)
+    }
+  })();
+</script>

@@ -28,7 +28,7 @@ situations.
 
 The image should be named `YYYY_CONFSHORTNAME_PAPERSHORTNAME.png` for the
 thumbnail and `YYYY_CONFSHORTNAME_PAPERSHORTNAME_teaser.png` for the larger
-teaser figure.
+teaser figure. Both should be stored in the `images/publications/` directory.
 
 
 The aspect ratio for both should be 2:1. The teaser should be roughly 1200x600

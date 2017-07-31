@@ -3,7 +3,6 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Reflections on How Designers Design With Data"
 key: 2014_avi_reflections
-permalink: /publications/2014_avi_reflections/
 type: paper
 
 # The shortname is used for auto-generated titels
@@ -18,14 +17,17 @@ authors:
 - Danyel Fisher
 - meyer
 
-journal: AVI 2014 International Working Conference on Advanced Visual Interfaces (AVI ’14)
 year: 2014
+
+bibentry: inproceedings
+bib:
+  booktitle: AVI 2014 International Working Conference on Advanced Visual Interfaces (AVI ’14)
+  publisher: ACM
+  doi: 10.1145/2598153.2598175
+  pages: 17--24
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: AVI 2014 Best Paper Award
-
-doi: 10.1145/2598153.2598175
-# The publisher URL - use only if no doi is available
-publisher:
 
 pdf: 2014_avi_reflections.pdf
 
@@ -36,8 +38,6 @@ supplements:
   link: 2014_avi_reflections_slides.pdf
 - name: Artifacts
   link: 2014_avi_reflections_supplement.zip
-
-bibtex: 2014_avi_reflections.bib
 
 abstract: "
 <p>In recent years many popular data visualizations have emerged

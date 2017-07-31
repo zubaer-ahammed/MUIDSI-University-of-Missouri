@@ -2,7 +2,6 @@
 layout: publication
 title: "compariSeq: Rethinking Sequence Logos"
 key: 2013_biovis_compariseq
-permalink: /publications/2013_biovis_compariseq/
 type: poster
 
 
@@ -14,12 +13,14 @@ authors:
 - quinan
 - bigelow
 
-journal: Proceedings of the IEEE Symposium on Biological Data Visualization (BioVis ’13)
 year: 2013
 note: BioVis Redesign Contest submission
 
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the IEEE Symposium on Biological Data Visualization - Redesign Contest Poster (BioVis ’13)
+
 pdf: 2013_biovis_compariseq.pdf
-bibtex: 2013_biovis_compariseq.bib
 code: "https://github.com/visdesignlab/compariSeq"
 supplements:
 - name: Poster

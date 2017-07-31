@@ -2,7 +2,6 @@
 layout: publication
 title: "s-CorrPlot: Encoding and Exploring Correlation"
 key: 2014_infovis_s-corrplot
-permalink: /publications/2014_infovis_s-corrplot/
 type: poster
 
 shortname: s-CorrPlot poster
@@ -14,8 +13,11 @@ authors:
 - Christopher Gregg
 - Samuel Gerber
 
-journal: Proceedings of the IEEE Information Visualization Conference (InfoVis ’14)
 year: 2014
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’14)
 
 external-project: http://mckennapsean.com/projects/s-corrplot/
 

@@ -17,8 +17,12 @@ award: Best Dissertation Award, awarded by "Forum Technology and Society", Graz 
 institution: Graz University of Technology
 thesis_type: PhD Thesis
 
+bibentry: phdthesis
+bib:
+  school: Graz University of Technology
+  month: March
+
 pdf: 2012_phd_thesis_lex.pdf
-bibtex:
 
 abstract: "
 <p>Visualization is important when analyzing multidimensional datasets, since it can help humans discover and understand complex relationships in data. Whereas analyzing large individual datasets is both important and difficult, many problems can only be solved when considering multiple datasets simultaneously. This dissertation introduces novel visualization techniques that can be employed for both, visualizing individual datasets and visualizing relationships among multiple datasets alike. The concept is based on stratifying (dividing) datasets into homogeneous subsets, which can then be visualized individually. The relationships lost due to the division are re-introduced by drawing visual links between the subsets. Conceptually it is irrelevant whether the subsets are from one or from multiple datasets, which makes a seamless integration of multiple, cross-referenced datasets possible. The subsets can be visualized in multiple forms. Multiform visualization gives users the freedom to choose the visualization technique most suitable for the data type, the degree of homogeneity, the level of detail, and the current task – for each of the subsets individually. The division of datasets also makes focus and context, as well as drill-down techniques straightforward to realize. A set of interaction techniques enable seamless transition from a global overview down to details on individual data items.</p>

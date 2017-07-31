@@ -2,7 +2,6 @@
 layout: publication
 title: "Show me the Invisible: Visualizing Hidden Content"
 key: 2014_chi_hidden-content
-permalink: /publications/2014_chi_hidden-content/
 type: paper
 
 shortname: Hidden-Content
@@ -15,14 +14,16 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’14), pp. 3705-3714
 year: 2014
+
+bibentry: inproceedings
+bib:
+  booktitle: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’14)
+  publisher: ACM Press
+  doi: 10.1145/2556288.2557032
+  pages: 3705--3714
+
 award: ACM CHI 2014 Honorable Mention Award
-
-doi: 10.1145/2556288.2557032
-# use publisher only if no doi is available
-publisher:
-
 
 project: linking
 external-project:
@@ -33,7 +34,6 @@ preview-video:
 
 pdf: 2014_chi_hidden-content.pdf
 supplement:
-bibtex: 2014_chi_hidden-content.bib
 
 abstract: "
 <p>Content on computer screens is often inaccessible to users because it is hidden, e.g., occluded by other windows, outside the viewport, or overlooked. In search tasks, the efficient retrieval of sought content is important. Current software, however, only provides limited support to visualize hidden occurrences and rarely supports search synchronization crossing application boundaries. To remedy this situation, we introduce two novel visualization methods to guide users to hidden content.
