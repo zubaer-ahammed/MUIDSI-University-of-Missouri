@@ -2,15 +2,16 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Interactive Visual Exploration And Refinement Of Cluster Assignments"
-key: 2017_preprint_clustering
-type: preprint
+key: 2017_bmc_clustering
+redirect_from: /publications/2017_preprint_clustering/
+type: paper
 
 # The shortname is used for auto-generated titels
 shortname: Interactive Clustering
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2017_preprint_clustering.png
+image: 2017_bmc_clustering.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2017_preprint_clustering_teaser.png
+image_large: 2017_bmc_clustering_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -19,12 +20,12 @@ authors:
 - gehlenborg
 - Chris R. Johnson
 
-journal-short: bioRxiv
+journal-short: BMC Bioinformatics 
 year: 2017
 
 bibentry: article
 bib:
-  journal: bioRxiv preprint
+  journal: BMC Bioinformatics (to appear)
   booktitle: 
   editor: 
   publisher: 
@@ -46,12 +47,12 @@ project:
 external-project: http://ec2-52-58-105-31.eu-central-1.compute.amazonaws.com/stratomex_clustering/
 
 # The reference to the video entry
-video: 2017_preprint_clustering_video
+video: 2017_bmc_clustering_video
 # The reference to the preview viedo entry
 #preview-video:
 
 # the prerint
-pdf: 2017_preprint_clustering.pdf
+pdf: 2017_bmc_clustering.pdf
 # A supplement PDF
 #supplement:
 
