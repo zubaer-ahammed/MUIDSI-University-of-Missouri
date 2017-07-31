@@ -6,7 +6,7 @@ key: anirudh
 permalink: /persons/anirudh/
 role: Masters student
 email: anirudhnmurthy@gmail.com
-image: /assets/images/team/anirudh.png
+image: /assets/images/people/anirudh.png
 organization: University of Utah
 position: Developer on PatientFlow project (Independent Study) 
 website: 

@@ -6,7 +6,7 @@ key: zygmunt
 permalink: /persons/zygmunt/
 role: phdstudent
 email: krismz@sci.utah.edu
-image: /assets/images/team/zygmunt.jpg
+image: /assets/images/people/zygmunt.jpg
 organization: University of Utah
 position: Software Engineer, PhD Student
 website:

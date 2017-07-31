@@ -6,7 +6,7 @@ key: mckenna
 permalink: /persons/mckenna/
 role: phdstudent
 email: sean@cs.utah.edu
-image: /assets/images/team/mckenna.jpg
+image: /assets/images/people/mckenna.jpg
 organization: University of Utah
 position: PhD Student
 website: http://mckennapsean.com

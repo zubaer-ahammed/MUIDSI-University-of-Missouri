@@ -7,7 +7,7 @@ permalink:
 # Pick one of the following
 role:  phd_rotation
 email: u1078078@utah.edu
-image: /assets/images/team/Han.jpg
+image: /assets/images/people/Han.jpg
 organization: University of Utah
 position: 
 website: 

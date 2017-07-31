@@ -6,7 +6,7 @@ key: schwarzl
 permalink: /persons/schwarzl/
 role: msstudent
 email: u1077299@utah.edu
-image: /assets/images/team/schwarzl.jpg
+image: /assets/images/people/schwarzl.jpg
 organization: University of Utah
 position: Master Student
 website: 

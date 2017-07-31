@@ -6,7 +6,7 @@ key: cherkaev
 permalink: /persons/cherkaev/
 role: phd_rotation
 email: acherk@cs.utah.edu
-image: /assets/images/team/cherkaev.jpg
+image: /assets/images/people/cherkaev.jpg
 organization: University of Utah
 position: PhD Student
 website: http://anniecherkaev.com/

@@ -6,7 +6,7 @@ key: gratzl
 permalink: /persons/gratzl/
 role: collaborator
 email: samuel.gratzl@jku.at
-image: /assets/images/team/gratzl.jpg
+image: /assets/images/people/gratzl.jpg
 organization: Johannes Kepler University Linz
 position: PhD Student
 website: http://sgratzl.github.io

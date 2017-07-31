@@ -6,7 +6,7 @@ key: kerzner
 permalink: /persons/kerzner
 role: phdstudent
 email: ethan.kerzner@gmail.com
-image: /assets/images/team/kerzner.jpg
+image: /assets/images/people/kerzner.jpg
 organization: University of Utah
 position: PhD Student
 interests: Visualization for Scientists and Engineers

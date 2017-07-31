@@ -7,7 +7,7 @@ key: moore
 permalink: /team/moore/
 role: phdstudent
 email: jimmy@cs.utah.edu
-image: /assets/images/team/moore.jpg
+image: /assets/images/people/moore.jpg
 organization: University of Utah
 position: PhD Student
 website: /team/moore

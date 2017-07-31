@@ -6,7 +6,7 @@ key: nobre
 permalink: /team/nobre/
 role: phdstudent
 email: cnobre@sci.utah.edu
-image: /assets/images/team/nobre.jpg
+image: /assets/images/people/nobre.jpg
 organization: University of Utah
 position: PhD Student
 website: /team/nobre

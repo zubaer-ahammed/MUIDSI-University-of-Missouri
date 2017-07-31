@@ -6,7 +6,7 @@ key: kern
 permalink: /persons/kern/
 role: msstudent
 email: kernm@in.tum.de
-image: /assets/images/team/kern.jpg
+image: /assets/images/people/kern.jpg
 organization: Technical University of Munich
 position: Master Student
 website:

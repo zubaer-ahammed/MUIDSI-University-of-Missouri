@@ -6,7 +6,7 @@ key: mccurdy
 permalink: /persons/mccurdy/
 role: phdstudent
 email: nina@cs.utah.edu
-image: /assets/images/team/mccurdy.jpg
+image: /assets/images/people/mccurdy.jpg
 organization: University of Utah
 position: PhD Student
 website: http://ninamccurdy.com
