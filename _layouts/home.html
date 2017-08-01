@@ -70,7 +70,7 @@
 	  <h1>Recent Publications</h1>
 	  	  
 	      <ul class="publication-icon-list">
-              {% assign sorted_publications = (site.publications | sort: 'year' %}
+              {% assign sorted_publications = site.publications | sort: 'year' %}
 	          {% for publication in sorted_publications reversed %}
 	          {% if publication.year > 2015 %}
             <li>
