@@ -38,7 +38,7 @@ title: "Pathfinder: Visual Analysis of Paths in Graphs"
 # Keys must be unique to each paper, see section below for more details
 key: 2016_eurovis_pathfinder
 # Select one of the options below
-type: paper | preprint | poster | thesis
+type: paper | preprint | poster | thesis | commentary
 
 # Auto-generates titles and alt-descriptors
 shortname: Pathfinder
