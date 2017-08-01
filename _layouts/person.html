@@ -23,6 +23,38 @@ layout: default
 {% endif %}
 {% endfor %}
 
+{% for publication in site.publications reversed %}
+{% if publication.type == "commentary" %}
+{% for author in publication.authors %}
+{% if author == page.key %}
+{% assign hascommentary = 'true' %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% for publication in site.publications reversed %}
+{% if publication.type == "thesis" %}
+{% for author in publication.authors %}
+{% if author == page.key %}
+{% assign hasthesis = 'true' %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+
+{% for publication in site.publications reversed %}
+{% if publication.type == "poster" %}
+{% for author in publication.authors %}
+{% if author == page.key %}
+{% assign hasposter = 'true' %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+
 {% for talk in site.talks reversed %}
 {% if talk.speaker == page.key %}
 {% assign hastalks = 'true' %}
@@ -108,7 +140,7 @@ layout: default
 
 <article  class="publication-content">
 
-    {% if haspublications == "true" or haspreprints == "true" %}
+    {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
     <h2 id="publications">Publications</h2>
 
     {% if haspreprints == "true" %}
@@ -128,6 +160,45 @@ layout: default
     <h3>Peer-reviewed Journal and Conference Publications</h3>
     {% for publication in site.publications reversed %}
     {% if publication.type == "paper" %}
+    {% for author in publication.authors %}
+    {% if author == page.key %}
+    {% include publication_list_entry.html %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% if hascommentary == "true" %}
+    <h3>Commentary</h3>
+    {% for publication in site.publications reversed %}
+    {% if publication.type == "commentary" %}
+    {% for author in publication.authors %}
+    {% if author == page.key %}
+    {% include publication_list_entry.html %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% if hasthesis == "true" %}
+    <h3>Thesis</h3>
+    {% for publication in site.publications reversed %}
+    {% if publication.type == "thesis" %}
+    {% for author in publication.authors %}
+    {% if author == page.key %}
+    {% include publication_list_entry.html %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% if hasposter == "true" %}
+    <h3>Thesis</h3>
+    {% for publication in site.publications reversed %}
+    {% if publication.type == "poster" %}
     {% for author in publication.authors %}
     {% if author == page.key %}
     {% include publication_list_entry.html %}
