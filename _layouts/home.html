@@ -14,7 +14,7 @@
     {
     "title"    : "{{ publication.title }}",
     "shortname" : "{{ publication.shortname }}",
-    "url"      : "{{ publication.permalink }}",
+    "url"      : "{{ publication.url }}",
     "image_large"     : "{{ publication.image_large }}",
     }
     {% endif %}
@@ -23,7 +23,7 @@
     ]
     {% endcapture %}
     <script>
-    var publications = {{ publications | strip_newlines }}
+    var publications = {{ publications }}
     </script>
 </head>
 
