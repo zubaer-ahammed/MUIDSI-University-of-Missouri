@@ -32,15 +32,15 @@ phd_students:
  - Christian Partl (co-advised with Dieter Schmalstieg)
 
 phd_rotation_students:
- - aljuhani
- - cherkaev
  - mehrpour
- - mengjiao
  
 ms_students:
  - Pranav Dommata
 
 former_students:
+ - mengjiao
+ - aljuhani
+ - cherkaev
  - anirudh
  - kern
  - murali
