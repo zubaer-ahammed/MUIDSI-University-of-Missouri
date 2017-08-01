@@ -15,7 +15,7 @@ use_analytics: true
 
 paper_content_url: http://sci.utah.edu/~vdl/papers/
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 # Build settings
