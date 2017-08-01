@@ -27,9 +27,9 @@ year: 2017
 
 bibentry: article
 bib:
-  journal: Bioinformatics btx364
+  journal: Bioinformatics 
   doi: 10.1093/bioinformatics/btx364
-  volume: 
+  volume: btx364
   number: 
   pages: 
 

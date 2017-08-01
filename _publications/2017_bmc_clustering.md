@@ -25,7 +25,7 @@ year: 2017
 
 bibentry: article
 bib:
-  journal: BMC Bioinformatics (to appear)
+  journal: BMC Bioinformatics, to appear
   booktitle: 
   editor: 
   publisher: 

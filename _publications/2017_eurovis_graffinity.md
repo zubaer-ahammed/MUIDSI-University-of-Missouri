@@ -27,7 +27,7 @@ year: 2017
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '17) (to appear)
+  journal: Computer Graphics Forum (EuroVis '17), to appear
   doi: 
   url: 
   volume: 36
