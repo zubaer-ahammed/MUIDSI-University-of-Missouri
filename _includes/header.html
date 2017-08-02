@@ -11,11 +11,18 @@
       {% for nav in navButtons %}
         {% assign navURL = nav %}
         {% assign pageURL = page.url %}
+        {% assign pageURLSplit = page.url | split: "/" %}
         {% if nav == "home" %}
           {% assign navURL = "" %}
         {% endif %}
         
-        {% if pageURL == navURL %}
+        {% if pageURLSplit[1] == navURL %}
+          <li class="{{ nav }}-button">
+            <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+
+        {% elsif navURL == "" and pageURL == "/" %}
           <li class="{{ nav }}-button">
             <a class="active" href="{{ site.baseurl }}/{{ navURL }}">
             <span class="nav-text">{{ nav | upcase }}</span></a>
