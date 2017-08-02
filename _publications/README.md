@@ -39,6 +39,8 @@ title: "Pathfinder: Visual Analysis of Paths in Graphs"
 key: 2016_eurovis_pathfinder
 # Select one of the options below
 type: paper | preprint | poster | thesis | commentary
+# Uncomment the line below for publications which should only appear on a personal webpage
+# personal: y
 
 # Auto-generates titles and alt-descriptors
 shortname: Pathfinder
