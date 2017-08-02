@@ -84,7 +84,7 @@
       @include span-columns(4)
     }
   }
-  &.selected {
+  &.selected, &.highlighted {
     border: 2px solid $team-color;
     background: #EEE;
   }
@@ -128,7 +128,7 @@
   &.color3 {
     border-color: #E66558;
   }
-  &.selected {
+  &.selected, &.highlighted {
     border-width: 7px;
   }
 }
@@ -160,7 +160,7 @@
   &.offset0 {
     margin-bottom: 75px;
   }
-  &.selected {
+  &.selected, &.highlighted {
     width: 80px;
     height: 80px;
     border-width: 10px;
