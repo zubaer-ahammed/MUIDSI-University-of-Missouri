@@ -3,7 +3,7 @@
 {% for person in site.persons %}
 {% if person.graduated %}
 {% elsif person.role == "faculty" %}
-  <a href="{{ person.website }}">
+  <a href="#{{ person.key }}">
   {% if person.image %}
     <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" title="{{ person.first_name }} {{ person.last_name }}" src="{{ site.baseurl }}{{ person.image }}">
   {% else %}
@@ -12,7 +12,7 @@
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "phd_rotation" or person.role == "msstudent" or person.role == "undergrad" %}
-  <a href="{{ person.website }}">
+  <a href="#{{ person.key }}">
   {% if person.image %}
     <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" title="{{ person.first_name }} {{ person.last_name }}" src="{{ site.baseurl }}{{ person.image }}">
   {% else %}

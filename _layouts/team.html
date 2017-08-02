@@ -69,7 +69,7 @@ layout: default
       
       <p class="space-alumni">&nbsp;</p>
       <h1>Alumni</h1>
-      <p class="person-list-block">
+      <p class="person-list-block" id="{{ person.key }}">
       {% for p in site.persons %}
         {% if p.graduated %}
         {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
