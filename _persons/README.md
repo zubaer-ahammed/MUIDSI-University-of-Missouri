@@ -23,7 +23,7 @@ last_name: Lex
 key: lex
 permalink: /team/lex/
 # Pick one of the following
-role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | collaborator
+role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | intern | collaborator
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg
 organization: University of Utah
