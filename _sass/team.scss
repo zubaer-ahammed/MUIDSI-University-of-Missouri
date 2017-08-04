@@ -129,7 +129,7 @@
     border-color: #E66558;
   }
   &.selected, &.highlighted {
-    border-width: 7px;
+    box-shadow: 0 0 0 8px $team-color;
   }
 }
 
@@ -159,10 +159,5 @@
   margin-bottom: 25px;
   &.offset0 {
     margin-bottom: 75px;
-  }
-  &.selected, &.highlighted {
-    width: 80px;
-    height: 80px;
-    border-width: 10px;
   }
 }
