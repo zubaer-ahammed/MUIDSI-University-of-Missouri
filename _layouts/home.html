@@ -10,15 +10,16 @@
     [
     {% for publication in site.publications %}
 
-    {% if publication.image_large %}
+    {% if publication.personal %}
+    {% elsif publication.image_large %}
     {
     "title"    : "{{ publication.title }}",
     "shortname" : "{{ publication.shortname }}",
     "url"      : "{{ publication.url }}",
     "image_large"     : "{{ publication.image_large }}",
     }
-    {% endif %}
     {% if forloop.last %}{% else %},{% endif %}
+    {% endif %}
     {% endfor %}
     ]
     {% endcapture %}
@@ -71,8 +72,9 @@
 	  	  
 	      <ul class="publication-icon-list">
               {% assign sorted_publications = site.publications | sort: 'year' %}
-	          {% for publication in sorted_publications reversed %}
-	          {% if publication.year > 2015 %}
+            {% for publication in sorted_publications reversed %}
+            {% if publication.personal %}
+	          {% elsif publication.year > 2015 %}
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
