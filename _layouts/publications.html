@@ -10,16 +10,18 @@ layout: default
     <h1>Preprints</h1>
 
     {% for publication in site.publications reversed %}
-    {% if publication.type == "preprint" %}
-    {% include publication_list_entry.html %}
-    {% endif %}
+      {% if publication.personal %}
+      {% elsif publication.type == "preprint" %}
+        {% include publication_list_entry.html %}
+      {% endif %}
     {% endfor %}
 
 
     <h1>Peer-Reviewed Journal and Conference Papers </h1>
     
     {% for publication in site.publications reversed %}
-      {% if publication.type == "paper" %}
+      {% if publication.personal %}
+      {% elsif publication.type == "paper" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
@@ -28,15 +30,17 @@ layout: default
     <h1>Commentary</h1>
 
     {% for publication in site.publications reversed %}
-    {% if publication.type == "commentary" %}
-    {% include publication_list_entry.html %}
-    {% endif %}
+      {% if publication.personal %}
+      {% elsif publication.type == "commentary" %}
+        {% include publication_list_entry.html %}
+      {% endif %}
     {% endfor %}
 
     <h1>Selected Posters</h1>
     
     {% for publication in site.publications reversed %}
-      {% if publication.type == "poster" %}
+      {% if publication.personal %}
+      {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
@@ -44,7 +48,8 @@ layout: default
     <h1>Dissertations and Theses</h1>
 
     {% for publication in site.publications reversed %}
-      {% if publication.type == "thesis" %}
+      {% if publication.personal %}
+      {% elsif publication.type == "thesis" %}
         {% include publication_list_entry.html %}
       {% endif %}
     {% endfor %}
