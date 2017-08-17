@@ -77,18 +77,29 @@ layout: default
       {% endif %}
       
       <p class="space-alumni">&nbsp;</p>
-      <h1>Alumni</h1>
+
+      <h1>PhD Graduates</h1>
+      <p class="person-list-block" id="{{ person.key }}">
+      {% for p in site.persons %}
+      {% if p.graduated and p.phd_graduate %}
+      {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
+      <span class="alumni">
+              {% if p.website %}
+              <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
+          </span>
+      {% endif %}
+      {% endfor %}
+      </p> <br><br>
+
+
+      <h1>Other Alumni</h1>
       <p class="person-list-block" id="{{ person.key }}">
       {% for p in site.persons %}
         {% if p.graduated %}
         {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
           <span class="alumni">
               {% if p.website %}
-              <a href="{{ p.website }}">{{ name }}</a>
-              {% else %}
-              {{ name }}
-              {% endif %}
-              {% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
+              <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
           </span>
         {% endif %}
       {% endfor %}

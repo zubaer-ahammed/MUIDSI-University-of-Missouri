@@ -11,4 +11,6 @@ organization: University of Utah
 position: PhD Student
 website: http://mckennapsean.com
 interests: User-Centered Visualization Design, Interactive Transitions, Geographic Visualization
+graduated: PhD '17
+phd_graduate: yes
 ---
