@@ -27,12 +27,12 @@ year: 2017
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '17), to appear
-  doi: 
+  journal: Computer Graphics Forum (EuroVis '17)
+  doi: 10.1111/cgf.13184
   url: 
   volume: 36
   number: 3
-  pages: 
+  pages: 251-260
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award

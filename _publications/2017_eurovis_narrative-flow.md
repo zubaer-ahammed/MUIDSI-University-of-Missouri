@@ -21,11 +21,11 @@ year: 2017
 bibentry: article
 bib:
   journal: Computer Graphics Forum (EuroVis '17)
-  doi: 
+  doi: 10.1111/cgf.13195
   url: 
   volume: 36
   number: 3
-  pages: 
+  pages: 377-387
 
 external-project: http://mckennapsean.com/projects/narrative-flow/
 
