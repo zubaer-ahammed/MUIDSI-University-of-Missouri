@@ -24,7 +24,9 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: EuroVis Workshop on Visual Analytics (EuroVA '17), to appear
+  booktitle: EuroVis Workshop on Visual Analytics (EuroVA '17)
+  doi: 10.2312/eurova.20171112
+  publisher: The Eurographics Association
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award
@@ -36,22 +38,20 @@ project:
 #external-project: http://github.com/visdesignlab/graffinity
 
 # The reference to the video entry
-#video: 2017_eurovis_graffinity_video
+video: 2017_eurova_display-space_video
 # The reference to the preview video entry
 #preview-video: 2016_eurovis_clue_video_preview
 
 # the prerint
 pdf: 2017_eurova_display-space.pdf
 # A supplement PDF
-#supplement: 2017_eurovis_graffinity_supplement.pdf
+supplement: 2017_eurova_display-space_supplement.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: Vials Conference Talk Slides
-#  # use link instead of abslink if you want to link to the master directory
-#  abslink: http://vials.io/talk/
-#  # defaults to a download icon, use this if you want a link-out icon
-#  linksym: true
+ - name: arXiv Preprint
+   abslink: https://arxiv.org/abs/1704.03949
+   linksym: false
 
 # Link to the repository where the code is hostet
 #code: https://github.com/visdesignlab/graffinity
