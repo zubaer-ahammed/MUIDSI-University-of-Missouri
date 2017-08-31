@@ -41,6 +41,7 @@ former_students:
  - mengjiao
  - aljuhani
  - cherkaev
+ - sunny
  - anirudh
  - kern
  - murali
