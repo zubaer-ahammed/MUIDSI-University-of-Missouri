@@ -29,9 +29,9 @@ bibentry: article
 bib:
   journal: Bioinformatics 
   doi: 10.1093/bioinformatics/btx364
-  volume: btx364
-  number: 
-  pages: 
+  volume: 33
+  number: 18
+  pages: 2938-2940
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
