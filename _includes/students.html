@@ -8,11 +8,7 @@
     {% capture name %}{{ person.first_name }} {{ person.last_name }}{% endcapture %}
         {% if person.graduated%}
              {% if person.website %}
-            <a href="{{ person.website }}">{{ name }}</a>
-        {% else %}
-        {{ name }}
-        {% endif %}
-        {% if person.graduated != "N" %}, {{ person.graduated }}{% endif %} <br>
+            <a href="{{ person.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if person.graduated != "N" %}, {{ person.graduated }}{% endif %} <br>
         {% else %}
         {% if person.website %}
         <a href="{{ person.website }}">{{ name }}</a>
