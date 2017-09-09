@@ -11,8 +11,8 @@ note:
 date: 2017-06-14
 
 held: 
- - Merck Research Laboratories, Boston, MA, 2017-06-15
- - Department Of Biomedical Informatics, Harvard Medical School, Boston, MA, 2017-06-14
+ - Merck Research Laboratories, Boston, MA, 2017-06-15.
+ - Department Of Biomedical Informatics, Harvard Medical School, Boston, MA, 2017-06-14.
 
 
 ---

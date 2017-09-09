@@ -12,6 +12,7 @@ organization: University of Utah
 position: PhD Student
 website: /team/rogers
 github: https://github.com/jenrogers1207
+interests: Interactive visualization for biological and medical data.
 
 ---
 

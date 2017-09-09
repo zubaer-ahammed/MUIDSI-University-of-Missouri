@@ -7,7 +7,7 @@ slides-pdf: http://sci.utah.edu/~vdl/talks/2011_IV_Geymayer_VisualizingEffectsOf
 date: 2011-07-14
 
 held:  
- - Information Visualization 2011, London, UK. 2011-07-14
+ - Information Visualization 2011, London, UK. 2011-07-14.
 ---
 
 

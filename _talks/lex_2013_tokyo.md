@@ -9,7 +9,7 @@ date:  2013-02-22
 note: Alexander Lex and Marc Streit
 held:  
  - <a href="https://vis.hgc.jp/">Symposium on Understanding Cancer Genomics through Information Visualization 
-   Tokyo University</a>, Tokyo, Japan, 2013-02-22
+   Tokyo University</a>, Tokyo, Japan, 2013-02-22.
 ---
 
 

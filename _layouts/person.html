@@ -249,9 +249,11 @@ layout: default
 
     {% include students.html students=page.phd_students %}
 
+    {% if page.phd_rotation_students %}
     <h3>Current PhD Rotation Students</h3>
 
     {% include students.html students=page.phd_rotation_students %}
+    {% endif %}
 
     <h3>Current MS Students</h3>
 

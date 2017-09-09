@@ -29,15 +29,16 @@ showteaching: true
 phd_students: 
  - nobre
  - waller
+ - rogers
  - Christian Partl (co-advised with Dieter Schmalstieg)
 
-phd_rotation_students:
- - mehrpour
+#phd_rotation_students: 
  
 ms_students:
  - Pranav Dommata
 
 former_students:
+ - mehrpour
  - mengjiao
  - aljuhani
  - cherkaev

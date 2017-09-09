@@ -6,7 +6,7 @@ type: invited
 date:  2009-02-26
 
 held:  
- - AUVA Research Center for Traumatology, Vienna, Austria, 2009-02-26
+ - AUVA Research Center for Traumatology, Vienna, Austria, 2009-02-26.
 ---
 
 

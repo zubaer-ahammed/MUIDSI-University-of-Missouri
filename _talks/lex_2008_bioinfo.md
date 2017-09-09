@@ -6,7 +6,7 @@ type: invited
 date:  2008-07-10
 
 held:  
- - Institute for Genomics and Bioinformatics, Graz University of Technology, Austria, 2008-07-10
+ - Institute for Genomics and Bioinformatics, Graz University of Technology, Austria, 2008-07-10.
 ---
 
 

@@ -6,7 +6,7 @@ type: invited
 date: 2010-03-11
 
 held:  
- - VRVis Research Company, Vienna, Austria. 2010-03-11
+ - VRVis Research Company, Vienna, Austria. 2010-03-11.
 ---
 
 
