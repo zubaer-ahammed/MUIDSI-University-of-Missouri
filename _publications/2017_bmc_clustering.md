@@ -30,7 +30,7 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 10.1101/123844
+  doi: 10.1186/s12859-017-1813-7
   url: http://biorxiv.org/content/early/2017/04/04/123844 
   volume: 18
   number: 1
