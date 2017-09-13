@@ -25,16 +25,16 @@ year: 2017
 
 bibentry: article
 bib:
-  journal: BMC Bioinformatics, to appear
+  journal: BMC Bioinformatics
   booktitle: 
   editor: 
   publisher: 
   address: 
   doi: 10.1101/123844
   url: http://biorxiv.org/content/early/2017/04/04/123844 
-  volume: 
-  number: 
-  pages: 
+  volume: 18
+  number: 1
+  pages: 406
   month: apr
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
