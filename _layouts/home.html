@@ -48,14 +48,14 @@
   <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:2 %}
+    {% for post in site.posts limit:3 %}
       <li class="post-list-item">
 		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
         <div class="post-list-title">
           {{ post.title }}
         </div>
         <div class="post-list-excerpt">
-		  {{ post.content | truncatewords: 140 }}
+		  {{ post.content | truncatewords: 160 }}
         </div>
   		<div><a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a></div>         
       </li>
