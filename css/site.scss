@@ -282,6 +282,9 @@ body {
   @include navigation-button($help-color);
 }
 
+.culture-button {
+  @include navigation-button($help-color);
+}
 
 .award{
   color: $publication-color
