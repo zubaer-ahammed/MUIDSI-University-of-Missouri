@@ -1132,3 +1132,8 @@ pre.bibtex {
 // team page in separate sass file
 @import '../_sass/team';
 
+.social {
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
