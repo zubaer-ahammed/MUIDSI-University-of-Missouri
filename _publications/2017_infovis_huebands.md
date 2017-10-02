@@ -4,7 +4,7 @@ title: "Hue Bands and Human Perception: Revisiting the Rainbow"
 key: 2017_infovis_huebands
 type: poster
 
-shortname: RCM-Poster
+shortname: RCM Poster
 image: 2017_infovis_huebands_teaser.png
 
 authors:
@@ -13,14 +13,12 @@ authors:
 - creem-regehr
 - meyer
 
+journal-short: InfoVis Posters
 year: 2017
 
 bibentry: inproceedings
 bib:
   booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’17)
-
-video:
-preview-video:
 
 pdf: 2017_infovis_huebands.pdf
 

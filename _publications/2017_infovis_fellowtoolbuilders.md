@@ -10,6 +10,7 @@ image: 2017_infovis_fellowtoolbuilders_teaser.png
 authors:
 - bigelow
 
+journal-short: InfoVis Posters
 year: 2017
 
 bibentry: inproceedings
