@@ -1,3 +1,4 @@
+---
 layout: publication
 title: An Exploratory Study of Word-Scale Graphics in Data-Rich Text Documents
 key: 2017_tvcg_exploratoyr-wsg
