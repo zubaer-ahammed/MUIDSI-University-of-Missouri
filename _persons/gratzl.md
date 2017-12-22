@@ -8,6 +8,6 @@ role: collaborator
 email: samuel.gratzl@jku.at
 image: /assets/images/people/gratzl.jpg
 organization: Johannes Kepler University Linz
-position: PhD Student
-website: http://sgratzl.github.io
+position:
+website: https://github.com/sgratzl
 ---
