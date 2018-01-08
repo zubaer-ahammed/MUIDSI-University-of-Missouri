@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="funding">
+
+    <header class="funding-title">
+        <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
+    </header>
+
+    <article class="publication-content-main">
+
+        <h2>Abstract</h2>
+        {{ page }}
+    </article>
+    <article class="publication-content-aside">
+
+        <p>Agency: {{ page.agency }}</p>
+        {% if page.number %}
+        <p>Number: {{page.number}}</p>
+        {%endif%}
+        {% if page.program %}
+        <p>Program: {{page.program}}</p>
+        {%endif%}
+        <p>Period: {{page.time}}</p>
+
+        <p>Principal Investigator:
+            {% for person in site.persons %}
+            {% if page.pi == person.key %}
+            <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
+            {% endif %}
+            {% endfor %}
+        </p>
+
+
+        <p>Recipient(s):</p>
+        <p>
+        <ul>
+            {% for recipient in page.recipients %}
+            <li> {{ recipient }}</li>
+            {% endfor %}
+        </ul>
+        </p>
+
+        {% if page.partners %}
+        <p>Partners: {{page.partners}}</p>
+        {%endif%}
+
+        <p>Last Updated: {{page.updated}}</p>
+
+
+
+    </article>
+</div>

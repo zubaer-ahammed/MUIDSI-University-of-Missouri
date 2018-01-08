@@ -36,8 +36,8 @@ collections:
     output: false
   institutions:
     output: false
-  funding:
-    output: false
+  projects:
+    output: true
   talks:
     output: false
 
