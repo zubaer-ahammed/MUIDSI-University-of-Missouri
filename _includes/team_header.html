@@ -3,7 +3,7 @@
 {% for person in site.persons %}
 {% if person.graduated %}
 {% elsif person.role == "faculty" %}
-  <a class="personKey {{ person.key}}" href="#{{ person.key }}" onclick="selectPerson('{{ person.key }}')">
+  <a class="personKey {{ person.key}}" href="{{ person.website }}"><!-- onclick="selectPerson('{{ person.key }}')"> -->
   {% if person.image %}
     <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}" title="{{ person.first_name }} {{ person.last_name }}" src="{{ site.baseurl }}{{ person.image }}" onmouseenter="highlightPerson('{{ person.key }}')" onmouseleave="clearClass('highlighted')">
   {% else %}
@@ -12,7 +12,7 @@
   </a>
   {% assign iter = iter | plus: 1 | modulo: 2 %}
 {% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "phd_rotation" or person.role == "msstudent" or person.role == "undergrad" or person.role =="intern" %}
-  <a class="personKey {{ person.key}}" href="#{{ person.key }}"  onclick="selectPerson('{{ person.key }}')">
+  <a class="personKey {{ person.key}}" href="{{ person.website }}"><!--   onclick="selectPerson('{{ person.key }}')">-->
   {% if person.image %}
     <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}" title="{{ person.first_name }} {{ person.last_name }}" src="{{ site.baseurl }}{{ person.image }}" onmouseenter="highlightPerson('{{ person.key }}')" onmouseleave="clearClass('highlighted')">
   {% else %}
