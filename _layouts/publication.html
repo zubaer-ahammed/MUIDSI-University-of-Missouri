@@ -45,8 +45,12 @@ layout: default
 
         <br/>
         <span class="paper-title">
-    <b>{{page.title}}</b></span><br/>
-
+        {% if page.pdf %}
+          <b><a href="{{site.paper_content_url}}{{page.pdf}}">{{page.title}}</a></b>
+          {% else %}
+          <b>{{page.title}}</b>
+        {% endif %}
+          </span><br/>
         {% if page.type == "thesis" %}
           <span class="advisors">
             <em>Advisors:</em> {{ page.advisors }}
