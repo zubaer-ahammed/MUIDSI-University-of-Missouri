@@ -48,7 +48,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: https://taggle-daily.caleydoapp.org/
+external-project: https://taggle.caleydoapp.org/
 
 # The reference to the video entry
 video: 2017_preprint_taggle_video

@@ -9,5 +9,5 @@ email: marc.streit@jku.at
 image: /assets/images/people/streit.jpg
 organization: Johannes Kepler University Linz
 position: Assistant Professor
-website: http://marc-streit.com
+website: http://www.marc-streit.com
 ---
