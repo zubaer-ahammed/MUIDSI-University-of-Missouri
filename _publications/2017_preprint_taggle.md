@@ -32,7 +32,7 @@ bib:
   journal: arXiv preprint
   booktitle: 
   editor: 
-  publisher: 
+  publisher: arXiv:1712.05944
   address: 
   doi: 
   url: 
@@ -70,6 +70,9 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: https://github.com/caleydo/lineupjs/tree/develop
+
+# Link to an official preprint server
+preprint_server: https://arxiv.org/abs/1712.05944
 
 abstract: "
 <p>Visualization of tabular data - for both presentation and exploration purposes - is a well-researched area. Although effective visual presentations of complex tables are supported by various plotting libraries, creating such tables is a tedious process and requires scripting skills. In contrast, interactive table visualizations that are designed for exploration purposes either operate at the level of individual rows, where large parts of the table are accessible only via scrolling, or provide a high-level overview that often lacks context-preserving drill-down capabilities. In this work we present Taggle, a novel visualization technique for exploring and presenting large and complex tables that are composed of individual columns of categorical or numerical data and homogeneous matrices. The key contribution of Taggle is the hierarchical aggregation of data subsets, for which the user can also choose suitable visual representations. The aggregation strategy is complemented by the ability to sort hierarchically such that groups of items can be flexibly defined by combining categorical stratifications and by rich data selection and filtering capabilities. We demonstrate the usefulness of Taggle for interactive analysis and presentation of complex genomics data for the purpose of drug discovery.</p>"

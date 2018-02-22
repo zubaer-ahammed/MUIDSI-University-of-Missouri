@@ -10,9 +10,9 @@ redirect_from: /publications/2017_preprint_lineage
 # The shortname is used for auto-generated titels
 shortname: Lineage
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2017_preprint_lineage.png
+image: 2018_tvcg_lineage.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2017_preprint_lineage_teaser.png
+image_large: 2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -48,7 +48,7 @@ award:
 external-project: https://lineage.caleydoapp.org
 
 # The reference to the video entry
-video: 2017_preprint_lineage_video
+video: 2018_tvcg_lineage_video
 # The reference to the preview viedo entry
 #preview-video:
 
@@ -67,6 +67,9 @@ supplements:
 
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/lineage
+
+# Link to an official preprint server
+preprint_server: https://doi.org/10.1101/128579
 
 abstract: "
 <p>The majority of diseases that are a significant challenge for public and individual heath are caused by a combination of hereditary and environmental factors. In this paper we introduce Lineage, a novel visual analysis tool designed to support domain experts who study such multifactorial diseases in the context of genealogies. Incorporating familial relationships between cases with other data can provide insights into shared genomic variants and shared environmental exposures that may be implicated in such diseases. We introduce a data and task abstraction and argue that the problem of analyzing such diseases based on genealogical, clinical, and genetic data can be mapped to a multivariate graph visualization problem. The main contribution of our design study is a novel visual representation for tree-like, multivariate graphs, which we apply to genealogies and clinical data about the individuals in these families. We introduce data-driven aggregation methods to scale to multiple families. By designing the genealogy graph layout to align with a tabular view, we are able to incorporate extensive, multivariate attributes in the analysis of the genealogy without cluttering the graph. We validate our designs by conducting case studies with our domain collaborators.</p>"

@@ -164,7 +164,13 @@ layout: default
     </li>
 	{% endfor %}
     {% endif %}
-      
+
+    {% if page.preprint_server %}
+    <li>
+      <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.preprint_server }}">Preprint Server</a>
+    </li>
+    {% endif %}
+
     {% if page.code %}
     <li>
       <i class="fa  fa-code-fork"></i> &nbsp;<a href="{{ page.code }}">Source Code</a>
