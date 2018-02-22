@@ -13,7 +13,7 @@ copi:
 coinvestigator:
 time: 2018-2023
 program: CAREER 
-project-link: 
+project-link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: 
 active: true
 updated: 2018-01-08

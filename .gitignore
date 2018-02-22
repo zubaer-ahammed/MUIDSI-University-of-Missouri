@@ -12,3 +12,4 @@ css/site.css
 *.pptx
 *.zip
 *.pdf
+.DS_Store
