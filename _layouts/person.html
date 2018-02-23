@@ -84,6 +84,9 @@ layout: default
     <span class="home-button nav-text">
     <a href="#publications">Publications</a>
     </span>
+    <span class="home-button nav-text">
+    <a href="#projects">Projects</a>
+    </span>
         <span class="home-button nav-text">
     <a href="#talks">Talks</a>
     </span>
@@ -208,7 +211,18 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% endif %}
+
+
+    {% if page.projects %}
+     <h2 id="projects">Funded Research Projects</h2>
+    {% for project_key in page.projects %}
+        {% for project in site.projects %}
+            {% if project.key == project_key %}
+                {% include project_list_entry.html %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% endif }
 
     {% if hastalks == "true" %}
     <h2 id="talks">Talks</h2>

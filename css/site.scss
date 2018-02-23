@@ -788,6 +788,26 @@ ul.post-list {
     }
 }
 
+  .project-image-small {;
+    @include span-columns(1);
+    //height: 90px;
+    float: left;
+	margin-top: 5px;
+    margin-right: 20px;
+	margin-bottom: 20px;
+    @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
+    @include border-radius( 3px );
+
+	@include media($medium-display) {
+		@include span-columns(3.5);
+	}
+
+    @include media($small-display) {
+		margin: 10px 0;
+		width: 80%;
+    }
+}
+
   p.pubs {
     margin: 0 0 0 1.3em;
 	

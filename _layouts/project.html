@@ -58,32 +58,19 @@ layout: default
 
         <h1>Principal Investigator</h1>
         <span>
-            {% for person in site.persons %}
-            {% if page.pi == person.key %}
-            <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
-            {% assign known = true %}
-            {% endif %}
-            {% endfor %}
-        {% if known == false %}
-            {{page.pi}}
-        {% endif %}
+            {% include person_name_link.html key=page.pi %}
         </span>
 
      {% if page.coinvestigators %}
         <h1>Co-Investigator(s):</h1>
         <ul>
+
             {% for coinvestigator in page.coinvestigators %}
-                {% assign known = false %}
-                {% for person in site.persons %}
-                    {% if coinvestigator == person.key %}
-                        <li> <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a></li>
-                        {% assign known = true %}
-                    {% endif %}
-                {% endfor %}
-                {% if known == false %}
-                    <li> {{coinvestigator}}</li>
-                {% endif %}
+                <li>
+                {% include person_name_link.html key=coinvestigator %}
+                </li>
             {% endfor %}
+
         </ul>
         {% endif %}
 

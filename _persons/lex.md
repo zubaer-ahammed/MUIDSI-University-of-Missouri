@@ -58,6 +58,10 @@ former_students:
  - Gabriel Hase, MS '14
  - Conor Myhrvold, MS '14
  - Ran Sofia Hou, BS '13 (co-advised with Joe Blitzstein)
+ 
+projects:
+ - 2015-nih-cohorts
+ - 2018-nsf-reproducibility
 
 ---
 
