@@ -32,26 +32,32 @@ layout: default
         	<img id="funding-image" alt="{{ page.agebct }}"  src="{{ site.baseurl }}/assets/images/grants/{{ page.logo }}">
         {% endif %}
 
-        <p>Funded by: {{ page.agency }}</p>
+        <h1>Funded by</h1>
+        <span>{{ page.agency }}</span>
         {% if page.number %}
 
         {% if page.agency-website %}
-        <p>Number: <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.agency-website }}">{{page.number}}</a></p>
+        <h1>Number</h1>
+        <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.agency-website }}">{{page.number}}</a>
         {% else %}
-        <p>Number: {{page.number}}</p>
+        <h1>Number</h1>
+        <span>{{page.number}}</span>
         {% endif %}
 
         {% endif %}
 
         {% if page.program %}
-        <p>Program: {{page.program}}</p>
+        <h1>Program</h1>
+        <span>{{page.program}}</span>
         {%endif%}
 
-        <p>Period: {{page.time}}</p>
+        <h1>Period</h1>
+        <span>{{page.time}}</span>
 
         {% assign known = false %}
 
-        <p>Principal Investigator:
+        <h1>Principal Investigator</h1>
+        <span>
             {% for person in site.persons %}
             {% if page.pi == person.key %}
             <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
@@ -61,10 +67,10 @@ layout: default
         {% if known == false %}
             {{page.pi}}
         {% endif %}
-        </p>
+        </span>
 
      {% if page.coinvestigators %}
-        <p>Co-Investigator(s):
+        <h1>Co-Investigator(s):</h1>
         <ul>
             {% for coinvestigator in page.coinvestigators %}
                 {% assign known = false %}
@@ -79,28 +85,26 @@ layout: default
                 {% endif %}
             {% endfor %}
         </ul>
-        </p>
         {% endif %}
 
-
         {% if page.recipients %}
-        <p>Institutions:</p>
-        <p>
+        <h1>Institutions:</h1>
         <ul>
             {% for recipient in page.recipients %}
             <li> {{ recipient }}</li>
             {% endfor %}
         </ul>
-        </p>
         {% endif %}
 
         {% if page.partners %}
-        <p>Partners: {{page.partners}}</p>
+        <h1>Partners</h1>
+        <span>{{page.partners}}</span>
         {%endif%}
 
 
         {% if page.updated %}
-        <p>Last Updated: {{page.updated}}</p>
+        <h1>Last Updated</h1>
+        <span>{{page.updated}}</span>
         {% endif %}
 
 
