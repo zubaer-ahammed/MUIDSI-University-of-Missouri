@@ -144,151 +144,159 @@ layout: default
 <article  class="publication-content">
 
     {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
-    <h2 id="publications">Publications</h2>
 
-    {% if haspreprints == "true" %}
-    <h3>Preprints</h3>
-    {% for publication in site.publications reversed %}
-    {% if publication.type == "preprint" %}
-    {% for author in publication.authors %}
-    {% if author == page.key %}
-    {% include publication_list_entry.html %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+        <h2 id="publications">Publications</h2>
 
-    {% if haspublications == "true" %}
-    <h3>Peer-reviewed Journal and Conference Publications</h3>
-    {% for publication in site.publications reversed %}
-    {% if publication.type == "paper" %}
-    {% for author in publication.authors %}
-    {% if author == page.key %}
-    {% include publication_list_entry.html %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+        {% if haspreprints == "true" %}
+        <h3>Preprints</h3>
+            {% for publication in site.publications reversed %}
+                {% if publication.type == "preprint" %}
+                    {% for author in publication.authors %}
+                        {% if author == page.key %}
+                            {% include publication_list_entry.html %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
 
-    {% if hascommentary == "true" %}
-    <h3>Commentary</h3>
-    {% for publication in site.publications reversed %}
-    {% if publication.type == "commentary" %}
-    {% for author in publication.authors %}
-    {% if author == page.key %}
-    {% include publication_list_entry.html %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+        {% if haspublications == "true" %}
+        <h3>Peer-reviewed Journal and Conference Publications</h3>
+        {% for publication in site.publications reversed %}
+        {% if publication.type == "paper" %}
+        {% for author in publication.authors %}
+        {% if author == page.key %}
+        {% include publication_list_entry.html %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
 
-    {% if hasthesis == "true" %}
-    <h3>Thesis</h3>
-    {% for publication in site.publications reversed %}
-    {% if publication.type == "thesis" %}
-    {% for author in publication.authors %}
-    {% if author == page.key %}
-    {% include publication_list_entry.html %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+        {% if hascommentary == "true" %}
+        <h3>Commentary</h3>
+        {% for publication in site.publications reversed %}
+        {% if publication.type == "commentary" %}
+        {% for author in publication.authors %}
+        {% if author == page.key %}
+        {% include publication_list_entry.html %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
 
-    {% if hasposter == "true" %}
-    <h3>Thesis</h3>
-    {% for publication in site.publications reversed %}
-    {% if publication.type == "poster" %}
-    {% for author in publication.authors %}
-    {% if author == page.key %}
-    {% include publication_list_entry.html %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+        {% if hasthesis == "true" %}
+        <h3>Thesis</h3>
+        {% for publication in site.publications reversed %}
+        {% if publication.type == "thesis" %}
+        {% for author in publication.authors %}
+        {% if author == page.key %}
+        {% include publication_list_entry.html %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
 
+        {% if hasposter == "true" %}
+        <h3>Thesis</h3>
+        {% for publication in site.publications reversed %}
+        {% if publication.type == "poster" %}
+        {% for author in publication.authors %}
+        {% if author == page.key %}
+        {% include publication_list_entry.html %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+    {% endif %}
 
 
     {% if page.projects %}
-     <h2 id="projects">Funded Research Projects</h2>
-    {% for project_key in page.projects %}
-        {% for project in site.projects %}
-            {% if project.key == project_key %}
-                {% include project_list_entry.html %}
-            {% endif %}
+        <h2 id="projects">Funded Research Projects</h2>
+        {% for project_key in page.projects %}
+            {% for project in site.projects %}
+                {% if project.key == project_key %}
+                    {% include project_list_entry.html %}
+                {% endif %}
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
-    {% endif }
+    {% endif %}
+
+
+
 
     {% if hastalks == "true" %}
-    <h2 id="talks">Talks</h2>
-    <h3>Invited Talks</h3>
-    {% for talk in site.talks reversed %}
-    {% if talk.speaker == page.key %}
-    {% if talk.type == "invited" %}
-    {% include talk_entry.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
 
-    <h3>Paper Presentations</h3>
-    {% for talk in site.talks reversed %}
-    {% if talk.speaker == page.key %}
-    {% if talk.type == "paper" %}
-    {% include talk_entry.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+        <h2 id="talks">Talks</h2>
+        <h3>Invited Talks</h3>
+        {% for talk in site.talks reversed %}
+        {% if talk.speaker == page.key %}
+        {% if talk.type == "invited" %}
+        {% include talk_entry.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
 
-    <h3>Tutorials</h3>
-    {% for talk in site.talks reversed %}
-    {% if talk.speaker == page.key %}
-    {% if talk.type == "tutorial" %}
-    {% include talk_entry.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+        <h3>Paper Presentations</h3>
+        {% for talk in site.talks reversed %}
+        {% if talk.speaker == page.key %}
+        {% if talk.type == "paper" %}
+        {% include talk_entry.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        <h3>Tutorials</h3>
+        {% for talk in site.talks reversed %}
+        {% if talk.speaker == page.key %}
+        {% if talk.type == "tutorial" %}
+        {% include talk_entry.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
 
     {% endif %}
+
+
 
     {% if page.showteaching %}
 
-    <h2 id="teaching">Teaching</h2>
+        <h2 id="teaching">Teaching</h2>
 
-    <h3>Current PhD Students</h3>
+        <h3>Current PhD Students</h3>
 
-    {% include students.html students=page.phd_students %}
+        {% include students.html students=page.phd_students %}
 
-    {% if page.phd_rotation_students %}
-    <h3>Current PhD Rotation Students</h3>
+        {% if page.phd_rotation_students %}
+        <h3>Current PhD Rotation Students</h3>
 
-    {% include students.html students=page.phd_rotation_students %}
-    {% endif %}
+        {% include students.html students=page.phd_rotation_students %}
+        {% endif %}
 
-    <h3>Current MS Students</h3>
+        <h3>Current MS Students</h3>
 
-    {% include students.html students=page.ms_students %}
+        {% include students.html students=page.ms_students %}
 
-    <h3>Former Students</h3>
+        <h3>Former Students</h3>
 
-    {% include students.html students=page.former_students %}
+        {% include students.html students=page.former_students %}
 
-    <h3>Courses</h3>
+        <h3>Courses</h3>
 
-    {% include courses.html instructor=page.key %}
+        {% include courses.html instructor=page.key %}
 
     {% endif %}
 
 
     {% if haspress == "true" %}
 
-    <h2 id="press">Press</h2>
+        <h2 id="press">Press</h2>
 
-    {% include press.html user=page.key %}
+        {% include press.html user=page.key %}
 
     {% endif %}
 

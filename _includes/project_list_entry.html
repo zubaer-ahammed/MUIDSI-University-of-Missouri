@@ -9,12 +9,12 @@
         <span><b>PI:</b> {% include person_name_link.html key=project.pi %}</span>
 
         {% if project.coinvestigators %}
-        <br>
-        <span><b>Co-Investigators:</b> </span>
-        {% for investigator in project.coinvestigators %}
-            {% include person_name_link.html key=investigator %}
-            {% if investigator != project.coinvestigators.last %}, {% endif %}
-        {% endfor %}
+            <br>
+            <span><b>Co-Investigators:</b> </span>
+            {% for investigator in project.coinvestigators %}
+                {% include person_name_link.html key=investigator %}
+                {% if investigator != project.coinvestigators.last %}, {% endif %}
+            {% endfor %}
         {% endif %}
         <br>
         <span><b>Duration:</b> {{project.time}}</span>
