@@ -14,24 +14,62 @@ layout: default
     </article>
     <article class="publication-content-aside">
 
-        <p>Agency: {{ page.agency }}</p>
+        {% if page.logo %}
+        	<img id="funding-image" alt="{{ page.agebct }}"  src="{{ site.baseurl }}/assets/images/grants/{{ page.logo }}">
+        {% endif %}
+
+        <p>Funded by: {{ page.agency }}</p>
         {% if page.number %}
+
+        {% if page.agency-website %}
+        <p>Number: <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.agency-website }}">{{page.number}}</a></p>
+        {% else %}
         <p>Number: {{page.number}}</p>
-        {%endif%}
+        {% endif %}
+
+        {% endif %}
+
         {% if page.program %}
         <p>Program: {{page.program}}</p>
         {%endif%}
+
         <p>Period: {{page.time}}</p>
+
+        {% assign known = false %}
 
         <p>Principal Investigator:
             {% for person in site.persons %}
             {% if page.pi == person.key %}
             <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
+            {% assign known = true %}
             {% endif %}
             {% endfor %}
+        {% if known == false %}
+            {{page.pi}}
+        {% endif %}
         </p>
 
+     {% if page.coinvestigators %}
+        <p>Co-Investigator(s):
+        <ul>
+            {% for coinvestigator in page.coinvestigators %}
+                {% assign known = false %}
+                {% for person in site.persons %}
+                    {% if coinvestigator == person.key %}
+                        <li> <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a></li>
+                        {% assign known = true %}
+                    {% endif %}
+                {% endfor %}
+                {% if known == false %}
+                    <li> {{coinvestigator}}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        </p>
+        {% endif %}
 
+
+        {% if page.recipients %}
         <p>Recipient(s):</p>
         <p>
         <ul>
@@ -40,13 +78,16 @@ layout: default
             {% endfor %}
         </ul>
         </p>
+        {% endif %}
 
         {% if page.partners %}
         <p>Partners: {{page.partners}}</p>
         {%endif%}
 
-        <p>Last Updated: {{page.updated}}</p>
 
+        {% if page.updated %}
+        <p>Last Updated: {{page.updated}}</p>
+        {% endif %}
 
 
     </article>
