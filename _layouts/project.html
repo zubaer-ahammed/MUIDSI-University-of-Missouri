@@ -11,6 +11,20 @@ layout: default
 
         <h2>Abstract</h2>
         {{ page }}
+
+        {% if page.publications %}
+            <h2>Publications</h2>
+
+            {% for publication_key in page.publications %}
+                {% for publication in site.publications %}
+                    {% if publication.key == publication_key %}
+                        {% include publication_list_entry.html %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+
+
     </article>
     <article class="publication-content-aside">
 
@@ -70,7 +84,7 @@ layout: default
 
 
         {% if page.recipients %}
-        <p>Recipient(s):</p>
+        <p>Institutions:</p>
         <p>
         <ul>
             {% for recipient in page.recipients %}

@@ -72,4 +72,4 @@ abstract: '
 
 # Acknowledgements
 
-The authors would like to thank Megan Paul for her contributions to the project. This work was funded through awards by the National Institutes of Health (R00HG007583, U54HG007963, U01CQ198935).
+The authors would like to thank Megan Paul for her contributions to the project. This work was funded through awards by the National Institutes of Health (R00HG007583, U54HG007963, U01CA198935).
