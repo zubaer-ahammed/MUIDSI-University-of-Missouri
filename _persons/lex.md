@@ -60,8 +60,10 @@ former_students:
  - Ran Sofia Hou, BS '13 (co-advised with Joe Blitzstein)
  
 projects:
- - 2015-nih-cohorts
  - 2018-nsf-reproducibility
+ - 2018-utah-lineage
+ - 2015-nih-cohorts
+
 
 ---
 
@@ -69,10 +71,10 @@ My research is at the interface of humans and data. Data and analytical methods 
 
 My work is often inspired by domain problems: I collaborate with scientists in biomedicine to develop novel methods and tools to tackle their complex data analysis problems. This approach grounds my work in real needs and lets me conduct detailed task and requirement analysis.
 
+## Bio
+
 I am an Assistant Professor of Computer Science at the [Scientific Computing and Imaging Institute](http://www.sci.utah.edu/) and the [School of Computing](http://cs.utah.edu) at the University of Utah. Together with Miriah Meyer, I run the Visualization Design Lab where we develop visualization methods and systems to help solve today's scientific problems.
 
-Before that I was a lecturer and post-doctoral visualization researcher in [Hanspeter Pfister's group](http://vcg.seas.harvard.edu/) at the Harvard School of Engineering and Applied Sciences. I received my PhD, Master's and undergraduate degrees from the [Institute for Computer Graphics and Vision](http://icg.tugraz.at/) at the Graz University of Technology where I was advised by Prof. Dieter Schmalstieg. In 2011 I was a visiting researcher at Prof. Peter Park's [Computational Genomics Research Group](http://compbio.med.harvard.edu/) at Harvard Medical School.
+Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master's, and undergraduate degrees from the Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
-I am on the organizing committee for [IEEE VIS](http://ieeevis.org/), a papers chair for [BioVis](http://biovis.net) and a general co-chair for the [Visualization in Data Science Symposium](http://www.visualdatascience.org/2017/). I am or was on the program committee for VAST, InfoVis, PacificVis and EuroVis Short Papers. I review for a wide range of publications including IEEE TVCG, CG&amp;A, ACM CHI, Oxford Bioinformatics, and BMC Bioinformatics.
-
-I am a co-founder and co-PI of the [Caleydo Project](http://www.caleydo.org/), a visualization framework for biomolecular data, and  a co-founder and advisor to [Datavisyn](http://www.datavisyn.io/), a startup developing visual analytics solutions for the pharmaceutical industry. 
+I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded the [Caleydo Project](http://www.caleydo.org/), an open source visualization framework for biomolecular data, and have co-founded [Datavisyn](http://www.datavisyn.io/), a startup company developing visual analytics solutions for the pharmaceutical industry. 
