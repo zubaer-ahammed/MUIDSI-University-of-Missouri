@@ -8,13 +8,13 @@
         <span class="paper-title"><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></span><br/>
         <span><b>PI:</b> {% include person_name_link.html key=project.pi %}</span>
 
+        {{project.coinvestigators.length }}
         {% if project.coinvestigators %}
             <br>
             <span><b>Co-Investigators:</b> </span>
             {% for investigator in project.coinvestigators %}
-                {% include person_name_link.html key=investigator %}
-                {% if investigator != project.coinvestigators.last %}, {% endif %}
-            {% endfor %}
+                {% include person_name_link.html key=investigator %}{% if forloop.last %}{% else %},{% endif %}
+           {% endfor %}
         {% endif %}
         <br>
         <span><b>Duration:</b> {{project.time}}</span>

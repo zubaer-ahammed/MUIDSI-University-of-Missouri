@@ -3,6 +3,9 @@
 The Vis Design Lab website is based on the Caleydo website and built with
 [Jekyll](http://jekyllrb.com).
 
+Here is a good cheat sheet: 
+https://gist.github.com/smutnyleszek/9803727
+
 
 
 ## Setup Jekyll
