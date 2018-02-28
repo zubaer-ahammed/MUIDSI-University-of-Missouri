@@ -1,6 +1,6 @@
 ---
 layout: project
-agency: The National Science Foundation
+agency: The Department of Defense
 key: 2016-dod-composites
 permalink: /projects/2016-dod-composites/
 website:
