@@ -96,11 +96,14 @@ layout: default
       <p class="person-list-block" id="{{ person.key }}">
       {% for p in site.persons %}
         {% if p.graduated %}
+          {% if p.phd_graduate %}
+          {% else %}
         {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
           <span class="alumni">
               {% if p.website %}
               <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
           </span>
+          {% endif %}
         {% endif %}
       {% endfor %}
       </p>

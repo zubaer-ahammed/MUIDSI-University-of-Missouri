@@ -31,7 +31,7 @@ bib:
   editor: 
   publisher:
   address: 
-  doi: 
+  doi: 10.1109/TVCG.2018.2811488
   url: 
   volume: 
   number: 

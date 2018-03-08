@@ -11,4 +11,5 @@ organization: University of Utah
 position: PhD Student
 website: https://www.linkedin.com/in/tcameronwaller
 interests: Visualization of Biological Networks, Metabolism
+graduated: N
 ---
