@@ -23,7 +23,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: TVCG (InfoVis '18)
+journal-short: arXiv 
 year: 2018
 
 # Create BibTeX info, using one of the entry choices
@@ -32,9 +32,9 @@ year: 2018
 # You can remove fields you don't need, or else leave them blank
 # Try to include a DOI, or use the publisher URL below
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
-bibentry: inproceedings 
+bibentry: article
 bib:
-  journal: TVCG (InfoVis '18)
+  journal: arXiv preprint
   booktitle: 
   editor: 
   publisher: 
