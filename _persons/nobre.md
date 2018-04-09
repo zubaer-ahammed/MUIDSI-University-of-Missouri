@@ -15,4 +15,4 @@ github: https://github.com/cnobre
 twitter: "@carolinanobre84"
 ---
 
-I'm a first year PhD student working with Alexander Lex on multivariate graph visualization.
+I'm a PhD student working with Alexander Lex on Multivariate Graph Visualization.
