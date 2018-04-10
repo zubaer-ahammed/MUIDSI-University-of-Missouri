@@ -3,7 +3,7 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: "Juniper: A Tree+Table Approach to Multivariate Graph Visualization"
 # Keys must be unique to each paper, see section below for more details
-key: 2018_infovis_juniper
+key: 2018_preprint_juniper
 # Select one of the options below
 type: preprint 
 # Uncomment the line below for publications which should only appear on a personal webpage
@@ -12,9 +12,9 @@ type: preprint
 # Auto-generates titles and alt-descriptors
 shortname: Juniper
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2018_infovis_juniper.png
+image: 2018_preprint_juniper.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2018_infovis_juniper_teaser.png
+image_large: 2018_preprint_juniper_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
@@ -60,12 +60,12 @@ project:
 external-project: http://18.221.225.177:8080/
 
 # The reference to the video entry
-video: 2018_infovis_juniper_video
+video: 2018_preprint_juniper_video
 # The reference to the preview viedo entry
 #preview-video:
 
 # the prerint
-pdf: 2018_infovis_juniper.pdf
+pdf: 2018_preprint_juniper.pdf
 # A supplement PDF
 supplement: 
 
