@@ -19,7 +19,7 @@ image_large: 2018_preprint_juniper_teaser.png
 # Authors in the "database" can be used with just their person "key"
 authors:
 - nobre
-- Marc Streit 
+- streit
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
