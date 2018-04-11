@@ -37,7 +37,7 @@ bib:
   journal: arXiv preprint
   booktitle: 
   editor: 
-  publisher: 
+  publisher: arXiv:1804.03261
   address: 
   doi: 
   url: 
@@ -53,7 +53,7 @@ award:
 publisherURL: 
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server: https://arxiv.org/abs/1804.03261
 
 # Links to a project hosted on VDL, or else externally on your own site
 project: 
@@ -77,11 +77,9 @@ supplements:
 #  # defaults to a download icon, use this if you want a link-out icon
 #  linksym: true
 
-# Link to the repository where the code is hostet
+# Link to the repository where the code is hosted
 code: https://github.com/Caleydo/lineage
-
-# Link to an official preprint server
-preprint_server: 
+ 
 
 abstract: "
 Analyzing large, multivariate graphs is an important problem in many domains, yet such graphs are challenging to visualize.
