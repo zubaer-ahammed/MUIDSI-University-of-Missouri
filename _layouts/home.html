@@ -23,8 +23,41 @@
     {% endfor %}
     ]
     {% endcapture %}
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script>
+// source: http://serversideguy.com/2017/04/10/can-i-add-custom-styles-to-my-embedded-twitter-timeline/ 
+        jQuery('.twitter-block').delegate('#twitter-widget-0','DOMSubtreeModified propertychange', function() {
+            //function call to override the base twitter styles
+            customizeTweetMedia();
+        });
+
+        var customizeTweetMedia = function() {
+            console.log("called");
+            //overrides font styles and removes the profile picture and media from twitter feed
+            //jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('display', 'none');
+            //jQuery('.twitter-block').find('.twitter-timeline').contents().find('img.Avatar').css('display', 'none');
+            //timeline-Header-title
+            jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-avatar.Identity-avatar').remove();
+            jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '66px');
+            jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', 'Raleway');
+
+
+            //also call the function on dynamic updates in addition to page load
+            jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function () {
+                customizeTweetMedia(this);
+            });
+        };
+
+        customizeTweetMedia();
+
     var publications = {{ publications }}
+
+
+
+
     </script>
 </head>
 
@@ -44,8 +77,10 @@
 
 
 
+    <a class="twitter-timeline" data-dnt="true" data-theme="light" data-link-color="#a74730" href="https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+
+ <!-- <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:3 %}
@@ -63,7 +98,7 @@
   </ul>
   <div class="all-news-link"><a href="news">See All News</a></div>
   
-
+-->
   </article>
 
   <article class="home-content-aside">
