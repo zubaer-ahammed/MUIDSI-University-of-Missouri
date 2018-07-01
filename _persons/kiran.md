@@ -6,7 +6,7 @@ last_name: Gadhave
 key: kiran
 permalink: 
 # Pick one of the following
-role: msstudent
+role: phdstudent
 email: kiran@sci.utah.edu
 image: /assets/images/people/kiran.jpg
 organization: University of Utah
