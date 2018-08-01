@@ -23,6 +23,8 @@
     {% endfor %}
     ]
     {% endcapture %}
+
+
     <script>
     var publications = {{ publications }}
     </script>
@@ -45,7 +47,8 @@
 
 
 
-  <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+
+ <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:3 %}
@@ -67,14 +70,15 @@
   </article>
 
   <article class="home-content-aside">
-	  
+
+
 	  <h1>Recent Publications</h1>
 	  	  
 	      <ul class="publication-icon-list">
               {% assign sorted_publications = site.publications | sort: 'year' %}
             {% for publication in sorted_publications reversed %}
             {% if publication.personal %}
-	          {% elsif publication.year > 2015 and publication.type == "paper" %}
+	          {% elsif publication.year > 2017 and publication.type == "paper" %}
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
@@ -87,7 +91,10 @@
             </li>
             {% endif %}
 	          {% endfor %}
-	      </ul>  
+	      </ul>
+
+         <a class="twitter-timeline" data-lang="en" data-dnt="true" data-link-color="#3376A0" href="https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw">Tweets by visdesignlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
   </article>
 
