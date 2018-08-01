@@ -11,7 +11,7 @@
     {% for publication in site.publications %}
 
     {% if publication.personal  %}
-    {% elsif publication.image_large%}
+    {% elsif publication.image_large and publication.year > 2017 and publication.type == "paper"%}
     {
     "title"    : "{{ publication.title }}",
     "shortname" : "{{ publication.shortname }}",
