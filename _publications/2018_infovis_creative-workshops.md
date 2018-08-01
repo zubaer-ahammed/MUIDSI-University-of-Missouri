@@ -2,16 +2,16 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "A Framework for Creative Visualization-Opportunities Workshops"
-key: 2018_infovis_creativeworkshops
+key: 2018_infovis_creative-workshops
 # paper | preprint | poster
 type: paper
 
 # The shortname is used for auto-generated titels
-shortname: Creative Visualization-Opportunities Workshops
+shortname: CVO Workshops
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2018_infovis_creative-workshops.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2018_tvcg_lineage_teaser.png
+# image_large: 2018_tvcg_lineage_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -21,7 +21,7 @@ authors:
 - Sara Jones
 - meyer
 
-journal-short: TVCG
+journal-short: TVCG (InfoVis '18)
 year: 2018
 
 bibentry: article
@@ -45,7 +45,7 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: bit.ly/CVOWorkshops
+external-project: http://bit.ly/CVOWorkshops
 
 # The reference to the video entry
 # video: 2018_tvcg_lineage_video
@@ -53,7 +53,7 @@ external-project: bit.ly/CVOWorkshops
 #preview-video:
 
 # the prerint
-pdf: 2018_preprint_juniper.pdf
+pdf: 2018_infovis_creative-workshops.pdf
 # A supplement PDF
 # supplement: 2018_tvcg_lineage_supplement.pdf
 
