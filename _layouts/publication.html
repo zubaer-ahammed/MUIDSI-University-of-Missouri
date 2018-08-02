@@ -6,6 +6,12 @@ layout: default
   <header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></header></div>
 
   <article class="publication-content-main">
+
+    <!-- If we have a large picture, we display it here -->
+    {% if page.image_large %}
+    <img id="publication-image-large" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
+    {% endif %}
+
     <h1>Abstract</h1> 
     {{ page.abstract }}
 
@@ -108,7 +114,12 @@ layout: default
   </article>
 
   <article class="publication-content-aside">
+     <!-- If we don't have a large picture, we display the small one here -->
+    {% if page.image_large %}
+    {% else %}
 	<img id="publication-image" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image }}">
+    {% endif %}
+    
     {% if page.project %}
     <h1>Software</h1>
     <ul class="project-icon-list">
