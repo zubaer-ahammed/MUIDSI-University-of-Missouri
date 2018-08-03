@@ -9,8 +9,9 @@ title: "Lineage: Integrating Clinical and Genetic Data with Genealogical Records
 #recipients:
 # - University of Utah 
 pi: lex
-copi: 
+copi:
 coinvestigators:
+ - Hilary Coon
 time: 2018-2019
 program: 
 agency-website:
@@ -18,10 +19,11 @@ number:
 active: true
 updated: 2018-08-02
 staff:
+ - lex
  - nobre
-alumni:
- - rogers
-
+publications:
+ - 2018_tvcg_lineage
+ 
 ---
 
 The Utah Population Database (UPDB) and the Utah Genome Project have curated one of the world's largest and richest resources on genetic, demographic, and clinical data backed by unique genealogical records. This data is leveraged to study a wide variety of diseases, including cancer and psychiatric conditions. One challenge that researchers face when using this data is its complexity and heterogeneity: researchers need to integrate family structures, genetic data, clinical course and/or co-occurring conditions, demographic variables, environmental exposures, and many other data types to gain insights that will lead more swiftly to genetic discovery. Often times, this integration is attempted using algorithmic or statistical methods, which can be a difficult and long process. In this project, we will develop sophisticated data visualization methods tailored to the integrated analysis of data from the Utah Genome Project and the Utah Population Database to complement statistical and algorithmic methods. These visual data analysis methods will leverage both, the power of computation and the unique abilities of humans to interpret large and complex datasets. Our methods and tools will speed up discovery and enable a wide range of researchers without computational training to perform such analysis.

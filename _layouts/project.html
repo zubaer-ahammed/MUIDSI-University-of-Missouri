@@ -30,6 +30,35 @@ layout: default
         {% endif %}
 
 
+
+        {% if page.staff %}
+        <h2>VDL Project Staff</h2>
+        <div style="overflow: auto;">
+            {% for person_key in page.staff  %}
+                {% for person in site.persons %}
+                    {% if person.key == person_key %}
+                        {% include person_list_entry.html key=person_key %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if page.alumni %}
+        <br>
+        <h2>VDL Project Alumni</h2>
+        <div style="overflow: auto;">
+            {% for person_key in page.alumni  %}
+                {% for person in site.persons %}
+                    {% if person.key == person_key %}
+                        {% include person_list_entry.html key=person_key %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
     </article>
     <article class="publication-content-aside">
 

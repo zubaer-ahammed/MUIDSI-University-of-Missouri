@@ -19,6 +19,9 @@ active: true
 updated: 2018-08-02
 publications: 
  - 2018_infovis_juniper
+staff:
+ - lex
+ - rogers
 
 ---
 
