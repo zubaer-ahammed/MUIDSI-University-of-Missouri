@@ -17,6 +17,8 @@ agency-website: https://www.uammi.org/
 number: ST1605-16-01
 active: true
 updated: 2018-02-23
+publications: 
+ - 2018_infovis_juniper
 ---
 
 While Utah’s carbon composites industrial sector includes a significant footprint in commercial aerospace and sports

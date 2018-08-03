@@ -16,8 +16,10 @@ program: IIS CAREER
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: NSF IIS 1751238
 active: true
-updated: 2018-02-23
----
+updated: 2018-08-02
+publications: 
+ - 2018_infovis_juniper
+ ---
 
 Reproducibility and justifiability are widely recognized as critical aspects of data-driven decision making in fields as varied as scientific research, business, healthcare, or intelligence analysis. This project is concerned with enabling reproducibility and justifiability of decisions in the data analysis process, specifically as it relates to visual data analysis. Visualization is an important tool for discovery, yet decisions made by humans based on visualizations of data are difficult to capture and to justify. This project will develop methods to justify, communicate, and audit decisions made based on visual analysis. This, in turn will lead to better outcomes, achieved with less effort and cost. The increasing use of visual analysis tools for decision making will make data analysis accessible to a broad variety of people, as visual analysis tools are generally easier to use than scripting languages and do not require extensive computational and statistical training. This research and its related activities increase accessibility and enhance the data analysis infrastructure for research and education. 
 

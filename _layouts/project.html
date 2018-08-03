@@ -13,9 +13,11 @@ layout: default
         {{ page }}
 
         {% if page.publications %}
+
+            {% assign pubs = page.publications | sort %}
             <h2>Publications</h2>
 
-            {% for publication_key in page.publications %}
+            {% for publication_key in pubs reversed  %}
                 {% for publication in site.publications %}
                     {% if publication.key == publication_key %}
                         {% include publication_list_entry.html %}
