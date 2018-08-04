@@ -14,7 +14,7 @@ organization: University of Utah
 position: Assistant Professor
 degree: PhD, MSc
 website: /team/lex/
-interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists 
+interests: Biological Data Visualization, Multivariate Graphs, Visualization Tools, Provenance and Reproducibility
 graduated:
 # stuff below can be ignored if you don't use the group website for your private website
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
