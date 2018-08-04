@@ -15,7 +15,7 @@ image_large: 2018_infovis_IE-Framework_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- mcCurdy
+- mccurdy
 - Julie Gerdes
 - meyer
 
