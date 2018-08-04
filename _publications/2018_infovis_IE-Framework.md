@@ -2,7 +2,7 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "A Framework for Externalizing Implicit Error Using Visualization"
-key: 2018_infovis_IE-framework
+key: 2018_infovis_ie-framework
 # paper | preprint | poster
 type: paper
 
@@ -43,7 +43,8 @@ award:
 # project: upset
 
 # Use this if you have an external project website
-external-project: http://bit.ly/IEFramework
+external-project: 
+#http://bit.ly/IEFramework
 
 # The reference to the video entry
 # video: 2018_tvcg_lineage_video
