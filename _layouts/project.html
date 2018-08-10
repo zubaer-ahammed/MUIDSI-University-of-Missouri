@@ -66,37 +66,37 @@ layout: default
         	<img id="funding-image" alt="{{ page.agebct }}"  src="{{ site.baseurl }}/assets/images/grants/{{ page.logo }}">
         {% endif %}
 
-        <h1>Funded by</h1>
+        <h3>Funded by</h3>
         <span>{{ page.agency }}</span>
         {% if page.number %}
 
         {% if page.agency-website %}
-        <h1>Number</h1>
+        <h3>Number</h3>
         <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.agency-website }}">{{page.number}}</a>
         {% else %}
-        <h1>Number</h1>
+        <h3>Number</h3>
         <span>{{page.number}}</span>
         {% endif %}
 
         {% endif %}
 
         {% if page.program %}
-        <h1>Program</h1>
+        <h3>Program</h3>
         <span>{{page.program}}</span>
         {%endif%}
 
-        <h1>Period</h1>
+        <h3>Period</h3>
         <span>{{page.time}}</span>
 
         {% assign known = false %}
 
-        <h1>Principal Investigator</h1>
+        <h3>Principal Investigator</h3>
         <span>
             {% include person_name_link.html key=page.pi %}
         </span>
 
      {% if page.coinvestigators %}
-        <h1>Co-Investigator(s):</h1>
+        <h3>Co-Investigator(s):</h3>
         <ul>
 
             {% for coinvestigator in page.coinvestigators %}
@@ -109,7 +109,7 @@ layout: default
         {% endif %}
 
         {% if page.recipients %}
-        <h1>Institutions:</h1>
+        <h3>Institutions:</h3>
         <ul>
             {% for recipient in page.recipients %}
             <li> {{ recipient }}</li>
@@ -118,13 +118,13 @@ layout: default
         {% endif %}
 
         {% if page.partners %}
-        <h1>Partners</h1>
+        <h3>Partners</h3>
         <span>{{page.partners}}</span>
         {%endif%}
 
 
         {% if page.updated %}
-        <h1>Last Updated</h1>
+        <h3>Last Updated</h3>
         <span>{{page.updated}}</span>
         {% endif %}
 

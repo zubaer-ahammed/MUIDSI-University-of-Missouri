@@ -73,14 +73,14 @@ layout: default
 </div>
 
 
-<article class="publication-content-main">
+<div class="publication-content-main">
 
 
     {{ page.content }}
 
     {% if hastalks == "true" %}
     <br>
-    <div stye="width:100%, float:none">
+    <div style="width:100%; float:none">
     <span class="home-button nav-text">
     <a href="#publications">Publications</a>
     </span>
@@ -101,10 +101,10 @@ layout: default
     {% endif %}
 
 
-</article>
+</div>
 
 
-<article class="publication-content-aside">
+<div class="publication-content-aside">
     <img alt="{{ page.first_name }} {{ page.last_name }}" class="person-img color0 person-image-large"
          title="{{ page.first_name }} {{ page.last_name }}" src="{{ site.baseurl }}{{ page.image }}">
     <br>
@@ -138,10 +138,10 @@ layout: default
         <a href="{{page.github}}"><i class="fa fa-github"></i> GitHub</a><br>
         {% endif %}
     </p>
-</article>
+</div>
 
 
-<article  class="publication-content">
+<div  class="publication-content">
 
     {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
 
@@ -300,6 +300,6 @@ layout: default
 
     {% endif %}
 
-</article>
+</div>
 
 
