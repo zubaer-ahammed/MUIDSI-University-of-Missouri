@@ -38,10 +38,9 @@ year: 2018
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article 
 bib:
-  author: {Moore, Jimmy and Goffin, Pascal and Meyer, Miriah and Lundrigan,Philip and Patwari, Neal and Sward, Katherine and Wiese, Jason}
-  title:{Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data}
-  journal: Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.
-  issue_date: {September 2018}
+  
+  journal: Proceedings of the ACM on Interactive, Movile, Wearable and Ubiquitous Technologies (IMWUT)( Ubicomp '18), to appear
+  issue_date: September 2018
   numpages: 28
   publisher: ACM
   address: 
