@@ -19,7 +19,7 @@ image_large: 2018_IMWUT_MAAV_teaser.png
 # Authors in the "database" can be used with just their person "key"
 authors:
 - moore
-- goffin
+- Pascal Goffin
 - meyer
 - Philip Lundrigan
 - Neal Patwari
