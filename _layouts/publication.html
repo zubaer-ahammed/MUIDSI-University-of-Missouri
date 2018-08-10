@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="publication">
-	
-  <header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></header></div>
+
+  <header class="publication-title"><h1>{{ page.title | remove: "| Vis Design Lab" }}</h1></header>
 
   <article class="publication-content-main">
 
@@ -12,31 +12,24 @@ layout: default
     <img id="publication-image-large" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
     {% endif %}
 
-    <h1>Abstract</h1> 
+    <h1>Abstract</h1>
     {{ page.abstract }}
 
     <h1>Citation</h1>
     <div class="citation">
       <p>
-
         {% assign bibauthors = '' %}
         {% for author in page.authors %}
-
-        {% assign known = false %}
-        {% for person in site.persons %}
-        {% if author == person.key %}
-        <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != page.authors.last%}, {% endif %}
-
-        {% if author == page.authors.first %}
-          {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
-        {% else %}
-          {% assign bibauthors = bibauthors | append: ' and ' | append: person.first_name | append: ' ' | append: person.last_name %}
-        {% endif %}
-
-        {% assign known = true %}
+          {% assign known = false %}
+            {% for person in site.persons %}
+              {% if author == person.key %}<a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != page.authors.last%}, {% endif %}
+              {% if author == page.authors.first %} {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
+              {% else %}
+              {% assign bibauthors = bibauthors | append: ' and ' | append: person.first_name | append: ' ' | append: person.last_name %}
+              {% endif %}
+            {% assign known = true %}
         {% endif %}
         {% endfor %}
-
         {% if known == false %}
         {{ author }}{% if author != page.authors.last%}, {% endif %}
         {% if author == page.authors.first %}
@@ -45,7 +38,6 @@ layout: default
           {% assign bibauthors = bibauthors | append: ' and ' | append: author %}
         {% endif %}
         {% endif %}
-
         {% endfor %}
 
 
@@ -60,7 +52,7 @@ layout: default
         {% if page.type == "thesis" %}
           <span class="advisors">
             <em>Advisors:</em> {{ page.advisors }}
-          </span><br />
+          </span><br/>
         {% endif %}
 
         <span class="paper-citation">
@@ -81,7 +73,6 @@ layout: default
 
           {{ published-where }}, {% if page.bib.volume %} {{ page.bib.volume }}{% endif %}{% if page.bib.number %}({{ page.bib.number }}){% endif %}{% if page.bib.volume or page.bib.issue %}:{% endif %}{% if page.bib.pages %} {{ page.bib.pages }}, {% endif %} {% if page.bib.doi %} <a href="http://dx.doi.org/{{ page.bib.doi }}">doi:{{ page.bib.doi }}</a>, {%endif%}{{ page.year }}.
         {% endif %}
-        </span>
 
       {%if page.award %}
       <br>
@@ -89,12 +80,14 @@ layout: default
         <span class="fa fa-trophy"></span>&nbsp;{{page.award}}
       </span>
       {% endif %}
-      </span>
+
       {%if page.note %}
       <p class="note" style="font-style:italic;">
         <b>Note:</b> {{page.note}}
       </p>
       {% endif %}
+      </span>
+    </div>
 
       <h1>BibTeX</h1>
 {% capture newLine %}
@@ -107,7 +100,7 @@ layout: default
 {% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = &#123;{{ bibItem[1] }}&#125;,{{ newLine }}{% endif %}{% endfor %}  year = &#123;{{ page.year }}&#125;
 }
 </pre>
-    </div>
+
 
     <!-- main markdown content -->
     {{ content }}
@@ -134,9 +127,9 @@ layout: default
     {% if page.external-project %}
     <h1>Project Website</h1>
     <ul>
-            
+
 		    <li>
-		      <i class="fa fa-sitemap"></i> &nbsp;<a class="project-website" href="{{page.external-project}}">{{ page.shortname }} Website</a></li>
+		      <i class="fa fa-sitemap"></i> &nbsp;<a class="project-website" href="{{page.external-project}}">{{ page.shortname }} Website</a>
 		    </li>
     </ul>
     {% endif %}
@@ -190,7 +183,7 @@ layout: default
     </ul>
 
     {% if page.video or page.preview-video %}
-	
+
     <h1>Videos</h1>
     {% endif %}
     {% for video in site.videos %}
@@ -198,65 +191,16 @@ layout: default
     <div class="video">
       <p><b>{{video.name}}</b></p>
       <div class="video-wrapper">
-        <iframe width="853" height="480" src="//www.youtube.com/embed/{{video.youtube-id}}?controls=2&showinfo=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+        <iframe width="853" height="480" src="//www.youtube.com/embed/{{video.youtube-id}}?controls=2&showinfo=0&iv_load_policy=3" allowfullscreen></iframe>
       </div>
       {% if video.file %}
-      <p><i class="fa fa-download"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Download Video</a><p/>
+      <p><i class="fa fa-download"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Download Video</a></p>
       {% endif %}
-    </div>    
+    </div>
     {% endif %}
     {% endfor %}
 
-  <script>
-  	 //on load
-  	 responsive_change_box_order();
-  	 //on resize
-   	 window.addEventListener('resize', responsive_change_box_order );
-	 
-   // prepend an element before another
-   function prependElement (element, target) {
-     target.parentNode.insertBefore(element, target)
-   }
 
-	 function responsive_change_box_order() {
-      var image = document.querySelector('#publication-image')
-	    if (window.matchMedia("(max-width: 749px)").matches) {
-        prependElement(image, document.querySelector('.publication-content-main'))
-	    }
-	    else{
-        prependElement(image, document.querySelector('.publication-content-aside h1'))
-	    }
-	  }
-      // var i = 0;
-      // ["#main-banner-image", "#top-right-banner-image", "#bottom-right-banner-image"].forEach(function (id) {
-      //
-      //     var pub = publications[i];
-      //     i++;
-      //     var bannerImg = document.querySelector(id + " img");
-      //     bannerImg.alt = pub.shortname;
-      //     bannerImg.src += pub.image_large;
-      //
-      //     var bannerLink = document.querySelector(id + "  a")
-      //     bannerLink.href = pub.url;
-      //
-      //     // // shorten title of too long
-      //     // var titleLength = -1;
-      //     // if(i == 1){
-      //     //     titleLength = 66;
-      //     // }else{
-      //     //     titleLength = 30;
-      //     // }
-      //     // if(pub.title.length > titleLength){
-      //     //     pub.title = pub.title.substring(0, titleLength) + "...";
-      //     // }
-      //
-      //     var bannerText = document.querySelector(id + " span")
-      //     bannerText.innerText = pub.title;
-      // });
-
-  </script>
-  
-  
   </article>
 
 
@@ -275,27 +219,27 @@ layout: default
 
     // automatically select all text within an element
     function selectText (element) {
-      var doc = document
-      var text = element
-      var range
-      var selection
+      var doc = document;
+      var text = element;
+      var range;
+      var selection;
 
       if (doc.body.createTextRange) { //ms
-          range = doc.body.createTextRange()
-          range.moveToElementText(text)
-          range.select()
+          range = doc.body.createTextRange();
+          range.moveToElementText(text);
+          range.select();
 
       } else if (window.getSelection) { //all others
-          selection = window.getSelection()
-          range = doc.createRange()
-          range.selectNodeContents(text)
-          selection.removeAllRanges()
-          selection.addRange(range)
+          selection = window.getSelection();
+          range = doc.createRange();
+          range.selectNodeContents(text);
+          selection.removeAllRanges();
+          selection.addRange(range);
       }
     }
 
     // add click-select-all functionality to bibtex tag
-    bibtex = document.querySelector('.bibtex')
+    bibtex = document.querySelector('.bibtex');
     bibtex.ondblclick = function() {
       selectText(this)
     }
