@@ -39,7 +39,7 @@ year: 2018
 bibentry: article 
 bib:
   
-  journal: Proceedings of the ACM on Interactive, Movile, Wearable and Ubiquitous Technologies (IMWUT)( Ubicomp '18), to appear
+  journal: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)( Ubicomp '18), to appear
   issue_date: September 2018
   numpages: 28
   publisher: ACM
