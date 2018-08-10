@@ -17,7 +17,7 @@
   <meta itemprop="name" content="{{page.title}}">
   <meta itemprop="description" content="{{ page.abstract | strip_html }}">
   {% if page.image_large %}
-  <meta itemprop="image" content="{{ site.url }}/assets/images/papers/{{page.image_large}}">
+  <meta itemprop="image" content="{{ site.url }}/assets/images/publications/{{page.image_large}}">
   {% endif %}
 
   <!-- Twitter Card data -->
@@ -27,7 +27,7 @@
   <meta name="twitter:description" content="{{ page.abstract | strip_html }}">
   <meta name="twitter:creator" content="@visdesignlab">
   {% if page.image_large %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/papers/{{page.image_large}}">
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/publications/{{page.image_large}}">
   {% endif %}
 
   <!-- Open Graph data -->
@@ -36,6 +36,6 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
   <meta property="og:description" content="{{ page.abstract | strip_html }}" />
   {% if page.image_large %}
-  <meta property="og:image" content="{{ site.url }}/assets/images/papers/{{page.image_large}}" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/publications/{{page.image_large}}" />
   {% endif %}
 {% endif %}
