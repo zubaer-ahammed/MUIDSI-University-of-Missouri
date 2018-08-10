@@ -25,7 +25,7 @@ Current topics of interest include:
 
 ## PhD Students
 
-We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed a year of funding by the school, with subsequent years funded by the lab faculty**. 
+We are looking to admit multiple PhD students to work on a variety of projects related to the aforementioned topics. PhD students are enrolled in the University of Utah's School of Computing, in either a computing or a computer science degree program. Students can choose between a graphics/visualization, human-centered computing, or data science track, among others. Admitted students typically are **guaranteed two semesters of funding by the school, with subsequent years funded by the lab faculty**. 
 
 We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
 
