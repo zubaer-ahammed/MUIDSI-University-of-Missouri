@@ -10,6 +10,6 @@ image: /assets/images/people/mukherjee.jpg
 organization: University of Utah
 interests: Visualization
 position: Graduate Student
-graduated: 
+graduated: N 
 website: https://www.linkedin.com/in/shuvrajit-mukherjee-b3158771/
 ---
