@@ -69,7 +69,7 @@ project:
 # preview-video: 2016_eurovis_pathfinder_video_preview
 
 # Provide a preprint and supplement pdf
-pdf: 2018_IMWUT_MAAV.pdf
+pdf: 2018_imwut_maav.pdf
 # supplement: 2018_IMWUT_MAAV_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
