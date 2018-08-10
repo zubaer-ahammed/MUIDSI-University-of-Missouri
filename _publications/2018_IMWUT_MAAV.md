@@ -3,18 +3,18 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data
 # Keys must be unique to each paper, see section below for more details
-key: 2018_IMWUT_MAAV
+key: 2018_imwut_maav
 # Select one of the options below
 type: paper 
 # Uncomment the line below for publications which should only appear on a personal webpage
 # personal: y
 
 # Auto-generates titles and alt-descriptors
-shortname: MAAV
+shortname: maav
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2018_IMWUT_MAAV_thumbnail.png
+image: 2018_imwut_maav_thumbnail.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2018_IMWUT_MAAV_teaser.png
+image_large: 2018_imwut_maav_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
