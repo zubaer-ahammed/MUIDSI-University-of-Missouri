@@ -9,7 +9,7 @@ email: dapruss@sci.utah.edu
 image: /assets/images/people/pruss.jpg
 organization: University of Utah
 position: Undergraduate Student
-website: http://www.hps.pitt.edu/profile/pruss.php
+website:
 graduated: B.S. '16
 interests: Biology Visualization
 ---
