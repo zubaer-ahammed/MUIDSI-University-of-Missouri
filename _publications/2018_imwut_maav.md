@@ -70,13 +70,13 @@ project:
 
 # Provide a preprint and supplement pdf
 pdf: 2018_imwut_maav.pdf
-# supplement: 2018_IMWUT_MAAV_supplement.pdf
+supplement: 2018_imwut_maav_supplement.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-# name: MAAV Conference Talk Slides
+# name: Supplemental Materials
 # Use link instead of abslink if you want to link to the master directory
-# link: http://vials.io/talk/
+# link: 2018_imwut_maav_supplement.zip
 # Defaults to a download icon, use this if you want a link-out icon
 # linksym: true
 
