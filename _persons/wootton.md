@@ -13,7 +13,7 @@ organization: University of Utah
 position: Undergraduate Researcher
 # use either a local link like here, or a URL
 website: /team/wootton
-interests: Biology Visualization, Environmental Visualization, Visualization for Scientists and Engineers
+interests: Visualization and Air Quality
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: 
 
@@ -22,22 +22,16 @@ graduated:
 gs: 
 gh: https://github.com/dwootton
 twitter: 
-cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+cv: 
 address: |
     Scientific Computing and Imaging Institute, <br>
     School of Computing, University of Utah <br>
-    72 South Central Campus Drive, Room 3887 <br>
+    72 South Central Campus Drive<br>
     Salt Lake City, Utah 84112
 
 # flag used to determine whether to show teaching
 showteaching: false
 
-phd_students:
-
-phd_rotation_students:
-
-ms_students:
-
-former_students:
-
 ---
+
+I'm an undergraduate student working with Miriah Meyer.
