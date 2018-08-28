@@ -44,7 +44,7 @@ award:
 
 # Use this if you have an external project website
 external-project: 
-#http://bit.ly/IEFramework
+http://bit.ly/IEFramework
 
 # The reference to the video entry
 # video: 2018_tvcg_lineage_video
