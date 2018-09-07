@@ -20,10 +20,8 @@ graduated:
 
 # stuff below can be ignored if you don't use the group website for your private website
 
-gs: 
 gh: https://github.com/angelicalin
-twitter: 
-cv: 
+
 address: |
     School of Computing, University of Utah <br>
     50 S. Central Campus Drive, Room 3190 <br>
@@ -32,12 +30,7 @@ address: |
 # flag used to determine whether to show teaching
 showteaching: false
 
-phd_students:
-
-phd_rotation_students:
-
-ms_students:
-
-former_students:
 
 ---
+
+I am a PhD student in School of Computing at University of Utah. I am interested in interactive data visualization and computer graphics. When not computing, I love playing video games with my friends and testing out new recipes.
