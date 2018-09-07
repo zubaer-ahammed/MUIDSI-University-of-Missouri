@@ -33,6 +33,7 @@ bib:
   volume: 36
   number: 3
   pages: 251-260
+  pmcid: PMC5821473 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award
