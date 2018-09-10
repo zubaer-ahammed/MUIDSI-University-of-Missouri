@@ -10,7 +10,8 @@ slides-ppt:
 note:
 date: 2018-05-16
 
-held:  
+held: 
+ - Genome Rounds, University of Utah, SLC, UT, USA, 2018-08-24 
  - Department of Psychiatry, University of Utah, SLC, UT, USA, 2018-06-05
  - BioIT World Conference & Expo, Boston, MA, USA, 2018-05-17.
  - Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA, 2018-05-16
