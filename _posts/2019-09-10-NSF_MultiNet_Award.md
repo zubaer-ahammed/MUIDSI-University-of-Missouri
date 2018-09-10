@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VDL wins NSF Award to Develop Multivariate Network Visualization Platform
+title:  VDL Receives NSF Award to Develop Multivariate Network Visualization Platform
 date:   2018-09-10 14:00:00
 categories: event
 ---
