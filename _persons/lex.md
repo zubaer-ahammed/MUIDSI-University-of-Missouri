@@ -64,6 +64,7 @@ former_students:
  - Ran Sofia Hou, BS '13 (co-advised with Joe Blitzstein)
  
 projects:
+ - 2019-nsf-multinet
  - 2018-nsf-reproducibility
  - 2018-utah-lineage
  - 2016-dod-composites
