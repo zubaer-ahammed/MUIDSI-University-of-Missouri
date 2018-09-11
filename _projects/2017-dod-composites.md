@@ -24,6 +24,8 @@ staff:
  - kiran
 alumni:
  - nobre 
+award: "$ 3,792,367"
+award-lab: "$ 172,961"
  
 ---
 

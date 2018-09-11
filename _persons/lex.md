@@ -31,8 +31,9 @@ phd_students:
  - rogers
  - kiran
 
-
-#phd_rotation_students: 
+phd_rotation_students:
+ - lin
+ - ilkin 
  
 # ms_students:
 

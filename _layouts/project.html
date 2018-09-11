@@ -77,7 +77,10 @@ layout: default
         <h3>Number</h3>
         <span>{{page.number}}</span>
         {% endif %}
+        {% endif %}
 
+        {% if page.collaborative-award %}<br>
+        <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.collaborative-award }}">Collaborative Award</a>
         {% endif %}
 
         {% if page.program %}
@@ -144,9 +147,14 @@ layout: default
         <span>{{page.award}}</span>
         {% endif %}
 
-             {% if page.award %}
+        {% if page.award-utah %}
         <h3>Share at Utah:</h3>
         <span>{{page.award-utah}}</span>
+        {% endif %}
+
+        {% if page.award-lab %}
+        <h3>Share at VDL:</h3>
+        <span>{{page.award-lab}}</span>
         {% endif %}
 
         {% if page.updated %}

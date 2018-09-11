@@ -23,9 +23,10 @@ coinvestigators:
  - Bryan Jones
  - Christopher Bail
  - Shaunna Morrison
-time: 2019-2022
+time: 01/01/2019-12/31/2022
 program: DATANET, Software Institutes
 agency-website: https://nsf.gov/awardsearch/showAward?AWD_ID=1835904
+collaborative-award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835893
 number: NSF OAC 1835904
 active: true
 updated: 2018-09-10

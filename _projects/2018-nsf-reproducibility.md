@@ -11,7 +11,7 @@ title: "CAREER: Enabling Reproducibility of Interactive Visual Data Analysis"
 pi: lex
 copi: 
 coinvestigators:
-time: 2018-2023
+time: 04/01/2018-03/31/2023
 program: IIS CAREER 
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: NSF IIS 1751238
@@ -22,6 +22,7 @@ publications:
 staff:
  - lex
  - rogers
+award: "$ 512,245"
 
 ---
 
