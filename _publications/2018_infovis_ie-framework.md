@@ -48,7 +48,7 @@ external-project: http://bit.ly/IEFramework
 # The reference to the video entry
 # video: 2018_tvcg_lineage_video
 # The reference to the preview viedo entry
-#preview-video:
+preview-video:2018_infovis_ie-framework_video_preview
 
 # the prerint
 pdf: 2018_infovis_IE-Framework.pdf
