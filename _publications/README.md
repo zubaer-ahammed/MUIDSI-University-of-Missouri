@@ -16,10 +16,11 @@ the publication details, such as the volume, issue, and page numbers.
 4. Upload the following files to `/usr/sci/www/vdl/papers`:
     - publication PDF (`KEY.pdf`) - *mandatory*
     - thumbnail figure (`KEY.png`) - *mandatory*
+    - teaser figure (`KEY_teaser.png`) - *strongly recommended*
     - Supplementary Material PDF (`KEY_supplement.pdf`)
     - full video (`KEY.mp4`)
     - preview video (`KEY_preview.mp4`)
-
+   See the [Figures README](/assets/images/README.md) for formatting details on the figures.
 
 
 ## Publication Template
