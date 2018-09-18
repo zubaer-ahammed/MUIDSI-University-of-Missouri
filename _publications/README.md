@@ -20,7 +20,6 @@ the publication details, such as the volume, issue, and page numbers.
     - Supplementary Material PDF (`KEY_supplement.pdf`)
     - full video (`KEY.mp4`)
     - preview video (`KEY_preview.mp4`)
-   See the [Figures README](/assets/images/README.md) for formatting details on the figures.
 
 
 ## Publication Template
@@ -40,6 +39,8 @@ title: "Pathfinder: Visual Analysis of Paths in Graphs"
 key: 2016_eurovis_pathfinder
 # Select one of the options below
 type: paper | preprint | poster | thesis | commentary
+# use this if this paper was previously a preprint and you need to preserve the old URL
+# redirect_from: /publications/2017_preprint_lineage
 # Uncomment the line below for publications which should only appear on a personal webpage
 # personal: y
 
@@ -83,6 +84,7 @@ bib:
   number: 3
   pages: 71--80
   month: jun
+  pmcid: PMC5821473
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: EuroVis 2016 Honorable Mention Award
