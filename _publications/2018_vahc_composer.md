@@ -14,7 +14,7 @@ type: paper
 # Auto-generates titles and alt-descriptors
 shortname: Composer
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2018_vahc_composer_teaser.png
+image: 2018_vahc_composer.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
 image_large: 2018_vahc_composer_teaser.png
 
@@ -39,10 +39,10 @@ year: 2018
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: inproceedings
 bib:
-  journal: VAHC 2018 (9th workshop on Visual Analytics in Healthcare)
-  booktitle: 
+  journal:
+  booktitle: VAHC 2018 (9th Workshop on Visual Analytics in Healthcare at AMIA), to appear
   editor: 
-  publisher: 
+  publisher:
   address: 
   doi: 
   url: 
@@ -70,7 +70,7 @@ project:
 #preview-video: 2016_eurovis_pathfinder_video_preview
 
 # Provide a preprint and supplement pdf
-pdf: paper-2018-composer.pdf
+pdf: 2018_vahc_composer.pdf
 #supplement: 2016_eurovis_pathfinder_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
