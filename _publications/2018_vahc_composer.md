@@ -39,7 +39,7 @@ year: 2018
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: inproceedings
 bib:
-  journal: 
+  journal: VAHC 2018 (9th workshop on Visual Analytics in Healthcare)
   booktitle: 
   editor: 
   publisher: 
