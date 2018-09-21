@@ -3,7 +3,7 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: "Composer: Visual Cohort Analysis of Patient Outcomes"
 # Keys must be unique to each paper, see section below for more details
-key: 2019_vahc_composer
+key: 2018_vahc_composer
 # Select one of the options below
 type: paper 
 # use this if this paper was previously a preprint and you need to preserve the old URL
@@ -40,7 +40,7 @@ year: 2018
 bibentry: inproceedings
 bib:
   journal:
-  booktitle: VAHC 2018 (9th Workshop on Visual Analytics in Healthcare at AMIA), to appear
+  booktitle: Workshop on Visual Analytics in Healthcare at AMIA (VAHC 2018), to appear
   editor: 
   publisher:
   address: 

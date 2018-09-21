@@ -19,6 +19,7 @@ active: true
 updated: 2018-08-02
 publications: 
  - 2018_infovis_juniper
+ - 2018_vahc_composer
 staff:
  - lex
  - rogers
