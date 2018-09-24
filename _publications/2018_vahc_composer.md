@@ -59,7 +59,7 @@ bib:
 publisherURL: https://www.visualanalyticshealthcare.org/proceedings.html
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server: https://arxiv.org/abs/1809.08177
 
 # Links to a project hosted on VDL, or else externally on your own site
 project: 
