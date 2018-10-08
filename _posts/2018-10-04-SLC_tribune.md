@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VDL indoor air quality research featured in The Salt Lake Tribune
+title:  VDL iIndoor Air Quality Research Featured in The Salt Lake Tribune
 date:   2018-10-07 14:00:00
 categories: event
 ---
