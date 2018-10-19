@@ -12,8 +12,8 @@ VDL members are contributing in various ways to [VIS in Berlin](http://ieeevis.o
  * Carolina Nobre will also present the [Juniper paper]({{site.base_url}}/publications/2018_infovis_juniper/) on multivariate network visualization in the Wednesday 11:00am InfoVis session.
  * Jen Rogers will present the [Composer poster]({{site.base_url}}/publications/2018_vahc_composer/), on patient cohort and outcome visualization, in the Wednesday 5:20pm poster session.
  * Alex Bigelow will present a [poster on Origraph](https://origraph.github.io/), a graph wrangling tool, in the Wednesday 5:20pm poster session.
- * Ethan Kerzner will present the [Creative Visualization-Opportunities Workshops paper]({{site.base_url}}/publications/2018_infovis_creative-workshops/) in the Thursday 11:00am InfoVis Session.
- * Nina McCurdy will present the [paper on Externalizing Implicit Error]({{site.base_url}}/publications/2018_infovis_creative-workshops/) in the Friday 9:00am InfoVis Session.
+ * Ethan Kerzner will present the [Creative Visualization-Opportunities Workshops paper]({{site.base_url}}/publications/2018_infovis_creative-workshops/) in the Thursday 11:00am InfoVis session.
+ * Nina McCurdy will present the [paper on externalizing implicit error]({{site.base_url}}/publications/2018_infovis_creative-workshops/) in the Friday 9:00am InfoVis session.
  
  Together with other SCI and SoC members we'll also host the Utah Party on Tuesday Night!
  
