@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  One Keynote, Four Papers, and Two Posters at VIS
-date:   2018-10-19 14:00:00
+date:   2018-10-19 12:00:00
 categories: event
 ---
 
