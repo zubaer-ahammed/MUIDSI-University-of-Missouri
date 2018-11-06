@@ -68,7 +68,7 @@ preview-video:2018_infovis_juniper_preview
 # the preprint
 pdf: 2018_infovis_juniper.pdf
 # A supplement PDF
-supplement: 
+#supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
