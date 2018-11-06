@@ -63,7 +63,7 @@ external-project: http://juniper.sci.utah.edu/
 # The reference to the video entry
 video: 2018_infovis_juniper_video
 # The reference to the preview video entry
-preview-video:2018_infovis_juniper_preview
+preview-video: 2018_infovis_juniper_preview
 
 # the preprint
 pdf: 2018_infovis_juniper.pdf
