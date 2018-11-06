@@ -49,16 +49,17 @@ external-project: https://lineage.caleydoapp.org
 
 # The reference to the video entry
 video: 2018_tvcg_lineage_video
-# The reference to the preview viedo entry
-#preview-video:
+# The reference to the preview video entry
+preview-video: 2018_tvcg_lineage_preview
 
-# the prerint
+# the preprint
 pdf: 2018_tvcg_lineage.pdf
 # A supplement PDF
 supplement: 2018_tvcg_lineage_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
+    2018_tvcg_lineage_talkSlides.pdf
 #- name: General UpSet
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
