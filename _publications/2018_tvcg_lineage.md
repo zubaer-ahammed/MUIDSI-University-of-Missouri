@@ -60,7 +60,7 @@ supplement: 2018_tvcg_lineage_supplement.pdf
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
     
- name: Vis Talk Slides
+ -name: Vis Talk Slides
  link: 2018_tvcg_lineage_talkSlides.pdf
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
