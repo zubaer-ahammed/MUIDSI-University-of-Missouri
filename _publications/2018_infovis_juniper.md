@@ -62,17 +62,18 @@ external-project: http://juniper.sci.utah.edu/
 
 # The reference to the video entry
 video: 2018_infovis_juniper_video
-# The reference to the preview viedo entry
-#preview-video:
+# The reference to the preview video entry
+preview-video:2018_infovis_juniper_preview
 
-# the prerint
+# the preprint
 pdf: 2018_infovis_juniper.pdf
 # A supplement PDF
 supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: General UpSet
+- name: Vis Talk Slides
+  link: 2018_infovis_juniper_talkSlides.pdf
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
 #  # defaults to a download icon, use this if you want a link-out icon
