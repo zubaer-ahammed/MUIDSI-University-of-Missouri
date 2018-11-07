@@ -50,7 +50,7 @@ external-project: https://lineage.caleydoapp.org
 # The reference to the video entry
 video: 2018_tvcg_lineage_video
 # The reference to the preview video entry
-preview-video: 2018_tvcg_lineage_preview
+preview-video: 2018_tvcg_lineage_video_preview
 
 # the preprint
 pdf: 2018_tvcg_lineage.pdf
@@ -59,9 +59,9 @@ supplement: 2018_tvcg_lineage_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-    
- -name: Vis Talk Slides
- link: 2018_tvcg_lineage_talkSlides.pdf
+- name: Vis Talk Slides
+  link: 2018_tvcg_lineage_talkSlides.pdf
+
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
 #  # defaults to a download icon, use this if you want a link-out icon
