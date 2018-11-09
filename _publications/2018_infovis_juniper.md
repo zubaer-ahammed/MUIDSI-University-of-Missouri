@@ -25,7 +25,7 @@ authors:
 
 # Include a shortened name for the journal or conference/proceedings
 journal-short: TVCG (InfoVis'18), to appear
-year: 2018
+year: 2019
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
@@ -40,12 +40,14 @@ bib:
   editor: 
   publisher:
   address: 
-  doi: 
+  doi:  10.1109/TVCG.2018.2865149
   url: 
-  volume: 
-  number: 
+  volume: 25
+  number: 1
   pages: 
-  month: 
+  month: January
+
+
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: 
