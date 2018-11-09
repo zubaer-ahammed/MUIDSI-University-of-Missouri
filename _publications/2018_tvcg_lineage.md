@@ -26,7 +26,7 @@ year: 2018
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics, to appear
+  journal: IEEE Transactions on Visualization and Computer Graphics (early access)
   booktitle: 
   editor: 
   publisher:
