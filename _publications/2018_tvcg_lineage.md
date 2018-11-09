@@ -22,7 +22,7 @@ authors:
 - lex
 
 journal-short: TVCG
-year: 2019
+year: 2018
 
 bibentry: article
 bib:
@@ -33,10 +33,10 @@ bib:
   address: 
   doi: 10.1109/TVCG.2018.2811488
   url: 
-  volume: 25
-  number: 1
+  volume: 
+  number: 
   pages: 
-  month: January
+  month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
