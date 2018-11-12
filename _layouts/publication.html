@@ -182,17 +182,24 @@ layout: default
     {% endif %}
     </ul>
 
-    {% if page.video or page.preview-video %}
+    {% if page.video or page.preview-video or page.talk-video %}
 
     <h1>Videos</h1>
     {% endif %}
     {% for video in site.videos %}
-    {% if video.key == page.video or video.key == page.preview-video %}
+    {% if video.key == page.video or video.key == page.preview-video or video.key == page.talk-video %}
     <div class="video">
       <p><b>{{video.name}}</b></p>
+      {% if video.youtube-id %}
       <div class="video-wrapper">
         <iframe width="853" height="480" src="//www.youtube.com/embed/{{video.youtube-id}}?controls=2&showinfo=0&iv_load_policy=3" allowfullscreen></iframe>
-      </div>
+      </div>      
+      {% endif %}
+      {% if video.vimeo-id %}
+      <div class="video-wrapper">
+        <iframe width="853" height="480" src="https://player.vimeo.com/video/{{video.vimeo-id}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>      
+      {% endif %}
       {% if video.file %}
       <p><i class="fa fa-download"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Download Video</a></p>
       {% endif %}
