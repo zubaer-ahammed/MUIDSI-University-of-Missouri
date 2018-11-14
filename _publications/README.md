@@ -12,7 +12,7 @@ the publication details, such as the volume, issue, and page numbers.
 
 1. Add a `*.md` file in this folder following the template below. Use a unique key, specified below, for your publication's filenames.
 2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/publications](../assets/images/publications] folder. [Read more about adding images here](../assets/images/README.md).
-3. Upload your publication video (if you have one) and your preview video to YouTube and create an entry in the [videos folder](../_videos) folder.
+3. Upload your publication video (if you have one), your preview video, and your conference talk video, to YouTube or Vimeo and create an entry in the [videos folder](../_videos) folder. Notice you can use the youtube-id or vimeo-id key in your video entry file, depending on where the video is hosted.
 4. Upload the following files to `/usr/sci/www/vdl/papers`:
     - publication PDF (`KEY.pdf`) - *mandatory*
     - thumbnail figure (`KEY.png`) - *mandatory*
@@ -20,6 +20,7 @@ the publication details, such as the volume, issue, and page numbers.
     - Supplementary Material PDF (`KEY_supplement.pdf`)
     - full video (`KEY.mp4`)
     - preview video (`KEY_preview.mp4`)
+    - talk video (`KEY_talk.mp4`)
 
 
 ## Publication Template
@@ -99,8 +100,9 @@ preprint_server:
 project: 
 external-project: https://pathfinder.caleydoapp.org/
 
-# Video entry and preview video
+# Video entry, preview video, and conference talk video
 video: 2016_eurovis_pathfinder_video
+talk-video: 2016_eurovis_pathfinder_talk
 preview-video: 2016_eurovis_pathfinder_video_preview
 
 # Provide a preprint and supplement pdf

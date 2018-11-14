@@ -24,8 +24,8 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: TVCG (InfoVis'18), to appear
-year: 2018
+journal-short: TVCG (InfoVis'18)
+year: 2019
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
@@ -35,17 +35,19 @@ year: 2018
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’18), to appear
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’18), early access
   booktitle: 
   editor: 
   publisher:
   address: 
-  doi: 
+  doi:  10.1109/TVCG.2018.2865149
   url: 
-  volume: 
-  number: 
+  volume: 25
+  number: 1
   pages: 
-  month: 
+  month: January
+
+
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: 
@@ -62,17 +64,20 @@ external-project: http://juniper.sci.utah.edu/
 
 # The reference to the video entry
 video: 2018_infovis_juniper_video
-# The reference to the preview viedo entry
-#preview-video:
+# The reference to the talk video
+talk-video: 2018_infovis_juniper_talk
+# The reference to the preview video entry
+preview-video: 2018_infovis_juniper_video_preview
 
-# the prerint
+# the preprint
 pdf: 2018_infovis_juniper.pdf
 # A supplement PDF
-supplement: 
+#supplement: 
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: General UpSet
+- name: Vis Talk Slides
+  link: 2018_infovis_juniper_talkSlides.pdf
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
 #  # defaults to a download icon, use this if you want a link-out icon
