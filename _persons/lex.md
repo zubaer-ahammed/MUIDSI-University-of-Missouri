@@ -30,8 +30,6 @@ phd_students:
  - nobre
  - rogers
  - kiran
-
-phd_rotation_students:
  - lin
  - ilkin 
  
@@ -39,7 +37,7 @@ phd_rotation_students:
 
 
 former_students:
- - Christian Partl (co-advised with Dieter Schmalstieg)
+ - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
  - mukherjee
  - waller
  - pranav
@@ -63,6 +61,18 @@ former_students:
  - Gabriel Hase, MS '14
  - Conor Myhrvold, MS '14
  - Ran Sofia Hou, BS '13 (co-advised with Joe Blitzstein)
+ - Thomas Geymayer, MS '12, BS '11 (with D. Schmalstieg)
+ - Christian Partl, MS '12 (with D. Schmalstieg)
+ - Michael Lafer, BS '10 (with D. Schmalstieg)
+ - Hannes Plank, BS '11 (with D. Schmalstieg) 
+ - Jürgen Pillhofer, MS '10 (with D. Schmalstieg)
+ - Michael Wittmayer, BS '09 (with D. Schmalstieg)
+ - Helmut Pichlhöfer, BS '10 (with D. Schmalstieg)
+ - Oliver Pimas, BS '10 (with D. Schmalstieg)
+ - Bernhard Schlegl, MS '09 (with D. Schmalstieg)
+ - Werner Puff, MS '10 (with D. Schmalstieg)
+ - Christian Partl, BS '09 (with D. Schmalstieg)
+ - Stefan Sauer, BS '09 (with D. Schmalstieg)
  
 projects:
  - 2019-nsf-multinet
@@ -74,7 +84,7 @@ projects:
 
 ---
 
-My research is at the interface of humans and data. Data and analytical methods have become ubiquitous, yet human reasoning and contextual knowledge are critical to discovery and decision making. **My team and I develop innovative, interactive, visual data analysis methods that leverage both, the power of computation and the unique abilities of humans to interpret large and complex datasets.**
+ My research is on visual data analysis methods for the biomedical domain. Data and analytical methods have become ubiquitous, yet human reasoning and contextual knowledge are critical to discovery and decision making. **My team and I develop innovative, interactive, visual data analysis methods that leverage both, the power of computation and the unique abilities of humans to interpret large and complex datasets.**
 
 My work is often inspired by domain problems: I collaborate with scientists in biomedicine to develop novel methods and tools to tackle their complex data analysis problems. This approach grounds my work in real needs and lets me conduct detailed task and requirement analysis.
 
