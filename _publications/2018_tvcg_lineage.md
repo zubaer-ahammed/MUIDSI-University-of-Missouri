@@ -49,6 +49,9 @@ external-project: https://lineage.caleydoapp.org
 
 # The reference to the video entry
 video: 2018_tvcg_lineage_video
+# Talk video
+talk-video: 2018_tvcg_lineage_talk
+
 # The reference to the preview video entry
 preview-video: 2018_tvcg_lineage_video_preview
 
