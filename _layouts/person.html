@@ -200,7 +200,7 @@ layout: default
         {% endif %}
 
         {% if hasposter == "true" %}
-        <h3>Thesis</h3>
+        <h3>Selected Posters</h3>
         {% for publication in site.publications reversed %}
         {% if publication.type == "poster" %}
         {% for author in publication.authors %}
