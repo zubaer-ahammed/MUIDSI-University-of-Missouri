@@ -7,7 +7,7 @@ last_name: Lin
 key: lin
 permalink: /team/lin/
 # Pick one of the following
-role: phd_rotation 
+role: phdstudent 
 email: hhlin@cs.utah.edu
 image: /assets/images/people/lin.jpg
 organization: University of Utah
