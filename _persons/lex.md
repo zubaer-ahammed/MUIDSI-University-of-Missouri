@@ -3,10 +3,10 @@
 layout: person
 first_name: Alexander
 last_name: Lex
-title: Alexander Lex 
+title: Alexander Lex
 key: lex
 permalink: /team/lex/
-# faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
+# faculty | phdstudent | phd_rotation | postdoc | msstudent | engineer
 role: faculty
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg
@@ -22,17 +22,17 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-    
+
 # flag used to determine whether to show teaching   
 showteaching: true
- 
-phd_students: 
+
+phd_students:
  - nobre
  - rogers
  - kiran
  - lin
- - ilkin 
- 
+ - ilkin
+
 # ms_students:
 
 
@@ -64,7 +64,7 @@ former_students:
  - Thomas Geymayer, MS '12, BS '11 (with D. Schmalstieg)
  - Christian Partl, MS '12 (with D. Schmalstieg)
  - Michael Lafer, BS '10 (with D. Schmalstieg)
- - Hannes Plank, BS '11 (with D. Schmalstieg) 
+ - Hannes Plank, BS '11 (with D. Schmalstieg)
  - Jürgen Pillhofer, MS '10 (with D. Schmalstieg)
  - Michael Wittmayer, BS '09 (with D. Schmalstieg)
  - Helmut Pichlhöfer, BS '10 (with D. Schmalstieg)
@@ -73,7 +73,7 @@ former_students:
  - Werner Puff, MS '10 (with D. Schmalstieg)
  - Christian Partl, BS '09 (with D. Schmalstieg)
  - Stefan Sauer, BS '09 (with D. Schmalstieg)
- 
+
 projects:
  - 2019-nsf-multinet
  - 2018-nsf-reproducibility
@@ -94,4 +94,4 @@ I am an Assistant Professor of Computer Science at the [Scientific Computing and
 
 Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master's, and undergraduate degrees from the Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
-I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded the [Caleydo Project](http://www.caleydo.org/), an open source visualization framework for biomolecular data, and have co-founded [Datavisyn](http://www.datavisyn.io/), a startup company developing visual analytics solutions for the pharmaceutical industry. 
+I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded the [Caleydo Project](http://www.caleydo.org/), an open source visualization framework for biomolecular data, and have co-founded [Datavisyn](http://www.datavisyn.io/), a startup company developing visual analytics solutions for the pharmaceutical industry.
