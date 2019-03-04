@@ -24,8 +24,8 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: IEEE Symposium on Visualization in Data Science (VDS '17), to appear
-  doi: 
+  booktitle: IEEE Symposium on Visualization in Data Science (VDS '17)
+  doi: 10.1109/VDS.2017.8573446
   publisher: IEEE
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
