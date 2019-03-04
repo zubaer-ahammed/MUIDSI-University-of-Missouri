@@ -18,7 +18,7 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: IEEE Workshop on Pedagogy of Data Visualization (PDV '17), to appear
+  booktitle: IEEE Workshop on Pedagogy of Data Visualization (PDV '17)
   doi: 
   publisher: IEEE
 
