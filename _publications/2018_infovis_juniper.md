@@ -35,16 +35,16 @@ year: 2019
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’18), early access
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’18)
   booktitle: 
   editor: 
-  publisher:
+  publisher: IEEE
   address: 
   doi:  10.1109/TVCG.2018.2865149
   url: 
   volume: 25
   number: 1
-  pages: 
+  pages: 544-554
   month: January
 
 

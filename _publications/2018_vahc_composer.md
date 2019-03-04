@@ -40,7 +40,7 @@ year: 2018
 bibentry: inproceedings
 bib:
   journal:
-  booktitle: Workshop on Visual Analytics in Healthcare at AMIA (VAHC 2018), to appear
+  booktitle: Workshop on Visual Analytics in Healthcare at AMIA (VAHC 2018)
   editor: 
   publisher:
   address: 
