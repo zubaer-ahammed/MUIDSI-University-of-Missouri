@@ -15,6 +15,8 @@ Photoshop, there is a function to
 Other useful compression sites are [Optimizilla](http://optimizilla.com/) and
 [jpeg.io](https://www.jpeg.io/).
 
+A batch alternative is pngquant - https://pngquant.org/ (install via homebrew).
+
 
 
 
