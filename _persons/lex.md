@@ -84,7 +84,7 @@ projects:
 
 ---
 
-My research is on data visualization methods for scientists and experts. I design, build, and study interactive visual data analysis systems that aid researchers in data driven fields, such as biomedicine, in understanding and communicating complex data sets.
+My research is on data visualization methods for scientists and experts. I design, build, and study interactive visual data analysis systems that aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets.
 
 ## Bio
 
