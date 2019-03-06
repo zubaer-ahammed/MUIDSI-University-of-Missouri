@@ -84,9 +84,7 @@ projects:
 
 ---
 
- My research is on visual data analysis methods for the biomedical domain. Data and analytical methods have become ubiquitous, yet human reasoning and contextual knowledge are critical to discovery and decision making. **My team and I develop innovative, interactive, visual data analysis methods that leverage both, the power of computation and the unique abilities of humans to interpret large and complex datasets.**
-
-My work is often inspired by domain problems: I collaborate with scientists in biomedicine to develop novel methods and tools to tackle their complex data analysis problems. This approach grounds my work in real needs and lets me conduct detailed task and requirement analysis.
+My research is on data visualization methods for scientists and experts. I design, build, and study interactive visual data analysis systems that aid researchers in data driven fields, such as biomedicine, in understanding and communicating complex data sets.
 
 ## Bio
 
