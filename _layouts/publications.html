@@ -8,8 +8,9 @@ layout: default
   <article class="publications-content">
 
     <h1>Preprints</h1>
+    {% assign publications = site.publications | sort: 'year' %}
 
-    {% for publication in site.publications reversed %}
+    {% for publication in publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "preprint" %}
         {% include publication_list_entry.html %}
@@ -18,8 +19,10 @@ layout: default
 
 
     <h1>Peer-Reviewed Journal and Conference Papers </h1>
-    
-    {% for publication in site.publications reversed %}
+
+
+
+    {% for publication in publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "paper" %}
         {% include publication_list_entry.html %}
@@ -29,7 +32,7 @@ layout: default
 
     <h1>Commentary</h1>
 
-    {% for publication in site.publications reversed %}
+    {% for publication in publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "commentary" %}
         {% include publication_list_entry.html %}
@@ -38,7 +41,7 @@ layout: default
 
     <h1>Selected Posters</h1>
     
-    {% for publication in site.publications reversed %}
+    {% for publication in publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "poster" %}
         {% include publication_list_entry.html %}
@@ -47,7 +50,7 @@ layout: default
 
     <h1>Dissertations and Theses</h1>
 
-    {% for publication in site.publications reversed %}
+    {% for publication in publications reversed %}
       {% if publication.personal %}
       {% elsif publication.type == "thesis" %}
         {% include publication_list_entry.html %}
