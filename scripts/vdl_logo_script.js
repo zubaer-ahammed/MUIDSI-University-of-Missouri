@@ -85,25 +85,25 @@ function run() {
     let points = [
       [xShift, 0],
       [xShift, -20]
-    ]
+    ];
 
     if (position === 'left') {
       xShift = xShift + 13;
-      points.push([xShift - 11, -22])
-      points.push([xShift - 6, -28])
-      points.push([xShift - 5, -30])
-      points.push([xShift - 1, -35])
+      points.push([xShift - 11, -22]);
+      points.push([xShift - 6, -28]);
+      points.push([xShift - 5, -30]);
+      points.push([xShift - 1, -35]);
     } else if (position === 'right') {
       xShift = xShift - 13;
-      points.push([xShift + 11, -25])
-      points.push([xShift + 6, -30])
-      points.push([xShift + 1, -36])
+      points.push([xShift + 11, -25]);
+      points.push([xShift + 6, -30]);
+      points.push([xShift + 1, -36]);
     }
 
     points.push(...[
       [xShift, -50], //Bottleneck
       [xShift, -90],
-    ])
+    ]);
     return points;
   }
 
