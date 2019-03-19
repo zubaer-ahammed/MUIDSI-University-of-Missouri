@@ -91,6 +91,9 @@ Visual cohort analysis utilizing electronic health record (EHR) data has become 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
 
+# Note
+**This is a workshop paper which was extended [to a journal paper](../2019_aci_composer). Please refer to and cite the journal paper instead.** 
+
 # Acknowledgements
 
 This project is funded by the Orthopaedic Research Center and NSF IIS 1751238.

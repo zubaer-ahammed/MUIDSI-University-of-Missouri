@@ -39,7 +39,7 @@ year: 2019
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
-  journal: Applied Clinical Informatics 
+  journal: Applied Clinical Informatics, to appear 
   #booktitle: Special Section":" Visual Analytics in Healthcare
   editor: 
   publisher: American Medical Informatics Association
@@ -56,7 +56,7 @@ bib:
 #award: EuroVis 2016 Honorable Mention Award
 
 # Provide a link to the publisher's webpage if no DOI is available
-publisherURL: https://www.thieme.com/books-main/clinical-informatics/product/4433-aci-applied-clinical-informatics
+publisherURL: 
 
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1809.08177
@@ -112,6 +112,9 @@ patients.
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+
+# Note
+This is the journal version of a [previously published workshop paper](../2018_vahc_composer).
 
 # Acknowledgements
 
