@@ -70,7 +70,7 @@ project:
 #preview-video: 2016_eurovis_pathfinder_video_preview
 
 # Provide a preprint and supplement pdf
-pdf: 2019_ACI_composer.pdf
+pdf: 2019_aci_composer.pdf
 #supplement: 2016_eurovis_pathfinder_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
