@@ -95,5 +95,4 @@ Visual cohort analysis utilizing electronic health record (EHR) data has become 
 **This is a workshop paper which was extended [to a journal paper](../2019_aci_composer). Please refer to and cite the journal paper instead.** 
 
 # Acknowledgements
-
-This project is funded by the Orthopaedic Research Center and NSF IIS 1751238.
+We thank Sahar Mehrpour for initial data analysis and implementation. This project is funded by the Orthopaedic Research Center and NSF IIS 1751238.
