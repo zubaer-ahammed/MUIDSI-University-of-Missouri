@@ -16,10 +16,11 @@ program: IIS CAREER
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: NSF IIS 1751238
 active: true
-updated: 2019-03-07
+updated: 2019-03-21
 publications: 
  - 2018_infovis_juniper
  - 2018_vahc_composer
+ - 2019_aci_composer
 staff:
  - lex
  - rogers
@@ -35,4 +36,9 @@ To achieve these goals, this research will develop a framework for making visual
 ![Reproducibility Framework Concept](../2018-nsf-reproducibility_concept.png)
 
 ## Software
+
+We are developing a provenance tracking library for integration with web applications. The source code is available [here](https://github.com/visdesignlab/provenance-lib-core). 
+
+We are also working on a simple visualization tool which we plan to use to capture analysis intent using the provenance library discussed above. Find the code [here](https://github.com/visdesignlab/intent-inference).
+
 
