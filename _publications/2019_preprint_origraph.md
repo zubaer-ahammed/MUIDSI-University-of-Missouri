@@ -59,7 +59,7 @@ pdf: 2019_preprint_origraph.pdf
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
 - name: Large Figures
-  link: 2019_preprint_origraph_large_figures.pdf
+  link: 2019_preprint_origraph_supplement.pdf
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
 #  # defaults to a download icon, use this if you want a link-out icon
@@ -72,7 +72,7 @@ code: https://github.com/origraph
 preprint_server: https://arxiv.org/abs/1812.06337
 
 abstract: "
-<p>Data wrangling is widely acknowledged to be a critical part of the data analysis pipeline. Nevertheless, there are currently no techniques to efficiently wrangle network datasets. Here we introduce a set of interaction techniques that enable analysts to carry out complex network wrangling operations. These operations include deriving attributes across connected classes, converting nodes to edges and vice-versa, and faceting nodes and edges based on attributes. We implement these operations in a web-based, open-source system, Origraph, which provides interfaces to execute the operations and investigate the results. Designed for wrangling, rather than analysis, Origraph can be used to load data in many forms, wrangle and transform the network, and export it in formats compatible with common network visualization tools. We demonstrate Origraph's usefulness in a series of examples with different datasets from a variety of sources.</p>"
+<p>Networks are a natural way of thinking about many datasets. The data on which a network is based, however, is rarely collected in a form that suits the analysis process, making it necessary to create and reshape networks.  Data wrangling is widely acknowledged to be a critical part of the data analysis pipeline, yet interactive network wrangling has received little attention in the visualization research community. In this paper, we discuss a set of operations that are important for wrangling network datasets and introduce a visual data wrangling tool, Origraph, that enables analysts to apply these operations to their datasets. Key operations include creating a network from source data such as tables, reshaping a network by introducing new node or edge classes, filtering nodes or edges, and deriving new node or edge attributes. Our tool, Origraph, enables analysts to execute these operations with little to no programming, and to immediately visualize the results. Origraph provides views to investigate the network model, a sample of the network, and node and edge attributes. In addition, we introduce interfaces designed to aid analysts in specifying arguments for sensible network wrangling operations. We demonstrate the usefulness of Origraph in two Use Cases: first, we investigate gender bias in the film industry, and then the influence of money on the political support for the war in Yemen.</p>"
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
