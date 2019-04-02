@@ -19,7 +19,7 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '19)
 
-video: 2019_pacificvis_jacobs_ladder_video
+video: 2019_pacificvis_jacobs_ladder.mp4
 preview-video:
 
 
