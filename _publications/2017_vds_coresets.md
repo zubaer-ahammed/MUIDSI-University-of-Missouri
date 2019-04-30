@@ -67,6 +67,9 @@ abstract: "
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
 
+# Note
+**This is a workshop paper which was extended [to a journal paper](../2019_tbd_coresets). Please refer to and cite the journal paper instead.** 
+
 
 # Acknowledgements
 Thanks to support by NSF CCF-1350888, IIS-1251019, ACI-1443046, CNS-1514520, CNS-1564287 and NIH U01 CA198935.
