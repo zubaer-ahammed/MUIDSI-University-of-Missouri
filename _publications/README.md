@@ -159,6 +159,18 @@ the file extension or even just a simple period/dot or true/y would work.
 
 ## Syncing with the SCI Server
 
+Upload the teaser and the small figure, as well as the paper PDF, any supplement and video to the shared SCI web space at 
+
+```
+shell.sci.utah.edu
+```
+subdirectory: 
+```
+usr/sci/www/vdl/papers
+```
+
+You will need permissions to read/write to that repository. Ask alex to send an e-mail to support@sci.utah.edu to get you access. 
+
 Here is a sync script that you can run to sync a local folder with the SCI server.
 
 ``` bash

@@ -11,4 +11,6 @@ organization: University of Utah
 position: PhD Student
 interests: Visualization for Scientists and Engineers
 website: http://www.ethankerzner.com
+graduated: PhD '18
+phd_graduate: yes
 ---

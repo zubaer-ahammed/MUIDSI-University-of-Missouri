@@ -22,20 +22,20 @@ authors:
 - lex
 
 journal-short: TVCG
-year: 2018
+year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics, early access
+  journal: IEEE Transactions on Visualization and Computer Graphics
   booktitle: 
   editor: 
-  publisher:
+  publisher: IEEE
   address: 
   doi: 10.1109/TVCG.2018.2811488
   url: 
-  volume: 
-  number: 
-  pages: 
+  volume: 25
+  number: 3
+  pages: 1543-1558
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

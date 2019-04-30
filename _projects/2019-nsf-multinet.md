@@ -34,6 +34,8 @@ publications:
 staff:
  - meyer
  - lex
+ - rogers
+ - dewey
 award: "$ 2,022,200"
 award-utah: "$ 1,115,768"
 award-lex: "$ 529,929.37"

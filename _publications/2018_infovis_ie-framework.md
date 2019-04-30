@@ -20,20 +20,20 @@ authors:
 - meyer
 
 journal-short: TVCG (InfoVis '18)
-year: 2018
+year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '18), to appear
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '18)
   booktitle:
   editor:
-  publisher:
+  publisher: IEEE
   address:
-  doi:
+  doi: 10.1109/TVCG.2018.2864913
   url:
-  volume:
-  number:
-  pages:
+  volume: 25
+  number: 1
+  pages: 925-935
   month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

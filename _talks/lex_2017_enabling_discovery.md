@@ -11,6 +11,7 @@ note:
 date: 2017-04-06
 
 held:  
+ - Lucid Software, Salt Lake City, UT, 2019-03-12
  - Goldman Sachs Tech Expo, Salt Lake City, UT, 2017-06-28.
  - Department Of Biomedical Informatics, University of Utah, Salt Lake City, UT, 2017-04-06.
  - Walmart, Tech Tuesday, Bentonville, AK, 2017-02-07.

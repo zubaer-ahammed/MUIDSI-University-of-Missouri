@@ -6,11 +6,11 @@ layout: default
   <!--<header class="team-title">
     <h1>{{ page.title | remove: "| Vis Design Lab" }}</h1>
   </header>-->
-	  
+
 	  <div class="banner-team">
       {% include team_header.html %}
 	  </div>
-    
+
     {% for person in site.persons %}
       {% if person.graduated == null %}
         {% if person.role == 'phdstudent' %}
@@ -25,10 +25,12 @@ layout: default
             {% assign ifundergrad = 'true' %}
         {% elsif person.role == 'intern' %}
             {% assign ifintern = 'true' %}
+				{% elsif person.role == 'engineer' %}
+						{% assign ifengineer = 'true' %}
         {% endif %}
       {% endif %}
     {% endfor %}
-	  
+
   <article class="team-content">
       <h1>Faculty</h1>
 
@@ -61,7 +63,7 @@ layout: default
 
         {% include person.html role="msstudent" %}
       {% endif %}
-      
+
       {% if ifundergrad == 'true' %}
         <p class="space">&nbsp;</p>
         <h1>Undergraduate Students</h1>
@@ -75,7 +77,14 @@ layout: default
 
         {% include person.html role="intern" %}
       {% endif %}
-      
+
+			{% if ifengineer == 'true' %}
+				<p class="space">&nbsp;</p>
+				<h1>Software Engineers</h1>
+
+				{% include person.html role="engineer" %}
+			{% endif %}
+
       <p class="space-alumni">&nbsp;</p>
 
       <h1>PhD Graduates</h1>

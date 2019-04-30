@@ -145,11 +145,13 @@ layout: default
 
     {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
 
+
         <h2 id="publications">Publications</h2>
+  {% assign publications = site.publications | sort: 'year' %}
 
         {% if haspreprints == "true" %}
         <h3>Preprints</h3>
-            {% for publication in site.publications reversed %}
+            {% for publication in publications reversed %}
                 {% if publication.type == "preprint" %}
                     {% for author in publication.authors %}
                         {% if author == page.key %}
@@ -162,7 +164,7 @@ layout: default
 
         {% if haspublications == "true" %}
         <h3>Peer-reviewed Journal and Conference Publications</h3>
-        {% for publication in site.publications reversed %}
+        {% for publication in publications reversed %}
         {% if publication.type == "paper" %}
         {% for author in publication.authors %}
         {% if author == page.key %}
@@ -175,7 +177,7 @@ layout: default
 
         {% if hascommentary == "true" %}
         <h3>Commentary</h3>
-        {% for publication in site.publications reversed %}
+        {% for publication in publications reversed %}
         {% if publication.type == "commentary" %}
         {% for author in publication.authors %}
         {% if author == page.key %}
@@ -188,7 +190,7 @@ layout: default
 
         {% if hasthesis == "true" %}
         <h3>Thesis</h3>
-        {% for publication in site.publications reversed %}
+        {% for publication in publications reversed %}
         {% if publication.type == "thesis" %}
         {% for author in publication.authors %}
         {% if author == page.key %}
@@ -201,7 +203,7 @@ layout: default
 
         {% if hasposter == "true" %}
         <h3>Selected Posters</h3>
-        {% for publication in site.publications reversed %}
+        {% for publication in publications reversed %}
         {% if publication.type == "poster" %}
         {% for author in publication.authors %}
         {% if author == page.key %}

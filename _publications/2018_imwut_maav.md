@@ -39,7 +39,7 @@ year: 2018
 bibentry: article 
 bib:
   
-  journal: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)(Ubicomp '18), to appear
+  journal: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)(Ubicomp '18)
   issue_date: September 2018
   numpages: 28
   publisher: ACM
@@ -73,8 +73,9 @@ pdf: 2018_imwut_maav.pdf
 supplement: 2018_imwut_maav_supplement.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
-supplements:
-# name: Supplemental Materials
+supplements: 
+name: Presentation Slides
+link: 2018_imwut_maav_slides.pdf
 # Use link instead of abslink if you want to link to the master directory
 # link: 2018_imwut_maav_supplement.zip
 # Defaults to a download icon, use this if you want a link-out icon

@@ -16,13 +16,15 @@ program: IIS CAREER
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: NSF IIS 1751238
 active: true
-updated: 2018-08-02
+updated: 2019-03-21
 publications: 
  - 2018_infovis_juniper
  - 2018_vahc_composer
+ - 2019_aci_composer
 staff:
  - lex
  - rogers
+ - kiran
 award: "$ 512,245"
 
 ---
@@ -32,3 +34,11 @@ Reproducibility and justifiability are widely recognized as critical aspects of 
 To achieve these goals, this research will develop a framework for making visual analysis sessions not only reproducible but also reusable. The approach is based on tracking semantically meaningful provenance data during an interactive visual analysis session. Once a discovery is made, analysts can use this history to curate a succinct analysis story, adding justifications and explanations to make their analysis reproducible by others. Using a semi-automatic process, analysts will be able to make their actions data-aware, so that their analysis processes become robust to changes, such as updates in the data. A second contribution of the proposed work is the integration of visual analysis into computational analysis processes. While visualization is commonly used to present computational analysis results, the results of a visual analysis session are rarely used to feed into further computational processes. The techniques developed in this project will allow analysts to feed analysis results (selections, aggregations, filters, etc.) back into a computational environment. This will make it possible to use interactive visualization at any point in the data analysis process while maintaining reproducibility and enabling reuse. The expected results include new methods to capture user intent, create data stories from analysis processes, and to integrate computational and visual data analysis, leveraging the strength of both, human abilities and computational power. The results will be disseminated in publications and in the form of open source software, and accessible via this website.
 
 ![Reproducibility Framework Concept](../2018-nsf-reproducibility_concept.png)
+
+## Software
+
+We are developing a provenance tracking library for integration with web applications. The source code is available [here](https://github.com/visdesignlab/provenance-lib-core). 
+
+We are also working on a simple visualization tool which we plan to use to capture analysis intent using the provenance library discussed above. Find the code [here](https://github.com/visdesignlab/intent-inference).
+
+
