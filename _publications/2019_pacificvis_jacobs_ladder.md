@@ -21,6 +21,7 @@ bib:
 
 video: 2019_pacificvis_jacobs_ladder_video
 
+journal-short: PacificVis
 
 pdf: 2019_pacificvis_jacobs_ladder.pdf
 supplement:
