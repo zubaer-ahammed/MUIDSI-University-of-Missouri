@@ -1,6 +1,6 @@
 ---
 speaker: lex
-title: "What is Data Visualization and Why Do We Care About it for Biomedical Applications."
+title: "What is Data Visualization and Why Do We Care About it for Biomedical Applications?"
 # paper | invited | keynote | tutorial |
 type: keynote
 slides-key: http://sci.utah.edu/~vdl/talks/2019-05-05_Lex_BioVis.key
