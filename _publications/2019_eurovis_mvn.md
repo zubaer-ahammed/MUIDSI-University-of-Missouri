@@ -48,7 +48,7 @@ award:
 external-project: https://vdl.sci.utah.edu/mvnv/
 
 # The reference to the video entry
-#video: 
+video: 2019_eurovis_mvnv_preview 
 # Talk video
 #talk-video: 
 
@@ -87,5 +87,4 @@ Visualization of multivariate networks, however, is challenging, especially when
 
 # Acknowledgements
 
-The authors thank members of the Visualization Design Lab for their feedback.
-This work is funded by the National Science Foundation (OAC 1835904, IIS 1751238, and IIS 1350896) and the Utah Genome Project.
+The authors thank members of the Visualization Design Lab for their feedback. This work is funded by the National Science Foundation (OAC 1835904, IIS 1751238, and IIS 1350896), the State of Upper Austria (FFG 851460), the Austrian Science Fund (FWF P27975-NBL), and by the Pro2Future Competence Center for Products and Productions of the Future. Pro2Future is funded within the Austrian COMET Program Competence Centers for Excellent Technologies–under the auspices of the Austrian Federal Ministry of Transport, Innovation and Technology, the Austrian Federal Ministry of Science, Research and Economy and of the Provinces of Upper Austria and Styria. COMET is managed by the Austrian Research Promotion Agency FFG.
