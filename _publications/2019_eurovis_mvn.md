@@ -74,7 +74,7 @@ pdf: 2019_eurovis_mvnv.pdf
 code: https://github.com/visdesignlab/mvnv
 
 # Link to an official preprint server
-preprint_server: 
+preprint_server: http://dx.doi.org/10.31219/osf.io/upbm2
 
 abstract: "
 Multivariate networks are made up of nodes and their relationships (links), but also data about those nodes and links as attributes. 
