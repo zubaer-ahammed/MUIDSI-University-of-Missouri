@@ -33,7 +33,7 @@ project:
 external-project: 
 
 video: 
-preview-video:
+preview-video: 2019_eurovis_implicit-discretization_preview
 pdf: 2019_eurovis_implicit-discretization.pdf
 supplement:
 
