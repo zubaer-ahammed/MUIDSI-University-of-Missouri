@@ -23,10 +23,12 @@ layout: default
             {% assign ifmsstudent = 'true' %}
         {% elsif person.role == 'undergrad' %}
             {% assign ifundergrad = 'true' %}
+        {% elsif person.role == 'visitor' %}
+          {% assign visitor = 'true' %}
         {% elsif person.role == 'intern' %}
             {% assign ifintern = 'true' %}
-				{% elsif person.role == 'engineer' %}
-						{% assign ifengineer = 'true' %}
+        {% elsif person.role == 'engineer' %}
+			{% assign ifengineer = 'true' %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -55,6 +57,12 @@ layout: default
       <p class="space">&nbsp;</p>
       <h1>PhD Rotation Students</h1>
       {% include person.html role="phd_rotation" %}
+      {% endif %}
+
+       {% if visitor == 'true' %}
+      <p class="space">&nbsp;</p>
+      <h1>Visitor</h1>
+      {% include person.html role="visitor" %}
       {% endif %}
 
       {% if ifmsstudent == 'true' %}
