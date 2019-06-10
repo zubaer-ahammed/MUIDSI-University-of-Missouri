@@ -20,4 +20,5 @@ interests: Visualization, Big Data, Software Sustainability
 
 # flag used to determine whether to show teaching
 showteaching: false
+graduated: N
 ---
