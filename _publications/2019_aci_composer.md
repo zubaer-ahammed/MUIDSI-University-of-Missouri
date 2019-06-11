@@ -44,11 +44,11 @@ bib:
   editor: 
   publisher: American Medical Informatics Association
   address: 
-  doi: 
+  doi: 10.1055/s-0039-1687862
   url: 
-  volume: 
-  number: 
-  pages:
+  volume: 10
+  number: 02
+  pages: 278-285
   month: 
   pmcid: 
 
