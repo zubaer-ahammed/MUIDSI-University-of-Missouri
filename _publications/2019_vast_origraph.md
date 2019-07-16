@@ -4,7 +4,8 @@ layout: publication
 title: "Origraph: Interactive Network Wrangling"
 key: 2019_preprint_origraph
 # paper | preprint | poster
-type: preprint
+type: paper
+redirect_from: /publications/2019_preprint_origraph
 
 # The shortname is used for auto-generated titels
 shortname: Origraph
@@ -23,9 +24,9 @@ authors:
 journal-short: arXiv
 year: 2019
 
-bibentry: article
+bibentry: inproceedings
 bib:
-  journal: arXiv preprint
+  journal: IEEE VAST (to appear)
   booktitle:
   editor:
   publisher: arXiv:1812.06337

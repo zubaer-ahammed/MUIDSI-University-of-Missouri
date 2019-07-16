@@ -26,16 +26,16 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '19), to appear
+  journal: Computer Graphics Forum (EuroVis '19)
   booktitle: 
   editor: 
   publisher: 
   address: 
-  doi: 
+  doi: 10.1111/cgf.13728 
   url: 
-  volume: 
+  volume: 38
   number: 
-  pages: 
+  pages: 807-832
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

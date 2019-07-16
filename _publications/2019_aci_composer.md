@@ -39,7 +39,7 @@ year: 2019
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
-  journal: Applied Clinical Informatics, to appear 
+  journal: Applied Clinical Informatics
   #booktitle: Special Section":" Visual Analytics in Healthcare
   editor: 
   publisher: American Medical Informatics Association
