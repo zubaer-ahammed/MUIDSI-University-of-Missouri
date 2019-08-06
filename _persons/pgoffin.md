@@ -16,7 +16,8 @@ interests: User-Centered Visualization Design, Text Visualization, Word-Scale Vi
 graduated:
 gs: https://scholar.google.ch/citations?user=x4Y78P4AAAAJ&hl
 room: WEB 2851
-
+postdoc_alumni: yes
+graduated: N
 ---
 
 I currently work on NIH's PRISMS project which is about "developing sensor-based, integrated health monitoring systems for measuring environmental, physiological, and behavioral factors in pediatric epidemiological studies of asthma", and the AQ and U project which is about understanding air quality in urban environments.

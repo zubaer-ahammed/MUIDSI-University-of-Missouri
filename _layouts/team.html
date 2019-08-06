@@ -108,12 +108,25 @@ layout: default
       {% endfor %}
       </p> <br><br>
 
+      <h1>Former PostDocs</h1>
+      <p class="person-list-block">
+      {% for p in site.persons %}
+      {% if p.postdoc_alumni %}
+      {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
+      <span class="alumni">
+              {% if p.website %}
+              <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
+          </span>
+      {% endif %}
+      {% endfor %}
+      </p> <br><br>
+
 
       <h1>Other Alumni</h1>
       <p class="person-list-block">
       {% for p in site.persons %}
         {% if p.graduated %}
-          {% if p.phd_graduate %}
+          {% if p.phd_graduate or p.postdoc_alumni%}
           {% else %}
         {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
           <span class="alumni">
