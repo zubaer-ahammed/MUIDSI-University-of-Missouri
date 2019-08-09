@@ -27,7 +27,7 @@ year: 2018
 
 bibentry: inproceedings
 bib:
-  journal: IEEE VAST (to appear)
+  journal: Proceedings of the IEEE Information Visualization Conference - Posters 
   booktitle:
   editor:
   publisher: 
@@ -52,14 +52,14 @@ video: 2018_infovis_composer_video.mp4
 #preview-video:
 
 # the prerint
-pdf: 2018_infovis_composer_poster.pdf
+pdf: 2018_infovis_composer_abstract.pdf
 # A supplement PDF
 #supplement: 2017_preprint_lineage_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-- name: 
-  link: 
+- name: Poster
+  link: 2018_infovis_composer_poster.pdf
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
 #  # defaults to a download icon, use this if you want a link-out icon

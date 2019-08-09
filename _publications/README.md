@@ -171,8 +171,8 @@ usr/sci/www/vdl/papers
 
 You will need permissions to read/write to that repository. Ask alex to send an e-mail to support@sci.utah.edu to get you access. 
 
-Here is a sync script that you can run to sync a local folder with the SCI server.
+Here is a sync script that you can run to sync a local folder with the SCI server. Replace alex with your username.
 
 ``` bash
-rsync * alex@shell.sci.utah.edu:/usr/sci/www/vdl/papers --protocol=29 -r
+rsync * alex@shell.sci.utah.edu:/usr/sci/www/vdl/papers -avzru --delete-excluded
 ```
