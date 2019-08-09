@@ -22,6 +22,7 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
+office-hours: Tuesdays, 2-3pm
 
 # flag used to determine whether to show teaching   
 showteaching: true
