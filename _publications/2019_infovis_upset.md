@@ -6,6 +6,7 @@ type: poster
 
 shortname: upset poster
 image: 2019_infovis_upset.png
+image_large:  2019_infovis_upset_teaser.png
 
 authors:
 - kiran

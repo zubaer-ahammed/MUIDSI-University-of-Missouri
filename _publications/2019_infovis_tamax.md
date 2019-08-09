@@ -6,6 +6,7 @@ type: poster
 
 shortname: tamax poster
 image: 2019_infovis_tamax.png
+image_large:  2019_infovis_tamax_teaser.png
 
 authors:
 - ilkin
