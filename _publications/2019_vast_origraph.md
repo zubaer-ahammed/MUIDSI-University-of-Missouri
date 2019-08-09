@@ -21,7 +21,7 @@ authors:
   - meyer
   - lex
 
-journal-short: arXiv
+journal-short: VAST '19
 year: 2019
 
 bibentry: inproceedings
