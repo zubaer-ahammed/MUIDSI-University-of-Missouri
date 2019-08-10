@@ -71,7 +71,7 @@ code: https://github.com/visdesignlab/Composer/
 
 abstract: "
 <p>
-Lower back pain is a significant help burden, claiming 2.6 million emergency room visits a year with expenses exeeding $100 billion. 
+Lower back pain is a significant health burden, claiming 2.6 million emergency room visits a year with expenses exeeding $100 billion. 
 To determine the best treatment options for their patients, doctors often rely on clinical guidelines and memory of past experience with patients that have similar medical histories to a given patient. However, Most clinical guidelines are based on evidence from clinical trials and controlled studies and data collected from clinical trials, often sourced from a general population, may not provide an accurate reflection of potential outcomes for patients with pre-existing conditions. </p>
 <p>
 There has been a rising interest in using EHR data in evidence based comparisons to better identify factors that can influence patients recovery, especially for those with pre-existing conditions. This was the motivation behind our collaboration with surgeons and researchers from the orthopaedic research center and population health, who are currently investigating the use of patient reported outcomes called PROMIS scores 
