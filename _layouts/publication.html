@@ -182,6 +182,16 @@ layout: default
     {% endif %}
     </ul>
 
+
+    {% if page.videos %}
+
+    <h1>Video(s)</h1>
+
+    {% for video_object in page.videos %}
+      {% include video_entry.html video=video_object %}
+    {% endfor %}
+    {% endif %}
+
     {% if page.video or page.preview-video or page.talk-video %}
 
     <h1>Videos</h1>

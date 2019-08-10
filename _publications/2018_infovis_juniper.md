@@ -62,13 +62,18 @@ preprint_server: https://arxiv.org/abs/1804.03261
 project: 
 external-project: http://juniper.sci.utah.edu/
 
-# The reference to the video entry
-video: 2018_infovis_juniper_video
-# The reference to the talk video
-talk-video: 2018_infovis_juniper_talk
-# The reference to the preview video entry
-preview-video: 2018_infovis_juniper_video_preview
-
+# The videos
+videos:  
+ - name: "Juniper Introduction" 
+   youtube-id: EAjNxFgsJ58
+   file: 2018_infovis_juniper.mp4
+ - name: "Juniper Preview" 
+   youtube-id: y9ZVNtuyUBU
+   file: 2018_infovis_juniper_preview.mp4
+ - name: "Recorded Talk" 
+   vimeo-id: 299855433
+   file: 2018_infovis_juniper_talk.mp4
+ 
 # the preprint
 pdf: 2018_infovis_juniper.pdf
 # A supplement PDF
