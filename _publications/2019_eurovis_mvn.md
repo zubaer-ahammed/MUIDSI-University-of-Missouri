@@ -47,10 +47,10 @@ award:
 # Use this if you have an external project website
 external-project: https://vdl.sci.utah.edu/mvnv/
 
-# The reference to the video entry
-video: 2019_eurovis_mvnv_preview 
-# Talk video
-#talk-video: 
+videos:
+- name: "Multivariate Network Visualization Preview" 
+  youtube-id: FyEVhJLlv3Q
+  file: 2019_eurovis_mvnv_preview.mp4
 
 # The reference to the preview video entry
 #preview-video: 2018_tvcg_lineage_video_preview

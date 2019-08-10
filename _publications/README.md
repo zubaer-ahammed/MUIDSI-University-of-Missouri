@@ -30,6 +30,8 @@ blank if they are not needed. You can also remove comments or unused fields.
 Each publication _**must**_ specify a `title`, `authors`, `bibentry`, and `year`
 in order to render proper BibTeX output.
 
+A current example is the Juniper entry.
+
 
 ``` yaml
 ---

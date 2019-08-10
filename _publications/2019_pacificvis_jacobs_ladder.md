@@ -19,9 +19,14 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '19)
 
-video: 2019_pacificvis_jacobs_ladder_video
+videos:
+ - name: "Jacob's Ladder Introduction"
+   youtube-id: 2joyCdBSGKw
+   file: 2019_pacificvis_jacobs_ladder.mp4
 
 journal-short: PacificVis
+
+
 
 pdf: 2019_pacificvis_jacobs_ladder.pdf
 supplement:

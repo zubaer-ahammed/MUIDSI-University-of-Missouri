@@ -32,8 +32,11 @@ award:
 project:
 external-project: 
 
-video: 
-preview-video: 2019_eurovis_implicit-discretization_preview
+videos:
+ - name: "Examining Implicit Discretization in Spectral Schemes" 
+ - youtube-id: wJK5teqwMx0
+ - file: 2019_eurovis_implicit-discretization_preview.mp4
+
 pdf: 2019_eurovis_implicit-discretization.pdf
 supplement:
 

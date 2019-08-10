@@ -47,10 +47,10 @@ award:
 # Use this if you have an external project website
 external-project: https://origraph.github.io/
 
-# The reference to the video entry
-video: 2019_vast_origraph_video
-# The reference to the preview viedo entry
-#preview-video:
+videos:
+ - name: "Origraph Introduction"
+   youtube-id: bSFf2iD4TLI
+   file: 2019_vast_origraph.mp4
 
 # the prerint
 pdf: 2019_vast_origraph.pdf
