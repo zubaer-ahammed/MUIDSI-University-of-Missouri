@@ -100,10 +100,18 @@ preprint_server:
 project: 
 external-project: https://pathfinder.caleydoapp.org/
 
-# Video entry, preview video, and conference talk video
-video: 2016_eurovis_pathfinder_video
-talk-video: 2016_eurovis_pathfinder_talk
-preview-video: 2016_eurovis_pathfinder_video_preview
+# Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
+# you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
+videos:  
+ - name: "Juniper Introduction" 
+   youtube-id: EAjNxFgsJ58
+   file: 2018_infovis_juniper.mp4
+ - name: "Juniper Preview" 
+   youtube-id: y9ZVNtuyUBU
+   file: 2018_infovis_juniper_preview.mp4
+ - name: "Recorded Talk" 
+   vimeo-id: 299855433
+   file: 2018_infovis_juniper_talk.mp4
 
 # Provide a preprint and supplement pdf
 pdf: 2016_eurovis_pathfinder.pdf

@@ -62,7 +62,7 @@ preprint_server: https://arxiv.org/abs/1804.03261
 project: 
 external-project: http://juniper.sci.utah.edu/
 
-# The videos
+# The videos, list name, youtube-id, vimeo-id, file (the filename)
 videos:  
  - name: "Juniper Introduction" 
    youtube-id: EAjNxFgsJ58
