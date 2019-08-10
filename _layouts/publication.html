@@ -192,13 +192,14 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    {% if page.video or page.preview-video or page.talk-video %}
 
+    <!-- This is legacy code to support pre-2018 publications that had a separate video file -->
+    {% if page.video or page.preview-video or page.talk-video %}
     <h1>Videos</h1>
     {% endif %}
     {% for video in site.videos %}
     {% if video.key == page.video or video.key == page.preview-video or video.key == page.talk-video %}
-      {% include video_entry.html video=video_object %}
+      {% include video_entry.html video=video %}
     {% endif %}
     {% endfor %}
 
