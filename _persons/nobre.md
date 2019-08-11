@@ -10,9 +10,11 @@ image: /assets/images/people/nobre.jpg
 organization: University of Utah
 position: PhD Student
 website: /team/nobre
-interests: Multivariate Graphs, Genealogies, Social Networks
+interests: Multivariate Graphs, Genealogies, Social Networks, User Studies
 github: https://github.com/cnobre
 twitter: "@carolinanobre84"
 ---
 
-I'm a PhD student working with Alexander Lex on Multivariate Graph Visualization.
+
+
+I am a PhD student working with Alexander Lex and my research is focused on visualizing multivariate networks. I have published on MVNs in the context of genealogies and on using spanning trees and associating attribute tables as an approach to visualizing general multivariate networks. My current project involves conducting user studies to assess how different MVN visualization techniques are best suited for different network exploration tasks. My  Master's thesis addressed the challenge of visualizing multivariate oceanographic data, which she modeled as trees of currents. I have a masters in software engineering from the Harvard Extension School, as well as a previous life as an oceanographer studying the Arctic Ocean and its effect on our planet. 
