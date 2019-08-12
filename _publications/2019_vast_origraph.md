@@ -51,6 +51,9 @@ videos:
  - name: "Origraph Introduction"
    youtube-id: bSFf2iD4TLI
    file: 2019_vast_origraph.mp4
+ - name: "Fast Forward"
+   youtube-id: bxjDvq6kjeo
+   file: 2019_vast_origraph_fastForward.mp4
 
 # the prerint
 pdf: 2019_vast_origraph.pdf
