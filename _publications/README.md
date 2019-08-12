@@ -47,6 +47,11 @@ type: paper | preprint | poster | thesis | commentary
 # Uncomment the line below for publications which should only appear on a personal webpage
 # personal: y
 
+# Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
+# that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
+# 2019-11 belwo that paper. Notice that sorting is lexicographic.  
+order: 2019-11
+
 # Auto-generates titles and alt-descriptors
 shortname: Pathfinder
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/

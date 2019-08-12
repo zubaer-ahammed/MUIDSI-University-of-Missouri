@@ -5,6 +5,7 @@ title: "10 Simple Rules to Create Biological Network Figures for Communication"
 key: 2019_plos_10-rules-network-vis
 # paper | preprint | poster
 type: paper
+order: 2019-09
 #redirect_from: /publications/2017_preprint_lineage
 
 # The shortname is used for auto-generated titels

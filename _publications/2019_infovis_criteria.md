@@ -5,6 +5,7 @@ title: "Criteria for Rigor in Visualization Design Study"
 key: 2019_infovis_criteria
 # paper | preprint | poster
 type: paper
+order: 2019-11
 
 # The shortname is used for auto-generated titels
 shortname: Criteria

@@ -3,6 +3,7 @@ layout: publication
 title: "Examining Implicit Discretization in Spectral Schemes"
 key: 2019_eurovis_implicit-discretization
 type: paper
+order: 2019-07
 
 shortname: Implicit Discretization
 image: 2019_eurovis_implicit-discretization.png

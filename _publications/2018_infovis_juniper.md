@@ -6,6 +6,7 @@ title: "Juniper: A Tree+Table Approach to Multivariate Graph Visualization"
 key: 2018_infovis_juniper
 # Select one of the options below
 type: paper 
+order: 2019-04
 # Uncomment the line below for publications which should only appear on a personal webpage
 # personal: y
 redirect_from: /publications/2018_preprint_juniper

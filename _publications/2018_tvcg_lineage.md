@@ -5,6 +5,7 @@ title: "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs"
 key: 2018_tvcg_lineage
 # paper | preprint | poster
 type: paper
+order: 2019-01
 redirect_from: /publications/2017_preprint_lineage
 
 # The shortname is used for auto-generated titels

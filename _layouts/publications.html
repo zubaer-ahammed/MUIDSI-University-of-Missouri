@@ -9,6 +9,7 @@ layout: default
 
     <h1>Preprints</h1>
     {% assign publications = site.publications | sort: 'year' %}
+    {% assign publications = publications | sort: 'order' %}
 
     {% for publication in publications reversed %}
       {% if publication.personal %}

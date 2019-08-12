@@ -3,6 +3,7 @@ layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "A Framework for Externalizing Implicit Error Using Visualization"
 key: 2018_infovis_ie-framework
+order: 2019-02
 # paper | preprint | poster
 type: paper
 

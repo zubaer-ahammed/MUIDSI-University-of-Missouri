@@ -3,6 +3,7 @@ layout: publication
 title: "Jacob's Ladder: The User Implications of Leveraging Graph Pivots"
 key: 2019_pacificvis_jacobs_ladder
 type: paper
+order: 2019-06
 
 
 shortname: JacobsLadder

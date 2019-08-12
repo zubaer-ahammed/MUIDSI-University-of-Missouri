@@ -5,6 +5,9 @@ title: "Origraph: Interactive Network Wrangling"
 key: 2019_vast_origraph
 # paper | preprint | poster
 type: paper
+order: 2019-10
+
+
 redirect_from: /publications/2019_vast_origraph
 
 # The shortname is used for auto-generated titels

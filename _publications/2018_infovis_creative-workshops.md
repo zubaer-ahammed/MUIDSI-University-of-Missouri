@@ -5,6 +5,7 @@ title: "A Framework for Creative Visualization-Opportunities Workshops"
 key: 2018_infovis_creative-workshops
 # paper | preprint | poster
 type: paper
+order: 2019-03
 
 # The shortname is used for auto-generated titels
 shortname: CVO Workshops

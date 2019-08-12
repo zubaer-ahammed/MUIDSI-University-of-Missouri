@@ -6,6 +6,7 @@ title: "Composer: Visual Cohort Analysis of Patient Outcomes"
 key: 2019_aci_composer
 # Select one of the options below
 type: paper 
+order: 2019-05
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage
 # Uncomment the line below for publications which should only appear on a personal webpage

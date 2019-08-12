@@ -5,6 +5,7 @@ title: "The State of the Art in Visualizing Multivariate Networks"
 key: 2019_eurovis_mvnv
 # paper | preprint | poster
 type: paper
+order: 2019-08
 #redirect_from: /publications/2017_preprint_lineage
 
 # The shortname is used for auto-generated titels
