@@ -47,7 +47,10 @@ external-project:
 # The reference to the video entry
 # video: 
 # The reference to the preview viedo entry
-preview-video: 2019_infovis_criteria_preview.mov
+videos:  
+ - name: "Rigor in DS Intro" 
+   youtube-id: 
+   file: 2019_infovis_criteria_preview.mov
 
 # the prerint
 pdf: 2019_infovis_criteria.pdf
