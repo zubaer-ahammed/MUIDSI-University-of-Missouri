@@ -20,6 +20,11 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’19)
 
+videos:  
+ - name: "Clipped Graphs Video" 
+   youtube-id: IxoaFe6yBMg
+   file: 2019_infovis_clipped_graphs.mp4
+   
 pdf: 2019_infovis_clipped_graphs.pdf
 
 code: https://github.com/Caleydo/lineage/tree/lineage2.0
