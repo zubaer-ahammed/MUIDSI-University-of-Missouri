@@ -44,4 +44,6 @@ I got my Bachelor of Science Degree in Mathematics from Westminster College here
 
 Until recently, I worked in the marketing analytics industry for a start up called [Emperitas](https://www.emperitas.com/). While there, I build graph database applications, machine learning models, and customer lifetime value solutions for clients all over the U.S.
 
+My personal site is currently being built [here](https://www.jackwilburn.xyz).
+
 
