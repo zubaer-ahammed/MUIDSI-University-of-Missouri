@@ -13,28 +13,14 @@ image: /assets/images/people/wilburn.jpg
 organization: University of Utah
 position: Software Developer
 website: /team/wilburn/
-interests: Machine Learning, Devops, Full Stack
+interests: "Machine Learning, Devops, Full Stack"
 graduated: 
 # stuff below can be ignored if you don't use the group website for your private website
 gs: 
 github: https://github.com/JackWilb
 twitter: 
 cv: 
-room: WEB 3823
-office-hours: 8-4 M-F
-
-# flag used to determine whether to show teaching   
-showteaching: false
-
-# phd_students:
-
-# ms_students:
-
-
-# former_students:
-
-#projects:
-
+room: "WEB 3823"
 
 ---
 
