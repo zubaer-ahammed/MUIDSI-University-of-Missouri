@@ -21,6 +21,7 @@ publications:
  - 2018_infovis_juniper
  - 2018_vahc_composer
  - 2019_aci_composer
+ - 2019_eurovis_mvn
 staff:
  - lex
  - rogers

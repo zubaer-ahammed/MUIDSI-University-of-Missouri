@@ -29,13 +29,16 @@ agency-website: https://nsf.gov/awardsearch/showAward?AWD_ID=1835904
 collaborative-award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835893
 number: NSF OAC 1835904
 active: true
-updated: 2018-09-10
+updated: 2019-08-21
 publications: 
+ - 2019_vast_origraph
+ - 2019_eurovis_mvn
+ 
 staff:
  - meyer
  - lex
  - rogers
- - dewey
+ - wilburn
 award: "$ 2,022,200"
 award-utah: "$ 1,115,768"
 award-lex: "$ 529,929.37"

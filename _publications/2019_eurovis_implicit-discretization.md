@@ -20,12 +20,12 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '19), to appear
-  doi: 
+  journal: Computer Graphics Forum (EuroVis '19)
+  doi: 10.1111/cgf.13695
   url: 
-  volume:
-  number:
-  pages:
+  volume: 38
+  number: 3
+  pages: 363-374
   month:
 
 award:

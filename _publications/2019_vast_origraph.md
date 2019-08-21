@@ -84,3 +84,7 @@ In this paper, we discuss a set of operations that are important for wrangling n
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+### Acknowledgements
+
+This work was funded by the National Science Foundation (OAC 1835904, IIS 1350896, IIS 1751238) and by the Utah Genome
+Project.
