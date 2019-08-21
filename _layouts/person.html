@@ -152,7 +152,9 @@ layout: default
 
 
         <h2 id="publications">Publications</h2>
-  {% assign publications = site.publications | sort: 'year' %}
+
+    {% assign publications = site.publications | sort: 'year' %}
+    {% assign publications = publications | sort: 'order' %}
 
         {% if haspreprints == "true" %}
         <h3>Preprints</h3>
