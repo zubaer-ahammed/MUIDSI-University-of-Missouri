@@ -13,7 +13,7 @@ image: /assets/images/people/bickmore.jpg
 organization: University of Utah
 position: Software Developer
 website: /team/bickmore/
-interests: artificial intelligence, visualisations, bioinformatics
+interests: Artificial intelligence, Visualizations, Bioinformatics
 graduated: 
 # stuff below can be ignored if you don't use the group website for your private website
 gs: 
