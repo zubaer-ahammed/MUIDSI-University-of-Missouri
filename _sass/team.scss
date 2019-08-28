@@ -148,8 +148,8 @@
 }
 
 .person-image {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   @include border-radius( 50% );
   &.offset0 {
     margin-bottom: 65px;
@@ -158,9 +158,9 @@
 
 .person-image-small {
   @extend .person-image;
-  width: 70px;
-  height: 70px;
-  margin-right: -15px;
+  width: 60px;
+  height: 60px;
+  margin-right: -25px;
   margin-bottom: 25px;
   &.offset0 {
     margin-bottom: 75px;

@@ -1,3 +1,4 @@
+---
 # use person layout if you want a page generated for you
 layout: person
 first_name: Derya
@@ -12,33 +13,23 @@ organization: University of Utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: /team/akbaba
-interests: Data Visualization, Design Practices, Visualization Tools for Education
+interests: "Data Visualization, Design Practices, Visualization Tools for Education"
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated:
+graduated: 
 
 # stuff below can be ignored if you don't use the group website for your private website
 
-gs:
-gh:https://github.com/gotdairyya
+gh: https://github.com/gotdairyya
 twitter: "@gotdairyya"
-cv:
+# cv: 
 address: |
-    Scientific Computing and Imaging Institute, <br>
     School of Computing, University of Utah <br>
-    72 South Central Campus Drive, Room 3887 <br>
+    50 S. Central Campus Drive <br>
     Salt Lake City, Utah 84112
 
 # flag used to determine whether to show teaching
 showteaching: false
 
-phd_students:
- - nobre
-phd_rotation_students:
- - aljuhani
-ms_students:
- - Pranav Dommata
-former_students:
- - anirudh
 ---
-
 I am a PhD student in the School of Computing working with Miriah Meyer. In my work, I focus on understanding the role that design and technology plays in people's ability to find information and create lasting understanding. Inspired by great interdisciplinary thinkers before me, I hope to emulate work that is as thoughtful and inventive in the realm of data visualization.
+
