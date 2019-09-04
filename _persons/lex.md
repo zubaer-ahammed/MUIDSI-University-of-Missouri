@@ -33,8 +33,13 @@ phd_students:
  - kiran
  - lin
  - ilkin
+ - marno
 
-# ms_students:
+ms_students:
+ - Sai Varun
+ 
+ug_students:
+ - zcutler
 
 
 former_students:
