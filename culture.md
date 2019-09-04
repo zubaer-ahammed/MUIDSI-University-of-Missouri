@@ -15,6 +15,10 @@ We meet weekly as a group to discuss a research paper, give feedback on research
 
 Once a year we go on a hike and meet for food and drinks at Miriah's or Alex' house afterwards. Here are some pictures from these events.
 
+### 2019 Group Retreat
+
+<img class="social" src="../assets/images/social/2019_retreat.jpg" alt="2019 VDL Retreat">
+
 ### 2018 Group Hike / Retreat
 
 <img class="social" src="../assets/images/social/2018_retreat.jpg" alt="2018 VDL Retreat">
