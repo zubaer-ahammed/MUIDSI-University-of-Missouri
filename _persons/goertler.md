@@ -11,5 +11,6 @@ organization: University of Konstanz & University of Utah
 position: PhD Student
 website: https://www.jgoertler.com/
 interests: Uncertainty visualization, Machine Learning, Explainable AI
+graduated: N
 ---
 
