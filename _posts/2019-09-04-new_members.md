@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Welcome to new PhD students and Software Engineers
+title:  Welcome to new PhD students and Software Engineers, Goodby to Others
 date:   2019-09-04 11:00:00
 categories: event
 ---
@@ -12,4 +12,5 @@ We welcome three new PhD students and two software engineers to our Group.
  * [Kaleb Bickmore](/team/bickmore/) is a new full stack software engineer who will work on health-related projects. 
  * [Jack Wilburn](/team/wilburn/)  is a new full stack software engineer who will support the NSF MultiNet project.
 
+We're also saying goodbye to two students: [Dylan Wootton](/team/wootton/) graduated this spring and spent the summer working with us on various projects. He will be starting a job with Microsoft in September. [Jochen Görtler](/team/goertler/) is returning to his home institution, the University of Konstanz, after spending the summer with us. 
  
