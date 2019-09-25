@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     {% include head_default.html %}
 
@@ -74,10 +73,11 @@
 	  <h1>Recent Publications</h1>
 	  	  
 	      <ul class="publication-icon-list">
-              {% assign sorted_publications = site.publications | sort: 'year' %}
+            {% assign sorted_publications = site.publications | sort: 'year' %}
+            {% assign sorted_publications = sorted_publications | sort: 'order' %}
             {% for publication in sorted_publications reversed %}
             {% if publication.personal %}
-	          {% elsif publication.year > 2017 and publication.type == "paper" %}
+	          {% elsif publication.year > 2018 and publication.type == "paper" %}
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
