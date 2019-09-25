@@ -62,9 +62,12 @@ pdf: 2019_eurovis_mvnv.pdf
 #supplement: 2018_tvcg_lineage_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
-#supplements:
-#- name: Vis Talk Slides
-#  link: 2018_tvcg_lineage_talkSlides.pdf
+# Extra supplements, such as talk slides, data sets, etc.
+supplements:
+- name: EuroVis Talk Slides - Keynote
+  link: 2019_eurovis_mvnv_talkSlides.key
+- name: EuroVis Talk Slides - PDF
+  link: 2019_eurovis_mvnv_talkSlides.pdf
 
 #  # use link instead of abslink if you want to link to the master directory
 #  abslink: http://vials.io/talk/
