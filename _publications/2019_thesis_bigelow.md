@@ -10,7 +10,7 @@ image: 2016_infovis_hanpuku.png
 
 authors:
 - bigelow
-advisors: meyer, lex, Megan Monroe, Jim Agutter, Tamara Denning
+advisors: Miriah Meyer, Alexander Lex, Megan Monroe, James A. Agutter, Tamara Denning
 year: 2019
 month: May
 institution: University of Utah
