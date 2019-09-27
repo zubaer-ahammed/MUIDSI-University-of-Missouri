@@ -1,7 +1,7 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "10 Simple Rules to Create Biological Network Figures for Communication"
+title: "Ten Simple Rules to Create Biological Network Figures for Communication"
 key: 2019_plos_10-rules-network-vis
 # paper | preprint | poster
 type: paper
@@ -28,16 +28,16 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: PLOS Computational Biology (to appear)
+  journal: PLOS Computational Biology
   booktitle: 
   editor: 
   publisher: 
   address: 
-  doi: 
+  doi: 10.1371/journal.pcbi.1007244
   url: 
-  volume: 
-  number: 
-  pages:
+  volume: 15
+  number: 9
+  pages: e1007244 
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

@@ -27,9 +27,9 @@ bib:
   journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '19) (to appear)
   booktitle:
   editor:
-  publisher: arXiv:1907.08495
+  publisher: 
   address:
-  doi: 
+  doi: 10.1109/TVCG.2019.2934539
   url: 
   volume:
   number:
