@@ -1,7 +1,7 @@
 ---
 layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
-title: EpiFi':' An In-Home Sensor Network Architecture for Epidemiological Studies
+title: "EpiFi: An In-Home Sensor Network Architecture for Epidemiological Studies"
 # Keys must be unique to each paper, see section below for more details
 key: 2018_ieee_epifi
 # Select one of the options below
