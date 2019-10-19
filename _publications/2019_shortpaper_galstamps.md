@@ -24,7 +24,7 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: Proceedings of the 2019 IEEE Visualization Conference
+  journal: Proceedings of the IEEE Visualization Conference
   booktitle:
   editor:
   publisher: IEEE
@@ -48,10 +48,10 @@ external-project: http://bit.ly/GalStamps
 # The reference to the video entry
 # video: 2018_tvcg_lineage_video
 # The reference to the preview viedo entry
-preview-video: 2018_shortpapers_ie-framework_video_preview
+preview-video: 2019_shortpapers_galstamps_video_preview
 
 # the prerint
-pdf: 2018_shortpapers_GalStamps.pdf
+pdf: 2019_shortpapers_GalStamps.pdf
 # A supplement PDF
 # supplement: 2018_tvcg_lineage_supplement.pdf
 
