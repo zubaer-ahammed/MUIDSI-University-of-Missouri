@@ -51,7 +51,7 @@ external-project: http://bit.ly/GalStamps
 preview-video: 2019_shortpapers_galstamps_video_preview
 
 # the prerint
-pdf: 2019_shortpapers_GalStamps.pdf
+pdf: 2019_shortpapers_galStamps.pdf
 # A supplement PDF
 # supplement: 2018_tvcg_lineage_supplement.pdf
 
