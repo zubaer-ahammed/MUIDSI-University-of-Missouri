@@ -19,6 +19,8 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’19)
 
+award: InfoVis 2019 Honorable Mention Poster Award (Selected out of 60 poster abstracts)
+
 videos:  
   - name: "Juniper Introduction"
     vimeo-id: 361165729
