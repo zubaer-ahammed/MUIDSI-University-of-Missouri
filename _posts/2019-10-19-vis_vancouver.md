@@ -5,7 +5,7 @@ date:   2019-10-19 08:00:00
 categories: event
 ---
 
-VDL members are contributing two papers, one short paper, in various ways to [VIS in Vancouver](http://ieeevis.org/year/2019/welcome) this year:
+VDL members are contributing in various ways to [VIS in Vancouver](http://ieeevis.org/year/2019/welcome) this year:
 
  * Miriah Meyer will present her paper on [criteria for rigor in visualization design study]({{site.base_url}}/publications/2019_infovis_criteria/).
  * Alex Bigelow will present his paper on [network wrangling with Origraph]({{site.base_url}}/publications/2019_vast_origraph/).
