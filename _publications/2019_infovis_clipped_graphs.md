@@ -18,7 +18,7 @@ year: 2019
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’19)
+  booktitle: Proceedings of the IEEE Information Visualization Conference – Posters (InfoVis ’19)
 
 videos:  
  - name: "Clipped Graphs Video" 
