@@ -4,7 +4,7 @@ title: "Arctic Explorer: Visualization of Sea-Ice Concentration along Arctic Shi
 key: 2019_infovis_arctic_explorer
 type: poster
 
-shortname: arctic_explorer
+shortname: Arctic Explorer
 image: 2019_infovis_arctic_explorer.png
 
 authors:
@@ -19,17 +19,15 @@ bibentry: inproceedings
 bib:
   booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’19)
 
-award: InfoVis 2019 Honorable Mention Poster Award (Selected out of 60 poster abstracts)
-
 videos:  
-  - name: "Arctic Explorer Introduction"
-    vimeo-id: 361165729
-    file: 2019_infovis_arctic_explorer_video.mp4
-
+ - name: "Arctic Explorer Video" 
+   vimeo-id: 361165729
+   file: 2019_infovis_arctic_explorer_video.mp4
+   
 pdf: 2019_infovis_arctic_explorer.pdf
-supplement: 2019_infovis_arctic_explorer_supplement.pdf
 
-code: https://github.com/dwootton/ArcticExplorer
+code: https://github.com/dwootton/Arctic-Explorer
 
 abstract: "
 <p>The Arctic seascape plays an important role in North American trade and defense; however, over recent years, the Arctic has undergone radical changes, altering current shipping routes and opening up new previously blocked paths. This work presents Arctic Explorer, a tool to visualize sea-ice concentration along paths over time. Arctic Explorer could be used to circumnavigate areas expected to be blocked with ice and discover new routes that may have opened up. </p>"
+---
