@@ -22,7 +22,7 @@ bib:
 award: InfoVis 2019 Honorable Mention Poster Award (Selected out of 60 poster abstracts)
 
 videos:  
-  - name: "Juniper Introduction"
+  - name: "Arctic Explorer Introduction"
     vimeo-id: 361165729
     file: 2019_infovis_arctic_explorer_video.mp4
 
