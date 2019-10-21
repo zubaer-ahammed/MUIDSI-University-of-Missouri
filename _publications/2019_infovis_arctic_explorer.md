@@ -22,7 +22,7 @@ bib:
 videos:  
  - name: "Arctic Explorer Video" 
    vimeo-id: 361165729
-   file: 2019_infovis_arctic_explorer_video.mp4
+   file: 2019_infovis_arctic_explorer_preview.mp4
    
 pdf: 2019_infovis_arctic_explorer.pdf
 
