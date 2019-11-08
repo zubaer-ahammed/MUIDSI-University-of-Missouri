@@ -21,6 +21,10 @@ bib:
 
 pdf: 2019_infovis_tamax.pdf
 
+supplements:
+- name: Poster
+  link: 2019_infovis_tamax_poster.pdf
+
 abstract: "
 <p>Considering node and edge attribute is crucial for many network exploration and analysis tasks.
 However, effective visualization of both structure and attributes is a challenging problem, especially for dense graphs.
