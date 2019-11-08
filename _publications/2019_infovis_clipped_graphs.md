@@ -27,7 +27,9 @@ videos:
    
 pdf: 2019_infovis_clipped_graphs.pdf
 
-poster: 2019_infovis_clipped_graphs_poster.pdf
+supplements:
+- name: Poster
+  link: 2019_infovis_clipped_graphs_poster.pdf 
 
 code: https://github.com/Caleydo/lineage/tree/lineage2.0
 
