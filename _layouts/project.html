@@ -48,13 +48,42 @@ layout: default
         <br>
         <h2>VDL Project Alumni</h2>
         <div style="overflow: auto;">
+        <ul>
             {% for person_key in page.alumni  %}
+            {% assign known = false %}
                 {% for person in site.persons %}
                     {% if person.key == person_key %}
-                        {% include person_list_entry.html key=person_key %}
+                         <li>{{person.first_name}} {{person.last_name}}</li>
+                        {% assign known = true %}
+                    {% endif %}
+
+                {% endfor %}
+                {% if known == false %}
+                     <li>{{person_key}}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        </div>
+        {% endif %}
+
+          {% if page.otherstaff %}
+        <br>
+        <h2>Other Staff</h2>
+        <div style="overflow: auto;">
+        <ul>
+            {% for person_key in page.otherstaff  %}
+            {% assign known = false %}
+                {% for person in site.persons %}
+                    {% if person.key == person_key %}
+                         <li>{{person.first_name}} {{person.last_name}}</li>
+                        {% assign known = true %}
                     {% endif %}
                 {% endfor %}
+                {% if known == false %}
+                     <li>{{person_key}}</li>
+                {% endif %}
             {% endfor %}
+        </ul>
         </div>
         {% endif %}
 

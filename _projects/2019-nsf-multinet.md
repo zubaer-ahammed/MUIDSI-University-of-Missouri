@@ -32,13 +32,20 @@ active: true
 updated: 2019-08-21
 publications: 
  - 2019_vast_origraph
- - 2019_eurovis_mvn
+ - 2019_eurovis_mvnv
  
 staff:
  - meyer
  - lex
  - rogers
  - wilburn
+ 
+otherstaff: 
+ - Roni Choudhury (Kitware)
+ 
+alumni:
+ - Mark Dewy
+
 award: "$ 2,022,200"
 award-utah: "$ 1,115,768"
 award-lex: "$ 529,929.37"
@@ -56,3 +63,20 @@ MultiNet aims to change the landscape of visual analysis capabilities for reason
 
 These capabilities will allow scientists to ask new classes of questions about network datasets, and lead to insights about a wide range of pressing topics. To meet this goal, we will ground the design of MultiNet in four deeply collaborative case studies with domain scientists in biology, neuroscience, sociology, and geology.
 
+
+## Software 
+
+Multinet is web-based, open-source software. You can find the interactive application at: 
+
+ * [https://multinet.app/]([https://multinet.app/])
+ 
+The source code for the projects is available at:
+ 
+ * [https://vdl.sci.utah.edu/mvnv/](https://vdl.sci.utah.edu/mvnv/)
+
+Origraph, our network wrangling prototype is available at: 
+ * [https://origraph.github.io](https://origraph.github.io)
+ 
+Our ranking method for multivariate network visualization techniques is available at:
+
+ * [https://vdl.sci.utah.edu/mvnv/](https://vdl.sci.utah.edu/mvnv/)
