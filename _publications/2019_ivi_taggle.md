@@ -31,12 +31,12 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: Information Visualization, to appear
+  journal: Information Visualization
   booktitle: 
   editor: 
   publisher: Sage
   address: 
-  doi: 
+  doi: 10.1177/1473871619878085
   url: 
   volume: 
   number: 
