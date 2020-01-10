@@ -15,19 +15,16 @@ authors:
 - Lane Harrison
 - lex
 
-journal-short: CHI (CHI'20)
+journal-short: CHI
 year: 2020
 
 bibentry: inproceedings
 bib:
-booktitle: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’20)
-publisher: ACM Press
-
-# doi: 10.1145/2556288.2557032
-
-# pages: 3705--3714
-
-# award: ACM CHI 2014 Honorable Mention Award
+  booktitle: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), to appear"
+  publisher: ACM
+  doi: 
+  pages:
+  award:
 
 # Links to a project hosted on VDL, or else externally on your own site
 
