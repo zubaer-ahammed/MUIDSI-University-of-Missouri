@@ -30,7 +30,7 @@ bib:
 
 project:
 external-project: https://vdl.sci.utah.edu/mvnv-study/
-# external-project: https://vdl.sci.utah.edu/mvnv-study-analysis/
+external-project: https://vdl.sci.utah.edu/mvnv-study-analysis/
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 
@@ -60,9 +60,9 @@ supplement: 2020_chi_mvnv_study_supplement.zip
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
-# supplements:
-
-# - name: Vials Conference Talk Slides
+supplements:
+- name: OSF.io page
+- link: https://osf.io/et8x2/?view_only=f639e687a8234c8caf0148dbc153f80a
 
 # # Use link instead of abslink if you want to link to the master directory
 
