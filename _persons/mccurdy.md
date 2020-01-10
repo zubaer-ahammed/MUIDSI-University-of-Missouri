@@ -11,4 +11,6 @@ organization: University of Utah
 position: PhD Student
 website: http://ninamccurdy.com
 interests: Visualization of multivariate, spatial + abstract data, Visualization in the Digital Humanities, Computational Creativity
+graduated: PhD '19
+phd_graduate: yes
 ---

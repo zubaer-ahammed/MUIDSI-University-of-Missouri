@@ -2,7 +2,7 @@
 # use person layout if you want a page generated for you
 layout: person
 first_name: Devin
-last_name: lange
+last_name: Lange
 key: lange
 permalink: /team/lange/
 role: phd_rotation
