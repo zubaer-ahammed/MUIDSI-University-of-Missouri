@@ -97,7 +97,8 @@ layout: default
 
       <h1>PhD Graduates</h1>
       <p class="person-list-block">
-      {% for p in site.persons %}
+      {% assign persons = site.persons | sort: 'graduated' %}
+      {% for p in persons %}
       {% if p.graduated and p.phd_graduate %}
       {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
       <span class="alumni">

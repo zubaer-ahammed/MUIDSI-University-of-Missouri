@@ -6,7 +6,7 @@ last_name: Akbaba
 key: akbaba
 permalink: /team/akbaba/
 # Pick one of the following
-role: phd_rotation
+role: phdstudent
 email: derya@cs.utah.edu
 image: /assets/images/people/akbaba.jpg
 organization: University of Utah
