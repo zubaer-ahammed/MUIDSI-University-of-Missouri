@@ -56,7 +56,7 @@ videos:
 # Provide a preprint and supplement pdf
 
 pdf: 2020_chi_mvnv_study.pdf
-supplement: 2020_chi_mvnv_study_supplement.pdf
+supplement: 2020_chi_mvnv_study_supplement.zip
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
