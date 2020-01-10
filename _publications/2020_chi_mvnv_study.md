@@ -55,6 +55,21 @@ preprint_server: https://osf.io/et8x2/?view_only=f639e687a8234c8caf0148dbc153f80
 # - name: 
 # - link: 
 
+images:
+- path: 2020_chi_mvnv_study_am_large_continent_sort.png
+  caption: Adjacency matrix, sorted by continent. 
+- path: 2020_chi_mvnv_study_am_large_edge_encodings.png
+  caption: Adjacency matrix showing two numerical edge attributes.
+- path: 2020_chi_mvnv_study_am_small_node_neighbor_highlight.png
+  caption: Small adjacency matrix showing neighbor highlighting. 
+- path: 2020_chi_mvnv_study_nl_large_color.png
+  caption: Node-link diagram using size and color to encode attributes.
+- path: 2020_chi_mvnv_study_nl_large_nested_bars.png
+  caption: Node-link diagram using nested bars and glyphs to encode attributes.
+- path: 2020_chi_mvnv_study_nl_large_nested_bars_neighbor_highlight.png
+  caption: Neighborhood highligthing in node-link diagram.
+- path: 2020_chi_mvnv_study_nl_small_nested_bars.png
+  caption: Small node-link diagram with nested bars.
 
 code: https://github.com/visdesignlab/mvnv-study/
 # code: https://github.com/visdesignlab/mvnv-analysis/
