@@ -46,6 +46,14 @@
                     </a>
                 </li>
                 {% endif %}
+                {% if site.photos %}
+                <li>
+                    <a href="{{ site.photos }}">
+                        <i class="fa fa-lg fa-image"></i>
+                        <span class="footer-text">Photos</span>
+                    </a>
+                </li>
+                {% endif %}
             </ul>
         </div>
     </div>
@@ -74,7 +82,7 @@
                 Copyright &copy; 2016-{{ site.time | date: '%Y' }} The Visualization Design Lab. All content on this website is licensed under
                 the
                 <a href="http://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution license
-                    (CC BY)</a>. <br/> Copyright of the linked publications is with the publishers. Logo by <a
+                    (CC BY)</a>. <br/> Copyright or exclusive license of the linked publications is frequently with the publishers. Logo by <a
                     href="http://www.antarctic-design.co.uk">Antarctic Design</a>. Last updated on {{ site.time | date: '%B %d, %Y' }}
             </p>
         </div>

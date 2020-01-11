@@ -4,10 +4,11 @@ email: vdl-faculty@sci.utah.edu
 description: "Data visualization research lab at SCI, SoC, University of Utah"
 baseurl: ""
 url: "http://vdl.sci.utah.edu"
-twitter_username:
+twitter_username: visdesignlab
 github_username: visdesignlab
 youtube_username:
 facebook_page:
+photos: "https://photos.google.com/share/AF1QipOiyDMtNW04qkwUVlFvbdpHKLOaFtXiq-UTEjlCd9lLzESfwSkDFsjss6F8cozTVw?key=RmM2dnVTVWk3eTEySE9HQWxLcGdzZ3dTQ3pNTmpR"
 safe: false
 lsi: false
 google_analytics: "'UA-69348306-1'"
