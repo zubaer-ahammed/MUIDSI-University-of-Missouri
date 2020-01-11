@@ -14,21 +14,21 @@ layout: default
     {% for person in site.persons %}
       {% if person.graduated == null %}
         {% if person.role == 'phdstudent' %}
-          {% assign ifphdstudent = 'true' %}
+          {% assign ifphdstudent = true %}
         {% elsif person.role == 'phd_rotation' %}
-            {% assign phd_rotation = 'true' %}
+            {% assign phd_rotation = true %}
         {% elsif person.role == 'postdoc' %}
-            {% assign ifpostdoc = 'true' %}
+            {% assign ifpostdoc = true %}
         {% elsif person.role == 'msstudent' %}
-            {% assign ifmsstudent = 'true' %}
+            {% assign ifmsstudent = true %}
         {% elsif person.role == 'undergrad' %}
-            {% assign ifundergrad = 'true' %}
+            {% assign ifundergrad = true %}
         {% elsif person.role == 'visitor' %}
-          {% assign visitor = 'true' %}
+          {% assign visitor = true %}
         {% elsif person.role == 'intern' %}
-            {% assign ifintern = 'true' %}
+            {% assign ifintern = true %}
         {% elsif person.role == 'engineer' %}
-			{% assign ifengineer = 'true' %}
+			{% assign ifengineer = true %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -39,7 +39,7 @@ layout: default
       {% include person.html key="meyer" %}
       {% include person.html key="lex" %}
 
-      {% if ifpostdoc == 'true' %}
+      {% if ifpostdoc %}
       <p class="space">&nbsp;</p>
       <h1>Post-Doctoral Fellows</h1>
 
@@ -47,39 +47,39 @@ layout: default
       {% endif %}
 
 
-      {% if ifphdstudent == 'true' %}
+      {% if ifphdstudent %}
       <p class="space">&nbsp;</p>
       <h1>PhD Students</h1>
       {% include person.html role="phdstudent" %}
       {% endif %}
 
-      {% if phd_rotation == 'true' %}
+      {% if phd_rotation %}
       <p class="space">&nbsp;</p>
       <h1>PhD Rotation Students</h1>
       {% include person.html role="phd_rotation" %}
       {% endif %}
 
-       {% if visitor == 'true' %}
+       {% if visitor %}
       <p class="space">&nbsp;</p>
       <h1>Visitors</h1>
       {% include person.html role="visitor" %}
       {% endif %}
 
-      {% if ifmsstudent == 'true' %}
+      {% if ifmsstudent %}
         <p class="space">&nbsp;</p>
         <h1>Master's Students</h1>
 
         {% include person.html role="msstudent" %}
       {% endif %}
 
-      {% if ifundergrad == 'true' %}
+      {% if ifundergrad %}
         <p class="space">&nbsp;</p>
         <h1>Undergraduate Students</h1>
 
         {% include person.html role="undergrad" %}
       {% endif %}
 
-      {% if ifintern == 'true' %}
+      {% if ifintern %}
         <p class="space">&nbsp;</p>
         <h1>Interns</h1>
 
