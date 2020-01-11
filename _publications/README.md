@@ -8,9 +8,27 @@ the publication details, such as the volume, issue, and page numbers.
 
 
 
+## Keys and Filenames
+
+Each publication must have a unique key following this pattern:
+`YYYY_CONFSHORTNAME_PAPERSHORTNAME`
+
+All files for your publication should use this key consistently, only varying by
+the file extension. For example: `2016_eurovis_pathfinder.pdf`
+
+However, if there are multiple files of the same extension type, then the
+"secondary" type specified with an underscore, as in
+`2016_eurovis_pathfinder_supplement.pdf`.
+
+_NOTE:_ We currently require you to re-type this key when specifying your files
+and images. See the template for an example. In the future, we could remove
+this if all publications follow the keys exactly. We would need to specify to
+Jekyll/Liquid when it should look for such a file/image, though, perhaps using
+the file extension or even just a simple period/dot or true/y would work.
+
 ## Steps to Adding a Publication
 
-1. Add a `*.md` file in this folder following the template below. Use a unique key, specified below, for your publication's filenames.
+1. Add a `*.md` file in this folder following the template below. Use the unique key for your publication's filenames.
 2. Add a thumbnail **_and_** a larger teaser figure to the [assets/images/publications](../assets/images/publications] folder. [Read more about adding images here](../assets/images/README.md).
 3. Upload your publication video (if you have one), your preview video, and your conference talk video, to YouTube or Vimeo and create an entry in the [videos folder](../_videos) folder. Notice you can use the youtube-id or vimeo-id key in your video entry file, depending on where the video is hosted.
 4. Upload the following files to `/usr/sci/www/vdl/papers`:
@@ -21,6 +39,7 @@ the publication details, such as the volume, issue, and page numbers.
     - full video (`KEY.mp4`)
     - preview video (`KEY_preview.mp4`)
     - talk video (`KEY_talk.mp4`)
+5. Upload supplemental figures that are *not* in the paper. The figures are placed in a folder in the `assets/images/publications` folder, where the foldername is the KEY. The point of these is that they can be used, e.g., in review articles without having to pay the publisher. [Read more about adding supplemental images here](../assets/images/README.md) - you need to provide high-res figures and thumbnails.     
 
 
 ## Publication Template
@@ -63,11 +82,7 @@ image_large: 2016_eurovis_pathfinder_teaser.png
 authors:
 - partl
 - gratzl
-- streit
-- Anne Mai Wassermann
-- pfister
-- schmalstieg
-- lex
+
 
 # Include a shortened name for the journal or conference/proceedings
 journal-short: CGF (EuroVis '16)
@@ -132,6 +147,13 @@ supplements:
   # Defaults to a download icon, use this if you want a link-out icon
   linksym: true
 
+# Supplemental, cc-by images. Make caption brief (at most 60 chars).
+images:
+- path: 2020_chi_mvnv_study_am_large_continent_sort.png
+  caption: Adjacency matrix, sorted by continent. 
+- path: 2020_chi_mvnv_study_am_large_edge_encodings.png
+  caption: Adjacency matrix showing two numerical edge attributes.
+
 # Link to the repository where the code is hosted
 code: https://github.com/Caleydo/pathfinder/
 
@@ -149,26 +171,6 @@ This work was co-funded by ....
 
 
 
-## Keys and Filenames
-
-Each publication must have a unique key following this pattern:
-`YYYY_CONFSHORTNAME_PAPERSHORTNAME`
-
-
-All files for your publication should use this key consistently, only varying by
-the file extension. For example: `2016_eurovis_pathfinder.pdf`
-
-
-However, if there are multiple files of the same extension type, then the
-"secondary" type specified with an underscore, as in
-`2016_eurovis_pathfinder_supplement.pdf`.
-
-
-_NOTE:_ We currently require you to re-type this key when specifying your files
-and images. See the template for an example. In the future, we could remove
-this if all publications follow the keys exactly. We would need to specify to
-Jekyll/Liquid when it should look for such a file/image, though, perhaps using
-the file extension or even just a simple period/dot or true/y would work.
 
 
 

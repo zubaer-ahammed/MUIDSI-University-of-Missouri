@@ -55,6 +55,7 @@ preprint_server: https://osf.io/et8x2/?view_only=f639e687a8234c8caf0148dbc153f80
 # - name: 
 # - link: 
 
+# Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
 - path: 2020_chi_mvnv_study_am_large_continent_sort.png
   caption: Adjacency matrix, sorted by continent. 
