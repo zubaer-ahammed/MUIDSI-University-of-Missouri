@@ -1,9 +1,12 @@
 _site/
 .sass-cache/
+css/site.css
+.jekyll-cache/
+.jekyll-metadata
+
 .idea/
 *.sublime-*
-css/site.css
-.jekyll-metadata
+
 *.avi
 *.m4v
 *.mov
@@ -12,4 +15,5 @@ css/site.css
 *.pptx
 *.zip
 *.pdf
+
 .DS_Store
