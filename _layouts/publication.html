@@ -101,32 +101,23 @@ layout: default
 }
 </pre>
 
+<!-- Main Markdown Content -->
+{{ content }}
 
-    <!-- main markdown content -->
-    {{ content }}
-
-
-
-<style>
-
-</style>
-
+<!-- Supplemental Images -->
 {% if page.images %}
     <h1>Images</h1>
     <p>These images are not part of the original paper and licensed using <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. If you use these images, please cite the paper. Click on the images for full resolution.</p>
-<div>
-{% for image in page.images %}
-<div class="supplement-image-div">
+    {% for image in page.images %}
+      <div class="supplement-image-div">
       <a href="{{site.baseurl}}/assets/images/publications/{{page.key}}/{{image.path}}" title="{{ image.caption }}">
-      <img size="350px" class="supplement-image" src="{{site.baseurl}}/assets/images/publications/{{page.key}}/thumb_{{image.path}}" alt="{{ image.caption }}" />
-  <div class="supplement-image-caption">{{ image.caption }}</div>
+        <img size="350px" class="supplement-image" src="{{site.baseurl}}/assets/images/publications/{{page.key}}/thumb_{{image.path}}" alt="{{ image.caption }}" />
+        <div class="supplement-image-caption">{{ image.caption }}</div>
       </a>
-</div>
-{% endfor %}
-</div>
+      </div>
+  {% endfor %}
 {% endif %}
-
-
+    
   </article>
 
   <article class="publication-content-aside">
