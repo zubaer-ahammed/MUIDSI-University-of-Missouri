@@ -1190,13 +1190,13 @@ pre.bibtex {
   max-width: 100%;
  // height: 310px;
     @include media($large-display) {
-  float: left
+      float: right
     }
 }
 
 .supplement-image-div:nth-of-type(2n) {
      @include media($large-display) {
-       float: right
+       float: left
      }
 }
 
