@@ -3,67 +3,73 @@ layout: default
 ---
 
 <!-- FLAGS TO DETERMINE WHAT TO RENDER -->
+{% assign haspreprints = false %}
 {% for publication in site.publications reversed %}
 {% if publication.type == "preprint" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign haspreprints = 'true' %}
+{% assign haspreprints = true %}
 {% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}
 
+{% assign haspublications = false %}
 {% for publication in site.publications reversed %}
 {% if publication.type == "paper" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign haspublications = 'true' %}
+{% assign haspublications = true %}
 {% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}
 
+{% assign hascommentary = false %}
 {% for publication in site.publications reversed %}
 {% if publication.type == "commentary" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign hascommentary = 'true' %}
+{% assign hascommentary = true %}
 {% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}
 
+{% assign hasthesis = false %}
 {% for publication in site.publications reversed %}
 {% if publication.type == "thesis" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign hasthesis = 'true' %}
+{% assign hasthesis = true %}
 {% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}
 
-
+{% assign hasposter = false %}
 {% for publication in site.publications reversed %}
 {% if publication.type == "poster" %}
 {% for author in publication.authors %}
 {% if author == page.key %}
-{% assign hasposter = 'true' %}
+{% assign hasposter = true %}
 {% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}
 
 
+{% assign hastalks = false %}
 {% for talk in site.talks reversed %}
 {% if talk.speaker == page.key %}
-{% assign hastalks = 'true' %}
+{% assign hastalks = true %}
 {% endif %}
 {% endfor %}
 
+{% assign haspress = false %}
 {% for article in site.data.press %}
 {% if article.user == page.key %}
-{% assign haspress = 'true' %}
+{% assign haspress = true %}
 {% endif %}
 {% endfor %}
 
@@ -78,7 +84,7 @@ layout: default
 
     {{ page.content }}
 
-    {% if hastalks == "true" %}
+    {% if hastalks %}
     <br>
     <div style="width:100%; float:none">
     <span class="home-button nav-text">
@@ -148,7 +154,7 @@ layout: default
 
 <div  class="publication-content">
 
-    {% if haspublications == "true" or haspreprints == "true" or hascommentary == "true" or hasthesis == "true" or hasposter == "true" %}
+    {% if haspublications or haspreprints or hascommentary or hasthesis or hasposter %}
 
 
         <h2 id="publications">Publications</h2>
@@ -156,7 +162,7 @@ layout: default
     {% assign publications = site.publications | sort: 'year' %}
     {% assign publications = publications | sort: 'order' %}
 
-        {% if haspreprints == "true" %}
+        {% if haspreprints %}
         <h3>Preprints</h3>
             {% for publication in publications reversed %}
                 {% if publication.type == "preprint" %}
@@ -169,7 +175,7 @@ layout: default
             {% endfor %}
         {% endif %}
 
-        {% if haspublications == "true" %}
+        {% if haspublications %}
         <h3>Peer-reviewed Journal and Conference Publications</h3>
         {% for publication in publications reversed %}
         {% if publication.type == "paper" %}
@@ -182,7 +188,7 @@ layout: default
         {% endfor %}
         {% endif %}
 
-        {% if hascommentary == "true" %}
+        {% if hascommentary %}
         <h3>Commentary</h3>
         {% for publication in publications reversed %}
         {% if publication.type == "commentary" %}
@@ -195,7 +201,7 @@ layout: default
         {% endfor %}
         {% endif %}
 
-        {% if hasthesis == "true" %}
+        {% if hasthesis %}
         <h3>Thesis</h3>
         {% for publication in publications reversed %}
         {% if publication.type == "thesis" %}
@@ -208,7 +214,7 @@ layout: default
         {% endfor %}
         {% endif %}
 
-        {% if hasposter == "true" %}
+        {% if hasposter %}
         <h3>Selected Posters</h3>
         {% for publication in publications reversed %}
         {% if publication.type == "poster" %}
@@ -238,7 +244,7 @@ layout: default
 
 
 
-    {% if hastalks == "true" %}
+    {% if hastalks %}
 
         <h2 id="talks">Talks</h2>
 
@@ -278,10 +284,7 @@ layout: default
         {% endif %}
         {% endif %}
         {% endfor %}
-
     {% endif %}
-
-
 
     {% if page.showteaching %}
 
@@ -320,7 +323,7 @@ layout: default
     {% endif %}
 
 
-    {% if haspress == "true" %}
+    {% if haspress %}
 
         <h2 id="press">Press</h2>
 
