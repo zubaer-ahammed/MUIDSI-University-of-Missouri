@@ -98,16 +98,16 @@
 .banner-team {
   display: block;
   margin: 30px 0 -20px 0;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0px 0;
   width: 100%; 
   min-height: 50px;
   @include media($medium-display) {
     width: 75%;
-    margin-bottom: -50px;
+    margin-bottom: -10px;
   }
   @include media($small-display) {
     margin-top: 90px;
-    margin-bottom: -100px;
+    margin-bottom: -10px;
   }
 }
 
