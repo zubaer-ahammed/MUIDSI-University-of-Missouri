@@ -108,43 +108,18 @@ layout: default
 
 
 <style>
-  .supplement-image {
-    border: 2px solid #2C3E50
-  }
 
-  .supplement-image-div{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-    width: 350px;
-    height: 270px;
-    float: left
-  }
-
-  .supplement-image-div:nth-of-type(2n){
-    float: right
-  }
-
-    .supplement-image-div a:link{
-      text-decoration: none;
-      color: #2B2F33;
-    }
-
-    .supplement-image-div a:visited{
-      text-decoration: none;
-      color: #2B2F33;
-    }
 </style>
 
 {% if page.images %}
-    <h2>Images</h2>
+    <h1>Images</h1>
     <p>These images are not part of the original paper and licensed using <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. If you use these images, please cite the paper. Click on the images for full resolution.</p>
 <div>
 {% for image in page.images %}
 <div class="supplement-image-div">
       <a href="{{site.baseurl}}/assets/images/publications/{{page.key}}/{{image.path}}" title="{{ image.caption }}">
       <img size="350px" class="supplement-image" src="{{site.baseurl}}/assets/images/publications/{{page.key}}/thumb_{{image.path}}" alt="{{ image.caption }}" />
-  <span>{{ image.caption }}</span>
+  <div class="supplement-image-caption">{{ image.caption }}</div>
       </a>
 </div>
 {% endfor %}
