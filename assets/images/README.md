@@ -33,7 +33,7 @@ Supplemental images have to be original images, i.e., they can't be in the paper
 
 Both, thumbnails and full images are stored in a subfolder of `assets/images/publications` that is names with the KEY of the paper `YYYY_CONFSHORTNAME_PAPERSHORTNAME`
 
-The thumbnail must be exactly 350x250 and be named `thumb_YYYY__CONFSHORTNAME_PAPERSHORTNAME_FIGUREDESC.png`.  
+The thumbnail must be exactly 600x300 and be named `thumb_YYYY__CONFSHORTNAME_PAPERSHORTNAME_FIGUREDESC.png`.  
 
 The full image should be high resolution and has no requirements on aspect ratio. It must have the same name as the thumbnail, except for the `thumb_` prefix.
 
