@@ -2,12 +2,12 @@
   fill: #fff;
 }
 
-body {
-  margin-top: 0;
-}
-
 svg {
   pointer-events: all;
+}
+
+#svg {
+  margin-top: -30px;
 }
 
 g {

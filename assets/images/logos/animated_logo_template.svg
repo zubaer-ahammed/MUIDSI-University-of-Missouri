@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="314" height="100" x="0px" y="0px" viewBox="0 0 62 62">
-    <g transform="translate(-75, 0)">
+<svg xmlns="http://www.w3.org/2000/svg" width="314" height="130" x="0px" y="0px" viewBox="0 0 62 80.6">
+    <g transform="translate(-75, 18.6)">
         <g id="Layer_2">
             <rect width="62" height="62" x="0" y="0" class="background-color"/>
         </g>
@@ -32,21 +32,6 @@
                 <g class="sources" transform="translate(13, 60)">
                     <g class="left-color left-source" transform="translate(5,0)">
                         <g class="static-circles">
-<!--<circle r="1.3119307379526626" class="bubble" transform="translate(10.200050354003906, -55.145816802978516)"/>-->
-<!--<circle r="1.3510193072144876" class="bubble" transform="translate(11.677628517150879, -45.047096252441406)"/>-->
-<!--<circle r="1.2426440721885799" class="bubble" transform="translate(11.273530006408691, -56.60681915283203)"/>-->
-<!--<circle r="0.8265962245661225" class="bubble" transform="translate(9.542943954467773, -47.14807891845703)"/>-->
-<!--<circle r="1.2599164117076032" class="bubble" transform="translate(16.66531753540039, -57.4888916015625)"/>-->
-<!--<circle r="1.483266392217894" class="bubble" transform="translate(15.475475311279297, -54.92168045043945)"/>-->
-<!--<circle r="1.932866214033278" class="bubble" transform="translate(10.208783149719238, -36.17086410522461)"/>-->
-<!--<circle r="1.240184847283985" class="bubble" transform="translate(4.349316120147705, -30.17429542541504)"/>-->
-<!--<circle r="0.9364119232861539" class="bubble" transform="translate(15.519979476928711, -49.896087646484375)"/>-->
-<!--<circle r="0.9133292260986798" class="bubble" transform="translate(3.5889289379119873, -27.953575134277344)"/>-->
-<!--<circle r="1.2423521553815826" class="bubble" transform="translate(10.669809341430664, -34.27345657348633)"/>-->
-<!--<circle r="1.396056848361058" class="bubble" transform="translate(4.383793830871582, -29.037553787231445)"/>-->
-<!--<circle r="1.7567665334244857" class="bubble" transform="translate(7.483305931091309, -26.271968841552734)"/>-->
-<!--<circle r="0.8300664627673531" class="bubble" transform="translate(6.518758773803711, -24.330556869506836)"/>-->
-<!--<circle r="1.200828309047571" class="bubble" transform="translate(0.2557326555252075, -23.38819694519043)"/>-->
                             <circle r="1.4807106066882694" class="bubble" transform="translate(2.0903782844543457, -15.792875289916992)"/>
                             <circle r="1.394051248641041" class="bubble" transform="translate(3.235506772994995, -21.631092071533203)"/>
                             <circle r="0.8262095665183624" class="bubble" transform="translate(1.9794827699661255, -22.2469482421875)"/>
