@@ -1,5 +1,5 @@
 svgString().then(logo => {
-  d3.select("#svg").html(logo);
+  d3.select('#svg').html(logo);
   run();
 });
 
@@ -8,39 +8,65 @@ function run() {
   let midSource = d3.select('.mid-source');
   let rightSource = d3.select('.right-source');
 
-  let loop;
-
   let staticBubbles = d3.selectAll('.static-circles');
+
+  let level = 5;
 
   // setTimeout(() => {
   //   d3.selectAll('*').transition();
   //   clearInterval(loop);
   // }, 5000)
-
-  d3.select('svg').on('mouseover', () => {
-    animateBubble(...addBubble(leftSource), 'left');
-    animateBubble(...addBubble(midSource), 'mid');
-    animateBubble(...addBubble(rightSource), 'right');
-    loop = setInterval(() => {
+  setInterval(() => {
+    if (level) {
       animateBubble(...addBubble(leftSource), 'left');
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
-    }, 100);
-    staticBubbles.transition().duration(8000).attr('transform', `translate(0, -100)`).style('opacity', 0);
-  }).on('mouseout', () => {
-    clearInterval(loop);
-    staticBubbles.transition().duration(0).attr('transform', `translate(0, 50)`);
-    staticBubbles.transition().duration(8000).attr('transform', `translate(0, 0)`).style('opacity', 1);
-  })
+    } else {
+      animateBubble(...addBubble(leftSource), 'left');
+      animateBubble(...addBubble(midSource), 'mid');
+      animateBubble(...addBubble(rightSource), 'right');
+      animateBubble(...addBubble(leftSource), 'left');
+      animateBubble(...addBubble(leftSource), 'left');
+      animateBubble(...addBubble(midSource), 'mid');
+      animateBubble(...addBubble(rightSource), 'right');
+      animateBubble(...addBubble(midSource), 'mid');
+      animateBubble(...addBubble(rightSource), 'right');
+    }
+  }, 200);
+
+  staticBubbles
+    .transition()
+    .duration(18000)
+    .attr('transform', `translate(0, -100)`)
+    .style('opacity', 0);
+
+  d3.select('svg')
+    .on('mouseover', () => {
+      level = 0;
+    })
+    .on('mouseout', () => {
+      for (let i = 0; i <= 5; ++i) {
+        setTimeout(() => {
+          level = i;
+        }, i * 500);
+      }
+    });
 
   function addBubble(source) {
     let radius = getRandomRadius();
     let xShift = shiftRandom(radius);
-    return [source.append('circle').classed("bubble", true).attr('r', radius).attr('transform', `translate(${xShift}, 0)`), xShift];
+    return [
+      source
+        .append('circle')
+        .classed('bubble', true)
+        .attr('r', radius)
+        .attr('transform', `translate(${xShift}, 0)`),
+      xShift,
+    ];
   }
 
   function getRandomRadius() {
-    return randomFloatInRange(0.5, 2)
+    return randomFloatInRange(0.5, 2);
   }
 
   function shiftRandom(radius) {
@@ -55,16 +81,46 @@ function run() {
   function animateBubble(bubble, xShift, position) {
     let points = getPoints(xShift, position);
     let path = getPath(points);
-    bubble.transition().duration(sToMs(getRandomTime())).attrTween('transform', translateAlongPath(path.node())).remove();
+    bubble
+      .transition()
+      .duration(sToMs(getRandomTime()))
+      .attrTween('transform', translateAlongPath(path.node()))
+      .remove();
     path.remove();
   }
 
   function getPath(points) {
-    return d3.select('svg').append('path').attr('class', `random-path `).datum(points).attr('d', d3.line().x(d => d[0]).y(d => d[1]).curve(d3.curveMonotoneX))
+    return d3
+      .select('svg')
+      .append('path')
+      .attr('class', `random-path `)
+      .datum(points)
+      .attr(
+        'd',
+        d3
+          .line()
+          .x(d => d[0])
+          .y(d => d[1])
+          .curve(d3.curveMonotoneX),
+      );
   }
 
   function getRandomTime() {
-    return randomFloatInRange(7, 9)
+    switch (level) {
+      case 5:
+        return randomFloatInRange(17, 19);
+      case 4:
+        return randomFloatInRange(15, 17);
+      case 3:
+        return randomFloatInRange(13, 15);
+      case 2:
+        return randomFloatInRange(11, 13);
+      case 1:
+        return randomFloatInRange(9, 11);
+      case 0:
+      default:
+        return randomFloatInRange(7, 9);
+    }
   }
 
   function sToMs(s) {
@@ -73,19 +129,16 @@ function run() {
 
   function translateAlongPath(path) {
     let l = path.getTotalLength();
-    return function (d, i, a) {
-      return function (t) {
+    return function(d, i, a) {
+      return function(t) {
         let p = path.getPointAtLength(t * l);
         return `translate(${p.x}, ${p.y})`;
-      }
-    }
+      };
+    };
   }
 
-  function getPoints(xShift, position = "mid") {
-    let points = [
-      [xShift, 0],
-      [xShift, -20]
-    ];
+  function getPoints(xShift, position = 'mid') {
+    let points = [[xShift, 0], [xShift, -20]];
 
     if (position === 'left') {
       xShift = xShift + 13;
@@ -100,10 +153,12 @@ function run() {
       points.push([xShift + 1, -36]);
     }
 
-    points.push(...[
-      [xShift, -50], //Bottleneck
-      [xShift, -90],
-    ]);
+    points.push(
+      ...[
+        [xShift, -50], //Bottleneck
+        [xShift, -90],
+      ],
+    );
     return points;
   }
 
@@ -117,5 +172,5 @@ function run() {
 }
 
 async function svgString() {
-  return await d3.text('/assets/images/logos/animated_logo_template.svg')
+  return await d3.text('/assets/images/logos/animated_logo_template.svg');
 }
