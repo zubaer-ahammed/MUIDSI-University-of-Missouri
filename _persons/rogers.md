@@ -16,4 +16,4 @@ interests: Interactive Visualization for Biological and Medical Data
 
 ---
 
-I am a PhD student based in the Scientific Computing and Imaging Institute at the University of Utah under the supervision of Alexander Lex. I am interested in interactive visualization for biological and medical data. Most of  my current work utilizes web-based technology and I have a growing love for D3. When I am not glued to my computer, you will most likely find me playing around in the mountains or testing out new cheese jokes. 
+I am a PhD student based in the Scientific Computing and Imaging Institute at the University of Utah under the supervision of Alexander Lex and Miriah Meyer. I am interested in interactive visualization for biological and medical data. Most of my work utilizes web-based technology and I have a growing love for D3. When I am not glued to my computer, you will most likely find me playing around in the mountains or testing out new cheese jokes. 
