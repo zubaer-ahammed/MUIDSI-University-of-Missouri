@@ -17,14 +17,14 @@ authors:
   - Jeff Phillips
   - lex
 
-journal-short: OSF Preprint
+journal-short: Preprint
 year: 2020
 
 bibentry: article
 bib:
-  booktitle: "osf.io preprint"
+  booktitle: "Preprint"
   publisher:
-  doi:
+  doi: 10.17605/OSF.IO/8VPE6
   pages:
   award:
 
