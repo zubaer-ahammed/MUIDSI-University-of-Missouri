@@ -17,12 +17,12 @@ authors:
   - Jeff Phillips
   - lex
 
-journal-short: CGF (EuroVis '20)
+journal-short: OSF Preprint
 year: 2020
 
 bibentry: article
 bib:
-  booktitle: "Computer Graphics Forum (EuroVis '20), to appear"
+  booktitle: "osf.io preprint"
   publisher:
   doi:
   pages:
