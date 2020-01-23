@@ -36,9 +36,12 @@ external-project: https://vdl.sci.utah.edu/mvnv-study/
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
 
 videos:
-- name: "MVNV Introduction"
-  youtube-id: galDUFeYprQ
+- name: "MVNV Study Introduction"
+  youtube-id: TFDNjlt8NIY
   file: 2020_chi_mvnv_study.mp4
+- name: "MVNV Study Preview" 
+  youtube-id: NtlEgVU_Yp0
+  file: 2020_chi_mvnv_study_preview.mp4
 
 
 # Provide a preprint and supplement pdf
