@@ -6,6 +6,8 @@ The Vis Design Lab website is based on the Caleydo website and built with
 Here is a good cheat sheet: 
 https://gist.github.com/smutnyleszek/9803727
 
+The Liquid Language Reference: https://shopify.github.io/liquid/basics/types/
+
 
 
 ## Setup Jekyll

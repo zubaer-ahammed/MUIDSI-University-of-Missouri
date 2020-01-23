@@ -89,6 +89,23 @@ supplements:
 #  # defaults to a download icon, use this if you want a link-out icon
 #  linksym: true
 
+
+# Supplemental, cc-by images. Make caption brief (at most 60 chars)
+images:
+- path: 2018_infovis_juniper_add_edge.png
+  caption: Adding a hidden edge to the tree. 
+- path: 2018_infovis_juniper_shortest_path.png
+  caption: Shortest path between two nodes.
+- path: 2018_infovis_juniper_aggregate.png
+  caption: Aggregated tree in tree mode.
+- path: 2018_infovis_juniper_aggregate_level_mode.png
+  caption: Aggregated tree in level mode. 
+- path: 2018_infovis_juniper_hidden_edges.png
+  caption: Showing hidden edges on hover.
+- path: 2018_infovis_juniper_level_mode.png
+  caption: Tree in level mode.
+
+
 # Link to the repository where the code is hosted
 code: https://github.com/caleydo/lineage/tree/juniper
  

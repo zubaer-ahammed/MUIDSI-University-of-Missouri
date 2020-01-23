@@ -71,6 +71,20 @@ supplements:
 #  # defaults to a download icon, use this if you want a link-out icon
 #  linksym: true
 
+# Supplemental, cc-by images. Make caption brief (at most 60 chars)
+images:
+- path: 2018_tvcg_lineage_clean.png
+  caption: Single family in hidden mode with one expanded nuclear family. 
+- path: 2018_tvcg_lineage_multiple_families.png
+  caption: Two families, sorted by PD.
+- path: 2018_tvcg_lineage_select_person.png
+  caption: Single family showing person selection and highlight. 
+- path: 2018_tvcg_lineage_sort_age.png
+  caption: Single family, sorted by age.
+- path: 2018_tvcg_lineage_star_attribute.png
+  caption: Two families, with PD as a starred attribute.
+
+
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/lineage
 
