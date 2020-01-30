@@ -50,7 +50,7 @@ pdf: 2020_chi_mvnv_study.pdf
 supplement: 2020_chi_mvnv_study_supplement.zip
 
 # Link to an official preprint server
-preprint_server: https://osf.io/et8x2/?view_only=f639e687a8234c8caf0148dbc153f80a
+preprint_server: https://osf.io/9ndb3/
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
