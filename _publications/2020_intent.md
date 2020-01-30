@@ -24,7 +24,7 @@ bibentry: article
 bib:
   booktitle: "Preprint"
   publisher:
-  doi: 10.17605/OSF.IO/8VPE6
+  doi: 10.31219/osf.io/mq2rk
   pages:
   award:
 
@@ -47,7 +47,7 @@ pdf: 2020_intent_preprint.pdf
 # supplement: 2020_chi_mvnv_study_supplement.zip
 
 # Link to an official preprint server
-preprint_server: http://dx.doi.org/10.17605/OSF.IO/8VPE6
+preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
