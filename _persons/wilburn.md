@@ -28,8 +28,8 @@ I'm a software developer here at the Visual Design Lab where I work on full stac
 
 I got my Bachelor of Science Degree in Mathematics from Westminster College here in Salt Lake City, UT. During my degree, I focused on data science, machine learning, dev ops, and more.
 
-Until recently, I worked in the marketing analytics industry for a start up called [Emperitas](https://www.emperitas.com/). While there, I build graph database applications, machine learning models, and customer lifetime value solutions for clients all over the U.S.
+Until recently, I worked in the marketing analytics industry for a start up called [Emperitas](https://www.emperitas.com/). While there, I built graph database applications, machine learning models, and customer lifetime value solutions for clients all over the U.S.
 
-My personal site is currently being built [here](https://www.jackwilburn.xyz).
+My personal site is [here](https://www.jackwilburn.xyz).
 
 
