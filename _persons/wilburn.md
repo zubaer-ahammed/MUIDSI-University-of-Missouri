@@ -14,7 +14,6 @@ organization: University of Utah
 position: Software Developer
 website: /team/wilburn/
 interests: "Machine Learning, Devops, Full Stack"
-graduated: 
 # stuff below can be ignored if you don't use the group website for your private website
 gs: 
 github: https://github.com/JackWilb

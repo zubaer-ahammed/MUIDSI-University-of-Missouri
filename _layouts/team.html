@@ -82,16 +82,14 @@ layout: default
       {% if ifintern %}
         <p class="space">&nbsp;</p>
         <h1>Interns</h1>
-
-        {% include person.html role="intern" %}
+      {% include person.html role="intern" %}
       {% endif %}
 
-			{% if ifengineer == 'true' %}
-				<p class="space">&nbsp;</p>
-				<h1>Software Engineers</h1>
-
-				{% include person.html role="engineer" %}
-			{% endif %}
+      {% if ifengineer %}
+		<p class="space">&nbsp;</p>
+		<h1>Software Engineers</h1>
+        {% include person.html role="engineer" %}
+      {% endif %}
 
       <p class="space-alumni">&nbsp;</p>
 
