@@ -63,7 +63,7 @@ images:
 - path: 2020_chi_mvnv_study_am_large_continent_sort.png
   caption: Adjacency matrix, sorted by continent. 
 - path: 2020_chi_mvnv_study_am_large_edge_encodings.png
-  caption: Adjacency matrix showing two numerical edge attributes.
+  caption: Adjacency matrix showing categorical and numerical edge attributes.
 - path: 2020_chi_mvnv_study_am_small_node_neighbor_highlight.png
   caption: Small adjacency matrix showing neighbor highlighting. 
 - path: 2020_chi_mvnv_study_nl_large_color.png
@@ -74,6 +74,8 @@ images:
   caption: Neighborhood highligthing in node-link diagram.
 - path: 2020_chi_mvnv_study_nl_small_nested_bars.png
   caption: Small node-link diagram with nested bars.
+- path: 2020_chi_mvnv_study_nl_link_attributes.png
+  caption: Node-link diagram with quantitative and categorical edge attributes
 
 code: https://github.com/visdesignlab/mvnv-study/
 # code: https://github.com/visdesignlab/mvnv-analysis/
