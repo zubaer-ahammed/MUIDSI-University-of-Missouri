@@ -6,9 +6,9 @@
     {% for person in site.persons %}
     {% if person.key == person_key %}
     {% capture name %}{{ person.first_name }} {{ person.last_name }}{% endcapture %}
-        {% if person.graduated%}
+        {% if person.graduated %}
              {% if person.website %}
-            <a href="{{ person.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if person.graduated != "N" %}, {{ person.graduated }}{% endif %} <br>
+            <a href="{{ person.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if person.graduated != "N" %}, {{ person.graduated }}{% if person.now_at %}, Now {{person.now_at}}{% endif %}{% endif %} <br>
         {% else %}
         {% if person.website %}
         <a href="{{ person.website }}">{{ name }}</a>

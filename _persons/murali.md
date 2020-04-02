@@ -10,6 +10,6 @@ website: https://www.linkedin.com/in/muralikrishnateja
 image: 
 organization: University of Utah
 position: MS Student
-graduated: M.S. '17
+graduated: MS '17
 interests: Machine Learning, Data mining, Natural Language Processing and Data Visualization
 ---

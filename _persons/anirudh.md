@@ -10,6 +10,6 @@ image: /assets/images/people/anirudh.png
 organization: University of Utah
 position: Developer on PatientFlow project (Independent Study) 
 website: 
-graduated: M.S. '16
+graduated: MS '16
 interests: Databases, Visualization, Machine Learning and Data Mining
 ---
