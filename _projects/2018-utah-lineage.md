@@ -23,6 +23,8 @@ staff:
  - nobre
 publications:
  - 2018_tvcg_lineage
+ - 2019_vast_origraph
+ - 2019_infovis_clipped_graphs
 award: "$ 46,454" 
 
 ---
