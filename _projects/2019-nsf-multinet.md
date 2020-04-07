@@ -33,6 +33,8 @@ updated: 2019-08-21
 publications: 
  - 2019_vast_origraph
  - 2019_eurovis_mvnv
+ - 2020_chi_mvnv_study
+ - 2019_infovis_clipped_graphs
  
 staff:
  - meyer

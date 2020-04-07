@@ -23,6 +23,7 @@ publications:
  - 2019_aci_composer
  - 2019_eurovis_mvn
  - 2019_vast_origraph
+ - 2019_ivi_taggle
  - 2020_intent
 staff:
  - lex
