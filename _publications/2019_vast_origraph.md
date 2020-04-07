@@ -29,16 +29,16 @@ year: 2019
 
 bibentry: inproceedings
 bib:
-  journal: IEEE VAST (to appear)
+  journal: IEEE Conference on Visual Analytics Science and Technology (VAST)
   booktitle:
   editor:
   publisher: arXiv:1812.06337
   address:
-  doi:
+  doi: 10.1109/VAST47406.2019.8986909
   url:
   volume:
   number:
-  pages:
+  pages: 81-92
   month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
