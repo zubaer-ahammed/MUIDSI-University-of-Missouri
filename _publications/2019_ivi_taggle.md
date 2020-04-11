@@ -38,9 +38,9 @@ bib:
   address: 
   doi: 10.1177/1473871619878085
   url: 
-  volume: 
-  number: 
-  pages: 
+  volume: 19
+  number: 02
+  pages: 114-136
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
