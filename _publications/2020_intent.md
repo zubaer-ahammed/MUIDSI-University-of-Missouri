@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: 'Capturing User Intent when Brushing in Data Visualizations'
+title: Capturing User Intent when Brushing in Scatterplots
 key: 2020_intent
 type: preprint
 order: 2020-02
@@ -12,6 +12,8 @@ image_large: 2020_intent_teaser.png
 authors:
   - kiran
   - goertler
+  - zcutler
+  - nobre
   - Oliver Deussen
   - meyer
   - Jeff Phillips
@@ -74,11 +76,14 @@ preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
 
 code: https://github.com/visdesignlab/intent-system
 
-abstract: '
-<p>Capturing provenance information of interactive visualization system is an important step towards reproducibility of findings. However, provenance data that is based on logged interactions does not capture higher-level intent behind the actions taken: provenance data captures the "what'' but not the "why''. For recall, reproducibility, and even re-use, however, understanding the why and the reasoning behind and action is critical. Capturing the intent of a user action, however, can currently only be achieved by manually specifying intent. In this paper we introduce a set of methods to infer intent for selections and brushes in scatterplots. We first introduce a taxonomy of types of patterns that users might specify, which we base on a formative study conducted with professional data analysts and scientists from a variety of fields. Based on this, we identify algorithms that can classify a selection into a semantically meaningful pattern. We then introduce a system that implements these methods and scores competing classifications against each other. Analysts then can use these predictions to conveniently capture their intent, while at the same time making a concise representation of that intent available to the system. Beyond capturing intent, we demonstrate that our methods can be used to speed up or correct selections, for example, when analysts missed to select a small set of points matching their intent. We evaluate our approach using usage scenarios conducted with domain experts.</p>
-'
+abstract: "
+<p>Being able to capture or predict a user's intent behind a brush in a visualization tool has important implications in two scenarios. First, predicting intents can be used to auto-complete a partial selection in a mixed-initiative approach, with potential benefits to selection speed, correctness, and confidence.  
+Second, capturing the intent of a selection can be used to improve recall, reproducibility, and even re-use. Augmenting provenance logs with semi-automatically captured intents makes it possible to save the reasoning behind selections. 
+In this paper, we introduce a method to infer intent for selections and brushes in scatterplots. We first introduce a taxonomy of types of patterns that users might specify, which we elicited in a formative study conducted with professional data analysts and scientists. Based on this, we identify algorithms that can classify these patterns, and introduce various approaches to score the match of each pattern to an analyst's selection of items. We introduce a system that implements these methods for scatterplots and ranks alternative patterns against each other. Analysts then can use these predictions to auto-complete partial selections, and to conveniently capture their intent and provide annotations, thus making a concise representation of that intent available to be stored as provenance data. 
+We evaluate our approach using interviews with domain experts and in a quantitative crowd-sourced study, in which we show that using auto-complete leads to improved selection accuracy for most types of patterns.</p>
+"
 ---
 
 # Acknowledgements
 
-We thank the domain experts we interviewed for their time and their willingness to provide datasets. We also thank Carolina Nobre for help with our qualitative data analysis. We gratefully acknowledge funding by the National Science Foundation (IIS 1751238).
+We thank the domain experts we interviewed for their time and their willingness to provide datasets, and Lane Harrison and members of the Visualization Design Lab for feedback. We gratefully acknowledge funding by the National Science Foundation (IIS 1751238) and by the Deutsche Forschungsgemeinschaft (251654672-TRR 161).
