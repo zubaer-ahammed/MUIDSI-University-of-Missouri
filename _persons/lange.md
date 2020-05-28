@@ -5,7 +5,7 @@ first_name: Devin
 last_name: Lange
 key: lange
 permalink: /team/lange/
-role: phd_rotation
+role: phdstudent
 email: devinscottlange@gmail.com
 image: /assets/images/people/lange.jpg
 organization: University of Utah

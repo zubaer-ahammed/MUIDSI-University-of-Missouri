@@ -13,7 +13,7 @@ organization: University of Utah
 position: PhD Student
 website: /team/ilkin/
 interests: Graph Visualization, Graph Layout Algorithms, Multivariate Graphs Visualization, Dynamic Graph Visualization
-graduated:
+graduated: N
 # stuff below can be ignored if you don't use the group website for your private website
 github: https://github.com/kinimesi
 ---
