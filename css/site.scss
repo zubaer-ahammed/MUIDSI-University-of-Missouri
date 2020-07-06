@@ -594,7 +594,7 @@ body {
 
 .post-content-main {
   @include page-content();
-  @include span-columns(12);
+  @include span-columns(8);
 }
 
 .post-content-aside {
@@ -654,8 +654,8 @@ ul.post-list {
     margin-bottom: 10px;
 
     p {
-      margin-bottom: 0px;
-      display: inline;
+      margin-bottom: 10px;
+      //display: inline;
     }
 
     .right-text {
