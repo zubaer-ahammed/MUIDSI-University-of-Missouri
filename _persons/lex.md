@@ -11,7 +11,7 @@ role: faculty
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg
 organization: University of Utah
-position: Assistant Professor
+position: Associate Professor
 degree: PhD, MSc
 website: /team/lex/
 interests: Biological Data Visualization, Multivariate Graphs, Visualization Tools, Provenance and Reproducibility
@@ -98,7 +98,7 @@ My research is on data visualization methods for domain experts. I design, build
 
 ## Bio
 
-I am an Assistant Professor of Computer Science at the Scientific Computing and Imaging Institute and the School of Computing at the University of Utah. Together with Miriah Meyer, I run the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
+I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the School of Computing at the University of Utah. Together with Miriah Meyer, I run the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
 
 Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
