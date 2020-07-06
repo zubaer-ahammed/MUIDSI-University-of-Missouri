@@ -46,22 +46,25 @@
 
 
 
- <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+ <h1>Blog And News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
-  <ul class="post-list">
+
     {% for post in site.posts limit:4 %}
-      <li class="post-list-item">
-		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
-        <div class="post-list-title">
-          {{ post.title }}
-        </div>
-        <div class="post-list-excerpt">
+      <div class="post-list-item">
+     
+
+        <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}"><div class="post-list-title">
+          {% if post.type == "blog" %}Blog Post:{% else %}News:{% endif %} {{ post.title }}
+          <span class="right-text">{{ post.date | date: "%-d %b %Y" }}</span>  
+          </a>
+      </div>
+      <div class="post-list-excerpt">
 		  {{ post.content | truncatewords: 160 }}
-        </div>
+      </div>
   		<div><a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a></div>         
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+
   <div class="all-news-link"><a href="news">See All News</a></div>
   
 
