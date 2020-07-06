@@ -659,6 +659,20 @@ a.project-website {
     b {
       color: #3376A0;
     }
+    
+  }
+
+  // nested fonts in the blog posts should be smaller
+  .post-list-item h2 {
+    font-size: $base-font-size;
+  }
+
+  .post-list-item h3 {
+    font-size: $base-font-size;
+  }
+
+  .post-list-item h4 {
+    font-size: $base-font-size;
   }
 
   .post-list-title {
@@ -675,7 +689,7 @@ a.project-website {
     font-weight: 700;
     font-style: normal;
     display: block;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 5px;
     padding-left: 0px;
     margin-bottom: 15px;
@@ -683,9 +697,6 @@ a.project-website {
     .right-text {
       float: right;
       font-weight: 400;
-    }
-    :link{
-
     }
 
     a {
