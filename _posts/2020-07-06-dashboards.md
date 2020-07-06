@@ -1,12 +1,12 @@
 ---
 layout: post
 title: The Case Against Dashboards (when Visualizing a Pandemic) 
-date: 2020-07-07 18:00:00
+date: 2020-07-06 15:00:00
 categories: event
+type: blog
+authors: 
+ - lex
 ---
-
-# The Case Against Dashboards (when Visualizing a Pandemic)  
-*Alexander Lex, University of Utah*
 
 The COVID-19 pandemic of 2020 has negatively impacted our lives in many ways. The anxiety felt by many is amplified by the obsessive consultation of the latest numbers and statistics about cases, testing rates, deaths, and so on. Both the public and experts have turned to data visualizations to understand what is going on, as data visualization is a powerful tool to discover and communicate trends and relationships. Government agencies, news organizations, and academic labs have published a plethora of graphs and dashboards tracking minute details, sometimes with deceiving precision. 
 

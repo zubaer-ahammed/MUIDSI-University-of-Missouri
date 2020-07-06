@@ -27,7 +27,7 @@ role: faculty | postdoc | phdstudent | phd_rotation  | msstudent | undergrad | i
 email: alex@sci.utah.edu
 image: /assets/images/people/lex.jpg
 organization: University of Utah
-position: Assistant Professor
+position: Associate Professor
 # use either a local link like here, or a URL
 website: /team/lex
 interests: Biology Visualization, Multivariate Graphs, Visualization Tools, Exploratory Visualization for Scientists

@@ -9,20 +9,22 @@ title: Post | Vis Design Lab
   </div>	
 
   <article class="post-content-main">
-	  
-<h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
-  <ul class="post-list">
-      <li class="post-list-item">
-		<div class="right-text">{{ page.date | date: "%-d %b %Y" }}</div>
-        <span class="post-list-title">
-          {{ page.title }}
-        </span>
-        <span class="post-list-excerpt">
+	       <h1> {{ page.title }} </h1>
+<div class="post-meta">
+        {% if page.authors %}
+      {% for author in page.authors %}
+      {% include person_name_link.html key=author %}{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+      {% endif %} 
+      <br>
+      {{ page.date | date: "%B %-d, %Y" }}
+      <br>
+      <br>
+    </div>
+      <div class="post-list-excerpt">
           {{ content }}
-        </span>              
+      </div>              
       </li>
   </ul>
-  <div class="all-news-link"><a class="all-news-link" href="{{ site.baseurl }}/news">See All News</a></div>
 </article>
 
 </div>

@@ -364,7 +364,7 @@ body {
 }
 
 .post-title {
-  @include subpage-title($home-color);
+  @include subpage-title($publication-color);
 }
 
 .home-title {
@@ -686,6 +686,13 @@ ul.post-list {
         overflow:hidden;
     }*/
   }
+}
+
+// author and date for a blog post
+.post-meta {
+  font-size: 14px;
+  font-style: italic;
+  color: #636363;
 }
 
 .publication-content {
