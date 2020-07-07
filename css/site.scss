@@ -662,7 +662,7 @@ a.project-website {
     
   }
 
-  // nested fonts in the blog posts should be smaller
+  // nested fonts in the blog posts should be
   .post-list-item h2 {
     font-size: $base-font-size;
   }
@@ -676,9 +676,6 @@ a.project-website {
   }
 
   .post-list-title {
-
-
-
     color: $dark-blue;// #F1F2F2;
     //color: lighten(#F1F2F2,0.5);
     //background: lighten($home-color, 30%);
@@ -693,21 +690,28 @@ a.project-website {
     padding: 5px;
     padding-left: 0px;
     margin-bottom: 15px;
+ 
+
+
   
     .right-text {
-      float: right;
+      font-size: 1em; 
       font-weight: 400;
+      white-space:nowrap;
+      padding-left: 10px;
     }
 
     a {
+      display: flex;
+      justify-content: space-between;
       font-style: normal;
-      display: block;
-      height: 28px;
+      //display: block;
+      //height: 28px;
       padding: 3px 0px;
       color: $dark-blue;
   
       border-bottom: 2px $home-color solid;
-      height: 30px;
+      //height: 30px;
       //background-color: #444;
   
       transition-property: background-color, color;
@@ -716,7 +720,7 @@ a.project-website {
       transition-delay: 25ms;
   
       &:focus, &:hover, &:active, &.active {
-        height: 30px;
+        //height: 30px;
         border-bottom: 5px $home-color solid;
       }
     }
