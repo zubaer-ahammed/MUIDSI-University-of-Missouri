@@ -11,6 +11,8 @@ title: Post | Vis Design Lab
   <article class="post-content-main">
 	       <h1> {{ page.title }} </h1>
 <div class="post-meta">
+
+
         {% if page.authors %}
       {% for author in page.authors %}
       {% include person_name_link.html key=author %}{% if forloop.last %}{% else %},{% endif %}{% endfor %}
@@ -21,6 +23,13 @@ title: Post | Vis Design Lab
       <br>
     </div>
       <div class="post-list-excerpt">
+<p>
+          {% if page.abstract %}
+        <i>{{page.abstract}}</i>
+        {%endif%}
+      </p>
+
+
           {{ content }}
       </div>              
       </li>

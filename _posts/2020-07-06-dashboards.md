@@ -8,6 +8,8 @@ authors:
  - lex
 redirect_from:
  - "/event/2020/07/06/dashboards/"
+abstract: "tldr: Using dashboards comes with risks: they leave out critical context by over-simplifying and hence give false certainty. A more nuanced approach including interpreation by experts, and showing multiple perspectives is needed when visualizing data for something as complex as the COVID-19 pandemic."
+lead-image: /assets/images/posts/2020_covid-dashboard.png
 ---
 
 The COVID-19 pandemic of 2020 has negatively impacted our lives in many ways. The anxiety felt by many is amplified by the obsessive consultation of the latest numbers and statistics about cases, testing rates, deaths, and so on. Both the public and experts have turned to data visualizations to understand what is going on, as data visualization is a powerful tool to discover and communicate trends and relationships. Government agencies, news organizations, and academic labs have published a plethora of graphs and dashboards tracking minute details, sometimes with deceiving precision. 
