@@ -32,7 +32,7 @@ This dashboard gives a misleading impression of certainty through different visu
 To address these shortcomings, a more nuanced approach is needed. A good example is the work by the team behind [Our World in Data](https://ourworldindata.org/coronavirus), at Oxford University. Instead of providing a single dashboard, they show multiple perspectives on the data, always providing context in the form of detailed descriptions. They leverage the power of data visualization to communicate trends and patterns, yet contextualize it using explanations by experts. While a single figure can’t do their analysis justice, consider the following example. 
 
 ![Visualizing COVID-19 Death by Our World In Data]({{site.base_url}}/assets/images/posts/2020_covid-deaths.png)
-*Source: Screenshot of https://ourworldindata.org/covid-deaths, taken on July 6, 2020.* 
+*Source: Screenshot of [https://ourworldindata.org/covid-deaths](https://ourworldindata.org/covid-deaths), taken on July 6, 2020.* 
 
 Instead of visualizing country-level data on a world map, they use a table, and add an important metric: the time it takes for the deaths attributed to COVID-19 to double. This table is sorted by the number of daily new confirmed deaths, showing the sizable toll by the US and Brazil; but also showing that Brazil, India, Mexico, Peru, and South Africa are on a problematic trajectory given their high fatality number and the fact that the death toll doubles in 20-30 days. 
 
