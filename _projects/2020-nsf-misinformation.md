@@ -2,7 +2,7 @@
 layout: project
 agency: The National Science Foundation
 key: 2020-nsf-misinformation
-permalink: /projects/2020-nsf-misinformation/
+permalink: projects/2020-nsf-misinformation/
 website:
 logo: nsf.jpg
 title: "EAGER: Understanding and Mitigating Misinformation in Visualizations On Social Media"
