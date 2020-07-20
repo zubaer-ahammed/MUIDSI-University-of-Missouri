@@ -7,7 +7,7 @@ type: blog
 authors:
   - akbaba
 redirect_from:
-  - "/event/2020/07/15/state-dashboards/"
+  - "/event/2020/07/20/state-dashboards/"
 abstract: "tldr: As states are navigating the influx of COVID data, they are using dashboards to communicate with their constituents. Although many states are doing a good job at collecting and sharing data in open data portals, dashboard quality varies a lot across states, and some  have considerable room for improvement."
 lead-image: /assets/images/posts/2020_state-dashboard-compilation
 ---
