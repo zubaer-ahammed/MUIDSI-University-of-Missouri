@@ -76,4 +76,4 @@ If you have thoughts, comments, or would like to collaborate on a version 2.0 of
 
 ### Acknowledgements
 
-I'd like to thank Alex for his feedback on both the grading system and editing this piece.
+I'd like to thank Alex for his feedback on both the grading system and editing this piece. And Devin for last minute edits.
