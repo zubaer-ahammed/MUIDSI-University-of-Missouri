@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State Dashboards
+title: State COVID-19 Dashboards
 date: 2020-07-20 12:00:00
 categories: blog
 type: blog
