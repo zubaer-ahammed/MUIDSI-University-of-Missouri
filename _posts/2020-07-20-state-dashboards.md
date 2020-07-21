@@ -12,6 +12,8 @@ abstract: "tldr: As states are navigating the influx of COVID data, they are usi
 lead-image: /assets/images/posts/2020_state-dashboard-compilation.png
 ---
 
+![State Dashboard Compilation]({{site.base_url}}/assets/images/posts/2020_state-dashboard-compilation.png){: style="border:1px solid black"}
+
 In a previous post, Alex reviewed [why dashboards are problematic]({{site.base_url}}/event/2020/07/06/dashboards/) when visualizing COVID-19 data. This week I take a deeper look into how states are using dashboards to communicate with COVID data with their constituents.
 
 Our deep-dive resulted in a grading system that enables a quick comparative overview across states and a more detailed breakdown of the dashboard attributes.
