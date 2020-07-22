@@ -607,6 +607,41 @@ body {
   @include page-meta();
 }
 
+.blog-page {
+  @include page-content();
+  @include span-columns(12);
+  @include omega();
+}
+
+
+.blog-teaser {
+
+
+  float: left;
+  //background-color: lightgrey;
+
+  @include media($large-display) {
+    height: 550px;
+    @include span-columns(5.7);
+
+  }
+  @include media($medium-display) {
+    @include span-columns(12);
+  }
+  @include media(small-display) {
+    @include span-columns(12);
+  }
+  margin-bottom: 10px;
+ 
+}
+
+.blog-teaser:nth-child(even)
+{
+  @include media($large-display) {
+    float:right;
+  }
+}
+
 a.project-website {
   @include reverse-dotted-link-underline;
   font-family: $condensed-font-family;
