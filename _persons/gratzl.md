@@ -9,5 +9,5 @@ email: samuel.gratzl@jku.at
 image: /assets/images/people/gratzl.jpg
 organization: Johannes Kepler University Linz
 position:
-website: https://github.com/sgratzl
+website: https://www.sgratzl.com/
 ---

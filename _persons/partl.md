@@ -5,9 +5,8 @@ last_name: Partl
 key: partl
 permalink: /persons/partl/
 role: collaborator
-email: partl@icg.tugray.at
+email: partl@icg.tugraz.at
 image: /assets/images/people/partl.jpg
 organization: Graz University of Technology
 position: PhD Student
-website:
 ---
