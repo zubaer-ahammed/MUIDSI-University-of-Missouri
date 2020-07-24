@@ -20,11 +20,13 @@ year: 2020
 
 bibentry: inproceedings
 bib:
-  booktitle: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), to appear"
+  booktitle: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)"
   publisher: ACM
-  doi: 
-  pages:
+  doi: 10.1145/3313831.3376381
+  pages: 1-12
   award:
+
+blog-post: blog/2020/07/23/crowdsourced-evaluation/  
 
 # Links to a project hosted on VDL, or else externally on your own site
 
