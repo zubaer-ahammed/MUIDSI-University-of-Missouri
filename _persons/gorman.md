@@ -28,6 +28,7 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
+graduated: MS '20
 
 ---
 I am an MS student working with Miriah Meyer. I am interested in user-centered design and visualizing language. My current project involves visualizing text data from online health communities.
