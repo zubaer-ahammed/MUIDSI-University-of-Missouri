@@ -44,6 +44,9 @@ videos:
 - name: "MVNV Study Preview" 
   youtube-id: NtlEgVU_Yp0
   file: 2020_chi_mvnv_study_preview.mp4
+- name: "CHI Presentation"
+  youtube-id: hcXZC-V3iWY
+  file: 2020_chi_mvnv_study_presentation.mp4
 
 
 # Provide a preprint and supplement pdf
