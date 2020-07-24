@@ -31,8 +31,6 @@ phd_students:
  - rogers
  - kiran
  - lin
- - ilkin
- - marno
  - lange
 
 ms_students:
@@ -46,6 +44,8 @@ phd_graduates:
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
 
 former_students:
+ - marno
+ - ilkin
  - Sai Varun, MS '20
  - wootton 
  - mukherjee
@@ -98,8 +98,8 @@ My research is on data visualization methods for domain experts. I design, build
 
 ## Bio
 
-I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the School of Computing at the University of Utah. Together with Miriah Meyer, I run the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
+I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the School of Computing at the University of Utah. I co-direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
 
 Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
-I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visual analytics solutions for the pharmaceutical industry, and the [Caleydo project](http://caleydo.org), an open source visualization framework for biomolecular data.
+I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visual analytics solutions for the pharmaceutical industry. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). You can find other visualization software on the [Caleydo project pages](http://caleydo.org), and on our [GitHub Page](https://github.com/visdesignlab).
