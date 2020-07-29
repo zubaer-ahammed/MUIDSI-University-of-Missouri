@@ -38,6 +38,8 @@ ms_students:
  
 ug_students:
  - zcutler
+ - hannah
+ - prajan
 
 phd_graduates:
  - nobre
@@ -85,12 +87,12 @@ former_students:
  - Stefan Sauer, BS '09 (with D. Schmalstieg)
 
 projects:
+ - 2020-nsf-misinformation
  - 2019-nsf-multinet
  - 2018-nsf-reproducibility
  - 2018-utah-lineage
  - 2016-dod-composites
  - 2015-nih-cohorts
-
 
 ---
 
