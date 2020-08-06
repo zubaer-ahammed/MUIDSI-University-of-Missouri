@@ -153,6 +153,9 @@ function run() {
       points.push([-12, -36]);
       points.push([-12, -50]);
       points.push([xShift, -90]);
+    } else {
+      points.push([xShift / 2, -50]);
+      points.push([xShift / 2, -90]);
     }
 
     return points;
