@@ -16,12 +16,14 @@ function run() {
   //   d3.selectAll('*').transition();
   //   clearInterval(loop);
   // }, 5000)
-  setInterval(() => {
+  const interval = setInterval(() => {
     if (level) {
+      // Slow bubbling
       animateBubble(...addBubble(leftSource), 'left');
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
     } else {
+      // Fast bubbling
       animateBubble(...addBubble(leftSource), 'left');
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
@@ -32,7 +34,8 @@ function run() {
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
     }
-  }, 200);
+  }, 1000);
+  console.log(interval)
 
   staticBubbles
     .transition()
@@ -145,20 +148,18 @@ function run() {
       points.push([xShift - 11, -22]);
       points.push([xShift - 6, -28]);
       points.push([xShift - 5, -30]);
-      points.push([xShift - 1, -35]);
+      points.push([12, -35]);
+      points.push([12, -50]);
+      points.push([xShift, -90]);
     } else if (position === 'right') {
       xShift = xShift - 13;
       points.push([xShift + 11, -25]);
       points.push([xShift + 6, -30]);
-      points.push([xShift + 1, -36]);
+      points.push([-12, -36]);
+      points.push([-12, -50]);
+      points.push([xShift, -90]);
     }
 
-    points.push(
-      ...[
-        [xShift, -50], //Bottleneck
-        [xShift, -90],
-      ],
-    );
     return points;
   }
 
