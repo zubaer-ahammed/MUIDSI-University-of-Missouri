@@ -12,11 +12,7 @@ function run() {
 
   let level = 5;
 
-  // setTimeout(() => {
-  //   d3.selectAll('*').transition();
-  //   clearInterval(loop);
-  // }, 5000)
-  const interval = setInterval(() => {
+  setInterval(() => {
     if (level) {
       // Slow bubbling
       animateBubble(...addBubble(leftSource), 'left');
@@ -35,7 +31,6 @@ function run() {
       animateBubble(...addBubble(rightSource), 'right');
     }
   }, 1000);
-  console.log(interval)
 
   staticBubbles
     .transition()
