@@ -3,7 +3,7 @@ svgString().then(logo => {
   run();
 });
 
-function run() {
+async function run() {
   let leftSource = d3.select('.left-source');
   let midSource = d3.select('.mid-source');
   let rightSource = d3.select('.right-source');
@@ -12,7 +12,34 @@ function run() {
 
   let level = 5;
 
-  setInterval(() => {
+  let bubbleInterval = setInterval(addNewBubbles, 1000);
+
+  staticBubbles
+    .transition()
+    .duration(18000)
+    .attr('transform', `translate(0, -100)`)
+    .style('opacity', 0);
+
+  d3.select('svg')
+    .on('mouseover', () => {
+      level = 0;
+      restart();
+    })
+    .on('mouseout', async () => {
+      for (let i = 0; i <= 5; ++i) {
+        setTimeout(() => {
+          level = i;
+        }, i * 500);
+      }
+      await sleep(15)
+      pause()
+    });
+
+  
+    await sleep(15)
+    pause()
+
+  function addNewBubbles() {
     if (level) {
       // Slow bubbling
       animateBubble(...addBubble(leftSource), 'left');
@@ -30,25 +57,7 @@ function run() {
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
     }
-  }, 1000);
-
-  staticBubbles
-    .transition()
-    .duration(18000)
-    .attr('transform', `translate(0, -100)`)
-    .style('opacity', 0);
-
-  d3.select('svg')
-    .on('mouseover', () => {
-      level = 0;
-    })
-    .on('mouseout', () => {
-      for (let i = 0; i <= 5; ++i) {
-        setTimeout(() => {
-          level = i;
-        }, i * 500);
-      }
-    });
+  }
 
   function addBubble(source) {
     let radius = getRandomRadius();
@@ -57,6 +66,7 @@ function run() {
       source
         .append('circle')
         .classed('bubble', true)
+        .classed('moving-bubble', true)
         .attr('r', radius)
         .attr('transform', `translate(${xShift}, 0)`),
       xShift,
@@ -77,11 +87,18 @@ function run() {
   }
 
   function animateBubble(bubble, xShift, position) {
-    let points = getPoints(xShift, position);
-    let path = getPath(points);
+    const points = getPoints(xShift, position);
+    const path = getPath(points);
+    const timeToMove = sToMs(getRandomTime())
+    bubble
+      .attr('T', 0)
+      .attr('timeToMove', timeToMove)
+      .attr('points', `${JSON.stringify(points)}`)
+
     bubble
       .transition()
-      .duration(sToMs(getRandomTime()))
+      .duration(timeToMove)
+      .attr('T', 1)
       .attrTween('transform', translateAlongPath(path.node()))
       .remove();
     path.remove();
@@ -161,12 +178,61 @@ function run() {
     return points;
   }
 
-  function randomFloatInRange(min, max) {
-    return Math.random() * (max - min) + min;
+  function getRemainingPoints(points, currentPos) {
+    const output = []
+    output.push(currentPos)
+    points
+      .filter(point => point[1] < currentPos[1])
+      .forEach(point => output.push(point))
+    
+    return output
   }
 
-  function randomIntInRange(min, max) {
-    return Math.ceil(randomFloatInRange(min, max));
+  function restart() {
+    const bubbles = d3.selectAll('.moving-bubble')
+
+    bubbles.nodes().forEach((d) => {
+      // Get T
+      const pausePoint = d.attributes.T.value;
+      const timeToMove = d.attributes.timeToMove.value;
+      let points = JSON.parse(d.attributes.points.value)
+      let currentPos = d.attributes.transform.value
+
+      currentPos = currentPos.slice(10, currentPos.length - 1).split(', ')
+      console.log(points, currentPos)
+
+      points = getRemainingPoints(points, currentPos)
+
+      const path = getPath(points);
+      const remainingTime = timeToMove - (timeToMove * pausePoint)
+
+      // Resume transition
+      d3.select(d)
+        .transition()
+        .duration(remainingTime)
+        .attrTween('transform', translateAlongPath(path.node()))
+        .remove();
+    })
+
+    bubbleInterval = setInterval(addNewBubbles, 1000);
+  }
+
+  function pause() {
+    clearInterval(bubbleInterval);
+
+    const bubbles = d3.selectAll('.moving-bubble')
+
+    bubbles
+      .transition()
+      .duration(0);
+  }
+
+  function sleep(sec) {
+    return new Promise(resolve => setTimeout(resolve, sToMs(sec)));
+  }
+
+  function randomFloatInRange(min, max) {
+    return Math.random() * (max - min) + min;
   }
 }
 
