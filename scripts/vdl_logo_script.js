@@ -8,22 +8,19 @@ async function run() {
   let midSource = d3.select('.mid-source');
   let rightSource = d3.select('.right-source');
 
-  let staticBubbles = d3.selectAll('.static-circles');
-
   let level = 5;
+  let pausing = false;
 
-  let bubbleInterval = setInterval(addNewBubbles, 1000);
-
-  staticBubbles
-    .transition()
-    .duration(18000)
-    .attr('transform', `translate(0, -100)`)
-    .style('opacity', 0);
+  restart()
 
   d3.select('svg')
     .on('mouseover', () => {
       level = 0;
-      restart();
+
+      // If not waiting for pause, restart
+      if (!pausing) {
+        restart();
+      }
     })
     .on('mouseout', async () => {
       for (let i = 0; i <= 5; ++i) {
@@ -31,12 +28,17 @@ async function run() {
           level = i;
         }, i * 500);
       }
-      await sleep(15)
-      pause()
+
+      // If not already pausing, pause
+      if (!pausing) {
+        pausing = true;
+        await sleep(10);
+        pause();
+        pausing = false;
+      }
     });
 
-  
-    await sleep(15)
+    await sleep(10)
     pause()
 
   function addNewBubbles() {
@@ -91,14 +93,14 @@ async function run() {
     const path = getPath(points);
     const timeToMove = sToMs(getRandomTime())
     bubble
-      .attr('T', 0)
-      .attr('timeToMove', timeToMove)
+      .attr('t', 0)
+      .attr('timetomove', timeToMove)
       .attr('points', `${JSON.stringify(points)}`)
 
     bubble
       .transition()
       .duration(timeToMove)
-      .attr('T', 1)
+      .attr('t', 1)
       .attrTween('transform', translateAlongPath(path.node()))
       .remove();
     path.remove();
@@ -188,18 +190,28 @@ async function run() {
     return output
   }
 
+  function getNextPoint(points, currentPos) {
+    const nextPos = points.find(point => point[1] < currentPos[1]) || [13, -100]
+    nextPos[1] = nextPos[1] + randomFloatInRange (-8, 2)
+
+    const output = []
+    output.push(currentPos)
+    output.push(nextPos)
+    
+    return output
+  }
+
   function restart() {
     const bubbles = d3.selectAll('.moving-bubble')
 
     bubbles.nodes().forEach((d) => {
       // Get T
-      const pausePoint = d.attributes.T.value;
-      const timeToMove = d.attributes.timeToMove.value;
+      const pausePoint = d.attributes.t.value;
+      const timeToMove = d.attributes.timetomove.value;
       let points = JSON.parse(d.attributes.points.value)
       let currentPos = d.attributes.transform.value
 
       currentPos = currentPos.slice(10, currentPos.length - 1).split(', ')
-
       points = getRemainingPoints(points, currentPos)
 
       const path = getPath(points);
@@ -209,7 +221,7 @@ async function run() {
       d3.select(d)
         .transition()
         .duration(remainingTime)
-        .attr('T', 1)
+        .attr('t', 1)
         .attrTween('transform', translateAlongPath(path.node()))
         .remove();
       path.remove();
@@ -218,14 +230,28 @@ async function run() {
     bubbleInterval = setInterval(addNewBubbles, 1000);
   }
 
-  function pause() {
+  async function pause() {
     clearInterval(bubbleInterval);
 
     const bubbles = d3.selectAll('.moving-bubble')
+    
+    bubbles.nodes().forEach((d) => {
+      // Get T
+      let points = JSON.parse(d.attributes.points.value)
+      let currentPos = d.attributes.transform.value
 
-    bubbles
-      .transition()
-      .duration(0);
+      currentPos = currentPos.slice(10, currentPos.length - 1).split(', ')
+      points = getNextPoint(points, currentPos)
+
+      const path = getPath(points);
+
+      // Transition and ease to next point
+      d3.select(d)
+        .transition()
+        .ease(d3.easeSinOut)
+        .duration(2500)
+        .attrTween('transform', translateAlongPath(path.node()));
+    })
   }
 
   function sleep(sec) {
