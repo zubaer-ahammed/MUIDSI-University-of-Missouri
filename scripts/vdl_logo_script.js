@@ -8,7 +8,7 @@ async function run() {
   let midSource = d3.select('.mid-source');
   let rightSource = d3.select('.right-source');
 
-  let level = 5;
+  let level = 1;
   let pausing = false;
 
   restart()
@@ -23,10 +23,11 @@ async function run() {
       }
     })
     .on('mouseout', async () => {
-      for (let i = 0; i <= 5; ++i) {
+      for (let i = 0; i <= 3; ++i) {
         setTimeout(() => {
           level = i;
-        }, i * 500);
+          console.log(level)
+        }, i * 3333);
       }
 
       // If not already pausing, pause
@@ -47,6 +48,9 @@ async function run() {
       animateBubble(...addBubble(leftSource), 'left');
       animateBubble(...addBubble(midSource), 'mid');
       animateBubble(...addBubble(rightSource), 'right');
+      animateBubble(...addBubble(rightSource), 'right');
+      animateBubble(...addBubble(midSource), 'mid');
+      animateBubble(...addBubble(leftSource), 'left');
     } else {
       // Fast bubbling
       animateBubble(...addBubble(leftSource), 'left');
@@ -131,12 +135,12 @@ async function run() {
       case 3:
         return randomFloatInRange(13, 15);
       case 2:
-        return randomFloatInRange(11, 13);
+        return randomFloatInRange(9, 13);
       case 1:
-        return randomFloatInRange(9, 11);
+        return randomFloatInRange(7, 9);
       case 0:
       default:
-        return randomFloatInRange(7, 9);
+        return randomFloatInRange(4, 9);
     }
   }
 
@@ -220,7 +224,7 @@ async function run() {
       // Resume transition
       d3.select(d)
         .transition()
-        .duration(remainingTime)
+        .duration(remainingTime / 2)
         .attr('t', 1)
         .attrTween('transform', translateAlongPath(path.node()))
         .remove();
@@ -249,7 +253,7 @@ async function run() {
       d3.select(d)
         .transition()
         .ease(d3.easeSinOut)
-        .duration(2500)
+        .duration(1500)
         .attrTween('transform', translateAlongPath(path.node()));
     })
   }
