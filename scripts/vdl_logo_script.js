@@ -206,7 +206,7 @@ async function run() {
       const remainingTime = timeToMove - (timeToMove * pausePoint)
 
       // Resume transition
-      bubble
+      d3.select(d)
         .transition()
         .duration(remainingTime)
         .attr('T', 1)
