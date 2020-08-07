@@ -207,11 +207,13 @@ async function run() {
       const remainingTime = timeToMove - (timeToMove * pausePoint)
 
       // Resume transition
-      d3.select(d)
+      bubble
         .transition()
         .duration(remainingTime)
+        .attr('T', 1)
         .attrTween('transform', translateAlongPath(path.node()))
         .remove();
+      path.remove();
     })
 
     bubbleInterval = setInterval(addNewBubbles, 1000);
