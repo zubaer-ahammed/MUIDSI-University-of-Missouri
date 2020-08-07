@@ -199,7 +199,6 @@ async function run() {
       let currentPos = d.attributes.transform.value
 
       currentPos = currentPos.slice(10, currentPos.length - 1).split(', ')
-      console.log(points, currentPos)
 
       points = getRemainingPoints(points, currentPos)
 
