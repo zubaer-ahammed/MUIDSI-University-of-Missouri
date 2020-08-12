@@ -8,13 +8,13 @@ key: lin
 permalink: /team/lin/
 # Pick one of the following
 role: phdstudent 
-email: hhlin@cs.utah.edu
+email: hhlin@sci.utah.edu
 image: /assets/images/people/lin.jpg
 organization: University of Utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: /team/lin
-interests: Visualization Tools, Exploratory Visualization for Scientists, Computer Graphics
+interests: Visualization Tools, Exploratory Visualization for Scientists
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: 
 
@@ -33,4 +33,4 @@ showteaching: false
 
 ---
 
-I am a PhD student in School of Computing at University of Utah. I am interested in interactive data visualization and computer graphics. When not computing, I love playing video games with my friends and testing out new recipes.
+I am a PhD student in School of Computing at University of Utah. I am interested in interactive data visualization and computer graphics. When not computing, I love playing video games with my friends and testing out new recipes. 
