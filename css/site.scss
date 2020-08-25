@@ -26,7 +26,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   float: left;
   text-align: left;
   margin-right: 30px;
-  width: 110px;
+  width: 80px;
 
   &:last-child {
     margin-right: 0px;
@@ -267,25 +267,29 @@ body {
   @include navigation-button($team-color);
 }
 
-.project-button {
-  @include navigation-button($project-color);
-}
 
 .publications-button {
-  @include navigation-button($publication-color);
+  @include navigation-button($home-color);
   width: 120px;
 }
 
-.download-button {
-  @include navigation-button($download-color);
+.blog-button {
+  @include navigation-button($team-color);
+}
+
+
+.culture-button {
+  @include navigation-button($home-color);
 }
 
 .positions-button {
-  @include navigation-button($help-color);
+  @include navigation-button($team-color);
 }
 
-.culture-button {
-  @include navigation-button($help-color);
+
+
+.project-button {
+  @include navigation-button($home-color);
 }
 
 .award {
@@ -605,6 +609,41 @@ body {
 
 .post-meta {
   @include page-meta();
+}
+
+.blog-page {
+  @include page-content();
+  @include span-columns(12);
+  @include omega();
+}
+
+
+.blog-teaser {
+
+
+  float: left;
+  //background-color: lightgrey;
+
+  @include media($large-display) {
+    height: 550px;
+    @include span-columns(5.7);
+
+  }
+  @include media($medium-display) {
+    @include span-columns(12);
+  }
+  @include media(small-display) {
+    @include span-columns(12);
+  }
+  margin-bottom: 10px;
+ 
+}
+
+.blog-teaser:nth-child(even)
+{
+  @include media($large-display) {
+    float:right;
+  }
 }
 
 a.project-website {

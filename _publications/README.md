@@ -49,7 +49,7 @@ blank if they are not needed. You can also remove comments or unused fields.
 Each publication _**must**_ specify a `title`, `authors`, `bibentry`, and `year`
 in order to render proper BibTeX output.
 
-A current example is the Juniper entry.
+A current example is the CHI MVNV entry.
 
 
 ``` yaml
@@ -83,6 +83,8 @@ authors:
 - partl
 - gratzl
 
+# A link to an internal blog post (use only the relative URL)
+blog-post: 
 
 # Include a shortened name for the journal or conference/proceedings
 journal-short: CGF (EuroVis '16)

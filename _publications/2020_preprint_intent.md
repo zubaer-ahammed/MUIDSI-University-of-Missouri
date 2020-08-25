@@ -1,13 +1,15 @@
 ---
 layout: publication
 title: Capturing User Intent when Brushing in Scatterplots
-key: 2020_intent
+key: 2020_preprint_intent
 type: preprint
 order: 2020-02
 
 shortname: Intent-Inference
 image: 2020_intent.png
 image_large: 2020_intent_teaser.png
+redirect_from: 
+ - 2020_intent
 
 authors:
   - kiran
@@ -40,13 +42,13 @@ external-project: https://vdl.sci.utah.edu/predicting-intent/
 
 videos:
  - name: 'Intent System Introduction'
-   youtube-id: Z1u89ZrFv_E
-   file: 2020_intent.mp4
+   youtube-id: flGhsCeo-00
+   file: 2020_preprint_intent.mp4
 
 # Provide a preprint and supplement pdf
 
-pdf: 2020_intent_preprint.pdf
-# supplement: 2020_chi_mvnv_study_supplement.zip
+pdf: 2020_preprint_intent.pdf
+supplement: 2020_preprint_intent_supplement.pdf
 
 # Link to an official preprint server
 preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk

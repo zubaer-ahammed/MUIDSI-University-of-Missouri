@@ -13,10 +13,10 @@ copi:
  - Marina Kogan
 coinvestigators:
 time: 01/01/2021-06/30/2022
-program: IIS
-agency-website: 
+program: IIS 
+agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2041136
 collaborative-award: 
-number: NSF xxx
+number: NSF IIS 2041136
 active: true
 updated: 2020-07-14
 publications: 
@@ -33,9 +33,9 @@ otherstaff:
 alumni:
 
 
-award: 
+award: $ 200,000
 award-utah: 
-award-lex: 
+award-lex: $ 100,000
 award-meyer: 
 
 ---

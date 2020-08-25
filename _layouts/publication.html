@@ -185,6 +185,12 @@ layout: default
 	{% endfor %}
     {% endif %}
 
+    {% if page.blog-post %}
+    <li>
+      <i class="fa fa-rss"></i> &nbsp;<a href="{{site.baseurl}}/{{ page.blog-post }}">Blog Post</a>
+    </li>
+    {% endif %}
+
     {% if page.preprint_server %}
     <li>
       <i class="fa fa-external-link"></i> &nbsp;<a href="{{ page.preprint_server }}">Preprint Server</a>

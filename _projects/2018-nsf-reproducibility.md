@@ -29,8 +29,11 @@ staff:
  - lex
  - kiran
  - zcutler
+ - hannah
+ - prajan
  - goertler
  - rogers
+ 
  
 otherstaff:  
 
@@ -46,7 +49,7 @@ To achieve these goals, this research will develop a framework for making visual
 
 ## Software
 
-We are developing a provenance tracking library for integration with web applications. The source code is available [here](https://github.com/visdesignlab/provenance-lib-core), and a demonstrator application is [also available](https://github.com/visdesignlab/provenance-lib-core-demo). 
+We are developing a provenance tracking library for integration with web applications. The source code is available [here](https://github.com/visdesignlab/trrack), and a demonstrator application is [also available](https://github.com/visdesignlab/trrack-examples). 
 
 We are also working on a visualization tool to capture analysis intent using the provenance library discussed above. Find the code [here](https://github.com/visdesignlab/intent-system), and a live-demo of the system at [this page](https://vdl.sci.utah.edu/predicting-intent/). 
 
