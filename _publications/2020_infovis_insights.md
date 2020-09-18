@@ -1,13 +1,12 @@
 ---
 layout: publication
 title: "Insights From Experiments With Rigor in an EvoBio Design Study"
-key: 2020_experiments_crit
+key: 2020_infovis_insights
 type: paper
-order: 2020-01
 
-shortname: experiments-crit
-image: #2020_chi_mvnv_study.png
-image_large: #2020_chi_mvnv_study_teaser.png
+shortname: insights
+image: 2020_infovis_insights.png
+image_large: 2020_infovis_insights_teaser.png
 
 authors:
 - rogers
@@ -16,7 +15,7 @@ authors:
 - lex
 - meyer
 
-journal-short: 
+journal-short: TVCG
 year: 2020
 
 bibentry: inproceedings
@@ -27,29 +26,30 @@ bib:
   pages: 
   award:
 
-blog-post: #blog/2020/07/23/crowdsourced-evaluation/  
+blog-post: 
 
 # Links to a project hosted on VDL, or else externally on your own site
 
 project:
-external-project: #https://vdl.sci.utah.edu/mvnv-study/
+external-project: https://vdl.sci.utah.edu/Trevo/
+external-project: https://vdl.sci.utah.edu/trrrace/
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
 
 videos:
-- name: "Insights from Experiments with Rigor"
-  youtube-id: TFDNjlt8NIY
-  file: 2020_chi_mvnv_study.mp4
+- name: "Insights from Experiments with Rigor in an EvoBio Design Study"
+  youtube-id: 0lIJarVNxcM
+  file: 2020_infovis_insights_talk.mp4
 
 
 # Provide a preprint and supplement pdf
 
-pdf: #2020_chi_mvnv_study.pdf
-supplement: #2020_chi_mvnv_study_supplement.zip
+pdf: 2020_infovis_insights.pdf
+supplement: 
 
 # Link to an official preprint server
-preprint_server: https://arxiv.org/submit/3340528/view #https://osf.io/9ndb3/
+preprint_server: https://arxiv.org/submit/3340528/view 
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
@@ -59,11 +59,13 @@ preprint_server: https://arxiv.org/submit/3340528/view #https://osf.io/9ndb3/
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
-- path: 2020_chi_mvnv_study_am_large_continent_sort.png
-  caption: Adjacency matrix, sorted by continent. 
 
-code: #https://github.com/visdesignlab/mvnv-study/
-# code: https://github.com/visdesignlab/mvnv-analysis/
+
+code: 
+- name: "Trevo App"
+  link: https://github.com/visdesignlab/Trevo
+- name: "EvoBio tRRRace Website"
+  link: https://github.com/visdesignlab/trrrace
 
 abstract: "
 <p>Design study is an established approach of conducting problem-driven visualization research. The academic visualization
