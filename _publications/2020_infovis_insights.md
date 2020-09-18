@@ -31,8 +31,8 @@ blog-post:
 # Links to a project hosted on VDL, or else externally on your own site
 
 project:
-external-project: https://vdl.sci.utah.edu/Trevo/
-external-project: https://vdl.sci.utah.edu/trrrace/
+-external-project: https://vdl.sci.utah.edu/Trevo/
+-external-project: https://vdl.sci.utah.edu/trrrace/
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
@@ -53,19 +53,20 @@ preprint_server: https://arxiv.org/submit/3340528/view
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
-# supplements:
-# - name: 
-# - link: 
+supplements:
+- name: "Trevo App Code"
+  abslink: https://github.com/visdesignlab/Trevo
+  linksym: true
+- name: "EvoBio tRRRace Website Code"
+  abslink: https://github.com/visdesignlab/trrrace
+  linksym: true
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-images:
+#images:
 
 
 code: 
-- name: "Trevo App"
-  link: https://github.com/visdesignlab/Trevo
-- name: "EvoBio tRRRace Website"
-  link: https://github.com/visdesignlab/trrrace
+
 
 abstract: "
 <p>Design study is an established approach of conducting problem-driven visualization research. The academic visualization
