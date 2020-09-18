@@ -31,8 +31,8 @@ blog-post:
 # Links to a project hosted on VDL, or else externally on your own site
 
 project:
--external-project: https://vdl.sci.utah.edu/Trevo/
--external-project: https://vdl.sci.utah.edu/trrrace/
+#-external-project: https://vdl.sci.utah.edu/Trevo/
+#-external-project: https://vdl.sci.utah.edu/trrrace/
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
@@ -54,8 +54,14 @@ preprint_server: https://arxiv.org/submit/3340528/view
 # # Extra supplements, such as talk slides, data sets, etc.
 
 supplements:
+- name: "Trevo App"
+  abslink: https://vdl.sci.utah.edu/Trevo/
+  linksym: true
 - name: "Trevo App Code"
   abslink: https://github.com/visdesignlab/Trevo
+  linksym: true
+- name: "EvoBio tRRRace Website"
+  abslink: https://vdl.sci.utah.edu/trrrace/
   linksym: true
 - name: "EvoBio tRRRace Website Code"
   abslink: https://github.com/visdesignlab/trrrace
