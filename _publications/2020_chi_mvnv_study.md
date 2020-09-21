@@ -20,7 +20,7 @@ year: 2020
 
 bibentry: inproceedings
 bib:
-  booktitle: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI)"
+  booktitle: "SIGCHI Conference on Human Factors in Computing Systems (CHI)"
   publisher: ACM
   doi: 10.1145/3313831.3376381
   pages: 1-12

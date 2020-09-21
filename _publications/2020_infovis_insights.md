@@ -16,7 +16,7 @@ authors:
 - lex
 - meyer
 
-journal-short: InfoVis '20
+journal-short: InfoVis
 year: 2020
 
 bibentry: article
