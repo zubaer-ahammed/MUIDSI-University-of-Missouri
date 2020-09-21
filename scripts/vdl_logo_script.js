@@ -26,7 +26,6 @@ async function run() {
       for (let i = 0; i <= 3; ++i) {
         setTimeout(() => {
           level = i;
-          console.log(level)
         }, i * 3333);
       }
 
