@@ -24,16 +24,16 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '19) (to appear)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '19)
   booktitle:
   editor:
-  publisher: 
+  publisher: IEEE
   address:
   doi: 10.1109/TVCG.2019.2934539
   url: 
-  volume:
-  number:
-  pages:
+  volume: 26
+  number: 1 
+  pages: 87--97
   month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
@@ -49,9 +49,13 @@ external-project:
 # video: 
 # The reference to the preview viedo entry
 videos:  
- - name: "Rigor in DS Intro" 
+ - name: "Fast Forward" 
    youtube-id: 
    file: 2019_infovis_criteria_preview.mov
+videos:  
+ - name: "VIS talk" 
+   vimeo-id: 369711672
+   file: 2019_infovis_criteria.mp4
 
 # the prerint
 pdf: 2019_infovis_criteria.pdf
