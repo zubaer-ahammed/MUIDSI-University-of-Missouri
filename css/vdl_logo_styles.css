@@ -3,11 +3,15 @@
 }
 
 svg {
-  pointer-events: all
+  pointer-events: all;
+}
+
+#svg {
+  margin-top: -30px;
 }
 
 g {
-  pointer-events: none
+  pointer-events: none;
 }
 
 .inner-border {
@@ -34,7 +38,7 @@ g {
 
 .bubble {
   stroke: black;
-  stroke-width: 0.01
+  stroke-width: 0.01;
 }
 
 .background {
