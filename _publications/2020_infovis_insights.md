@@ -7,7 +7,7 @@ type: paper
 shortname: insights
 image: 2020_infovis_insights.png
 image_large: 2020_infovis_insights_teaser.png
-order: 2020-02
+order: 2020-03
 
 authors:
 - rogers

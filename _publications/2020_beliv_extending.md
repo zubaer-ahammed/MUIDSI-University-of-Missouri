@@ -14,7 +14,7 @@ type: paper
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
 # that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
 # 2019-11 belwo that paper. Notice that sorting is lexicographic.  
-order: 2020-03
+order: 2020-02
 
 # Auto-generates titles and alt-descriptors
 shortname: Extending
@@ -42,7 +42,7 @@ year: 2020
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: inproceedings
 bib:
-  journal: IEEE Evaluation and Beyond - Methodological Approaches for Visualization (BELIV)
+  journal: "IEEE Evaluation and Beyond - Methodological Approaches for Visualization (BELIV)"
   booktitle: 
   editor: 
   publisher: 
@@ -89,4 +89,6 @@ code:
 abstract: "<p>
 Participatory design is an approach in human-computer interaction to involve all relevant stakeholders coequally in the design process. A recent participatory method for visualization design is the creative visualization-opportunities (CVO) workshop, which is used to efficiently develop visualization design requirements in the early stages of applied visualization work. In this paper we report on our experiences of running four CVO workshops in different domains with diverse participants to explore new methods and variations of workshop variables. Through reflection on our experiences we propose two contributions that extend existing guidance for planning, executing, and analyzing CVO workshops: a set of 12 pragmatic recommendations that extend and complement existing ones; and a recommended method for analyzing workshop results, called user stories. Additionally, we report on the outcomes of our successful workshops to provide evidence for the efficacy of CVO workshops.
 </p>"
+
+---
 
