@@ -14,7 +14,7 @@ type: paper
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
 # that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
 # 2019-11 belwo that paper. Notice that sorting is lexicographic.  
-order: 2020-03
+order: 2020-02
 
 # Auto-generates titles and alt-descriptors
 shortname: Extending
@@ -45,7 +45,7 @@ year: 2020
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: inproceedings
 bib:
-  journal: IEEE Evaluation and Beyond - Methodological Approaches for Visualization (BELIV)
+  journal: Proceedings of IEEE Evaluation and Beyond – Methodological Approaches for Visualization (BELIV)
   booktitle: 
   editor: 
   publisher: 
