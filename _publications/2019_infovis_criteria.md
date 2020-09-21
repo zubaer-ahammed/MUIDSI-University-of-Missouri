@@ -52,7 +52,6 @@ videos:
  - name: "Fast Forward" 
    youtube-id: 
    file: 2019_infovis_criteria_preview.mov
-videos:  
  - name: "VIS talk" 
    vimeo-id: 369711672
    file: 2019_infovis_criteria.mp4
