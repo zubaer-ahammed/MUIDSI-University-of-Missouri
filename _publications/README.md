@@ -164,6 +164,7 @@ The analysis of paths in graphs....
 </p>"
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
+# The --- is REQUIRED! 
 ---
 
 # Acknowledgements
