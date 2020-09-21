@@ -38,8 +38,8 @@ async function run() {
       }
     });
 
-    await sleep(10)
-    pause()
+  await sleep(10)
+  pause()
 
   function addNewBubbles() {
     if (level) {
@@ -149,8 +149,8 @@ async function run() {
 
   function translateAlongPath(path) {
     let l = path.getTotalLength();
-    return function(d, i, a) {
-      return function(t) {
+    return function (d, i, a) {
+      return function (t) {
         let p = path.getPointAtLength(t * l);
         return `translate(${p.x}, ${p.y})`;
       };
@@ -189,18 +189,18 @@ async function run() {
     points
       .filter(point => point[1] < currentPos[1])
       .forEach(point => output.push(point))
-    
+
     return output
   }
 
   function getNextPoint(points, currentPos) {
     const nextPos = points.find(point => point[1] < currentPos[1]) || [13, -100]
-    nextPos[1] = nextPos[1] + randomFloatInRange (-8, 2)
+    nextPos[1] = nextPos[1] + randomFloatInRange(-8, 2)
 
     const output = []
     output.push(currentPos)
     output.push(nextPos)
-    
+
     return output
   }
 
@@ -237,7 +237,7 @@ async function run() {
     clearInterval(bubbleInterval);
 
     const bubbles = d3.selectAll('.moving-bubble')
-    
+
     bubbles.nodes().forEach((d) => {
       // Get T
       let points = JSON.parse(d.attributes.points.value)
