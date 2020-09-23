@@ -19,9 +19,9 @@ order: 2020-02
 # Auto-generates titles and alt-descriptors
 shortname: Extending
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2020_beliv_extending.png
+image: 2020_beliv_extending.jpg
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2020_beliv_extending_teaser.png
+image_large: 2020_beliv_extending_teaser.jpg
 
 # Authors in the "database" can be used with just their person "key"
 authors:
