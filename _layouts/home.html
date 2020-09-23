@@ -10,7 +10,7 @@
     {% for publication in site.publications %}
 
     {% if publication.personal  %}
-    {% elsif publication.image_large and publication.year > 2017 and publication.type == "paper"%}
+    {% elsif publication.image_large and publication.year > 2019 and publication.type == "paper"%}
     {
     "title"    : "{{ publication.title }}",
     "shortname" : "{{ publication.shortname }}",
@@ -41,9 +41,6 @@
 
       <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
       <p>VDL is part of the <a href="http://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="http://www.cs.utah.edu/">School of Computing</a>. </p>
-
-
-
 
 
  <h1>Blog And News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
@@ -79,7 +76,7 @@
             {% assign sorted_publications = sorted_publications | sort: 'order' %}
             {% for publication in sorted_publications reversed %}
             {% if publication.personal %}
-	          {% elsif publication.year > 2018 and publication.type == "paper" %}
+	          {% elsif publication.year > 2019 and publication.type == "paper" %}
             <li>
               <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
               <div style="margin-bottom: 5px;">
@@ -98,10 +95,7 @@
 
          <a class="twitter-timeline" data-lang="en" data-dnt="true" data-link-color="#3376A0" data-chrome="noheader, noborders, transparent" data-tweet-limit="4" href="https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw">Tweets by visdesignlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
   </article>
-
 
     {% include footer.html %}
 </div>
