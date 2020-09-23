@@ -22,12 +22,12 @@ authors:
 - meyer
 - lex
 
-journal-short: CGF (EuroVis '19)
+journal-short: CGF (EuroVis)
 year: 2019
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '19)
+  journal: Computer Graphics Forum (EuroVis)
   booktitle: 
   editor: 
   publisher: 

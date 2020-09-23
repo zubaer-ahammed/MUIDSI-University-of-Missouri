@@ -18,7 +18,7 @@ year: 2015
 
 bibentry: inproceedings
 bib:
-  booktitle: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty (VIS '15)"
+  booktitle: "Proceedings of Workshop on Visualization for Decision Making Under Uncertainty (VIS)"
 
 award: 
 note: 

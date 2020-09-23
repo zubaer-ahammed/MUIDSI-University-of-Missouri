@@ -19,7 +19,7 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’17)
+  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis)
 
 pdf: 2017_infovis_lineage.pdf
 

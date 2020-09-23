@@ -16,12 +16,12 @@ authors:
 - pfister
 - schmalstieg
 
-journal-short: TVCG (VAST '14)
+journal-short: TVCG (VAST)
 year: 2014
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (VAST '14)
+  journal: IEEE Transactions on Visualization and Computer Graphics (VAST)
   doi: 10.1109/TVCG.2014.2346752
   volume: 20
   number: 12

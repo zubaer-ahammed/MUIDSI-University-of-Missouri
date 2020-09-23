@@ -19,21 +19,21 @@ authors:
 - mccurdy
 - meyer
 
-journal-short: Proc. IEEE VIS Conf. (Short Papers '19)
+journal-short: VIS Short Papers
 year: 2019
 
-bibentry: article
+bibentry: inproceedings
 bib:
-  journal: Proceedings of the IEEE Visualization Conference
-  booktitle:
+  journal: 
+  booktitle: IEEE Visualization Short Papers
   editor:
   publisher: IEEE
   address:
-  doi:
+  doi: 10.1109/VISUAL.2019.8933671
   url:
   volume:
   number:
-  pages:
+  pages: 276-280
   month:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

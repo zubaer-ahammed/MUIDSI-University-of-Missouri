@@ -45,8 +45,8 @@ year: 2020
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: inproceedings
 bib:
-  journal: IEEE Evaluation and Beyond – Methodological Approaches for Visualization (BELIV)
-  booktitle: 
+  journal: 
+  booktitle: IEEE Evaluation and Beyond – Methodological Approaches for Visualization (BELIV) (to appear)
   editor: 
   publisher: 
   address: 

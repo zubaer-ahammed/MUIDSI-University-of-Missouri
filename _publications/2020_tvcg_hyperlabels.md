@@ -13,8 +13,8 @@ type: paper
 
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
 # that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
-# 2019-11 belwo that paper. Notice that sorting is lexicographic.  
-order: 2020-03
+# 2019-11 below that paper. Notice that sorting is lexicographic.  
+order: 2020-02
 
 # Auto-generates titles and alt-descriptors
 shortname: Hyperlabels

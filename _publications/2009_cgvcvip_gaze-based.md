@@ -18,7 +18,7 @@ year: 2009
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the Conference on Computer Graphics and Visualization and Image Processing (CGVCVIP '09)
+  booktitle: Proceedings of the Conference on Computer Graphics and Visualization and Image Processing (CGVCVIP)
 
 award: 
 note: 

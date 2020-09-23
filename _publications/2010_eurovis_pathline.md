@@ -19,7 +19,7 @@ year: 2010
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '10)
+  journal: Computer Graphics Forum (EuroVis)
   publisher: Blackwell Publishing LTD
   doi: 10.1111/j.1467-8659.2009.01710.x
   volume: 29

@@ -21,7 +21,7 @@ year: 2013
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '13)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   doi: 10.1109/TVCG.2013.173
   volume: 19
   number: 12
@@ -63,9 +63,9 @@ In the examples and demos we have used three datasets:
 ## Ranking Visualization Techniques
 
 * N. Andrienko and G. Andrienko. Informed Spatial Decisions Through Coordinated Views. Information Visualization, 2(4):270-285, 2003
-* J. Bautista and G. Carenini. An integrated task-based framework for the design and evaluation of visualizations to support preferential choice. Proceedings of the Conference on Advanced Visual Interfaces (AVI '04), 150–157, 2006.
-* M. Behrisch, J. Davey, S. Simon, T. Schreck, D. Keim, and J. Kohlhammer. Visual comparison of orderings and rankings. In Proceedings of the EuroVis Workshop on Visual Analytics (EuroVA '13), 2013.
-* G. Carenini and J. Lloyd. ValueCharts: analyzing linear models expressing preferences and evaluations. Proceedings of the Conference on Advanced Visual Interfaces (AVI '04), 150–157, 2006.
+* J. Bautista and G. Carenini. An integrated task-based framework for the design and evaluation of visualizations to support preferential choice. Proceedings of the Conference on Advanced Visual Interfaces (AVI), 150–157, 2006.
+* M. Behrisch, J. Davey, S. Simon, T. Schreck, D. Keim, and J. Kohlhammer. Visual comparison of orderings and rankings. In Proceedings of the EuroVis Workshop on Visual Analytics (EuroVA), 2013.
+* G. Carenini and J. Lloyd. ValueCharts: analyzing linear models expressing preferences and evaluations. Proceedings of the Conference on Advanced Visual Interfaces (AVI), 150–157, 2006.
 * S. J. Fernstad, J. Shaw, and J. Johansson. Quality-based guidance for exploratory dimensionality reduction. Information Visualization, 12(1):44-64, 2013.
 * P. Kidwell, G. Lebanon, and W. S. Cleveland. Visualizing incomplete and partially ranked data. IEEE Transactions on Visualization and Computer Graphics, 14(6):1356-1363, 2008.
 * A. P. Sawant and C. G. Healey. Visualizing multidimensional query results using animation. In Electronic Imaging 2008, page 680904, 2008.
@@ -77,14 +77,14 @@ In the examples and demos we have used three datasets:
 
 * W. C. Brinton. Graphic presentation. Brinton Associates, 1939.
 * S. Few. Show Me the Numbers: Designing Tables and Graphs to Enlighten. Analytics Press, 2nd edition, 2012.
-* J. Heer and G. G. Robertson. Animated transitions in statistical data graphics. IEEE Transactions on Visualization and * Computer Graphics (InfoVis '07), 13(6):1240-1247, 2007.
-* M. John, C. Tominski, and H. Schumann. Visual and analytical extensions for the table lens. In Proceedings of the SPIE Conference on Visualization and Data Analysis (VDA '08), 2008.
+* J. Heer and G. G. Robertson. Animated transitions in statistical data graphics. IEEE Transactions on Visualization and * Computer Graphics (InfoVis), 13(6):1240-1247, 2007.
+* M. John, C. Tominski, and H. Schumann. Visual and analytical extensions for the table lens. In Proceedings of the SPIE Conference on Visualization and Data Analysis (VDA), 2008.
 * A. Inselberg. The plane with parallel coordinates. The Visual Computer, 1(4):69-91, 1985.
 * J. Mackinlay. Automating the design of graphical presentations of relational information. ACM Transactions on Graphics, 5(2):110-141, 1986.
-* T. Munzner, F. Guimbretière, S. Tasiran, L. Zhang, and Y. Zhou. TreeJuxtaposer: scalable tree comparison using Focus+Context with guaranteed visibility. In Proceedings of the ACM Conference on Computer Graphics and Interactive Techniques (SIGGRAPH '03), pages 453-462. ACM Press, 2003.
+* T. Munzner, F. Guimbretière, S. Tasiran, L. Zhang, and Y. Zhou. TreeJuxtaposer: scalable tree comparison using Focus+Context with guaranteed visibility. In Proceedings of the ACM Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pages 453-462. ACM Press, 2003.
 * C. Park. Edward Tufte's ["Slopegraphs"](http://charliepark.org/slopegraphs/), 2011.
 * C. Park. A [slopegraph update](http://charliepark.org/a-slopegraph-update/), 2011.
-* R. Rao and S. K. Card. The table lens: merging graphical and symbolic representations in an interactive focus + context visualization for tabular information. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '94), pages 318-322. ACM Press, 1994.
+* R. Rao and S. K. Card. The table lens: merging graphical and symbolic representations in an interactive focus + context visualization for tabular information. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), pages 318-322. ACM Press, 1994.
 * N. B. Robbins and R. M. Heiberger. Plotting Likert and other rating scales. In Proceedings of the 2011 Joint Statistical Meeting, 2011.
 * E. Tufte. The Visual Display of Quantitative Information. Graphics Press, 2nd edition, 1983.
 * E. Tufte. Envisioning information. Graphics Press, Cheshire Conn., 5th edition, 1995.

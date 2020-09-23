@@ -14,12 +14,12 @@ authors:
 - Cody Fulcher
 - meyer
 
-journal-short: CGF (EuroVis '16)
+journal-short: CGF (EuroVis)
 year: 2016
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '16)
+  journal: Computer Graphics Forum (EuroVis)
   doi: 10.1111/cgf.12904
   url: http://dx.doi.org/10.1111/cgf.12904
   volume: 35

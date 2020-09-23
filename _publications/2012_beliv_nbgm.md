@@ -16,7 +16,7 @@ year: 2012
 
 bibentry: inproceedings
 bib:
-  booktitle: "Proceedings of the Workshop on BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV '12)"
+  booktitle: "Proceedings of the Workshop on BEyond time and errors: novel evaLuation methods for Information Visualization (BELIV)"
 
 pdf: 2012_beliv_nbgm.pdf
 

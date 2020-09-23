@@ -18,7 +18,7 @@ year: 2018
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’18)
+  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis)
 
 pdf: 2018_infovis_origraph.pdf
 

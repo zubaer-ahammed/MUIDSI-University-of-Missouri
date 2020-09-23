@@ -17,7 +17,7 @@ year: 2016
 
 bibentry: inproceedings
 bib:
-  booktitle: "Proceedings of Workshop on Visualization in Practice (VIP '16)"
+  booktitle: "Proceedings of Workshop on Visualization in Practice (VIP)"
 
 award: VIP 2016 Best Paper Award
 note: Selected for oral presentation

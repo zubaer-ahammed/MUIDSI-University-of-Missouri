@@ -15,12 +15,12 @@ authors:
 - Jeremy Boy
 - meyer
 
-journal-short: CGF (EuroVis '17)
+journal-short: CGF (EuroVis)
 year: 2017
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '17)
+  journal: Computer Graphics Forum (EuroVis)
   doi: 10.1111/cgf.13195
   url: 
   volume: 36

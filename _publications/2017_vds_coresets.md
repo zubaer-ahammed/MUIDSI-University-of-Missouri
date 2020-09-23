@@ -19,12 +19,12 @@ authors:
 - lex
 - Jeff M. Phillips
 
-journal-short: VDS'17
+journal-short: VDS
 year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: IEEE Symposium on Visualization in Data Science (VDS '17)
+  booktitle: IEEE Symposium on Visualization in Data Science (VDS)
   doi: 10.1109/VDS.2017.8573446
   publisher: IEEE
 

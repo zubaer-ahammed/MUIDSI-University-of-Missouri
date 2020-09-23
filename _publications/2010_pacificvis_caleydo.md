@@ -18,7 +18,7 @@ year: 2010
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '10)
+  booktitle: Proceedings of IEEE Pacific Visualization Symposium (PacificVis)
   doi: 10.1109/PACIFICVIS.2010.5429609
   pages: 57--64
 

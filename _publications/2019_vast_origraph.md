@@ -29,8 +29,8 @@ year: 2019
 
 bibentry: inproceedings
 bib:
-  journal: IEEE Conference on Visual Analytics Science and Technology (VAST)
-  booktitle:
+  journal: 
+  booktitle: IEEE Conference on Visual Analytics Science and Technology (VAST)
   editor:
   publisher: arXiv:1812.06337
   address:

@@ -20,12 +20,12 @@ authors:
 - Julie Gerdes
 - meyer
 
-journal-short: TVCG (InfoVis '18)
+journal-short: TVCG (InfoVis)
 year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '18)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   booktitle:
   editor:
   publisher: IEEE

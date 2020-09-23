@@ -22,7 +22,7 @@ authors:
 - pfister
 - lex
 
-journal-short: TVCG (InfoVis '15)
+journal-short: TVCG (InfoVis)
 year: 2016
 
 bibentry: article

@@ -17,12 +17,12 @@ authors:
 - Danyel Fisher
 - meyer
 
-journal-short: TVCG (InfoVis '16)
+journal-short: TVCG (InfoVis)
 year: 2016
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   doi: 10.1109/TVCG.2016.2598609
   url: http://ieeexplore.ieee.org/document/7539580/
   volume: 23

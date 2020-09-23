@@ -22,12 +22,12 @@ authors:
 - schmalstieg
 - lex
 
-journal-short: CGF (EuroVis '16)
+journal-short: CGF (EuroVis)
 year: 2016
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '16)
+  journal: Computer Graphics Forum (EuroVis)
   doi: 10.1111/cgf.12883
   volume: 35
   number: 3

@@ -15,7 +15,7 @@ authors:
 - Jean-Daniel Fekete
 - Petra Isenberg
 
-journal-short: TVCG (InfoVis '14)
+journal-short: TVCG (InfoVis)
 year: 2014
 
 bibentry: article

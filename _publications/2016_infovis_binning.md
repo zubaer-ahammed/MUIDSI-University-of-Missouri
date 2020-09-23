@@ -14,12 +14,12 @@ authors:
 - meyer
 - creem-regehr
 
-journal-short: TVCG (InfoVis '16)
+journal-short: TVCG (InfoVis)
 year: 2017
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’16)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   doi: 10.1109/TVCG.2016.2599106
   url: 
   volume: 23

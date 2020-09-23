@@ -87,7 +87,7 @@ authors:
 blog-post: 
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: CGF (EuroVis '16)
+journal-short: CGF (EuroVis)
 year: 2016
 
 # Create BibTeX info, using one of the entry choices
@@ -98,7 +98,7 @@ year: 2016
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article | inproceedings | phdthesis | book
 bib:
-  journal: Computer Graphics Forum (EuroVis '16)
+  journal: Computer Graphics Forum (EuroVis)
   booktitle: 
   editor: 
   publisher: 

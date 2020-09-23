@@ -21,7 +21,7 @@ year: 2012
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '12)
+  journal: Computer Graphics Forum (EuroVis)
   doi: 10.1111/j.1467-8659.2012.03110.x
   volume: 31
   number: 3

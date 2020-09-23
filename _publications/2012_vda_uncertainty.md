@@ -20,7 +20,7 @@ year: 2012
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the SPIE Conference on Visualization and Data Analysis (VDA '12)
+  booktitle: Proceedings of the SPIE Conference on Visualization and Data Analysis (VDA)
   doi: 10.1117/12.908516
   volume: 8294
   pages: 82940O-82940O-11

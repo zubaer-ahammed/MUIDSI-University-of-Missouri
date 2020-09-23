@@ -19,12 +19,12 @@ authors:
 - meyer
 - Jason Dykes
 
-journal-short: TVCG (InfoVis '19)
+journal-short: TVCG (InfoVis)
 year: 2019
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '19)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   booktitle:
   editor:
   publisher: IEEE

@@ -15,7 +15,7 @@ year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis ’17)
+  booktitle: Proceedings of the IEEE Information Visualization Conference - Posters (InfoVis)
 
 video: 2017_infovis_fellowtoolbuilders_video
 preview-video: 2017_infovis_fellowtoolbuilders_preview

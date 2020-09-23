@@ -19,12 +19,12 @@ authors:
 - lex
 - Dieter Schmalstieg
 
-journal-short: EuroVA '17
+journal-short: EuroVA
 year: 2017
 
 bibentry: inproceedings
 bib:
-  booktitle: EuroVis Workshop on Visual Analytics (EuroVA '17)
+  booktitle: EuroVis Workshop on Visual Analytics (EuroVA)
   doi: 10.2312/eurova.20171112
   publisher: The Eurographics Association
 

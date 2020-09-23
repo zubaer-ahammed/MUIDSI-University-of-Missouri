@@ -7,7 +7,7 @@ type: paper
 shortname: insights
 image: 2020_infovis_insights.png
 image_large: 2020_infovis_insights_teaser.png
-order: 2020-03
+order: 2020-05
 
 authors:
 - rogers
@@ -16,12 +16,12 @@ authors:
 - lex
 - meyer
 
-journal-short: InfoVis
-year: 2020
+journal-short: TVCG (InfoVis)
+year: 2021
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '20) (to appear)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis) (to appear)
   booktitle:
   editor:
   publisher: 

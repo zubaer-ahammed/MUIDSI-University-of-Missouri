@@ -20,13 +20,13 @@ authors:
 - Nicola Cosgrove
 - streit
 
-journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
-journal-short: CGF (EuroVis '16)
+journal: Computer Graphics Forum (EuroVis), vol. 35, no. 3, pp. 491-500
+journal-short: CGF (EuroVis)
 year: 2016
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '16)
+  journal: Computer Graphics Forum (EuroVis)
   booktitle: 
   editor: 
   publisher: 
