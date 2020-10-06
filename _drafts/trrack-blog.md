@@ -6,6 +6,8 @@ categories: blog
 type: blog
 authors:
   - kiran
+  - zcutler
+  - lex
 
 redirect_from:
 abstract: "Tracking a history of actions of an interactive visual analysis session (i.e., its provenance) has benefits ranging from simple undo/redo, to enabling reproducibility, to making post-hoc analysis of user sessions possible. However, there are no established provenance tracking libraries that visualization developers can use with their web-based tools. This blog post introduces Trrack – a web-based library designed for easy integration in existing and newly developed visualization systems."
@@ -24,7 +26,7 @@ There are various visualization systems that track provenance, but most use ad-h
 
 To avoid the overhead of developing a custom provenance tracking solution, we developed Trrack – a library for tracking provenance in web-based systems. Trrack provides provenance tracking for action recovery, reproducibility, collaboration, and logging.
 
-Here’s a video introducing Trrack:
+A paper about Trrack will be published as a [short paper at IEEE VIS]({{site.base_url}}/publications/2020_visshort_trrack/) later this month. Here’s a video introducing Trrack for the conference:
 <iframe width="560" height="315" class="skip-absolute" src="https://www.youtube.com/embed/09b5_LviaVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
 
 Track is designed to be lightweight and modular, be easy to integrate in existing or new tools, support sharing of states out of the box (copy URLs), provide optional server integration (either through Firebase or with custom servers), and to visualize the provenance data, if desired.  
