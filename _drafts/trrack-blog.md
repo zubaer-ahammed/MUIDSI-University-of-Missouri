@@ -14,7 +14,7 @@ abstract: "Tracking a history of actions of an interactive visual analysis sessi
 lead-image: /assets/images/posts/2020-07_crowdsourcing_spectrum.png <!-- @zach insert teaser path here -->
 ---
 
-How did we get to that particular analysis result? That’s a question that’s easy to answer when we do data analysis with scripting languages, such as R and Python. In fact, computational notebooks such as [Jupyter notebooks](), [Observable], or [R Markdown]() have come remarkably far in fulfilling Knuth’s vision of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) – programming that emphasizes readability and understandability. 
+How did we get to that particular analysis result? That’s a question that’s easy to answer when we do data analysis with scripting languages, such as R and Python. In fact, computational notebooks such as [Jupyter notebooks](https://jupyter.org/), [Observable](https://observablehq.com/), or [R Markdown](https://rmarkdown.rstudio.com/) have come remarkably far in fulfilling Knuth’s vision of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) – programming that emphasizes readability and understandability. 
 
 In contrast, if we use a visual analysis system – with its many advantages – to investigate a research question, we might arrive at a conclusion through a sequence of actions (view specifications, filters, brushes) but these sequences are typically lost after the analysis and can’t be easily reproduced and scrutinized. And while computational notebooks make it easy to add comments to justify analysis decisions, most visual analysis systems can’t capture an analyst’s thought process. 
 
@@ -27,7 +27,7 @@ There are various visualization systems that track provenance, but most use ad-h
 To avoid the overhead of developing a custom provenance tracking solution, we developed Trrack – a library for tracking provenance in web-based systems. Trrack provides provenance tracking for action recovery, reproducibility, collaboration, and logging.
 
 A paper about Trrack will be published as a [short paper at IEEE VIS]({{site.base_url}}/publications/2020_visshort_trrack/) later this month. Here’s a video introducing Trrack for the conference:
-<iframe width="560" height="315" class="skip-absolute" src="https://www.youtube.com/embed/09b5_LviaVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
+<iframe width="710" height="400" class="skip-absolute" src="https://www.youtube.com/embed/09b5_LviaVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
 
 Track is designed to be lightweight and modular, be easy to integrate in existing or new tools, support sharing of states out of the box (copy URLs), provide optional server integration (either through Firebase or with custom servers), and to visualize the provenance data, if desired.  
 
