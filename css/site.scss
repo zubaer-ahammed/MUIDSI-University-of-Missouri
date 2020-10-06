@@ -1140,7 +1140,7 @@ footer {
   height: 0;
 }
 
-iframe {
+iframe:not(.skip-absolute) {
   position: absolute;
   top: 0;
   left: 0;
