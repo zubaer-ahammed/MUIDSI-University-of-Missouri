@@ -5,6 +5,28 @@
 3. Ask someone to edit!
 4. Style and format in md. Check formatting. Publish.
 
+
+## Editing the blog
+
+Please add the file to `_drafts` folder instead of `_posts` if you are in process of editing it. Use the template below.
+
+
+### Run Jekyll with drafts
+
+``` shell
+$ jekyll serve --drafts
+```
+
+Your draft will show up in list of regular blogs
+
+
+### View the Generated Site
+
+``` shell
+$ open http://0.0.0.0:4000/
+```
+
+
 ## Blog Template
 
 Modify the template below for your blog. Feel free to leave entries
