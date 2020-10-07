@@ -57,5 +57,123 @@ Trrack-Vis is available as a React component. It is possible to use Trrack-Vis i
 
 ## How to Use Trrack
 
+To talk about how to use Trrack, we will be showing code from the following simple Anscombes Quartet example that is part of our suite of Trrack examples. 
+
+<iframe width="800" height="800" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
+style="iframe {
+  -moz-transform: scale(0.25, 0.25); 
+  -webkit-transform: scale(0.25, 0.25); 
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25); 
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}"
+>&nbsp;</iframe>
+
+
+
+To utilize Trrack, developers must create a state for their application. This state should define variables for anything that designers would like to be reproducible or accessible through the undo/redo chain. Defining state is a critical part of implementing Trrack, and in our experience, also is helpful for understanding the purpose and general design for an application. Here is an example of how to define a simple state in typescript, as well as how to define an initial state. 
+
+```js
+interface NodeState {
+  selectedQuartet:string;
+  selectedNode:string;
+  hoveredNode:string;
+};
+
+const initialState: NodeState = {
+  selectedQuartet: 'I',
+  selectedNode: 'none',
+  hoveredNode: 'none'
+}
+```
+
+Additionally, we recommend storing an event type object which all of your events will fall under. This ensures it is easy to identify the event associated with a node, and allows Trrack-Vis to use icons to distinguish between events. 
+
+```js
+type EventTypes = "Change Quartet" | "Select Node" | "Hover Node"
+```
+
+Now we are ready to setup Trrack itself! 
+
+```js
+let prov = initProvenance<NodeState, EventTypes, any>(initialState, false);
+```
+
+We have already talked about the first two generic variables, NodeState and EventTypes. The third generic, currently labeled "any", is for defining a metadata type, but we will not be using that in this example. For an example which does, look [here](https://github.com/visdesignlab/trrack-examples/tree/master/examples/simpleExampleAddAnnotation). 
+
+The second parameter, "false", tells trrack not to setup URL sharing for this example. We will talk about how to enable URL sharing later. 
+
+Trrack takes advantage of an observer software design pattern. To identify changes that are made to the state, an observer must be assigned to that part of the state. For example, here is an empty observer which would be called when any changes are made to the "selectedQuartet" part of the previously defined state. 
+
+```js
+prov.addObserver(["selectedQuartet"], () => {
+  //Update visualization here
+});
+```
+
+The observers will be called when your state changes via changing the frontend, and also when your state changes via undo/redo or navigating through Trrack-Vis. Because of this we recommend only updating your visualization front-end within these observers, to avoid code-duplication and inconsistent changes. 
+
+So, instead of updating the visualization when a user makes changes, developers should add and apply a provenance action. This is where the user updates the state, adds a label or event type, and defines any desired metadata. This is also where more intricate customization happens, such as labeling a node as ephemeral or ensuring the node stores the entire state. Here's the example updating our "selectedQuartet". 
+
+```js
+  prov.addAction(
+      `Quartet ${newQuartet} Selected`,
+      (state:NodeState) => {
+        state.selectedQuartet = newQuartet;
+        return state;
+      }
+    )
+    .addEventType("Change Quartet")
+    .applyAction();
+```
+
+When an action is applied, a new provenance node is created immediately following the currently selected node, and any observers whose state were changed are triggered. Thus, applying an action is indirectly updating the visualization, as you would expect when the quartet number is changed. 
+
+And that's it! For simple implementation that allows for undo/redo, that is everything required. However, there are still many helpful features that can be added to the basic implementation. 
+
+# Ephemeral Nodes
+
+Labeling a created node as ephemeral has two main affects. First, it ensures that the node is not included in the typical undo/redo chain. This is so certain actions which you may want to track, like hover actions or mouse movements, aren't included in undo/redo. Second, ephemeral nodes are automatically grouped in Trrack-Vis, so that they don't consume too much space. 
+
+To label a node ephemeral, simply declare the node ephemeral when creating an action. If we wanted the earlierr example action to be epphemeral, it would look like this. 
+
+```js
+  prov.addAction(
+      `Quartet ${newQuartet} Selected`,
+      (state:NodeState) => {
+        state.selectedQuartet = newQuartet;
+        return state;
+      }
+    )
+    .addEventType("Change Quartet")
+    .isEphemeral(true)
+    .applyAction();
+```
+
+# Adding Trrack-Vis
+
+Leaving this empty for now, since we are going to change this in the release. 
+
+# Enabling URL Sharing
+
+To enable URL sharing, change the second parameter of initProvenance as shown earlier to true. Or, simply remove the parameter, and by default URL sharing will be enabled. The only further code required from the developer is a call to done() after the observers are setup, telling trrack that it is okay to load the state stored in the URL. 
+
+```js
+  prov.done()
+```
+
 ## Resources
+
+For the rest of the code for this example, as well as other examples, see [here](https://github.com/visdesignlab/trrack-examples). 
+
+<!-- update these links after Kiran moves stuff -->
+
+[Trrack Library](https://github.com/visdesignlab/trrack)
+
+[Trrack-Vis Library](https://github.com/visdesignlab/trrack-vis)
 
