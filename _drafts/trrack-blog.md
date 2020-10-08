@@ -59,19 +59,19 @@ Trrack-Vis is available as a React component. It is possible to use Trrack-Vis i
 
 To talk about how to use Trrack, we will be showing code from the following simple Anscombes Quartet example that is part of our suite of Trrack examples. 
 
-<iframe width="800" height="800" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
-style="iframe {
-  -moz-transform: scale(0.25, 0.25); 
-  -webkit-transform: scale(0.25, 0.25); 
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25); 
+<iframe width="1200" height="1000" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
+style="
+  -moz-transform: scale(0.65, 0.65); 
+  -webkit-transform: scale(0.65, 0.65); 
+  -o-transform: scale(0.65, 0.65);
+  -ms-transform: scale(0.65, 0.65);
+  transform: scale(0.65, 0.65); 
   -moz-transform-origin: top left;
   -webkit-transform-origin: top left;
   -o-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
-}"
+"
 >&nbsp;</iframe>
 
 
