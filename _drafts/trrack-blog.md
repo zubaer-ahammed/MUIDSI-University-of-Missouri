@@ -57,9 +57,9 @@ Trrack-Vis is available as a React component. It is possible to use Trrack-Vis i
 
 ## How to Use Trrack
 
-To talk about how to use Trrack, we will be showing code from the following simple Anscombes Quartet example that is part of our suite of Trrack examples. 
+To introduce how to use Trrack, we will use a very simple scaterplott visualizing Anscombes Quartet, which is [part of our suite of examples](https://github.com/visdesignlab/trrack-examples) on how to use Trrack. This tracks the actions of selecting individual points by click, and switching datasets. 
 
-<iframe width="1200" height="1000" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
+<iframe width="1200" height="700" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
 style="
   -moz-transform: scale(0.65, 0.65); 
   -webkit-transform: scale(0.65, 0.65); 
@@ -75,8 +75,7 @@ style="
 >&nbsp;</iframe>
 
 
-
-To utilize Trrack, developers must create a state for their application. This state should define variables for anything that designers would like to be reproducible or accessible through the undo/redo chain. Defining state is a critical part of implementing Trrack, and in our experience, also is helpful for understanding the purpose and general design for an application. Here is an example of how to define a simple state in typescript, as well as how to define an initial state. 
+To utilize Trrack, developers will have to create and maintain a state for their application. This state should define variables for anything that designers would like to be tracked. Defining state explicitly is a critical part of implementing Trrack, but we often found that it also encourages good software engineering. Here is an example of how to define a simple state in typescript, as well as how to define an initial state. 
 
 ```js
 interface NodeState {
