@@ -21,12 +21,12 @@ year: 2021
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis) (to appear)
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis)
   booktitle:
   editor:
-  publisher: 
+  publisher: IEEE
   address:
-  doi:
+  doi: 10.1109/TVCG.2020.3030405
   url: 
   volume:
   number:
