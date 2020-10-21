@@ -57,23 +57,14 @@ Trrack-Vis is available as a React component. It is possible to use Trrack-Vis i
 
 ## How to Use Trrack
 
-To introduce how to use Trrack, we will use a very simple scaterplott visualizing Anscombes Quartet, which is [part of our suite of examples](https://github.com/visdesignlab/trrack-examples) on how to use Trrack. This tracks the actions of selecting individual points by click, and switching datasets. 
+To use trrack we show a minimal example of a todo list. We can add an item to the todo list by typing in the input and pressing add task button. We can press undo to revert our action. Click on `Open Sandbox` to open an editable version and experiment.
 
-<iframe width="1200" height="700" class="skip-absolute" src="http://vdl.sci.utah.edu/trrack-examples/examples/simpleExample/" frameborder="0" 
-style="
-  -moz-transform: scale(0.65, 0.65); 
-  -webkit-transform: scale(0.65, 0.65); 
-  -o-transform: scale(0.65, 0.65);
-  -ms-transform: scale(0.65, 0.65);
-  transform: scale(0.65, 0.65); 
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-"
->&nbsp;</iframe>
-
+<iframe class="skip-absolute"  src="https://codesandbox.io/embed/basic-track-example-g2bsf?fontsize=12&hidenavigation=1&theme=light"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="basic-track-example"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 To utilize Trrack, developers will have to create and maintain a state for their application. This state should define variables for anything that designers would like to be tracked. Defining state explicitly is a critical part of implementing Trrack, but we often found that it also encourages good software engineering. Here is an example of how to define a simple state in typescript, as well as how to define an initial state. 
 
