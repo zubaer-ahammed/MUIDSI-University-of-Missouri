@@ -54,6 +54,16 @@ Trrack introduces a new model we call the **differential state model**. Trrack o
 Trrack and Trrack-Vis are both written in TypeScript and provide types with generics for complete customization. Both libraries feature a clean API, rich documentation, and usage examples for multiple scenarios. Trrack is framework agnostic and can work in conjunction with any UI framework like React or Vue and state management solutions like Mobx or Redux. The documentation provides React examples with Mobx.
 Trrack-Vis is available as a React component. It is possible to use Trrack-Vis in vanilla JavaScript, but it needs React as a dependency. Both the libraries are published to npm
 
+To install Trrack run:
+```bash
+yarn add @visdesignlab/trrack
+```
+
+To install TrrackVis run:
+```bash
+yarn add @visdesignlab/trrack-vis
+```
+
 
 ## How to Use Trrack
 
@@ -163,7 +173,7 @@ To add the simple, base version of Trrack-Vis is an easy one liner. The Library 
 
 This simple setup enables most features in Trrack-Vis. You can navigate the graph, as well as bookmark and annotate any node.
 
-Further customization, such as custom icons and node bundling is also available. These features are shown here, from the [intent project]({{site.base_url}}/publications/2020_preprint_intent/) which used Trrack. For more information, see the [documentation](http://vdl.sci.utah.edu/trrack-examples/api/trrack-vis/).
+Further customization, such as custom icons and node bundling is also available. These features are shown here, from the [intent project]({{site.base_url}}/publications/2020_preprint_intent/) which used Trrack. This example shows custom icons for nodes based on actions and custom bundling logic. For more information, see the [documentation](http://vdl.sci.utah.edu/trrack-examples/api/trrack-vis/). 
 
 ![Intent Trrack Vis]({{site.base_url}}/assets/images/posts/2020_intent-trrack-vis.png)
 
