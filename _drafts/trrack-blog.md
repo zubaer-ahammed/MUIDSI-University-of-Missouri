@@ -11,7 +11,7 @@ authors:
 
 redirect_from:
 abstract: "Tracking a history of actions of an interactive visual analysis session (i.e., its provenance) has benefits ranging from simple undo/redo, to enabling reproducibility, to making post-hoc analysis of user sessions possible. However, there are no established provenance tracking libraries that visualization developers can use with their web-based tools. This blog post introduces Trrack – a web-based library designed for easy integration in existing and newly developed visualization systems."
-lead-image: /assets/images/posts/2020-07_crowdsourcing_spectrum.png <!-- @zach insert teaser path here -->
+lead-image: /assets/images/posts/2020_infovis_trrack_teaser.png
 ---
 
 How did we get to that particular analysis result? That’s a question that’s easy to answer when we do data analysis with scripting languages, such as R and Python. In fact, computational notebooks such as [Jupyter notebooks](https://jupyter.org/), [Observable](https://observablehq.com/), or [R Markdown](https://rmarkdown.rstudio.com/) have come remarkably far in fulfilling Knuth’s vision of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) – programming that emphasizes readability and understandability.
@@ -37,7 +37,7 @@ The latter is realized through a sister library, [Trrack-Vis](), a customizable 
 
 ## Storage Model
 
-Before we move on to using Trrack, let us take a look at how provenance is stored. Traditionally, there are [three different ways to store provenance data](HEER PAPER LINK).
+Before we move on to using Trrack, let us take a look at how provenance is stored. Traditionally, there are [three different ways to store provenance data](http://www.cs.tufts.edu/comp/250VA/papers/heer2008graphical.pdf).
 
 The first approach is to **store the complete state** of an application every time something changes. This approach is fast and straightforward, but it consumes a lot of memory.
 
@@ -45,7 +45,7 @@ The second approach is to store a sequence of **actions**, i.e., one keeps track
 
 A third approach is a **hybrid between these approaches** — it stores entire states at 'checkpoints', but also stores actions in between.  The hybrid approach provides a good compromise between speed and memory but still has the problem of being application dependent. It also adds a layer of complexity to the state management.
 
-<!-- @zach insert diffrential state image here -->
+![Differential States Model]({{site.base_url}}/assets/images/posts/2020-trrack-diff-states.png)
 
 Trrack introduces a new model we call the **differential state model**. Trrack occasionally stores complete state in 'state nodes', but mostly stores 'differential nodes' in between. The differential nodes only contain the changes to the state relative to the previous node. The differential approach reduces the storage required, but the provenance data is still application-independent. The decision for when to store the entire state vs. differential state is abstracted away from the developer. However, the API still allows developers to specify that a particular action should always store the complete state.
 
@@ -163,7 +163,9 @@ To add the simple, base version of Trrack-Vis is an easy one liner. The Library 
 
 This simple setup enables most features in Trrack-Vis. You can navigate the graph, as well as bookmark and annotate any node.
 
-Further customization, such as custom icons and node bundling is also available. For more information, see the docs (link).
+Further customization, such as custom icons and node bundling is also available. These features are shown here, from the [intent project]({{site.base_url}}/publications/2020_preprint_intent/) which used Trrack. For more information, see the [documentation](http://vdl.sci.utah.edu/trrack-examples/api/trrack-vis/).
+
+![Intent Trrack Vis]({{site.base_url}}/assets/images/posts/2020_intent-trrack-vis.png)
 
 # Enabling URL Sharing
 
