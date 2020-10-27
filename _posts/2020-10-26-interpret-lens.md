@@ -16,7 +16,7 @@ lead-image: /assets/images/posts/2020-10-insights-memo-blog-fig.png
 ---
 ![lead image alt text]({{site.base_url}}/assets/images/posts/2020_insights_blog.png){: style="border:1px solid black"}
 
-Research in our lab is often conducted through design studies; applied visualization research to address real-world problems. In recent work, we experimented with methods to conduct design studies from an interpretivist perspective. In this blog post, we advocate for interpretivist design studies and give recommendations for conducting design studies through an interpretivist lens. This perspective can lead to more diverse contributions, more rigor, and learning opportunities.
+Research in our lab is often conducted through design studies; applied visualization research to address real-world problems. [In recent work](https://vdl.sci.utah.edu/publications/2020_infovis_insights/), we experimented with methods to conduct design studies from an interpretivist perspective. In this blog post, we advocate for interpretivist design studies and give recommendations for conducting design studies through an interpretivist lens. This perspective can lead to more diverse contributions, more rigor, and learning opportunities.
 
 But first - what is an interpretivist design study? What do we mean by interpretivist?
 Much of the established methods for conducting scientific research is grounded in a positivist approach to inquiry, where there is a single reality that can be understood by observation.
