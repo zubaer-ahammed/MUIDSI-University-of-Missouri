@@ -6,15 +6,15 @@ categories: event
 ---
 
 
-VDL members are contributing in various ways to [VIS in Vancouver](http://ieeevis.org/year/2019/welcome) this year.
+VDL members are contributing in various ways to [Virtual Vis 2020](https://virtual.ieeevis.org/) this year.
 
 
-![Collage of VDL Contributions]({{site.base_url}}/assets/images/posts/2019_vis_contribs.png)
+![Collage of VDL Contributions]({{site.base_url}}/assets/images/posts/2020_vis_contribs.png)
 
  * Jen Rogers will present her paper on [Insights From Experiments With Rigor in an EvoBio Design Study]({{site.base_url}}/publications/2020_infovis_insights/).
  * Zach Cutler will present his paper on [Trrack: A Library for Provenance-Tracking in Web-Based Visualizations]({{site.base_url}}/publications/2020_visshort_trrack/).
  * Miriah Meyer contributes to BELIV with her paper [Extending Recommendations for Creative Visualization-Opportunities Workshops]({{site.base_url}}/publications/2020_beliv_extending/).
  * Miriah Meyer is also an organizer of [BELIV](https://beliv-workshop.github.io/) this year.
- * Congratulations to VDL alum Carolina Nobre for her honorable mention for best dissertation!
+ * Congratulations to VDL alum Carolina Nobre for her **honorable mention for VGTC Best Dissertation Awards**!
  * Alexander Lex sat on the Panel "Visualization Response in a Time of Pandemic" [during VisGuides:](https://nms.kcl.ac.uk/c4pgv/) 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization.
- * Derya Akbaba, Devin Lange, Jen Rogers, Haihan Lin, Kiran Gadhave, are all working behind the curtain as on-site techs for Virtual Vis this year. 
+ * Derya Akbaba, Devin Lange, Jen Rogers, Haihan Lin, and Kiran Gadhave are all working behind the curtain as on-site techs for Virtual Vis this year. 
