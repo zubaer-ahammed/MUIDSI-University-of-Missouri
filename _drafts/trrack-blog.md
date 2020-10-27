@@ -18,41 +18,38 @@ How did we get to that particular analysis result? That’s a question that’s 
 
 In contrast, if we use a visual analysis system – with its many advantages – to investigate a research question, we might arrive at a conclusion through a sequence of actions (view specifications, filters, brushes) but these sequences are typically lost after the analysis and can’t be easily reproduced and scrutinized. And while computational notebooks make it easy to add comments to justify analysis decisions, most visual analysis systems can’t capture an analyst’s thought process.
 
-So can we achieve reproducibility in interactive web-based visualizations? How? These are questions [a larger research project]({{site.base_url}}/projects/2018-nsf-reproducibility/) at our lab investigates, and which were also the subject of [a paper we wrote a while ago]({{site.base_url}}/publications/2016_eurovis_clue/).
+So can we achieve reproducibility in interactive web-based visualizations? How? These are questions we are looking at in [a larger research project]({{site.base_url}}/projects/2018-nsf-reproducibility/), and which were also the subject of [a paper we wrote a while ago]({{site.base_url}}/publications/2016_eurovis_clue/).
 
-We believe that the answer to this is tracking analysis provenance. Provenance describes the history of all actions that lead to a specific state. Provenance tracking is a critical part of enabling reproducible analysis processes, but provenance tracking also enables simple undo/redo, collaboration, and logging for post-hoc analysis of users sessions.
+We believe that the answer to these challenges is tracking analysis provenance. Provenance describes the history of all actions that lead to a specific state. Provenance tracking is a critical part of enabling reproducible analysis processes, but provenance tracking also enables simple undo/redo, collaboration, and logging for post-hoc analysis of users sessions.
 
-There are various visualization systems that track provenance, but most use ad-hoc solutions  created for a specific visualization. Developing these solutions can be time consuming, and are likely to lack some of the key benefits that provenance can provide.
+## The Trrack Provenance Tracking Library
 
-To avoid the overhead of developing a custom provenance tracking solution, we developed Trrack – a library for tracking provenance in web-based systems. Trrack provides provenance tracking for action recovery, reproducibility, collaboration, and logging.
+There are various visualization systems that track provenance, but most use ad-hoc solutions created for a specific visualization. Developing these solutions can be time consuming, and custom one-off approaches likely lack some of the key benefits that provenance can provide. To this overhead, we developed Trrack – a library for tracking provenance in web-based systems to enable action recovery, reproducibility, and logging.
 
-A paper about Trrack will be published as a [short paper at IEEE VIS]({{site.base_url}}/publications/2020_visshort_trrack/) later this month. Here’s a video introducing Trrack for the conference:
+We will present [a paper about Trrack this week at IEEE VIS]({{site.base_url}}/publications/2020_visshort_trrack/), you can check out the video here: 
 <iframe width="710" height="400" class="skip-absolute" src="https://www.youtube.com/embed/09b5_LviaVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
 
-Track is designed to be lightweight and modular, be easy to integrate in existing or new tools, support sharing of states out of the box (copy URLs), provide optional server integration (either through Firebase or with custom servers), and to visualize the provenance data, if desired.  
+Track is designed to be lightweight and modular, to be easy to integrate in existing or new tools, to support sharing of states out of the box (copy URLs), and to provide server integration (either through Firebase or with custom servers), if desired.  
 
-## Provenance Visualization
 
-The latter is realized through a sister library, [Trrack-Vis](), a customizable visualization that acts as of the provenance data. Trrack-Vis can be used to visualize the provenance collected by Trrack in any application in real-time. Trrack-vis can be customized to show annotations of the provenance data and aggregation of provenance nodes.
+A sister library, [Trrack-Vis](https://github.com/visdesignlab/trrack/tree/master/packages/trrack-vis), provides customizable visualization of the provenance data, and also enables analyst to bookmark and annotate states. Trrack-Vis also has some features, such as aggregation of provenance nodes, to ensure scalability, though we're working on dealing with even larger graphs!
 
-## Storage Model
+### Storage Model
 
-Before we move on to using Trrack, let us take a look at how provenance is stored. Traditionally, there are [three different ways to store provenance data](http://www.cs.tufts.edu/comp/250VA/papers/heer2008graphical.pdf).
-
-The first approach is to **store the complete state** of an application every time something changes. This approach is fast and straightforward, but it consumes a lot of memory.
+Trrack is using a unique storage mode. Traditionally, there are [three different ways to store provenance data](http://www.cs.tufts.edu/comp/250VA/papers/heer2008graphical.pdf). The first approach is to **store the complete state** of an application every time something changes. This approach is fast and straightforward, but it consumes a lot of memory.
 
 The second approach is to store a sequence of **actions**, i.e., one keeps track of the actions that change the state of an application. This approach results in light-weight provenance data, but the downsides are that one has to execute long sequences of actions to load a particular state, which can be slow. Furthermore, if we were to export data captured like this for post-hoc analysis, we would find that the data is very specific to the implementation of the application, which can be challenging.
 
-A third approach is a **hybrid between these approaches** — it stores entire states at 'checkpoints', but also stores actions in between.  The hybrid approach provides a good compromise between speed and memory but still has the problem of being application dependent. It also adds a layer of complexity to the state management.
+Finally, **hybrids between these approaches** that store entire states at 'checkpoints', but also stores actions in between are also common. The hybrid approach provides a good compromise between speed and memory usage but still has the problem of being application dependent. It also adds a layer of complexity to the state management.
 
 ![Differential States Model]({{site.base_url}}/assets/images/posts/2020-trrack-diff-states.png)
 
-Trrack introduces a new model we call the **differential state model**. Trrack occasionally stores complete state in 'state nodes', but mostly stores 'differential nodes' in between. The differential nodes only contain the changes to the state relative to the previous node. The differential approach reduces the storage required, but the provenance data is still application-independent. The decision for when to store the entire state vs. differential state is abstracted away from the developer. However, the API still allows developers to specify that a particular action should always store the complete state.
+Trrack introduces a new model we call the **differential state model**. Trrack occasionally stores complete state in 'state nodes', but mostly stores 'differential nodes' in between. The differential nodes only contain the changes to the state relative to the previous node. The differential approach reduces the storage required, but the provenance data is still application-independent. The decision for when to store the entire state vs. differential state is abstracted away from the developer. 
 
-## Technical Background
+### Technical Background
 
-Trrack and Trrack-Vis are both written in TypeScript and provide types with generics for complete customization. Both libraries feature a clean API, rich documentation, and usage examples for multiple scenarios. Trrack is framework agnostic and can work in conjunction with any UI framework like React or Vue and state management solutions like Mobx or Redux. The documentation provides React examples with Mobx.
-Trrack-Vis is available as a React component. It is possible to use Trrack-Vis in vanilla JavaScript, but it needs React as a dependency. Both the libraries are published to npm
+Trrack and Trrack-Vis are both written in TypeScript and provide types with generics for complete customization. Both libraries feature a clean API, rich documentation, and usage examples for multiple scenarios. Trrack is framework agnostic and can work in conjunction with any UI framework like React or Vue and state management solutions like Mobx or Redux. In the documentation, we also give examples with React and Mobx.
+Trrack-Vis is a React component. It is easy to use Trrack-Vis in vanilla JavaScript, but it needs React as a dependency. Both the libraries are published via npm. 
 
 To install Trrack run:
 ```bash
@@ -65,9 +62,9 @@ yarn add @visdesignlab/trrack-vis
 ```
 
 
-## How to Use Trrack
+### How to Use Trrack
 
-To use trrack we show a minimal example of a todo list. We can add an item to the todo list by typing in the input and pressing add task button. We can press undo to revert our action. Click on `Open Sandbox` to open an editable version and experiment.
+To use trrack we show a minimal example of a todo list in vanilla JavasScript. We can add an item to the todo list and press undo to revert our action. Click on `Open Sandbox` to open an editable version and experiment.
 
 <iframe class="skip-absolute"  src="https://codesandbox.io/embed/basic-track-example-g2bsf?fontsize=12&hidenavigation=1&theme=light"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -76,9 +73,9 @@ To use trrack we show a minimal example of a todo list. We can add an item to th
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-To utilize Trrack, developers will have to create and maintain a state for their application. This state should define variables for anything that designers would like to be tracked. Defining state explicitly is a critical part of implementing Trrack, but we often found that it also encourages good software engineering.
+To use Trrack, developers have to create and maintain a state for their application. This state should define variables for anything that designers would like to be tracked. Defining state explicitly is a critical part of implementing Trrack, but we often found that it also encourages good software engineering.
 
-State is usually a `javascript` object. If using `typescript` we can use `interface` or `type` to create a shape for our state as below.
+State is usually a `javascript` object. If using `typescript` we can use `interface` or `type` to create a shape for our state as below. Here's an example where we track which dataset out of Anscombe's quartett shown, and which item is selected and hovered: 
 
 ```ts
 interface State {
