@@ -10,7 +10,8 @@ email: jen@sci.utah.edu
 image: /assets/images/people/jen.jpg
 organization: University of Utah
 position: PhD Student
-website: /team/rogers
+# website: /team/rogers
+website: https://jenrogers.dev/
 github: https://github.com/jrogerthat
 interests: Interactive Visualization for Biological and Medical Data
 
