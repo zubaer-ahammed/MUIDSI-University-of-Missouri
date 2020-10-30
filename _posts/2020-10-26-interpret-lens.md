@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Interpretivist Lens- What Design Study as a Method of Inquiry Can Teach Us.
-date: 2020-10-26 12:00:00
+title: The Interpretivist Lens – What Design Study as a Method of Inquiry Can Teach Us.
+date: 2020-10-30 10:00:00
 categories: blog
 type: blog
 # Authors in the "database" can be used with just their person "key"
