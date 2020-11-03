@@ -20,6 +20,9 @@ authors:
 journal-short: VIS Short Papers
 year: 2020
 
+blog-post: "blog/2020/10/28/trrack/"
+
+
 bibentry: article
 bib:
   journal: 
@@ -34,10 +37,10 @@ bib:
   pages:
   month:
 
+
 # Links to a project hosted on VDL, or else externally on your own site
 
-project: https://vdl.sci.utah.edu/trrack/
-external-project:
+external-project: https://vdl.sci.utah.edu/trrack/
 
 # Provide a preprint and supplement pdf
 
