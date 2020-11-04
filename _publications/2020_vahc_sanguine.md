@@ -7,9 +7,7 @@ key: 2020_vahc_sanguine
 # Select one of the options below
 type: paper 
 # use this if this paper was previously a preprint and you need to preserve the old URL
-# redirect_from: /publications/2017_preprint_lineage
-# Uncomment the line below for publications which should only appear on a personal webpage
-# personal: y
+# redirect_from: /publications/2017_preprint_lineag
 
 # Auto-generates titles and alt-descriptors
 shortname: Sanguine
@@ -58,7 +56,6 @@ preprint_server: https://arxiv.org/abs/2011.01931
 
 # Links to a project hosted on VDL, or else externally on your own site
 project: 
-#external-project: https://pathfinder.caleydoapp.org/
 
 # Video entry and preview video
 videos:
@@ -68,7 +65,6 @@ videos:
 
 # Provide a preprint and supplement pdf
 pdf: 2020_vahc_sanguine.pdf
-#supplement: 2016_eurovis_pathfinder_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 #supplements:
