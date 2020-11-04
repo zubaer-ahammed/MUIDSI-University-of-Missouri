@@ -8,7 +8,7 @@ key: 2020_vahc_sanguine
 type: paper 
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineag
-
+order: 2020-10
 # Auto-generates titles and alt-descriptors
 shortname: Sanguine
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
