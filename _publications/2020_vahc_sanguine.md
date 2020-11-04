@@ -20,11 +20,9 @@ image_large: 2020_vahc_sanguine_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
-- rogers
-- Nicholas Spina
-- Ashley Neese
-- Rachel Hess
-- Darrel Brodke
+- lin
+- Ryan A. Metcalf
+- wilburn
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
