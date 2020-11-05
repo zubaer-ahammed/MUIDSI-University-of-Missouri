@@ -15,7 +15,7 @@ lead-image: /assets/images/posts/2020_11_reviewing_r2.jpeg
 
 
 ![Reviewer 2 Jack-O-Lantern.]({{site.base_url}}/assets/images/posts/2020_11_reviewing_r2.jpeg){: style="border:1px solid black"}
-*Image by [Clare Nellist](https://twitter.com/claranellist), used with permission.* 
+*Image by [Clara Nellist](https://twitter.com/claranellist), used with permission.* 
 
 I’ve been thinking a lot about how to structure [VIS](http://ieeevis.org/) in my role as a member of the [reVISe committee](http://ieeevis.org/governance/restructuring). Last week at VIS, the committee got a few questions regarding changes to the review process. reVISe explicitly did not tackle reviewing beyond what was necessary for the unification of the three conferences. One step after another. 
 
