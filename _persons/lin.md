@@ -33,4 +33,4 @@ showteaching: false
 
 ---
 
-I am a PhD student in School of Computing at University of Utah. I am interested in interactive data visualization and computer graphics. When not computing, I love playing video games with my friends and testing out new recipes. 
+I am a PhD student with the Visualization Design Lab at University of Utah. I am advised by Alex Lex. My main research topic involves building interactive data visualizations for domain experts. Recently, I am interested in annotations on data visualization and building visualizations for communication. 
