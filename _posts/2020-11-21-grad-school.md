@@ -17,7 +17,7 @@ lead-image: /assets/images/posts/2020-11-21_grad_school_letter.png
 ![Letter of Recommendation]({{site.base_url}}/assets/images/posts/2020-11-21_grad_school_letter.png){: style="border:1px solid black"}
 
 
-Doing a PhD in computer science (or any other field) is a challenging but often intellectual fulfilling experience. I certainly had a great time in grad school, and I’m sure that many other students also did. 
+Doing a PhD in computer science (or any other field) is a challenging but often intellectually fulfilling experience. I certainly had a great time in grad school, and I’m sure that many other students also did. 
 
 There [are](https://medium.com/@vijayc/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246) [several](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/) [guides](https://web.archive.org/web/20200727191900/https://pg.ucsd.edu/PhD-application-tips.htm) out there that discuss how to apply to grad school in CS, and they contain very useful advice. I want to contribute a complementary perspective here: I want to talk about what you should do, starting maybe in your second or third year of college, to increase your chances of getting into grad school. 
 
