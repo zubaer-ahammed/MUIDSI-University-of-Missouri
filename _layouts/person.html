@@ -284,6 +284,15 @@ layout: default
         {% endif %}
         {% endif %}
         {% endfor %}
+
+        <h3>Panels</h3>
+        {% for talk in site.talks reversed %}
+        {% if talk.speaker == page.key %}
+        {% if talk.type == "panel" %}
+        {% include talk_entry.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
     {% endif %}
 
     {% if page.showteaching %}

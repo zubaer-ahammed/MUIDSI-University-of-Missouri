@@ -34,7 +34,7 @@ phd_students:
  - lange
 
 ms_students:
- - sahay
+ - sahai
 
  
 ug_students:
