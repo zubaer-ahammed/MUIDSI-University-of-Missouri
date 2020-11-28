@@ -870,7 +870,7 @@ a.project-website {
   }
 
 
-  .paper-image-small {;
+  .paper-image-small {
     @include span-columns(2.5);
     //height: 90px;
     float: left;
@@ -890,7 +890,7 @@ a.project-website {
     }
   }
 
-  .project-image-small {;
+  .project-image-small {
     @include span-columns(1);
     //height: 90px;
     float: left;

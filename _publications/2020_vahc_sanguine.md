@@ -24,7 +24,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: VAHC 2020
+journal-short: VAHC
 year: 2020
 
 # Create BibTeX info, using one of the entry choices
@@ -36,7 +36,7 @@ year: 2020
 bibentry: inproceedings
 bib:
   journal:
-  booktitle: Workshop on Visual Analytics in Healthcare at AMIA (VAHC 2020)
+  booktitle: Workshop on Visual Analytics in Healthcare at AMIA (VAHC)
   editor: 
   publisher:
   address: 

@@ -11,6 +11,6 @@ note:
 date: 2020-02-25
 
 held:
- - Institute for Science and Technology (IST) Austria, Klosterneuburg, Austria, 2020-02-25
+ - Institute for Science and Technology (IST) Austria, Klosterneuburg, Austria, 2020-02-25.
 
 ---
