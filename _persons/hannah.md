@@ -29,7 +29,7 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-
+graduated: BS '20
 ---
 
 I'm an undergraduate student working with Alexander Lex in research regarding Provenance in Visualization Systems.

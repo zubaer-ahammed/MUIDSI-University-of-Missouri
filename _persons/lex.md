@@ -22,7 +22,7 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-office-hours: Thursdays, 5-6pm
+office-hours: Tuesdays, 4-5pm
 
 # flag used to determine whether to show teaching   
 showteaching: true
@@ -35,11 +35,9 @@ phd_students:
 
 ms_students:
  - sahai
-
  
 ug_students:
  - zcutler
- - hannah
  - prajan
 
 phd_graduates:
@@ -47,6 +45,7 @@ phd_graduates:
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
 
 former_students:
+ - hannah
  - marno
  - ilkin
  - Sai Varun, MS '20
