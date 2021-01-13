@@ -29,24 +29,27 @@ agency-website: https://nsf.gov/awardsearch/showAward?AWD_ID=1835904
 collaborative-award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1835893
 number: NSF OAC 1835904
 active: true
-updated: 2019-08-21
+updated: 2021-01-13
 publications: 
  - 2019_vast_origraph
  - 2019_eurovis_mvnv
- - 2020_chi_mvnv_study
  - 2019_infovis_clipped_graphs
+ - 2020_chi_mvnv_study
+ - 2020_infovis_insights
  
 staff:
  - meyer
  - lex
- - rogers
  - wilburn
+ - akbaba
  
 otherstaff: 
  - Roni Choudhury (Kitware)
+ - Jake Conway (Kitware)
  
 alumni:
  - Mark Dewy
+ - rogers
 
 award: "$ 2,022,200"
 award-utah: "$ 1,115,768"

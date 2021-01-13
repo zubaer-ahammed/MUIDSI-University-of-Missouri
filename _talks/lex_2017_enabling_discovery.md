@@ -10,7 +10,7 @@ slides-ppt:
 note:
 date: 2019-04-10
 
-held:  
+held:       
  - Adobe, Lehi, UT, USA, 2019-04-10. 
  - Lucid Software, Salt Lake City, UT, USA, 2019-03-12.
  - Goldman Sachs Tech Expo, Salt Lake City, UT, USA, 2017-06-28.
