@@ -6,8 +6,8 @@ last_name: Cutler
 key: zcutler
 permalink: /team/zcutler/
 # Pick one of the following
-role:  "undergrad"
-email: zachcutler@yahoo.com
+role:  msstudent
+email: zach.t.cutler@gmail.com
 image: /assets/images/people/zcutler.jpg
 organization: University of Utah
 position: Undergraduate Researcher
@@ -32,4 +32,4 @@ showteaching: false
 
 ---
 
-I'm an undergraduate student working with Alexander Lex.
+I'm a combined BS/MS student working with Alexander Lex. My current research is focused on tracking provenance in visualization systems, mostly through the development of a provenance library, Trrack. Apart from provenance, I am also interested in making data visualization more accessible and better understanding the impact that visualization can have.
