@@ -36,6 +36,7 @@ publications:
  - 2019_infovis_clipped_graphs
  - 2020_chi_mvnv_study
  - 2020_infovis_insights
+ - 2021_chi_revisit
  
 staff:
  - meyer

@@ -26,6 +26,7 @@ publications:
  - 2019_ivi_taggle
  - 2020_visshort_trrack
  - 2020_preprint_intent
+ - 2021_chi_revisit
 
 staff:
  - lex
