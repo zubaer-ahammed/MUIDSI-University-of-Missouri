@@ -28,10 +28,10 @@ bib:
   address:
   doi: 10.1109/TVCG.2020.3030405
   url: 
-  volume:
-  number:
-  pages:
-  month:
+  volume: 27
+  number: 2
+  pages: 1106-1116
+  month: Feb.
 
 blog-post: 
 
@@ -56,7 +56,7 @@ pdf: 2020_infovis_insights.pdf
 supplement: 
 
 # Link to an official preprint server
-preprint_server: https://arxiv.org/submit/3340528/view 
+preprint_server: https://arxiv.org/abs/2008.11564
 
 blog-post: blog/2020/10/30/interpret-lens/
 
