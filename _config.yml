@@ -3,7 +3,7 @@ title: Visualization Design Lab
 email: vdl-faculty@sci.utah.edu
 description: "Data visualization research lab at SCI, SoC, University of Utah"
 baseurl: ""
-url: "http://vdl.sci.utah.edu"
+url: "https://vdl.sci.utah.edu"
 twitter_username: visdesignlab
 github_username: visdesignlab
 youtube_username:
@@ -14,7 +14,7 @@ lsi: false
 google_analytics: "'UA-69348306-1'"
 use_analytics: true
 
-paper_content_url: http://sci.utah.edu/~vdl/papers/
+paper_content_url: https://sci.utah.edu/~vdl/papers/
 
 plugins:
   - jekyll-redirect-from
