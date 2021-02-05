@@ -21,13 +21,13 @@
 
       {% elsif navURL == "" and pageURL == "/" %}
       <li class="{{ nav }}-button">
-        <a class="active" href="{{ site.baseurl }}/{{ navURL }}/">
+        <a class="active" href="{{ site.baseurl }}/">
           <span class="nav-text">{{ nav | upcase }}</span></a>
       </li>
 
       {% else %}
       <li class="{{ nav }}-button">
-        <a href="{{ site.baseurl }}/{{ navURL }}/">
+        <a href="{{ site.baseurl }}/{{ navURL }}">
           <span class="nav-text">{{ nav | upcase }}</span></a>
       </li>
       {% endif %}
