@@ -11,20 +11,22 @@ title: News | Vis Design Lab
   <article class="post-content-main">
 	  
 <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li class="post-list-item">
-		<div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
+		
         <span class="post-list-title">
           {{ post.title }}
         </span>
-        <span class="post-list-excerpt">
+        <span class="right-text"><i>Posted: {{ post.date | date: "%-d %b %Y" }}</i></span>
+
+        <div class="post-list-excerpt">
+          {% if post.abstract %}
+          <p>{{ post.abstract}}</p>
+          {% endif %}
           {{ post.excerpt }}
-        </span>
+       
+        </div>
 		<div><a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a></div>  
-      </li>
     {% endfor %}
-  </ul>
 
   </article>
 
