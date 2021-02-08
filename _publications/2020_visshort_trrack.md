@@ -26,15 +26,15 @@ blog-post: "blog/2020/10/28/trrack/"
 bibentry: article
 bib:
   journal: 
-  booktitle: IEEE Visualization Short Papers (to appear)
+  booktitle: IEEE Visualization Conference (VIS)
   editor:
   publisher:
   address:
-  doi:
+  doi: 10.1109/VIS47514.2020.00030
   url:
   volume:
   number:
-  pages:
+  pages: 116-120
   month:
 
 
