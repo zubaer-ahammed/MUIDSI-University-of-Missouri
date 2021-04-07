@@ -1,7 +1,7 @@
 ---
 layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
-title: I'll Have the Porter: Interactively Visualizaing the Results of Statistical Maneuver Analysis
+title: "I'll Have the Porter: Interactively Visualizaing the Results of Statistical Maneuver Analysis"
 # Keys must be unique to each paper, see section below for more details
 key: 2021_aas_porter
 # Select one of the options below
