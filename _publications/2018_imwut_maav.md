@@ -6,9 +6,7 @@ title: Managing In-home Environments through Sensing, Annotating, and Visualizin
 key: 2018_imwut_maav
 # Select one of the options below
 type: paper 
-# Uncomment the line below for publications which should only appear on a personal webpage
-# personal: y
-order:2018-09
+order: 2018-09
 
 # Auto-generates titles and alt-descriptors
 shortname: maav
