@@ -1,7 +1,7 @@
 ---
 layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
-title: Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data
+title: "Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data"
 # Keys must be unique to each paper, see section below for more details
 key: 2018_imwut_maav
 # Select one of the options below
