@@ -31,7 +31,7 @@ authors:
 - Kerry Kelly
 - pgoffin
 - Anthony Butterfield
-- weise
+- wiese
 - Wei Xing
 - Katrina Myquyen
 - Thomas Becnel
