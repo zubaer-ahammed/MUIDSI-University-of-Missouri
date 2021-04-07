@@ -31,7 +31,7 @@ authors:
 - Kerry Kelly
 - pgoffin
 - Anthony Butterfield
-- wiese
+- Jason Wiese
 - Wei Xing
 - Katrina Myquyen
 - Thomas Becnel
