@@ -1,7 +1,7 @@
 ---
 layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
-title: WIP: Engaging Pre-college Students in Hypothesis Generation Using a Citizen Scientist Network of Air Quality Sensors
+title: "Engaging Middle and High School Students in Hypothesis Generation Using a Citizen-Scientist Network of Air Quality Sensors"
 # Keys must be unique to each paper, see section below for more details
 key: 2019_asee_air_quality
 # Select one of the options below
