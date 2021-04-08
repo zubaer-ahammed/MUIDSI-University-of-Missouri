@@ -58,7 +58,7 @@ bib:
 
 # Provide a preprint and supplement pdf
 pdf: 2020_aaqr_pm.pdf
-supplement: 2016_eurovis_pathfinder_supplement.pdf
+supplement: 2020_aaqr_pm_supplement.pdf
 
 
 
