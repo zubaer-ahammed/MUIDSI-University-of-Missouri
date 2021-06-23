@@ -83,6 +83,8 @@ Blood transfusion is a frequently performed medical procedure in surgical and no
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+# Note
+**This is a workshop paper which was extended [to a journal paper](../2021_iv_sanguine). Please refer to and cite the journal paper instead.** 
 
 # Acknowledgements
 We thank Dr. Vikas Sharma, the Enterprise Data Warehouse, and the Center for High Performance Computing at the University of Utah. We gratefully acknowledge funding for this project by ARUP Laboratories. Computational resources used were partially funded by the NIH Shared Instrumentation Grant 1S10OD021644-01A1.
