@@ -64,6 +64,7 @@ project:
 #external-project: https://pathfinder.caleydoapp.org/
 
 # Video entry and preview video
+videos:
 - name: "Sanguine: Visual Analysis for Patient Blood Management"
   youtube-id: DhTNyvCJgtM
   file: 2020_vahc_sanguine.mp4
