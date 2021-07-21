@@ -23,12 +23,15 @@ room: "WEB 3823"
 
 ---
 
-I'm a software developer here at the Visual Design Lab where I work on full stack deployments of open source projects. Most of the code I deploy is created by faculty and students in the MS and PhD programs.
+Jack is a data visualization software developer with the Scientific Computing and Imaging Institute at the University of Utah. Through his work, Jack leads development efforts on over $3,000,000 of grant funded research into a broad range of topics, including multivariate network visualizations, neuromodulation therapy databases, and patient blood management analysis tools. Another critical part of Jack's work is mentoring PhD students in the Visualization Design Lab and helping the lab make quality, maintainable software. He obtained a Bachelor of Science Degree in Mathematics from Westminster College in Salt Lake City and is currently pursuing a Master's degree in Computer Science from the University of Utah.
 
-I got my Bachelor of Science Degree in Mathematics from Westminster College here in Salt Lake City, UT. During my degree, I focused on data science, machine learning, dev ops, and more.
+In his prior work, Jack developed machine learning models for national banks and created custom lifetime value solutions for many US companies. Ultimately, Jack has developed and implemented tools that cover the whole data science stack, and he's comfortable explaining the complex technical topics to stakeholders from any background.
 
-Until recently, I worked in the marketing analytics industry for a start up called [Emperitas](https://www.emperitas.com/). While there, I built graph database applications, machine learning models, and customer lifetime value solutions for clients all over the U.S.
+Jack's hobbies include:
+- Taking Pusha (his cat) kayaking/hiking
+- Rock climbing
+- Spending quality time with his partner sampling Salt Lake City's best cocktails.
 
-My personal site is [here](https://www.jackwilburn.xyz).
+[Website Link](https://jackwilburn.xyz/)
 
 
