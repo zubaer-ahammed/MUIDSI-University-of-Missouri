@@ -3,7 +3,7 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: "Sanguine: Visual Analysis for Patient Blood Management"
 # Keys must be unique to each paper, see section below for more details
-key: 2021_iv_sanguine
+key: 2021_ivi_sanguine
 # Select one of the options below
 type: paper 
 order: 2021-05
@@ -15,7 +15,7 @@ order: 2021-05
 # Auto-generates titles and alt-descriptors
 shortname: Sanguine
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2020_vahc_sanguine.png
+image: 2021_ivi_sanguine.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
 image_large: 2020_vahc_sanguine_teaser.png
 
@@ -27,7 +27,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: IV
+journal-short: IVI
 year: 2021
 
 # Create BibTeX info, using one of the entry choices
