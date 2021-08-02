@@ -30,8 +30,6 @@ authors:
 journal-short: IVI
 year: 2021
 
-[1]H. Lin, R. A. Metcalf, J. Wilburn, and A. Lex, “Sanguine: Visual analysis for patient blood management,” Information Visualization, p. 14738716211028564, Aug. 2021, doi: 10.1177/14738716211028565.
-
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
 # Preprints are articles with the location of preprint mentioned in "journal"
