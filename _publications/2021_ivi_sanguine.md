@@ -42,7 +42,7 @@ bib:
   editor: 
   publisher: SAGE
   address: 
-  doi: 
+  doi: 10.1177/14738716211028565
   url: 
   volume: 
   number: 
@@ -54,7 +54,7 @@ bib:
 #award: EuroVis 2016 Honorable Mention Award
 
 # Provide a link to the publisher's webpage if no DOI is available
-publisherURL: 
+publisherURL: https://journals.sagepub.com/doi/10.1177/14738716211028565
 
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/2011.01931
@@ -71,7 +71,6 @@ videos:
 
 # Provide a preprint and supplement pdf
 pdf: paper_2021_sanguine_preprint.pdf
-#supplement: 2016_eurovis_pathfinder_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 #supplements:
