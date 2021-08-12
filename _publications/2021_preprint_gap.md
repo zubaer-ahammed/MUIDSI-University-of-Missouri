@@ -1,7 +1,7 @@
 ---
 layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
-title: "Exploring the Personal Informatics Analysis Gap: There's a Lot of Bacon'"
+title: "Exploring the Personal Informatics Analysis Gap: 'There's a Lot of Bacon'"
 # Keys must be unique to each paper, see section below for more details
 key: 2021_preprint_gap
 # Select one of the options below
@@ -49,9 +49,9 @@ bib:
   publisher: Arxiv
   doi: 
   url:  https://arxiv.org/pdf/2108.03761.pdf
-  volume: 
+  volume:  arXiv:2108.03761 [cs.HC]
   number: 
-  pages: 
+  pages: 17
 
 
 
