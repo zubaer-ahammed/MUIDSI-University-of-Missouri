@@ -43,10 +43,10 @@ bib:
   publisher: SAGE
   address: 
   doi: 10.1177/14738716211028565
-  url: 
-  volume: 
-  number: 
-  pages: 
+  url: https://doi.org/10.1177%2F14738716211028565
+  volume: 20
+  issue: 2-3
+  pages: 123-137
   month: August
   pmcid: 
 
