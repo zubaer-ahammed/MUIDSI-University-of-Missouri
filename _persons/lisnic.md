@@ -30,3 +30,5 @@ address: |
 showteaching: false
 
 ---
+
+I am a PhD student at the School of Computing working with Alexander Lex and Marina Kogan. My research centers on understanding and mitigating mis- and disinformation in visualizations on social media.
