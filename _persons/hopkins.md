@@ -9,7 +9,7 @@ email: aspen@sci.utah.edu
 image: /assets/images/people/hopkins.jpg
 organization: University of Utah
 position: Intern
-website: /team/hopkins
+website: https://skitree.github.io/aspenhopkins/
 interests: Exploring air quality in SLC through visualization, AIA, and diversity in tech
 graduated: N
 ---

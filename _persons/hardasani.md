@@ -9,7 +9,7 @@ email: sunny.hardasani@gmail.com
 image: /assets/images/people/sunny.jpg
 organization: University of Utah
 position: MS Student
-website: http://sunny.hardasani.in
+website: https://www.linkedin.com/in/sunnyhardasani/
 interests: Information Visualization, Heterogeneous Data
 graduated: MS '16
 ---
