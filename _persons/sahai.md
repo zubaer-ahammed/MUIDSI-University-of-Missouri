@@ -12,7 +12,7 @@ image: /assets/images/people/sahai.jpg
 organization: University of Utah
 position: MS Student
 # use either a local link like here, or a URL
-website: https://shauryasahai.in/
+website: https://www.linkedin.com/in/shaurya-sahai/
 interests: Information Visualization
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: "MS '21"
