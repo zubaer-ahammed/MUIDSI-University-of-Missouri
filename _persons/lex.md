@@ -32,7 +32,7 @@ phd_students:
  - kiran
  - lin
  - lange
- - lisinc
+ - lisnic
 
 ms_students:
  - ssiu

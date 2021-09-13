@@ -3,7 +3,7 @@
 layout: person
 first_name: Maxim
 last_name: Lisnic
-key: Lisnic
+key: lisnic
 permalink: /team/lisnic/
 # Pick one of the following
 role: phdstudent
