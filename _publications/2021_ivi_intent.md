@@ -1,13 +1,13 @@
 ---
 layout: publication
-title: Capturing User Intent when Brushing in Scatterplots
-key: 2020_preprint_intent
+title: Predicting Intent Behind Selections in Scatterplot Visualizations
+key: 2021_ivi_intent
 type: preprint
-order: 2020-02
+order: 2021-06
 
 shortname: Intent-Inference
-image: 2020_intent.png
-image_large: 2020_intent_teaser.png
+image: 2021_intent.png
+image_large: 2021_intent_teaser.png
 redirect_from: 
  - 2020_intent
 
@@ -21,16 +21,22 @@ authors:
   - Jeff Phillips
   - lex
 
-journal-short: Preprint
-year: 2020
+journal-short: IVI
+year: 2021
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
-  publisher:
-  doi: 10.31219/osf.io/mq2rk
-  pages:
-  award:
+  journal: Information Visualization
+  editor: 
+  publisher: SAGE
+  address: 
+  doi: 10.1177/14738716211028565
+  url: https://doi.org/10.1177/14738716211028565
+  volume: 20
+  number: 4
+  pages: 207–228
+  month: August
+  pmcid: 
 
 # Links to a project hosted on VDL, or else externally on your own site
 
@@ -43,12 +49,12 @@ external-project: https://vdl.sci.utah.edu/predicting-intent/
 videos:
  - name: 'Intent System Introduction'
    youtube-id: flGhsCeo-00
-   file: 2020_preprint_intent.mp4
+   file: 2021_ivi_intent.mp4
 
 # Provide a preprint and supplement pdf
 
-pdf: 2020_preprint_intent.pdf
-supplement: 2020_preprint_intent_supplement.pdf
+pdf: 2021_ivi_intent.pdf
+supplement: 2021_ivi_intent_supplement.pdf
 
 # Link to an official preprint server
 preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
@@ -79,10 +85,12 @@ preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
 code: https://github.com/visdesignlab/intent-system
 
 abstract: "
-<p>Being able to capture or predict a user's intent behind a brush in a visualization tool has important implications in two scenarios. First, predicting intents can be used to auto-complete a partial selection in a mixed-initiative approach, with potential benefits to selection speed, correctness, and confidence.  
-Second, capturing the intent of a selection can be used to improve recall, reproducibility, and even re-use. Augmenting provenance logs with semi-automatically captured intents makes it possible to save the reasoning behind selections. 
-In this paper, we introduce a method to infer intent for selections and brushes in scatterplots. We first introduce a taxonomy of types of patterns that users might specify, which we elicited in a formative study conducted with professional data analysts and scientists. Based on this, we identify algorithms that can classify these patterns, and introduce various approaches to score the match of each pattern to an analyst's selection of items. We introduce a system that implements these methods for scatterplots and ranks alternative patterns against each other. Analysts then can use these predictions to auto-complete partial selections, and to conveniently capture their intent and provide annotations, thus making a concise representation of that intent available to be stored as provenance data. 
-We evaluate our approach using interviews with domain experts and in a quantitative crowd-sourced study, in which we show that using auto-complete leads to improved selection accuracy for most types of patterns.</p>
+<p>Predicting and capturing an analyst’s intent behind a selection in a data visualization is valuable in two scenarios: First, a successful prediction of a pattern an analyst intended to select can be used to auto-complete a partial selection which, in turn, can improve the correctness of the selection. Second, knowing the intent behind a selection can be used to improve recall and reproducibility.
+In this paper, we introduce methods to infer analyst's intents behind selections in data visualizations, such as scatterplots.
+We describe intents based on patterns in the data, and identify algorithms that can capture these patterns. Upon an interactive selection, we compare the selected items with the results of a large set of computed patterns, and use various ranking approaches to identify the best pattern for an analyst's selection. 
+We store annotations and the metadata to reconstruct a selection, such as the type of algorithm and its parameterization, in a provenance graph.
+We present a prototype system that implements these methods for tabular data and scatterplots. Analysts can select a prediction to auto-complete partial selections and to seamlessly log their intents. We discuss implications of our approach for reproducibility and reuse of analysis workflows.
+We evaluate our approach in a crowd-sourced study, where we show that auto-completing selection improves accuracy, and that we can accurately capture pattern-based intent.</p>
 "
 ---
 
