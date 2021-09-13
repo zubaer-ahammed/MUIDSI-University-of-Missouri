@@ -2,7 +2,7 @@
 layout: publication
 title: Predicting Intent Behind Selections in Scatterplot Visualizations
 key: 2021_ivi_intent
-type: preprint
+type: paper 
 order: 2021-06
 
 shortname: Intent-Inference
