@@ -42,7 +42,7 @@ $ open http://0.0.0.0:4000/
 ## Contributions
 
 All VDL members are responsible for updating their content regularly. Small
-changes that you have tested thoroughly using Jekyll may be pushed to _master_,
+changes that you have tested thoroughly using Jekyll may be pushed to _main_,
 but we recommend using separate branches to submit _pull requests_ for
 additional review and to catch mistakes. See the resources below for details on
 the following:
