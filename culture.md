@@ -15,6 +15,16 @@ We meet weekly as a group to discuss a research paper, give feedback on research
 
 Once a year we go on a hike and meet for food and drinks at Miriah's or Alex' house afterwards. Here are some pictures from these events.
 
+### 2021 Group Retreat
+
+<img class="social" src="../assets/images/social/2021_retreat.jpg" alt="2021 VDL Retreat">
+
+### 2020 Social
+
+No formal retreat in 2020 due to COVID, but we managed to squeeze in a social before things locked down in February!
+
+<img class="social" src="../assets/images/social/2020_social.jpg" alt="2020 VDL Social">
+
 ### 2019 Group Retreat
 
 <img class="social" src="../assets/images/social/2019_retreat.jpg" alt="2019 VDL Retreat">
@@ -33,7 +43,7 @@ Once a year we go on a hike and meet for food and drinks at Miriah's or Alex' ho
 
 ## Group Run
 
-We jog together every Tuesday and Thursday! Check out our <a href="https://www.strava.com/clubs/vdl-running">Strava Club</a>.
+We used to jog together every Tuesday and Thursday when we were still in the office, pre-covid! Check out our <a href="https://www.strava.com/clubs/vdl-running">Strava Club</a>.
 
 
 <img class="social" src="../assets/images/social/2017_run.jpg" alt="2017 VDL Jog">

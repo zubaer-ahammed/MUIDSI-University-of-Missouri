@@ -29,12 +29,14 @@ PhD students are enrolled in the University of Utah's School of Computing, in ei
 
 We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
 
-Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
+Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. 
+
+If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
 
 ## Postdoctoral Fellows
 
-We are looking to hire exceptional candidates with a proven track-record of visualization research. Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, mentoring undergraduate and graduate students, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are encouraged.
+We are often looking to hire exceptional candidates with a proven track-record of visualization research. Postdoctoral fellows will be responsible for developing a research program in line with the above-mentioned topics of interest. Other responsibilities include day-to-day project management, including coordination with collaborators and other team members, mentoring undergraduate and graduate students, as well as the writing of manuscripts. Contribution to the grant writing efforts of the lab are encouraged.
 
 Candidates must have a PhD degree in computer science or related fields, and have a track-record of publication in the top visualization journals or conferences. Excellent programming skills, working knowledge of state-of-the-art software development techniques, experience collaborating with domain experts, and broad training in evaluation methods are a plus. The candidates interested in these positions must be highly motivated, willing to learn and demonstrate initiative in assigned tasks. Excellent written and verbal communication skills are crucial.
 
-Candidates should submit their CV, a research statement, PDFs of their three best papers, and contact information for three references to [vdl-faculty@sci.utah.edu](mailto:vdl-faculty@sci.utah.edu).
+We will post specific openings on these pages, but feel free to send us a CV, a research statement, PDFs of your best papers, and contact information for three references to [vdl-faculty@sci.utah.edu](mailto:vdl-faculty@sci.utah.edu) and we will get back to you.
