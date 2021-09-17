@@ -48,7 +48,7 @@ external-project: https://vdl.sci.utah.edu/predicting-intent/
 
 videos:
  - name: 'Intent System Introduction'
-   youtube-id: flGhsCeo-00
+   youtube-id: jDf4ndtekpk
    file: 2021_ivi_intent.mp4
 
 # Provide a preprint and supplement pdf
