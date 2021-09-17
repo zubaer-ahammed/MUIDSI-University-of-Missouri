@@ -79,11 +79,13 @@ supplements:
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
-- path: 2020_infovis_insights/2020_infovis_insights_summary_view.png
+- path: 2020_infovis_insights_trrrace_selected.png
+  caption: Trrrace interface showing details of an artifact and concept selected. 
+- path: 2020_infovis_insights_summary_view.png
   caption: Trevo summary view shows aggregated trait values for groups of species. 
-- path: 2020_infovis_insights/2020_infovis_insights_pair_view.png
+- path: 2020_infovis_insights_pair_view.png
   caption: Trevo Pair view ranks pairs of species to identify known evolutionary patterns.
-- path: 2020_infovis_insights/2020_infovis_insights_pair_hover.png
+- path: 2020_infovis_insights_pair_hover.png
   caption: Pair view showing hover interaction
 
 code: 
