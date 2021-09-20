@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Derya and Miriah to Present at Info+ Conference
+title: Derya to Present at Info+ Conference
 date: 2021-09-18 11:00:00
 categories: event
 ---
 
-[derya akbaba]({{ site.base_url}}/team/akbaba) and [Miriah Meyer](https://miriah.github.io/) will be discussing their lightening talk "Reflections on applying feminist theory to visualization research" at the [Info+ Conference](https://informationplusconference.com/2021) on Sept. 28, 2021. The talk is a reflection of on-going work with feminist scholar [Lauren Klein](https://lklein.com/). 
+[derya akbaba]({{ site.base_url}}/team/akbaba) will be discussing her and [Miriah Meyer](https://miriah.github.io/)'s lightening talk "Reflections on applying feminist theory to visualization research" at the [Info+ Conference](https://informationplusconference.com/2021) on Sept. 28, 2021. The talk is a reflection of on-going work with feminist scholar [Lauren Klein](https://lklein.com/). 
 
 [Link to lightning talk.](https://vimeo.com/592256059)
 
