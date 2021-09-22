@@ -79,7 +79,17 @@ pdf: paper_2021_sanguine_preprint.pdf
  # abslink: http://vials.io/talk/
   # Defaults to a download icon, use this if you want a link-out icon
   #linksym: true
-
+images:
+- path: 2021_ivi_sanguine_interface.png
+  caption: Sanguine main interface with three charts. 
+- path: 2021_ivi_sanguine_comparison.png
+  caption: Heatmap with comparison and relevant attributes for context. 
+- path: 2021_ivi_sanguine_dumbbell.png
+  caption: Dumbbell chart showing pre- and postoperative Hgb values. 
+- path: 2021_ivi_sanguine_scatter.png
+  caption: Scatterplot with brushed points for case details.
+- path: 2021_ivi_sanguine_filter.png
+  caption: Sanguine's filter system.
 # Link to the repository where the code is hosted
 code: https://github.com/visdesignlab/Sanguine/
 
