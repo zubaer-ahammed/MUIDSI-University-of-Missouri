@@ -45,7 +45,7 @@ pdf: 2021_preprint_chartjunk.pdf
 supplement:
 
 # Link to an official preprint server
-preprint_server: CHANGE THIS
+preprint_server: https://arxiv.org/abs/2109.10132
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
