@@ -40,9 +40,13 @@ It was my own personal bingo card of presentation pitfalls!
 
 The best part, though,  was having the camera rolling the whole time to capture it all.  Without further ado, please enjoy my VIS presentation outtakes:
 
-[![Conference presentation outtakes](https://img.youtube.com/vi/8EKUTMKrhcQ/0.jpg)](https://www.youtube.com/watch?v=8EKUTMKrhcQ)
+<div class="video-wrapper">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/8EKUTMKrhcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+*Presentation outtakes* 
 
-Hit us up on [Twitter](https://twitter.com/visdesignlab) to share your own Bingo card outcomes[^2] and presentation mishaps!
+
+Hit us up on [Twitter](https://twitter.com/visdesignlab/status/1443987059253858304) to share your own Bingo card outcomes[^2] and presentation mishaps!
 
 If you're curious about the research behind the gaffs, have a look at our [awesome paper](https://vdl.sci.utah.edu/publications/2021_preprint_gap/) on the ways we struggle to design for analyzing personal data.
 
