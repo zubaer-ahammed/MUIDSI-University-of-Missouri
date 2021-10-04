@@ -5,6 +5,8 @@ tag: positions
 permalink: /positions/
 ---
 
+
+
 We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows to do research in data visualization. 
 
 The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](http://csrankings.org/#/fromyear/2007/toyear/2018/index?visualization).** 
