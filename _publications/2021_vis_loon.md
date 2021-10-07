@@ -21,7 +21,7 @@ year: 2021
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (Vis) (to appear)
+  journal: IEEE Transactions on Visualization and Computer Graphics (Vis)
   publisher: IEEE
   doi: 10.1109/TVCG.2021.3114766
   url: 
@@ -29,7 +29,7 @@ bib:
   number:
   pages:
   month:
-  
+
 award: IEEE Vis 2021 Honorable Mention Award
 
 # Links to a project hosted on VDL, or else externally on your own site
