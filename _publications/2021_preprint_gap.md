@@ -47,7 +47,7 @@ bibentry: article
 bib:
   booktitle: "Preprint"
   publisher: Arxiv
-  doi: 
+  doi: 10.1109/TVCG.2021.3114798 
   url:  https://arxiv.org/pdf/2108.03761.pdf
   volume:  arXiv:2108.03761 [cs.HC]
   number: 

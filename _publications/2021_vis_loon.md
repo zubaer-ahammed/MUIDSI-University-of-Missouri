@@ -1,13 +1,13 @@
 ---
 layout: publication
-title: "Loon: Using Exemplars to Visualize Large Scale Microscopy Data"
-key: 2021_preprint_loon
-type: preprint
+title: "Loon: Using Exemplars to Visualize Large-Scale Microscopy Data"
+key: 2021_vis_loon
+type: paper
 order: 2021-05
 
 shortname: Loon
-image: 2021_preprint_loon.png
-image_large: 2021_preprint_loon_teaser.png
+image: 2021_vis_loon.png
+image_large: 2021_vis_loon_teaser.png
 
 authors:
   - lange
@@ -16,16 +16,21 @@ authors:
   - Thomas Zangle
   - lex
 
-journal-short: Preprint
+journal-short: TVCG (Vis)
 year: 2021
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
-  publisher:
-  doi: 10.31219/osf.io/dfajc
+  journal: IEEE Transactions on Visualization and Computer Graphics (Vis)
+  publisher: IEEE
+  doi: 10.1109/TVCG.2021.3114766
+  url: 
+  volume: 
+  number:
   pages:
-  award:
+  month:
+
+award: IEEE Vis 2021 Honorable Mention Award
 
 # Links to a project hosted on VDL, or else externally on your own site
 
@@ -38,15 +43,15 @@ external-project: https://loon.sci.utah.edu/
 videos:
  - name: 'Loon Introduction'
    youtube-id: Y7u3Kg3At9A
-   file: 2021_preprint_loon.mp4
+   file: 2021_vis_loon.mp4
 
 # Provide a preprint and supplement pdf
 
-pdf: 2021_preprint_loon.pdf
-supplement: 2021_preprint_loon_supplement.pdf
+pdf: 2021_vis_loon.pdf
+supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
-preprint_server: https://doi.org/10.31219/osf.io/dfajc
+# preprint_server: https://doi.org/10.31219/osf.io/dfajc
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
@@ -74,7 +79,7 @@ preprint_server: https://doi.org/10.31219/osf.io/dfajc
 code: https://github.com/visdesignlab/Loon
 
 abstract: "
-<p>Which drug is most promising for a cancer patient? This is a question a new microscopy-based approach for measuring the mass of individual cancer cells treated with different drugs promises to answer in only a few hours. However, the analysis pipeline for extracting data from these images is still far from complete automation: human intervention is necessary for quality control for preprocessing steps such as segmentation, to adjust filters, and remove noise, and for the analysis of the result. To address this workflow, we developed Loon, a visualization tool for analyzing drug screening data based on quantitative phase microscopy imaging. Loon visualizes both, derived data such as growth rates, and imaging data. Since the images are collected automatically at a large scale, manual inspection of images and segmentations is infeasible. However, reviewing representative samples of cells is essential, both for quality control and for data analysis. We introduce a new approach of choosing and visualizing representative exemplar cells that retain a close connection to the low-level data. By tightly integrating the derived data visualization capabilities with the novel exemplar visualization and providing selection and filtering capabilities, Loon is well suited for making decisions about which drugs are suitable for a specific patient.</p>
+<p>Which drug is most promising for a cancer patient? A new microscopy-based approach for measuring the mass of individual cancer cells treated with different drugs promises to answer this question in only a few hours. However, the analysis pipeline for extracting data from these images is still far from complete automation: human intervention is necessary for quality control for preprocessing steps such as segmentation,  adjusting filters, removing noise, and analyzing the result. To address this workflow, we developed Loon, a visualization tool for analyzing drug screening data based on quantitative phase microscopy imaging. Loon visualizes both derived data such as growth rates and imaging data. Since the images are collected automatically at a large scale, manual inspection of images and segmentations is infeasible. However, reviewing representative samples of cells is essential, both for quality control and for data analysis. We introduce a new approach for choosing and visualizing representative exemplar cells that retain a close connection to the low-level data. By tightly integrating the derived data visualization capabilities with the novel exemplar visualization and providing selection and filtering capabilities, Loon is well suited for making decisions about which drugs are suitable for a specific patient.</p>
 "
 ---
 
