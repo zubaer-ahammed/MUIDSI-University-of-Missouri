@@ -1,6 +1,6 @@
 ---
 speaker: lex
-title: " Visualization Response in a Time of Pandemic"
+title: "Visualization Response in a Time of Pandemic"
 # paper | invited | keynote | tutorial | panel
 type: panel
 slides-key: 

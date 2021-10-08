@@ -870,16 +870,17 @@ a.project-website {
     margin-bottom: 40px;
   }
 
-
   .paper-image-small {
     @include span-columns(2.5);
-    //height: 90px;
-    float: left;
     margin-top: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
     @include box-shadow(1px, 1px, 4px, transparentize(black, 0.75));
     @include border-radius(3px);
+
+    @include media($large-display)
+    {
+    }
 
     @include media($medium-display) {
       @include span-columns(3.5);
@@ -893,8 +894,7 @@ a.project-website {
 
   .project-image-small {
     @include span-columns(1);
-    //height: 90px;
-    float: left;
+    //float: left;
     margin-top: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -1241,7 +1241,7 @@ iframe:not(.skip-absolute) {
 .paper-image-small-aside {
   width: auto;
   height: auto;
-  float: left;
+  //float: left;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 2px solid $dark-blue;
