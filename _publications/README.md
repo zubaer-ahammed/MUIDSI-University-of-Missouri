@@ -68,7 +68,7 @@ type: paper | preprint | poster | thesis | commentary
 
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
 # that by specifying an order for the papers of that year. For example, 2019-11 will put papers with values lower than 
-# 2019-11 belwo that paper. Notice that sorting is lexicographic.  
+# 2019-11 below that paper. Notice that sorting is lexicographic.  
 order: 2019-11
 
 # Auto-generates titles and alt-descriptors

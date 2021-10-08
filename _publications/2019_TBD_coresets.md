@@ -31,10 +31,11 @@ bib:
   address: 
   doi: 10.1109/TBDATA.2019.2913655
   url: 
-  volume: 
-  number: 
-  pages:  
+  volume: 7
+  number: 3
+  pages: 524-534 
   month: 
+
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 #award: Honorable Mention Award

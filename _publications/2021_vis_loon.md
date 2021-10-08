@@ -3,7 +3,7 @@ layout: publication
 title: "Loon: Using Exemplars to Visualize Large-Scale Microscopy Data"
 key: 2021_vis_loon
 type: paper
-order: 2021-05
+order: 2021-12
 
 shortname: Loon
 image: 2021_vis_loon.png
@@ -21,7 +21,7 @@ year: 2021
 
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (Vis)
+  journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
   publisher: IEEE
   doi: 10.1109/TVCG.2021.3114766
   url: 
@@ -30,7 +30,7 @@ bib:
   pages:
   month:
 
-award: IEEE Vis 2021 Honorable Mention Award
+award: IEEE VIS 2021 Honorable Mention Award
 
 # Links to a project hosted on VDL, or else externally on your own site
 
@@ -51,7 +51,8 @@ pdf: 2021_vis_loon.pdf
 supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
-# preprint_server: https://doi.org/10.31219/osf.io/dfajc
+preprint_server: https://doi.org/10.31219/osf.io/dfajc
+
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
