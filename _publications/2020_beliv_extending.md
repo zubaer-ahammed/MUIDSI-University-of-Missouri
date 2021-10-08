@@ -46,11 +46,11 @@ year: 2020
 bibentry: inproceedings
 bib:
   journal: 
-  booktitle: IEEE Evaluation and Beyond – Methodological Approaches for Visualization (BELIV) (to appear)
+  booktitle: IEEE Evaluation and Beyond – Methodological Approaches for Visualization (BELIV) 
   editor: 
   publisher: 
   address: 
-  doi: 
+  doi: 10.1109/BELIV51497.2020.00017
   url: 
   volume:
   number: 
