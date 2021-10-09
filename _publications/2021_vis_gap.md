@@ -3,9 +3,9 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: "Exploring the Personal Informatics Analysis Gap: 'There's a Lot of Bacon'"
 # Keys must be unique to each paper, see section below for more details
-key: 2021_preprint_gap
+key: 2021_vis_gap
 # Select one of the options below
-type: preprint 
+type: paper 
 
 
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
@@ -16,9 +16,9 @@ order: 2021-10
 # Auto-generates titles and alt-descriptors
 shortname: gap
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2021_preprint_gap.png
+image: 2021_vis_gap.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2021_preprint_gap_teaser.png
+image_large: 2021_vis_gap_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
@@ -31,8 +31,9 @@ authors:
 blog-post: 
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: Preprint
+journal-short: IEEE VIS
 year: 2021
+
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
@@ -45,15 +46,23 @@ year: 2021
 
 bibentry: article 
 bib:
-  booktitle: "Preprint"
-  publisher: Arxiv
+  journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
+  publisher: IEEE
   doi: 10.1109/TVCG.2021.3114798 
-  url:  https://arxiv.org/pdf/2108.03761.pdf
-  volume:  arXiv:2108.03761 [cs.HC]
+  url: 
+  volume:  
   number: 
-  pages: 17
+  pages: 95-105
 
 
+
+videos:  
+ - name: "Outtakes" 
+   youtube-id: 8EKUTMKrhcQ
+   file: 2021_vis_gap_outtakes.mp4
+ - name: "Personal Informatics Analysis Gap Preview" 
+   youtube-id: CYG3qVClPb0
+   file: 2021_vis_gap_preview.mp4
 
 # Provide a preprint and supplement pdf
 pdf: 2021_preprint_gap.pdf
