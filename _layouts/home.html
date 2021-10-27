@@ -1,109 +1,137 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     {% include head_default.html %}
 
     <!-- Here we write the publications into the publications javascript variable -->
 
-    {% capture publications %}
-    [
-    {% for publication in site.publications %}
-
-    {% if publication.personal  %}
-    {% elsif publication.image_large and publication.year > 2019 and publication.type == "paper"%}
-    {
-    "title"    : "{{ publication.title }}",
-    "shortname" : "{{ publication.shortname }}",
-    "url"      : "{{ publication.url }}",
-    "image_large"     : "{{ publication.image_large }}",
-    }
-    {% if forloop.last %}{% else %},{% endif %}
-    {% endif %}
-    {% endfor %}
-    ]
-    {% endcapture %}
+    {% capture publications %} [ {% for publication in site.publications %} {%
+    if publication.personal %} {% elsif publication.image_large and
+    publication.year > 2019 and publication.type == "paper"%} { "title" : "{{
+    publication.title }}", "shortname" : "{{ publication.shortname }}", "url" :
+    "{{ publication.url }}", "image_large" : "{{ publication.image_large }}", }
+    {% if forloop.last %}{% else %},{% endif %} {% endif %} {% endfor %} ] {%
+    endcapture %}
 
     <script>
-    var publications = {{ publications }}
+      var publications = {{ publications }}
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="wrap">
+      {% include header.html %} {% include banner.html %}
 
-<div class="wrap">
-{% include header.html %}
-    {% include banner.html %}
+      <article class="home-content-main">
+        <h1>About</h1>
 
-  <article class="home-content-main">
+        <p>
+          We are a team of visualization researchers at the University of Utah.
+          Our interests include the process of designing and developing
+          visualizations, visualization for biology, visualization frameworks,
+          and, more generally, visualization of big, heterogeneous, and complex
+          datasets.
+        </p>
+        <p>
+          VDL is part of the
+          <a href="https://www.sci.utah.edu/"
+            >Scientific Computing and Imaging Institute</a
+          >
+          and the <a href="https://www.cs.utah.edu/">School of Computing</a>.
+        </p>
 
-  <h1>About</h1>
+        <h1>
+          Blog And News
+          <span class="left-icon"
+            ><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a
+          ></span>
+        </h1>
 
-
-      <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
-      <p>VDL is part of the <a href="https://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="https://www.cs.utah.edu/">School of Computing</a>. </p>
-
-
- <h1>Blog And News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
-
-
-    {% for post in site.posts limit:4 %}
-      <div class="post-list-item">
-        <div class="post-list-title">
-        <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">
-          <span>{% if post.type == "blog" %}Blog Post:{% else %}News:{% endif %} {{ post.title }}</span>
-           <span class="right-text">{{ post.date | date: "%-d %b %Y" }}</span>  
-          </a>          
-      </div>
-      <div class="post-list-excerpt">
-		  {{ post.abstract }}
-      </div>
-  		<div><a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a></div>         
-      </div>
-    {% endfor %}
-
-  <div class="all-news-link"><a href="news/">See All News</a></div>
-  
-
-  </article>
-
-  <article class="home-content-aside">
-
-
-	  <h1>Recent Publications</h1>
-	  	  
-	      <ul class="publication-icon-list">
-            {% assign sorted_publications = site.publications | sort: 'year' %}
-            {% assign sorted_publications = sorted_publications | sort: 'order' %}
-            {% for publication in sorted_publications reversed %}
-            {% if publication.personal %}
-	          {% elsif publication.year > 2019 and publication.type == "paper" %}
-            <li>
-              <div style="padding-right: 1.5em;"><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></div>
-              <div style="margin-bottom: 5px;">
-              {% if publication.type == "thesis" %}
-                {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
-              {% else %}
-                {{publication.journal-short}}, {{publication.year}}
-              {% endif %}
-              </div>
-            </li>
+        {% for post in site.posts limit:4 %}
+        <div class="post-list-item">
+          <div class="post-list-title">
+            <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">
+              <span
+                >{% if post.type == "blog" %}Blog Post:{% else %}News:{% endif
+                %} {{ post.title }}</span
+              >
+              <span class="right-text"
+                >{{ post.date | date: "%-d %b %Y" }}</span
+              >
+            </a>
+          </div>
+          <div class="post-list-excerpt">
+            {{ post.abstract }} {% if post.lead-image %}
+            <br />
+            <br />
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <img
+                src="{{site.baseurl}}{{post.lead-image}}"
+                alt="Blog lead image"
+              />
+            </a>
             {% endif %}
-	          {% endfor %}
-	      </ul>
+          </div>
+          <div>
+            <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}"
+              >More...</a
+            >
+          </div>
+        </div>
+        {% endfor %}
 
-      <h1>Twitter</h1>
+        <div class="all-news-link"><a href="news/">See All News</a></div>
+      </article>
 
-         <a class="twitter-timeline" data-lang="en" data-dnt="true" data-link-color="#3376A0" data-chrome="noheader, noborders, transparent" data-tweet-limit="4" href="https://twitter.com/visdesignlab">Tweets by visdesignlab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <article class="home-content-aside">
+        <h1>Recent Publications</h1>
 
-  </article>
+        <ul class="publication-icon-list">
+          {% assign sorted_publications = site.publications | sort: 'year' %} {%
+          assign sorted_publications = sorted_publications | sort: 'order' %} {%
+          for publication in sorted_publications reversed %} {% if
+          publication.personal %} {% elsif publication.year > 2019 and
+          publication.type == "paper" %}
+          <li>
+            <div style="padding-right: 1.5em">
+              <a href="{{ site.baseurl }}{{ publication.url }}"
+                >{{ publication.title }}</a
+              >
+            </div>
+            <div style="margin-bottom: 5px">
+              {% if publication.type == "thesis" %} {{ publication.thesis_type
+              }}, {{ publication.month }} {{ publication.year }} {% else %}
+              {{publication.journal-short}}, {{publication.year}} {% endif %}
+            </div>
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
 
-    {% include footer.html %}
-</div>
+        <h1>Twitter</h1>
 
-{% if site.use_analytics == true %}
-{% include google_analytics.html %}
-{% endif %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
-<script src="{{base.url}}/scripts/vdl_logo_script.js"></script>
-</body>
+        <a
+          class="twitter-timeline"
+          data-lang="en"
+          data-dnt="true"
+          data-link-color="#3376A0"
+          data-chrome="noheader, noborders, transparent"
+          data-tweet-limit="4"
+          href="https://twitter.com/visdesignlab"
+          >Tweets by visdesignlab</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </article>
+
+      {% include footer.html %}
+    </div>
+
+    {% if site.use_analytics == true %} {% include google_analytics.html %} {%
+    endif %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <script src="{{base.url}}/scripts/vdl_logo_script.js"></script>
+  </body>
 </html>
