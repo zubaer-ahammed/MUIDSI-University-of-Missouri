@@ -44,12 +44,12 @@ videos:
  - name: 'Loon Introduction'
    youtube-id: Y7u3Kg3At9A
    file: 2021_vis_loon.mp4
- - name: 'Loon Preview'
+ - name: 'Loon VIS Preview'
    youtube-id: iRsL3WiZbhI
-  #  file: todo.mp4
- - name: 'Loon Talk'
+   file: 2021_vis_loon_preview.mp4
+ - name: 'Loon VIS Talk'
    youtube-id: Xz5VrBXk5J0
-  #  file: todo.mp4
+   file: 2021_vis_loon_talk.mp4
 
 
 
@@ -65,9 +65,9 @@ preprint_server: https://doi.org/10.31219/osf.io/dfajc
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
-# supplements:
-# - name:
-# - link:
+supplements:
+- name: VIS Talk Slides
+  link: 2021_vis_loon_talk_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 #images:
