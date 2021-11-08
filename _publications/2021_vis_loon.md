@@ -44,6 +44,15 @@ videos:
  - name: 'Loon Introduction'
    youtube-id: Y7u3Kg3At9A
    file: 2021_vis_loon.mp4
+ - name: 'Loon Preview'
+   youtube-id: iRsL3WiZbhI
+  #  file: todo.mp4
+ - name: 'Loon Talk'
+   youtube-id: Xz5VrBXk5J0
+  #  file: todo.mp4
+
+
+
 
 # Provide a preprint and supplement pdf
 
