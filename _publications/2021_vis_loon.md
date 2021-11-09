@@ -70,21 +70,22 @@ supplements:
   link: 2021_vis_loon_talk_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-#images:
-# - path: 2020_chi_mvnv_study_am_large_continent_sort.png
-#   caption: Adjacency matrix, sorted by continent.
-# - path: 2020_chi_mvnv_study_am_large_edge_encodings.png
-#   caption: Adjacency matrix showing two numerical edge attributes.
-# - path: 2020_chi_mvnv_study_am_small_node_neighbor_highlight.png
-#   caption: Small adjacency matrix showing neighbor highlighting.
-# - path: 2020_chi_mvnv_study_nl_large_color.png
-#   caption: Node-link diagram using size and color to encode attributes.
-# - path: 2020_chi_mvnv_study_nl_large_nested_bars.png
-#   caption: Node-link diagram using nested bars and glyphs to encode attributes.
-# - path: 2020_chi_mvnv_study_nl_large_nested_bars_neighbor_highlight.png
-#   caption: Neighborhood highligthing in node-link diagram.
-# - path: 2020_chi_mvnv_study_nl_small_nested_bars.png
-#    caption: Small node-link diagram with nested bars.
+images:
+- path: 2021_vis_loon_overview.png
+  caption: The overall Loon interface includes multiple visualizations.
+- path: 2021_vis_loon_exemplars.png
+  caption: The exemplar view displays representative cells compactly.
+- path: 2021_vis_loon_condition.png
+  caption: Specific experimental conditions can be selected.
+- path: 2021_vis_loon_comparison.png
+  caption: Experimental conditions can be carefully compared.
+- path: 2021_vis_loon_image_selection.png
+  caption: Specific images can be selected by condition and time.
+- path: 2021_vis_loon_image_viewer.png
+  caption: Single images can be viewed with cell boundaries.
+- path: 2021_vis_loon_metadata.png
+  caption: Cell attributes can be viewed and selected.
+
 
 code: https://github.com/visdesignlab/Loon
 
