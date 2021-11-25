@@ -9,7 +9,7 @@ email: cnobre@sci.utah.edu
 image: /assets/images/people/nobre.jpg
 organization: University of Utah
 position: PhD Student
-website: /team/nobre
+website: http://carolinanobre.com/
 interests: Multivariate Graphs, Genealogies, Social Networks, User Studies
 github: https://github.com/cnobre
 twitter: "@carolinanobre84"
