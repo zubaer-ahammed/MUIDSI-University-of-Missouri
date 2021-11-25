@@ -12,5 +12,5 @@ We welcome three new PhD students and two software engineers to our Group.
  * Kaleb Bickmore is a new full stack software engineer who will work on health-related projects. 
  * [Jack Wilburn](/team/wilburn/)  is a new full stack software engineer who will support the NSF MultiNet project.
 
-We're also saying goodbye to three members: [Pascal Goffin](/team/goffin/) has wrapped up his PostDoc. [Dylan Wootton](/team/wootton/) graduated this spring and spent the summer working with us on various projects. He will be starting a job with Microsoft in September. Jochen Görtler is returning to his home institution, the University of Konstanz, after spending the summer with us. 
+We're also saying goodbye to three members: [Pascal Goffin](/persons/pgoffin/) has wrapped up his PostDoc. [Dylan Wootton](https://dylanwootton.com/) graduated this spring and spent the summer working with us on various projects. He will be starting a job with Microsoft in September. [Jochen Görtler](https://jgoertler.com/) is returning to his home institution, the University of Konstanz, after spending the summer with us. 
  

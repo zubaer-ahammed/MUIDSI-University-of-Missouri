@@ -9,13 +9,14 @@ title: News | Vis Design Lab
   </div>	
 
   <article class="post-content-main">
-	  
+
 <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
     {% for post in site.posts %}
-		
+    <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">
         <span class="post-list-title">
           {{ post.title }}
         </span>
+        </a>
         <span class="right-text"><i>Posted: {{ post.date | date: "%-d %b %Y" }}</i></span>
 
         <div class="post-list-excerpt">
@@ -26,8 +27,10 @@ title: News | Vis Design Lab
        
         </div>
 		<div><a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a></div>  
+    <br><br>
     {% endfor %}
 
+ 
   </article>
 
 </div>
