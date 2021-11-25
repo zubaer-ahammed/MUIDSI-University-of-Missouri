@@ -8,7 +8,7 @@ slides-pdf: http://sci.utah.edu/~vdl/talks/2013.02.21_InfoVis_and_Cancer_-_Caley
 date:  2013-02-22
 note: Alexander Lex and Marc Streit
 held:  
- - "[Symposium on Understanding Cancer Genomics through Information Visualization](https://vis.hgc.jp/), 
+ - "Symposium on Understanding Cancer Genomics through Information Visualization, 
    Tokyo University, Tokyo, Japan, 2013-02-22."
 ---
 

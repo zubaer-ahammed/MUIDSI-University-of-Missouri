@@ -48,9 +48,9 @@ The best part, though,  was having the camera rolling the whole time to capture 
 
 Hit us up on [Twitter](https://twitter.com/visdesignlab/status/1443987059253858304) to share your own Bingo card outcomes[^2] and presentation mishaps!
 
-If you're curious about the research behind the gaffs, have a look at our [awesome paper](https://vdl.sci.utah.edu/publications/2021_preprint_gap/) on the ways we struggle to design for analyzing personal data.
+If you're curious about the research behind the gaffs, have a look at our [awesome paper]({{site.base_url}}/publications/2021_vis_gap/) on the ways we struggle to design for analyzing personal data.
 
 
 [^1]: Not to make it worse, but your talk will probably get a lot more eyeballs than your paper.
 
-[^2]: Huge shout out to Derya Akbaba for the Bingo card design!  Check out her [research](https://vdl.sci.utah.edu/team/akbaba/), and [personal website](https://gotdairyya.github.io/).
+[^2]: Huge shout out to Derya Akbaba for the Bingo card design!  Check out her [research]({{site.base_url}}/team/akbaba/), and [personal website](https://gotdairyya.github.io/).

@@ -16,7 +16,7 @@ held:
  - Goldman Sachs Tech Expo, Salt Lake City, UT, USA, 2017-06-28.
  - Department Of Biomedical Informatics, University of Utah, Salt Lake City, UT, USA, 2017-04-06.
  - Walmart, Tech Tuesday, Bentonville, AK, USA, 2017-02-07.
- - "[Marth Lab](http://www.genetics.utah.edu/gabor-t-marth-dsc/), Department of Human Genetics, University of Utah, Salt Lake City, UT, USA, 2016-08-25."
+ - "[Marth Lab](https://marthlab.org/), Department of Human Genetics, University of Utah, Salt Lake City, UT, USA, 2016-08-25."
  - Pacific Northwest National Laboratory, Richland, WA, USA, 2016-07-01.
  - Huntsman Cancer Institute, Salt Lake City, UT, USA, 2016-03-30.
  - Camp Lab, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT, USA, 2015-11-23.

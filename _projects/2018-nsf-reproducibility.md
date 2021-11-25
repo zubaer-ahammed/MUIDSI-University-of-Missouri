@@ -27,6 +27,7 @@ publications:
  - 2020_visshort_trrack
  - 2020_preprint_intent
  - 2021_chi_revisit
+ - 2021_ivi_intent
 
 staff:
  - lex
@@ -59,10 +60,11 @@ We are also working on a visualization tool to capture analysis intent using the
 
 The following image illustrates the interface: 
 
-![]({{ site.base_url }}/assets/images/publications/2020_intent_teaser.png)
+![The predicting intent visualization user interface]({{ site.base_url }}/assets/images/publications/2021_intent_teaser.png)
 
 
-A preprint of the core paper for this project is [also available]({{ site.base_url }}/publications/2020_preprint_intent/). 
+
+The core paper for this project is [also available]({{ site.base_url }}/publications/2021_ivi_intent/). 
 
 
 

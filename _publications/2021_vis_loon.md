@@ -4,6 +4,7 @@ title: "Loon: Using Exemplars to Visualize Large-Scale Microscopy Data"
 key: 2021_vis_loon
 type: paper
 order: 2021-12
+redirect_from: /publications/2021_preprint_loon/
 
 shortname: Loon
 image: 2021_vis_loon.png

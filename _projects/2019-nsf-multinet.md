@@ -74,7 +74,7 @@ These capabilities will allow scientists to ask new classes of questions about n
 
 Multinet is web-based, open-source software. You can find the interactive application at: 
 
- * [https://multinet.app/]([https://multinet.app/])
+ * [https://multinet.app/](https://multinet.app/)
  
 The source code for the projects is available at:
  

@@ -111,6 +111,6 @@ I am the recipient of an NSF CAREER award and multiple best paper awards or hono
 
 ## News
 
-I'm on sabbatical for the 2021/2022 academic year, going back to my native Austria to work for [datavisyn](datavisyn.io), the company I co-founded, and working with [Marc Streit and his group](https://jku-vds-lab.at/) at [Johannes Kepler University](https://www.jku.at/).
+I'm on sabbatical for the 2021/2022 academic year, going back to my native Austria to work for [datavisyn](http://datavisyn.io), the company I co-founded, and working with [Marc Streit and his group](https://jku-vds-lab.at/) at [Johannes Kepler University](https://www.jku.at/).
 
 Because of my sabbatical **I'm currently not taking on students, PostDocs, or service assignments**. 

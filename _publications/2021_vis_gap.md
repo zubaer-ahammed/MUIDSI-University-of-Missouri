@@ -6,6 +6,7 @@ title: "Exploring the Personal Informatics Analysis Gap: 'There's a Lot of Bacon
 key: 2021_vis_gap
 # Select one of the options below
 type: paper 
+redirect_from: /publications/2021_preprint_gap/
 
 
 # Papers are ordered by year. However, in years with many papers, we want some ordering at a lower level. You can do 
