@@ -12,7 +12,7 @@ image: /assets/images/people/gorman.jpg
 organization: University of Utah
 position: MS Student
 # use either a local link like here, or a URL
-website: /team/gorman
+website: /team/gorman/
 interests: "Text Visualization, Online Health Communities"
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: 

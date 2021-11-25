@@ -9,7 +9,7 @@ permalink: /positions/
 
 We are always looking for talented and motivated individuals to join our group as PhD students or Postdoctoral Fellows to do research in data visualization. 
 
-The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](http://csrankings.org/#/fromyear/2007/toyear/2018/index?visualization).** 
+The School of Computing is a top ranked computer science department, and the SCI Institute and the Visualization Design Lab are among the world leaders in visualization - **the University of Utah is ranked #1 worldwide in Visualization according to [csrankings.org](http://csrankings.org/#/fromyear/2007/toyear/2018/index?visualization&us).** 
 
 Our group commonly takes a problem-oriented approach to visualization development. We closely work with collaborators from the sciences to humanities to develop novel techniques and tools to support exploratory, complex data analysis tasks.
 
@@ -31,7 +31,7 @@ PhD students are enrolled in the University of Utah's School of Computing, in ei
 
 We encourage applications from students with degrees in computer science and related fields, but also from other areas, such as bioinformatics, math, physics, design, psychology, etc. Excellent written and verbal communication skills are crucial. If you are unsure whether you are qualified, please [get in touch](mailto:vdl-faculty@sci.utah.edu).  
 
-Admissions are handled by the [School of Computing](http://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. 
+Admissions are handled by the [School of Computing](https://www.cs.utah.edu/graduate/admissions/); **the admission deadline is December 15**. 
 
 If you have any questions, please [contact us before applying](mailto:vdl-faculty@sci.utah.edu).  
 

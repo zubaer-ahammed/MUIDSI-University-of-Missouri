@@ -10,7 +10,7 @@ email: jimmy@cs.utah.edu
 image: /assets/images/people/moore.jpg
 organization: University of Utah
 position: PhD Student
-website: /team/moore
+website: /team/moore/
 github: https://github.com/UtahJimmy
 interests: Time Series Visualization, User Interface Design, Web Programming, Human-Computer Interaction
 room: WEB 3780

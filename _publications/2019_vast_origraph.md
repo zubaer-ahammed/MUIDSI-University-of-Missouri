@@ -32,7 +32,7 @@ bib:
   journal: 
   booktitle: IEEE Conference on Visual Analytics Science and Technology (VAST)
   editor:
-  publisher: arXiv:1812.06337
+  publisher: 
   address:
   doi: 10.1109/VAST47406.2019.8986909
   url:
