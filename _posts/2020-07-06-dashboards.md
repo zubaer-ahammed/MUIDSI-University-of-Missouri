@@ -10,7 +10,10 @@ redirect_from:
  - "/event/2020/07/06/dashboards/"
 abstract: "tldr: Using dashboards comes with risks: they leave out critical context by over-simplifying and hence give false certainty. A more nuanced approach including interpreation by experts, and showing multiple perspectives is needed when visualizing data for something as complex as the COVID-19 pandemic."
 lead-image: /assets/images/posts/2020_covid-dashboard.png
+lead-image-alt-text: COVID-19 Dashboard by Johns Hopkins University.
 ---
+
+*Source: Screenshot of [https://coronavirus.jhu.edu/map.html](https://coronavirus.jhu.edu/map.html), taken on July 6, 2020.*
 
 The COVID-19 pandemic of 2020 has negatively impacted our lives in many ways. The anxiety felt by many is amplified by the obsessive consultation of the latest numbers and statistics about cases, testing rates, deaths, and so on. Both the public and experts have turned to data visualizations to understand what is going on, as data visualization is a powerful tool to discover and communicate trends and relationships. Government agencies, news organizations, and academic labs have published a plethora of graphs and dashboards tracking minute details, sometimes with deceiving precision. 
 
@@ -19,11 +22,7 @@ In addition to graphics such as the famous abstract “flattening the curve” i
 
 ### COVID-19 Dashboards
 
-And while the attention to COVID-19 data has largely been a success story for data visualization, certain dangers also abound. For example, consider the popular [COVID-19 Dashboard](https://coronavirus.jhu.edu/map.html) by Johns Hopkins University. 
-
-![COVID-19 Dashboard by Johns Hopkins University]({{site.base_url}}/assets/images/posts/2020_covid-dashboard.png)
-*Source: Screenshot of [https://coronavirus.jhu.edu/map.html](https://coronavirus.jhu.edu/map.html), taken on July 6, 2020.*
-
+And while the attention to COVID-19 data has largely been a success story for data visualization, certain dangers also abound. For example, consider the popular [COVID-19 Dashboard](https://coronavirus.jhu.edu/map.html) by Johns Hopkins University, shown above. 
 
 This dashboard gives a misleading impression of certainty through different visual and numerical channels. The dashboard presents cases and deaths as precise numbers, even when the true numbers are unknowable and likely quite different. A simple change, reporting on 11.5 million cases instead of 11,495,412, would acknowledge this uncertainty to some extent. More importantly, this dashboard leaves out critical nuance: Germany, for example, is considered to be ahead of other countries in testing coverage. Hence, giving absolute numbers of confirmed cases without considering testing is likely to make Germany’s outbreak appear more severe than it is. Reporting on absolute numbers per country is also problematic as the population of countries varies significantly. Finally, this dashboard is centered on a map (using the misleading [Mercator projection](https://bramus.github.io/mercator-puzzle-redux/)) with circles showing case numbers. A well known limitation of data visualizations on maps is that they tend to show population density instead of the subtleties of the underlying data: densely populated areas dominate the display. For example, in this map the United States and western Europe are mostly red, while Russia with its vast but sparsely populated land-mass has only a few small dots. This makes it look like the United States has an outbreak that is many times worse than the one in Russia, when in fact the US has “only” 4 times as many reported cases per capita. 
 

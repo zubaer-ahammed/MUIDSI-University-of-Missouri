@@ -15,8 +15,8 @@ authors:
 abstract: "As a research community, we have been using the imprecise term “chartjunk” in situations where other words would be a more precise, and kinder fit. In our manifesto, part of the alt.vis workshop at IEEE VIS 2021, we blur the boundaries between performance art, maintenance, and research as our first steps of putting chartjunk in the trash."
 # Create a lead image that is <500k so that it shows up on twitter link preview
 lead-image: /assets/images/posts/2021-chartjunk_scraps.png
+lead-image-alt-text: A black and white image of a scissor and the scraps of paper with the term chartjunk written on them.
 ---
-![A black and white image of a scissor and the scraps of paper with the term chartjunk written on them.]({{site.base_url}}/assets/images/posts/2021-chartjunk_scraps.png){: style="border:1px solid black"}
 
 At the VDL we are done using the term *chartjunk* and we think you should be too! *You can keep reading more in this blog piece, or jump straight to [alt.vis paper]({{site.base_url}}/publications/2021_preprint_chartjunk).*
 

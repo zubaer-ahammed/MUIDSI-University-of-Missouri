@@ -29,7 +29,16 @@ title: Post | Vis Design Lab
         <i>{{page.abstract}}</i>
         {%endif%}
       </p>
+      
 
+      {% if page.lead-image %}
+      {% assign alt-text = "Blog lede image" %}
+      {% if page.lead-image-alt-text %} 
+        {% assign alt-text=page.lead-image-alt-text %}  
+      {% endif %}
+      <img src="{{site.baseurl}}{{page.lead-image}}"  alt="{{alt-text}}"/>
+      </a>
+    {% endif %}
 
           {{ content }}
       </div>  

@@ -12,9 +12,9 @@ redirect_from:
 # Use the abstract to provide a high-level overview of the blog post and main takeaways.
 abstract: "Much of the current conducting and reporting on design studies leaves little room for contributions outside of the end tool or technique. An interpretivist approach embraces the messy, subjective nature of design studies and emphasizes the ways in which we can conduct research of this nature with rigor. In this post, we advocate for interpretivist design studies and give three recommendations for conducting them."
 # Create a lead image that is <500k so that it shows up on twitter link preview
-lead-image: /assets/images/posts/2020-10-insights-memo-blog-fig.png
+lead-image: /assets/images/posts/2020_insights_blog.png
+lead-image-alt-text: Artifacts of a design study.
 ---
-![Artifacts of a design study.]({{site.base_url}}/assets/images/posts/2020_insights_blog.png){: style="border:1px solid black"}
 
 Research in our lab is often conducted through design studies; applied visualization research to address real-world problems. [In recent work](https://vdl.sci.utah.edu/publications/2020_infovis_insights/), we experimented with methods to conduct design studies from an interpretivist perspective. In this blog post, we advocate for interpretivist design studies and give recommendations for conducting design studies through an interpretivist lens. This perspective can lead to more diverse contributions, more rigor, and learning opportunities.
 

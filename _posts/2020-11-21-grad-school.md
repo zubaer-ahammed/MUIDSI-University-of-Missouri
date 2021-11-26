@@ -11,11 +11,8 @@ authors:
 abstract: "Are you considering grad school? Here are a few steps you can take to maximize your chances. The bad news is that it’s best to start planning and working towards getting into grad school early: I recommend you take first steps some time at the end of your sophomore year in college. The good news is that the process is not only about admission, but will give you a good sense of what grad school is like and prepare you for it. 
 "
 lead-image: /assets/images/posts/2020-11-21_grad_school_letter.png
+lead-image-alt-text: "A Letter of Recommendation."
 ---
-
-
-![Letter of Recommendation]({{site.base_url}}/assets/images/posts/2020-11-21_grad_school_letter.png){: style="border:1px solid black"}
-
 
 Doing a PhD in computer science (or any other field) is a challenging but often intellectually fulfilling experience. I certainly had a great time in grad school, and I’m sure that many other students also did. 
 

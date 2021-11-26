@@ -11,9 +11,8 @@ redirect_from:
   - "/event/2020/07/20/state-dashboards/"
 abstract: "tldr: As states are navigating the influx of COVID data, they are using dashboards to communicate with their constituents. Although many states are doing a good job at collecting and sharing data in open data portals, dashboard quality varies a lot across states, and some  have considerable room for improvement."
 lead-image: /assets/images/posts/2020_state-dashboard-compilation.png
+lead-image-alt-text: State Dashboard Compilation.
 ---
-
-![State Dashboard Compilation]({{site.base_url}}/assets/images/posts/2020_state-dashboard-compilation.png){: style="border:1px solid black"}
 
 In a previous post, Alex reviewed [why dashboards are problematic]({{site.base_url}}/event/2020/07/06/dashboards/) when visualizing COVID-19 data. This week I take a deeper look into how states are using dashboards to communicate with COVID data with their constituents.
 

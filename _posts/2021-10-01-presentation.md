@@ -15,8 +15,8 @@ abstract: "Is recording a conference talk really any easier than giving one?"
 
 # Create a lead image that is <500k so that it shows up on twitter link preview
 lead-image: /assets/images/posts/2021-10-01-presenting.png
+lead-image-alt-text: Bingo card of presentation mistakes.
 ---
-![Bingo card of presentation mistakes]({{site.base_url}}/assets/images/posts/2021-10-01-presenting.png){: style="border:1px solid black"}
 
 No matter your field or subject, it seems the best we can hope for is that our research gets seen.  This has traditionally meant presenting your work at the almighty conference.  And more recently, these conferences and presentations are remote.
 

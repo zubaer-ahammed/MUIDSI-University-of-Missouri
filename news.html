@@ -12,22 +12,35 @@ title: News | Vis Design Lab
 
 <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
     {% for post in site.posts %}
-    <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="post-list-title">
-          {{ post.title }}
-        </span>
-        </a>
-        <span class="right-text"><i>Posted: {{ post.date | date: "%-d %b %Y" }}</i></span>
+    {% if post.type != "blog" %}
+   
+      <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-list-title">
+            {{ post.title }}
+          </span>
+          </a>
+          <span class="right-text"><i>Posted: {{ post.date | date: "%-d %b %Y" }}</i></span>
 
-        <div class="post-list-excerpt">
-          {% if post.abstract %}
-          <p>{{ post.abstract}}</p>
+          <div class="post-list-excerpt">
+            {% if post.abstract %}
+            <p>{{ post.abstract}}</p>
+            {% endif %}
+            {% if post.lead-image %}
+            {% assign alt-text = "Blog lead image" %}
+            {% if post.lead-image-alt-text %} 
+              {% assign alt-text=post.lead-image-alt-text %}  
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{site.baseurl}}{{post.lead-image}}"  alt="{{alt-text}}"/>
+            </a>
           {% endif %}
-          {{ post.excerpt }}
-       
-        </div>
-		<div><a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a></div>  
-    <br><br>
+         
+            {{ post.excerpt }}
+        
+          </div>
+      <div><a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">More...</a></div>  
+      <br><br>
+    {% endif %}
     {% endfor %}
 
  

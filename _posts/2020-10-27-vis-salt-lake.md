@@ -3,13 +3,13 @@ layout: post
 title:  VDL at IEEE VIS!
 date:   2020-10-27 10:00:00
 categories: event
+lead-image: /assets/images/posts/2020_vis_contribs.png
+lead-image-alt-text: Collage of VDL Contributions.
 ---
 
 
 VDL members are contributing in various ways to [Virtual Vis 2020](https://virtual.ieeevis.org/) this year.
 
-
-![Collage of VDL Contributions]({{site.base_url}}/assets/images/posts/2020_vis_contribs.png)
 
  * Jen Rogers will present her paper on [Insights From Experiments With Rigor in an EvoBio Design Study]({{site.base_url}}/publications/2020_infovis_insights/).
  * Zach Cutler will present his paper on [Trrack: A Library for Provenance-Tracking in Web-Based Visualizations]({{site.base_url}}/publications/2020_visshort_trrack/).

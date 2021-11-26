@@ -10,9 +10,9 @@ authors:
 redirect_from:
 abstract: "Crowdsourcing is a popular method for conducting quantitative studies, yet up to now, the types of studies that were run on crowdsourcing platforms is narrow. In this blog post, we describe a method to evaluate complex visualization techniques in a crowdsourced setting, which we developed for a 2020 CHI paper on evaluating multivariate network visualization techniques."
 lead-image: /assets/images/posts/2020-07_crowdsourcing_spectrum.png
+lead-image-alt-text: A spectrum of studies from perceptual, to static visualization, to studies with controlled interactions are amenable to quantitative studies. Complex visualization systems are not.
 ---
 
-![A spectrum of studies from perceptual, to static visualization, to studies with controlled interactions are amenable to quantitative studies. Complex visualization systems are not]({{site.baseurl}}/assets/images/posts/2020-07_crowdsourcing_spectrum.png)
 
 *Quantitative studies are usually confined to conditions where all factors can be controlled, making them less suitable to evaluate complex visualization systems.*
 

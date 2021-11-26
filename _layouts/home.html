@@ -5,13 +5,17 @@
 
     <!-- Here we write the publications into the publications javascript variable -->
 
-    {% capture publications %} [ {% for publication in site.publications %} {%
-    if publication.personal %} {% elsif publication.image_large and
-    publication.year > 2019 and publication.type == "paper"%} { "title" : "{{
-    publication.title }}", "shortname" : "{{ publication.shortname }}", "url" :
-    "{{ publication.url }}", "image_large" : "{{ publication.image_large }}", }
-    {% if forloop.last %}{% else %},{% endif %} {% endif %} {% endfor %} ] {%
-    endcapture %}
+    {% capture publications %} [ 
+    {% for publication in site.publications %} 
+      {% if publication.personal %} 
+      {% elsif publication.image_large and publication.year > 2019 and publication.type == "paper"%} 
+        { "title" : "{{publication.title }}", 
+        "shortname" : "{{ publication.shortname }}", 
+        "url" : "{{ publication.url }}",
+        "image_large" : "{{ publication.image_large }}", }
+    {% if forloop.last %}
+    {% else %},{% endif %} {% endif %} {% endfor %} ] 
+    {% endcapture %}
 
     <script>
       var publications = {{ publications }}
@@ -34,17 +38,13 @@
         </p>
         <p>
           VDL is part of the
-          <a href="https://www.sci.utah.edu/"
-            >Scientific Computing and Imaging Institute</a
-          >
+          <a href="https://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a>
           and the <a href="https://www.cs.utah.edu/">School of Computing</a>.
         </p>
 
         <h1>
           Blog And News
-          <span class="left-icon"
-            ><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a
-          ></span>
+          <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span>
         </h1>
 
         {% for post in site.posts limit:4 %}
@@ -68,7 +68,7 @@
               </a>
             {% endif %}
 
-            {% if post.type == "news" %}
+            {% if post.type != "blog" %}
               <p>
                 {{ post.content }}
               </p>
