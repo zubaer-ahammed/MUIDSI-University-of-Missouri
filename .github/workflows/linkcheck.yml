@@ -30,4 +30,4 @@ jobs:
 
       - name: Check for broken links
         run: |
-          htmlproofer --log-level :debug --http-status-ignore 999 --checks-to-ignore ImageCheck ./_site
+          htmlproofer --log-level :debug --http-status-ignore 999 --checks-to-ignore ImageCheck --typhoeus-config='{"headers":{"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"},"cookiefile":".cookies","cookiejar":".cookies"}' ./_site

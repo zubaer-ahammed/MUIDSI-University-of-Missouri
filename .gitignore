@@ -17,3 +17,6 @@ css/site.css
 *.pdf
 
 .DS_Store
+
+# Link checking remnants
+.cookies
