@@ -1,0 +1,33 @@
+name: CheckLinks
+on:
+  push:
+    branches:
+      - '**'
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  checklinks:
+    name: Check Links
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup ruby 2.7
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
+      - name: Setup jekyll and htmlproofer
+        run: | 
+          gem install jekyll
+          gem install jekyll-redirect-from
+          gem install htmlproofer
+
+      - name: Build jekyll website
+        run: jekyll build
+
+      - name: Check for broken links
+        run: |
+          htmlproofer --log-level :debug ./_site
