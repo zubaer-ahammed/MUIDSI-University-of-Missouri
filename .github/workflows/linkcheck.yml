@@ -30,4 +30,4 @@ jobs:
 
       - name: Check for broken links
         run: |
-          htmlproofer --log-level :debug ./_site
+          htmlproofer --log-level :debug --http-status-ignore 999 --checks-to-ignore ImageCheck ./_site
