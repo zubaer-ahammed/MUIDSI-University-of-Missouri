@@ -21,9 +21,7 @@ jobs:
 
       - name: Setup jekyll and htmlproofer
         run: | 
-          gem install jekyll
-          gem install jekyll-redirect-from
-          gem install html-proofer
+          gem install --no-document jekyll jekyll-redirect-from html-proofer
 
       - name: Build jekyll website
         run: jekyll build
