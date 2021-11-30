@@ -31,7 +31,7 @@ pdf: 2016_vip_resonant_lab.pdf
 supplements:
 - name: Resonant Laboratory Application
   # use link instead of abslink if you want to link to the master directory
-  abslink: http://resonantlab.kitware.com
+  abslink: http://resonant.kitware.com
   # defaults to a download icon, use this if you want a link-out icon
   linksym: true
 
