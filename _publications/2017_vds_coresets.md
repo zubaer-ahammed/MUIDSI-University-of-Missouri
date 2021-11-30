@@ -68,7 +68,7 @@ abstract: "
 ---
 
 # Note
-**This is a workshop paper which was extended [to a journal paper](../2019_tbd_coresets). Please refer to and cite the journal paper instead.** 
+**This is a workshop paper which was extended [to a journal paper](../2019_TBD_coresets). Please refer to and cite the journal paper instead.** 
 
 
 # Acknowledgements
