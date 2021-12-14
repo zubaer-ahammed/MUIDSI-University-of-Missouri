@@ -3,8 +3,8 @@ speaker: lex
 title: "Driving Scientific Discovery with Interactive Visual Data Analysis"
 # paper | invited | keynote | tutorial |
 type: invited
-slides-key: http://sci.utah.edu/~vdl/talks/2020-02-25_driving_discovery.key
-slides-pdf: http://sci.utah.edu/~vdl/talks/2020-02-25_driving_discovery.pdf
+slides-key: https://sci.utah.edu/~vdl/talks/2020-02-25_driving_discovery.key
+slides-pdf: https://sci.utah.edu/~vdl/talks/2020-02-25_driving_discovery.pdf
 slides-ppt: 
 # Anything you want to say about this talk
 note:
