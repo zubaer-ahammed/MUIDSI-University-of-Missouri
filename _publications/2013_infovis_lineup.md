@@ -55,7 +55,7 @@ abstract: "
 In the examples and demos we have used three datasets:
 
 * [Times Higher Education 100 Under 50 University Ranking](http://www.timeshighereducation.co.uk/world-university-rankings/2012/one-hundred-under-fifty)
-* [QS World University Ranking](http://www.iu.qs.com/university-rankings/world-university-rankings/)
+* [QS World University Ranking](https://www.topuniversities.com/qs-world-university-rankings)
 * [USDA National Nutrient Database](http://www.ars.usda.gov/ba/bhnrc/ndl)
 
 # Related Work

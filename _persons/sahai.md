@@ -22,7 +22,7 @@ graduated: "MS '21"
 gs:
 gh: https://github.com/sahshaurya
 twitter: "@shauryasahai"
-cv: https://shauryasahai.in/images/files/ShauryaSahaiResume.pdf
+cv:
 address: |
     School of Computing, University of Utah <br>
     50 Central Campus Dr <br>
