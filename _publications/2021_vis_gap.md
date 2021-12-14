@@ -64,6 +64,9 @@ videos:
  - name: "Personal Informatics Analysis Gap Preview" 
    youtube-id: CYG3qVClPb0
    file: 2021_vis_gap_preview.mp4
+ - name: "Personal Infomatics Analysis Gap Conference Presentation"
+   youtube-id: Qk20ayrFhxw
+   file: 2021_vis_gap_presentation.mp4
 
 # Provide a preprint and supplement pdf
 pdf: 2021_preprint_gap.pdf
