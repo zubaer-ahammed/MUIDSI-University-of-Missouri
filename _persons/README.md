@@ -39,7 +39,7 @@ graduated:
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 gh: https://github.com/alexsb
 twitter: "@alexander_lex"
-cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 address: |
     Scientific Computing and Imaging Institute, <br>
     School of Computing, University of Utah <br>

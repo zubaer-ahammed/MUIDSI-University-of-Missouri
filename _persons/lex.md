@@ -20,7 +20,7 @@ graduated:
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 github: https://github.com/alexsb
 twitter: "@alexander_lex"
-cv: http://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
 office-hours: on request (I'm on sabbatical)
 
