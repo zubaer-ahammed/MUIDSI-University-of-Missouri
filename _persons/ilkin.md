@@ -7,7 +7,7 @@ key: ilkin
 permalink:
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | collaborator
 role:
-email:
+email: placeholder@placeholder.com
 image:
 organization:
 position:

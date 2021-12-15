@@ -48,7 +48,7 @@ bibentry: article
 bib:
   journal: Aerosol Air Quality Research
   publisher: Taiwan Association for Aerosol Research
-  doi: 10.4029/aaqr.2019.01.0046
+  doi: 10.4209/aaqr.2019.01.0046
   volume: 20
   number: 2
   pages: 381--394
