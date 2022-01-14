@@ -11,4 +11,6 @@ organization: University of Utah
 position: Associate Professor
 website: http://www.cs.utah.edu/~miriah/
 interests: Visualization Design Models, Design Studies, User-centered Design
+postdoc_alumni: yes
+graduated: N
 ---

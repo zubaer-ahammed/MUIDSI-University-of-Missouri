@@ -15,7 +15,7 @@ position: Graduate Researcher
 website: /team/ssiu/
 interests: Understanding and Mitigating Misinformation in Visualizations On Social Media
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated: 
+graduated: "BS/MS '21"
 
 # stuff below can be ignored if you don't use the group website for your private website
 
@@ -31,15 +31,6 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-
-phd_students:
- - nobre
-phd_rotation_students:
- - aljuhani
-ms_students:
- - Pranav Dommata
-former_students:
- - anirudh
 ---
 
 
