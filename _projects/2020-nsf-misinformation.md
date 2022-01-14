@@ -24,7 +24,7 @@ publications:
  
 staff:
  - lex
-
+ - lisnic
 
  
 otherstaff: 

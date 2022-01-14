@@ -1,6 +1,6 @@
 ---
 layout: project
-agency: National Institutes of Health (NIH)
+agency: National Institutes of Health
 key: 2015-nih-cohorts
 number: U01CA198935
 permalink: /projects/2015-nih-cohorts/

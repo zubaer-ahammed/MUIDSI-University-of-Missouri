@@ -32,13 +32,14 @@ publications:
 staff:
  - lex
  - kiran
- - zcutler
- - prajan
+
  
 alumni:
  - rogers
+ - zcutler
  - hannah 
  - goertler
+ - prajan
 
 otherstaff:  
 

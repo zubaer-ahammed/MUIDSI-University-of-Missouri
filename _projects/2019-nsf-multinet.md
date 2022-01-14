@@ -13,9 +13,9 @@ recipients:
  - Knowledge Vis
  - Duke University
  - Carnegie Institution of Science
-pi: meyer
+pi: lex
 copi: 
- - lex
+ - meyer
  - Jeff Baumes 
  - Curtis Lisle
  - Luke Harmon
