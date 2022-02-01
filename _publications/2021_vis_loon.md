@@ -26,9 +26,9 @@ bib:
   publisher: IEEE
   doi: 10.1109/TVCG.2021.3114766
   url: 
-  volume: 
-  number:
-  pages:
+  volume: 28
+  number: 1
+  pages: 248-258
   month:
 
 award: IEEE VIS 2021 Honorable Mention Award
