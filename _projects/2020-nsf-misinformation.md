@@ -18,7 +18,7 @@ agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2041136
 collaborative-award: 
 number: NSF IIS 2041136
 active: true
-updated: 2020-07-14
+updated: 2021-02-17
 publications: 
 
  
@@ -29,8 +29,10 @@ staff:
  
 otherstaff: 
  - Marina Kogan
+ - polychronis
  
 alumni:
+ - ssiu
 
 
 award: $ 200,000
