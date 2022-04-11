@@ -51,8 +51,8 @@ publisherURL:
 preprint_server: https://arxiv.org/abs/2109.07035
 
 # Links to a project hosted on VDL, or else externally on your own site
-project: http://vdl.sci.utah.edu/data-hunch/
-#external-project: https://pathfinder.caleydoapp.org/
+#project: http://vdl.sci.utah.edu/data-hunch/
+external-project: http://vdl.sci.utah.edu/data-hunch/
 
 # Video entry and preview video
 
