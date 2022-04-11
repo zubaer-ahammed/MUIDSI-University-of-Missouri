@@ -5,7 +5,7 @@ title: "Data Hunches: Incorporating Personal Knowledge into Visualizations"
 # Keys must be unique to each paper, see section below for more details
 key: 2021_preprint_data-hunches
 # Select one of the options below
-type: preprint 
+type: preprint
 order: 2021-09
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage
@@ -40,18 +40,18 @@ bibentry: article
 bib:
   booktitle: "Preprint"
   url: https://arxiv.org/abs/2109.07035
-  doi: 
+  doi:
   pages:
   award:
 
 # Provide a link to the publisher's webpage if no DOI is available
-publisherURL: 
+publisherURL:
 
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/2109.07035
 
 # Links to a project hosted on VDL, or else externally on your own site
-project: 
+project: http://vdl.sci.utah.edu/data-hunch/
 #external-project: https://pathfinder.caleydoapp.org/
 
 # Video entry and preview video
@@ -70,13 +70,25 @@ pdf: 2021_preprint_data-hunches.pdf
   #linksym: true
 
 # Link to the repository where the code is hosted
+code: https://github.com/visdesignlab/data-hunches-package
 
 abstract: "
-The trouble with data is that often it provides only an imperfect representation of the phenomenon of interest. When reading and interpreting data, personal knowledge about the data plays an important role. Data visualization, however, has neither a concept defining personal knowledge about datasets, nor the methods or tools to robustly integrate them into an analysis process, thus hampering analysts' ability to express their personal knowledge about datasets, and others to learn from such knowledge. In this work, we define such personal knowledge about datasets as data hunches and elevate this knowledge to another form of data that can be externalized, visualized, and used for collaboration. We establish the implications of data hunches and provide a design space for externalizing and communicating data hunches through visualization techniques. We envision such a design space will empower users to externalize their personal knowledge and support the ability to learn from others' data hunches.
+The trouble with data is that it frequently provides only an imperfect
+representation of a phenomenon of interest. Experts who are familiar with their
+datasets will often make implicit, mental corrections when analyzing a dataset,
+or will be cautious not to be over-confident in any findings if caveats are
+present. However, the implicit knowledge about the caveats of a dataset are
+typically not collected in a structured way, which is problematic especially
+when teams work together who might have knowledge about different aspects of a
+dataset. In this work, we define such analyst's knowledge about datasets as
+data hunches. We discuss the implications of data hunches and propose a set of
+techniques for recording and communicating data hunches through data
+visualization. Furthermore, we provide guidelines for designing visualizations
+that support recording and visualizing data hunches. We envision that data
+hunches will empower analysts to externalize their knowledge, facilitate
+collaboration and communication, and support the ability to learn from others'
+data hunches.
 "
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
-
-# Note
-Haihan Lin and Derya Akbaba contributed equally to this work. 
