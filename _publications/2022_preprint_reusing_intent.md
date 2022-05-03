@@ -5,18 +5,18 @@ title: "Reusing Interactive Analysis Workflows"
 # Keys must be unique to each paper, see section below for more details
 key: 2022_eurovis_reusing
 # Select one of the options below
-type: preprint
+type: paper
 order: 2022-03
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage
 
 
 # Auto-generates titles and alt-descriptors
-shortname: reusing-intent
+shortname: Reusing Workflows
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2022_preprint_reusing_intent.jpg
+image: 2022_eurovis_reusing_intent.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2022_preprint_reusing_intent.jpg
+image_large: 2022_eurovis_reusing_intent.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
@@ -25,7 +25,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: Preprint
+journal-short: CGF (EuroVis)
 year: 2022
 
 # Create BibTeX info, using one of the entry choices
@@ -37,7 +37,8 @@ year: 2022
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
+  journal: Computer Graphics Forum (EuroVis), to appear
+  booktitle:
   url: https://osf.io/udqjr/
   doi:
   pages:
@@ -96,3 +97,7 @@ We demonstrate this specification using an interactive visualization system that
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+
+# Acknowledgements
+
+We wish to thank the reviewers for their feedback on our submission. We would also like to thank derya akbaba and Jack Wilburn from Visualization Design Lab for their help with feedback interviews.
