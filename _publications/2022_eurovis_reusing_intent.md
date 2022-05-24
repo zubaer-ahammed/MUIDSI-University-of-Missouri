@@ -8,7 +8,7 @@ key: 2022_eurovis_reusing
 type: paper
 order: 2022-03
 # use this if this paper was previously a preprint and you need to preserve the old URL
-redirect_from: /publications/2022_preprint_reusing_intent
+redirect_from: /publications/2022_preprint_reusing_intent/
 
 # Auto-generates titles and alt-descriptors
 shortname: Reusing Workflows
