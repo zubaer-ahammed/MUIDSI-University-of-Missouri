@@ -13,7 +13,7 @@ authors:
 - Diane Staheli
 - meyer
 
-journal-short: VizSec '15
+journal-short: VizSec
 year: 2015
 
 bibentry: inproceedings

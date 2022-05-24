@@ -21,7 +21,7 @@ authors:
 - streit
 
 journal: Computer Graphics Forum (EuroVis), vol. 35, no. 3, pp. 491-500
-journal-short: CGF (EuroVis)
+journal-short: EuroVis
 year: 2016
 
 bibentry: article

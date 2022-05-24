@@ -22,7 +22,7 @@ authors:
 - Robert E. Marc
 - meyer
 
-journal-short: CGF (EuroVis)
+journal-short: EuroVis
 year: 2017
 
 bibentry: article

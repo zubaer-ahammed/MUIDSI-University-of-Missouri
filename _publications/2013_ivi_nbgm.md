@@ -16,7 +16,7 @@ authors:
 - quinan
 - Tamara Munzner
 
-journal-short: Information Visualization
+journal-short: IVI
 year: 2015
 
 bibentry: article

@@ -13,7 +13,7 @@ authors:
 - lex
 - meyer
 
-journal-short: PDV '17
+journal-short: PDV
 year: 2017
 
 bibentry: inproceedings

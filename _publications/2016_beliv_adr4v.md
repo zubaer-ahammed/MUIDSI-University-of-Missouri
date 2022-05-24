@@ -16,7 +16,7 @@ authors:
 - Jason Dykes
 - meyer
 
-journal-short: BELIV '16
+journal-short: BELIV
 year: 2016
 
 bibentry: article

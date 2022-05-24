@@ -22,7 +22,7 @@ authors:
 - meyer
 - lex
 
-journal-short: CGF (EuroVis)
+journal-short: EuroVis
 year: 2019
 
 bibentry: article

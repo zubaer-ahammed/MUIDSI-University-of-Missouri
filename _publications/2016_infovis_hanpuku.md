@@ -17,7 +17,7 @@ authors:
 - Danyel Fisher
 - meyer
 
-journal-short: TVCG (InfoVis)
+journal-short: InfoVis
 year: 2016
 
 bibentry: article

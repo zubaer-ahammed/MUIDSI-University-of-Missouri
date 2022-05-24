@@ -16,7 +16,7 @@ authors:
 - lex
 - meyer
 
-journal-short: TVCG (InfoVis)
+journal-short: InfoVis
 year: 2021
 
 bibentry: article

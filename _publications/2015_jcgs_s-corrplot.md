@@ -14,7 +14,7 @@ authors:
 - Christopher Gregg
 - Samuel Gerber
 
-journal-short: J. Computational and Graph. Statist.
+journal-short: JCGS
 year: 2016
 
 bibentry: article

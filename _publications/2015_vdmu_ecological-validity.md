@@ -13,7 +13,7 @@ authors:
 - creem-regehr
 - meyer
 
-journal-short: Vis. for Decision Making Under Uncertainty
+journal-short: VDMU
 year: 2015
 
 bibentry: inproceedings

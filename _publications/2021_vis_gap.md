@@ -32,7 +32,7 @@ authors:
 blog-post: 
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: IEEE VIS
+journal-short: VIS
 year: 2021
 
 

@@ -22,7 +22,7 @@ authors:
 - schmalstieg
 - lex
 
-journal-short: CGF (EuroVis)
+journal-short: EuroVis
 year: 2016
 
 bibentry: article

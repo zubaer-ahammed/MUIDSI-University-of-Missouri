@@ -15,7 +15,7 @@ authors:
 - creem-regehr
 - meyer
 
-journal-short: CGF (EuroVis)
+journal-short: EuroVis
 year: 2019
 
 bibentry: article

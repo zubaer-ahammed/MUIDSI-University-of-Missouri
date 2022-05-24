@@ -25,7 +25,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: TVCG (InfoVis'18)
+journal-short: InfoVis
 year: 2019
 
 # Create BibTeX info, using one of the entry choices

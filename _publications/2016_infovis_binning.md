@@ -14,7 +14,7 @@ authors:
 - meyer
 - creem-regehr
 
-journal-short: TVCG (InfoVis)
+journal-short: InfoVis
 year: 2017
 
 bibentry: article

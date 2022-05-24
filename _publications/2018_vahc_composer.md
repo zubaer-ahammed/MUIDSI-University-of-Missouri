@@ -28,7 +28,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: VAHC 2018
+journal-short: VAHC
 year: 2018
 
 # Create BibTeX info, using one of the entry choices

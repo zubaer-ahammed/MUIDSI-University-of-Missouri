@@ -19,7 +19,7 @@ authors:
 - meyer
 - Jason Dykes
 
-journal-short: TVCG (InfoVis)
+journal-short: InfoVis
 year: 2019
 
 bibentry: article

@@ -16,7 +16,7 @@ authors:
 - pfister
 - schmalstieg
 
-journal-short: TVCG (VAST)
+journal-short: VAST
 year: 2014
 
 bibentry: article

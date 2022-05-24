@@ -20,7 +20,7 @@ authors:
 - Julie Gerdes
 - meyer
 
-journal-short: TVCG (InfoVis)
+journal-short: InfoVis
 year: 2019
 
 bibentry: article

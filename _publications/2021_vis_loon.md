@@ -17,7 +17,7 @@ authors:
   - Thomas Zangle
   - lex
 
-journal-short: TVCG (Vis)
+journal-short: VIS
 year: 2021
 
 bibentry: article

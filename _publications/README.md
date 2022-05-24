@@ -86,8 +86,13 @@ authors:
 # A link to an internal blog post (use only the relative URL)
 blog-post: 
 
-# Include a shortened name for the journal or conference/proceedings
-journal-short: CGF (EuroVis)
+# Include a shortened name for the journal or conference/proceedings. 
+# Generally go for the colloquial name here, so InfoVis, VIS, EuroVis, VAST, CHI, TVCG. 
+# Don't bother with publication format (CGF for EuroVis or TVCG for VIS papers).
+# Don't mention organizations (IEEE, ACM), so VIS, not IEEE VIS, CHI, not ACM CHI.  
+# Do include relevant qualifiers, such as "Short Papers" (VIS Short Papers) or "Posters" (VIS Posters)
+# Don't include a year, or a shorthand for the year, so NOT: InfoVis'14
+journal-short: EuroVis
 year: 2016
 
 # Create BibTeX info, using one of the entry choices
