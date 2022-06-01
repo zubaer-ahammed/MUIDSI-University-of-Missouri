@@ -5,7 +5,7 @@ tag: culture
 permalink: /culture/
 ---
 
-We care about a friendly culture in our lab, so we have a series of activities to foster a collaborative atmosphere. You can get an impression on our <a href="https://goo.gl/photos/v1rN6bs6qBzSQYLL7">photo album</a>. Salt Lake City is a great place to do research, but also to play! Skiing, climbing, mountain biking, etc. is all immediately accessible in the vicinity. We have a [code of conduct](conduct) that details how we expect our lab members to collaborate.
+We care about a friendly culture in our lab, so we have a series of activities to foster a collaborative atmosphere. You can get an impression on our <a href="https://goo.gl/photos/v1rN6bs6qBzSQYLL7">photo album</a>. Salt Lake City is a great place to do research, but also to play! Skiing, climbing, mountain biking, etc. is all immediately accessible in the vicinity. We have a [code of conduct](../conduct) that details how we expect our lab members to collaborate.
 
 ## Group Meetings
 
