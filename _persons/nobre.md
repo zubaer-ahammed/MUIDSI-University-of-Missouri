@@ -16,7 +16,7 @@ twitter: "@carolinanobre84"
 gs: https://scholar.google.com/citations?user=EPqQgk0AAAAJ
 graduated: PhD '20
 phd_graduate: yes
-now_at: PostDoc at Harvard
+now_at: Faculty at the University of Toronto
 ---
 
 

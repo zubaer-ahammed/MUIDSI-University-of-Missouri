@@ -35,16 +35,15 @@ phd_students:
  - lisnic
 
 ms_students:
- - ssiu
  
 ug_students:
-
 
 phd_graduates:
  - nobre
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
 
 former_students:
+ - ssiu
  - sahai
  - zcutler
  - prajan

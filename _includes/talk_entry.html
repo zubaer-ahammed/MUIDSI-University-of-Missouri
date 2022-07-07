@@ -1,9 +1,12 @@
 <div class="talk">
     <p >
         <b>{{talk.title }}</b>
-             <span style="float:right">
+        <span style="float:right">
+        {% if talk.video %}
+        <a href="{{talk.video}}">Video</a> |
+        {% endif %}
         {% if talk.slides-key %}
-        <a href="{{talk.slides-key}}">Keynote</a> |
+        <a href="{{talk.slides-key}}">Key</a> |
         {% endif %}
         {% if talk.slides-ppt %}
         <a href="{{talk.slides-ppt}}">PPT</a> |
@@ -21,5 +24,4 @@
         {% endfor %}
         </div>
     </p>
-
 </div>
