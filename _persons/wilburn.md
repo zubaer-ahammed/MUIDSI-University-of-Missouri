@@ -20,6 +20,9 @@ github: https://github.com/JackWilb
 twitter: 
 cv: 
 room: "WEB 3823"
+projects:
+ - 2022-nsf-revisit
+ - 2019-nsf-multinet
 
 ---
 

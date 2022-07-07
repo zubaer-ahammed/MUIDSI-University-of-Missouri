@@ -90,6 +90,7 @@ former_students:
  - Stefan Sauer, BS '09 (with D. Schmalstieg)
 
 projects:
+ - 2022-nsf-revisit
  - 2020-nsf-misinformation
  - 2019-nsf-multinet
  - 2018-nsf-reproducibility
