@@ -32,7 +32,7 @@ For part one, I approached the state dashboards with my vis cap on. I looked at 
 
 Using the COVID Tracking Project’s grading metrics, I went through each state dashboard and recorded what has and has not been visualized. While the approach is simplistic, it highlights what types of data are missing from the overall picture. Hidden data is potentially more problematic than "bad" visual encodings, because it is harder to detect, especially when there aren’t clearly established baselines.
 
-The final scoring component, extra credit, was assigned after noticing inconsistencies in language across the dashboards. Although it is 2020, less than half of the states use the term [sex](https://orwh.od.nih.gov/sex-gender#:~:text=%22Sex%22%20refers%20to%20biological%20differences,across%20societies%20and%20over%20time.) correctly and ⅗ of the states separate unknown and other racial categories. While I believe these should count for more than extra credit, at the moment, they remain there, as the ignorance of state officials does not substantially detract from understanding the data.
+The final scoring component, extra credit, was assigned after noticing inconsistencies in language across the dashboards. Although it is 2020, less than half of the states use the term [sex](https://orwh.od.nih.gov/sex-gender) correctly and ⅗ of the states separate unknown and other racial categories. While I believe these should count for more than extra credit, at the moment, they remain there, as the ignorance of state officials does not substantially detract from understanding the data.
 
 Below are the dashboard grades per state. You can see the grading system and grades in their entirety [here](https://docs.google.com/spreadsheets/d/1NVlOZELufbpeUp4N_inXbTmS0aYpqtp7NvOqZSEIu1E).
 
@@ -65,10 +65,10 @@ Even though models and displays of uncertainty have the potential to confuse rea
 
 The process of grading state dashboards revealed inconsistencies not only in the data presented but also in how dashboards are implemented.
 
-Some states link out to multiple dashboards (like [Oregon](https://govstatus.egov.com/OR-OHA-COVID-19)) while others have a template through ESRI, Tableau, or Microsoft BI. In fact, those that belong to the latter category tend to look similar but vary vastly in effectiveness based on how they are implemented. [Alaska](https://coronavirus-response-alaska-dhss.hub.arcgis.com/) and [Alabama](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) are both using the ESRI template, but the Alaskan dashboard reveals patterns in the case rate due to design choices in color mapping, while the Alabaman dashboard does not.
+Some states link out to multiple dashboards (like [Oregon](https://govstatus.egov.com/OR-OHA-COVID-19)) while others have a template through ESRI, Tableau, or Microsoft BI. In fact, those that belong to the latter category tend to look similar but vary vastly in effectiveness based on how they are implemented. [Alaska](https://coronavirus-response-alaska-dhss.hub.arcgis.com/) and [Alabama](https://alpublichealth.maps.arcgis.com/apps/dashboards/6d2771faa9da4a2786a509d82c8cf0f7) are both using the ESRI template, but the Alaskan dashboard reveals patterns in the case rate due to design choices in color mapping, while the Alabaman dashboard does not.
 
 ![Alaska and Alabama COVID-19 Dashboards]({{site.base_url}}/assets/images/posts/2020_ak-al-dashboards.png)
-_Source: Screenshot of [Alaska](https://www.arcgis.com/apps/opsdashboard/index.html#/83c63cfec8b24397bdf359f49b11f218) and [Alabama](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) COVID-19 Dashboards, taken on July 14, 2020._
+_Source: Screenshot of [Alaska](https://www.arcgis.com/apps/opsdashboard/index.html#/83c63cfec8b24397bdf359f49b11f218) and [Alabama](https://alpublichealth.maps.arcgis.com/apps/dashboards/6d2771faa9da4a2786a509d82c8cf0f7) COVID-19 Dashboards, taken on July 14, 2020._
 
 ### What’s next?
 
