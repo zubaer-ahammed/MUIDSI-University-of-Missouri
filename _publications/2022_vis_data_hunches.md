@@ -26,7 +26,7 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: Vis
+journal-short: VIS
 year: 2022
 
 # Create BibTeX info, using one of the entry choices
