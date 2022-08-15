@@ -3,10 +3,10 @@ layout: publication
 # Quotes make the : possible, otherwise you can type this without quotes
 title: "Data Hunches: Incorporating Personal Knowledge into Visualizations"
 # Keys must be unique to each paper, see section below for more details
-key: 2021_preprint_data-hunches
+key: 2022_vis_data_hunches
 # Select one of the options below
 type: preprint
-order: 2021-09
+order: 2022-08
 # use this if this paper was previously a preprint and you need to preserve the old URL
 # redirect_from: /publications/2017_preprint_lineage
 
@@ -14,9 +14,9 @@ order: 2021-09
 # Auto-generates titles and alt-descriptors
 shortname: data-hunches
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: 2021_preprint_data-hunches.png
+image: 2022_vis_data_hunches.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: 2021_preprint_data-hunches_teaser.png
+image_large: 2022_vis_data_hunches_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
@@ -26,8 +26,8 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: Preprint
-year: 2021
+journal-short: Vis
+year: 2022
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
@@ -38,8 +38,8 @@ year: 2021
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
-  url: https://arxiv.org/abs/2109.07035
+  booktitle: IEEE VIS, to appear
+  url: https://osf.io/zud5t/
   doi:
   pages:
   award:
@@ -48,18 +48,20 @@ bib:
 publisherURL:
 
 # Link to an official preprint server
-preprint_server: https://arxiv.org/abs/2109.07035
+preprint_server: https://osf.io/zud5t/
 
 # Links to a project hosted on VDL, or else externally on your own site
 #project: http://vdl.sci.utah.edu/data-hunch/
 external-project: http://vdl.sci.utah.edu/data-hunch/
 
 # Video entry and preview video
-
+videos:
+ - name: 'VIS Preview'
+ - file: 2022_vis_data_hunches_preview.mp4
 
 # Provide a preprint and supplement pdf
-pdf: 2021_preprint_data-hunches.pdf
-#supplement: 2016_eurovis_pathfinder_supplement.pdf
+pdf: 2022_vis_data_hunches.pdf
+supplement: 2022_vis_data-hunches_supplement.xlsx
 
 # Extra supplements, such as talk slides, data sets, etc.
 #supplements:
@@ -73,22 +75,10 @@ pdf: 2021_preprint_data-hunches.pdf
 code: https://github.com/visdesignlab/data-hunches-package
 
 abstract: "
-The trouble with data is that it frequently provides only an imperfect
-representation of a phenomenon of interest. Experts who are familiar with their
-datasets will often make implicit, mental corrections when analyzing a dataset,
-or will be cautious not to be over-confident in any findings if caveats are
-present. However, the implicit knowledge about the caveats of a dataset are
-typically not collected in a structured way, which is problematic especially
-when teams work together who might have knowledge about different aspects of a
-dataset. In this work, we define such analyst's knowledge about datasets as
-data hunches. We discuss the implications of data hunches and propose a set of
-techniques for recording and communicating data hunches through data
-visualization. Furthermore, we provide guidelines for designing visualizations
-that support recording and visualizing data hunches. We envision that data
-hunches will empower analysts to externalize their knowledge, facilitate
-collaboration and communication, and support the ability to learn from others'
-data hunches.
+The trouble with data is that it frequently provides only an imperfect representation of a phenomenon of interest. Experts who are familiar with their datasets will often make implicit, mental corrections when analyzing a dataset, or will be cautious not to be overly confident about their findings if caveats are present. However, personal knowledge about the caveats of a dataset is typically not incorporated in a structured way, which is problematic if others who lack that knowledge interpret the data. In this work, we define such analysts' knowledge about datasets as data hunches. We differentiate data hunches from uncertainty and discuss types of hunches. We then explore ways of recording data hunches, and, based on a prototypical design, develop recommendations for designing visualizations that support data hunches. We conclude by discussing various challenges associated with data hunches, including the potential for harm and challenges for trust and privacy. We envision that data hunches will empower analysts to externalize their knowledge, facilitate collaboration and communication, and support the ability to learn from others' data hunches.
 "
 
 # After the ---, you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
+# Acknowledgements
+We wish to thank Anders Ynnerman, Ben Shneiderman, Ryan Metcalf, and the Visualization Design Lab for fruitful discussions and feedback. This work was supported by the National Science Foundation (OAC1835904, IIS 1751238), ARUP Laboratories, and by the Wallenberg AI, Autonomous Systems and Software Program (WASP) funded by the Knut and Alice Wallenberg Foundation.
