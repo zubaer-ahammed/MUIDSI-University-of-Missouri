@@ -17,11 +17,8 @@ jobs:
       - name: Setup ruby 2.7
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
-
-      - name: Setup jekyll and htmlproofer
-        run: | 
-          gem install --no-document jekyll jekyll-redirect-from html-proofer
+          ruby-version: 3.0
+          bundler-cache: true
 
       - name: Build jekyll website
         run: jekyll build

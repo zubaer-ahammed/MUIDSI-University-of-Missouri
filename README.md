@@ -12,11 +12,10 @@ The Liquid Language Reference: https://shopify.github.io/liquid/basics/types/
 
 ## Setup Jekyll
 
-If you have Ruby on your machine, just install Jekyll and a plugin:
+To set up Jekyll, make sure you have ruby and bundler. Then run:
 
 ``` shell
-$ gem install jekyll
-$ gem install jekyll-redirect-from
+bundle install
 ```
 
 Further details on installing Jekyll and its requirements:
@@ -26,7 +25,7 @@ https://jekyllrb.com/docs/installation/
 ### Run Jekyll
 
 ``` shell
-$ jekyll serve -i
+jekyll serve -i
 ```
 
 Running Jekyll in incremental (`-i`) mode is _significantly_ faster.
@@ -35,7 +34,7 @@ Running Jekyll in incremental (`-i`) mode is _significantly_ faster.
 ### View the Generated Site
 
 ``` shell
-$ open http://0.0.0.0:4000/
+open http://0.0.0.0:4000/
 ```
 
 
@@ -57,9 +56,9 @@ you can write your changes from the command line (below), and go to GitHub to
 create a _pull request_ from that branch.
 
 ``` shell
-$ git checkout -b new-branch-name
-$ git commit -am "make your changes and commit them"
-$ git push origin new-branch-name
+git checkout -b new-branch-name
+git commit -am "make your changes and commit them"
+git push origin new-branch-name
 ```
 
 
