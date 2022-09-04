@@ -18,32 +18,41 @@ layout: default
     <h1>Citation</h1>
     <div class="citation">
       <p>
+        <!-- an author list in bib style with "and" -->
         {% assign bibauthors = '' %}
+        <!-- an author list with commas -->
+        {% assign authorlist = '' %}
         {% for author in page.authors %}
           {% assign known = false %}
             {% for person in site.persons %}
               {% if author == person.key %}
                 {% if person.website %}
-                <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
+                  <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
                 {% else %}
-                {{ person.first_name }}&nbsp;{{ person.last_name }}
+                  {{ person.first_name }}&nbsp;{{ person.last_name }}
                 {% endif %}
-              {% if author != page.authors.last%}, {% endif %}
-              {% if author == page.authors.first %} {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
-              {% else %}
-              {% assign bibauthors = bibauthors | append: ' and ' | append: person.first_name | append: ' ' | append: person.last_name %}
+                {% if author != page.authors.last%}, {% endif %}
+                {% if author == page.authors.first %} 
+                  {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
+                  {% assign authorlist = person.first_name | append: ' ' | append: person.last_name %}
+                {% else %}
+                  {% assign bibauthors = bibauthors | append: ' and ' | append: person.first_name | append: ' ' | append: person.last_name %}
+                  {% assign authorlist = authorlist | append: ', ' | append: person.first_name | append: ' ' | append: person.last_name %}
+                {% endif %}
+             
+              {% assign known = true %}
               {% endif %}
-            {% assign known = true %}
-        {% endif %}
-        {% endfor %}
-        {% if known == false %}
-        {{ author }}{% if author != page.authors.last%}, {% endif %}
-        {% if author == page.authors.first %}
-          {% assign bibauthors = author %}
-        {% else %}
-          {% assign bibauthors = bibauthors | append: ' and ' | append: author %}
-        {% endif %}
-        {% endif %}
+            {% endfor %}
+          {% if known == false %}
+            {{ author }}{% if author != page.authors.last %}, {% endif %}
+            {% if author == page.authors.first %}
+              {% assign bibauthors = author %}
+              {% assign authorlist = author %}
+            {% else %}
+              {% assign bibauthors = bibauthors | append: ' and ' | append: author %}
+              {% assign authorlist = authorlist | append: ', ' | append: author %}
+            {% endif %}
+          {% endif %}
         {% endfor %}
 
 
@@ -106,6 +115,11 @@ layout: default
 {% for bibItem in page.bib %}{% if bibItem[1] %}  {{ bibItem[0] }} = &#123;{{ bibItem[1] }}&#125;,{{ newLine }}{% endif %}{% endfor %}  year = &#123;{{ page.year }}&#125;
 }
 </pre>
+<!-- This is for copy-and pasting to Alex' CV. Yes, I know, it's ugly.-->
+<!-- ALEXLATEX  \item {{authorlist}}, \textit{ {{page.title}}}, {{ published-where }}, {% if page.bib.volume %}vol.\ {{ page.bib.volume }}, {% endif %}{% if page.bib.number %}no.\ {{ page.bib.number }},{% endif %}{% if page.bib.pages %} pp.\ {{ page.bib.pages }}, {% endif %} {% if page.bib.doi %} \url{http://dx.doi.org/{{ page.bib.doi }}}, {%endif%}{{ page.year }}. {% if page.award %}\textbf{ {{page.award}}} {% endif %}
+-->
+
+
 
 <!-- Main Markdown Content -->
 {{ content }}

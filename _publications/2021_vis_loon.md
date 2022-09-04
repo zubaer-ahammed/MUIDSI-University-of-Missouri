@@ -18,7 +18,7 @@ authors:
   - lex
 
 journal-short: VIS
-year: 2021
+year: 2022
 
 bibentry: article
 bib:

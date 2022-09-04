@@ -36,12 +36,15 @@ year: 2022
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis), to appear
+  journal: Computer Graphics Forum (EuroVis)
   booktitle:
-  url: https://osf.io/udqjr/
-  doi:
-  pages:
+  url: 
+  doi: 10.1111/cgf.14528
+  pages: 133–144
   award:
+  volume: 41
+  number: 3
+  
 
 # Provide a link to the publisher's webpage if no DOI is available
 publisherURL:
