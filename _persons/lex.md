@@ -22,7 +22,7 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-office-hours: on request (I'm on sabbatical)
+office-hours: Tuesdays, 4-5pm
 
 # flag used to determine whether to show teaching   
 showteaching: true
@@ -109,8 +109,4 @@ Before joining the University of Utah, I was a lecturer and post-doctoral visual
 
 I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visual analytics solutions for the pharmaceutical industry. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). You can find other visualization software on our [GitHub Page](https://github.com/visdesignlab).
 
-## News
 
-I'm on sabbatical for the 2021/2022 academic year, going back to my native Austria to work for [datavisyn](http://datavisyn.io), the company I co-founded, and working with [Marc Streit and his group](https://jku-vds-lab.at/) at [Johannes Kepler University](https://www.jku.at/).
-
-Because of my sabbatical **I'm currently not taking on students, PostDocs, or service assignments**. 

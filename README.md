@@ -106,3 +106,14 @@ https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-
 
 To install the GitHub Pages gem, you may need to install the Ruby DevKit for
 your operating system.
+
+
+## Modules
+
+This page uses the following modules: 
+
+  * JekyllRedirectFrom 
+    * `gem 'jekyll-redirect-from'`
+    * https://github.com/jekyll/jekyll-redirect-from
+  * addressable
+  * public_suffix
