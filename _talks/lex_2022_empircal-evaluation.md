@@ -9,9 +9,10 @@ slides-ppt:
 video: https://www.youtube.com/watch?v=wvEhl-iee1o 
 # Anything you want to say about this talk
 note:
-date: 2022-06-03
+date: 2022-08-31
 
 held:
-
+ - SCI VIS Seminar, University of Utah, USA, 2022-08-31.
  - Institute for Computer Graphics, TU Wien, Vienna, Austria, 2022-06-03.
+
 ---
