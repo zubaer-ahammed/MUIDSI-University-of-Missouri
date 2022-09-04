@@ -15,7 +15,7 @@ position: PhD Student
 website: https://gotdairyya.github.io/
 interests: "Critical Visualization Design, Visualization for Education"
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated: 
+graduated: MS '22
 
 # stuff below can be ignored if you don't use the group website for your private website
 
