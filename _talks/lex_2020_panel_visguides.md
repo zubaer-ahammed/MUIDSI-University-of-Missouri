@@ -11,6 +11,6 @@ note:
 date: 2020-10-25
 
 held:
- - "[VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](https://nms.kcl.ac.uk/c4pgv/), IEEE VIS, 2020-10-25."
+ - "Panel at [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](https://nms.kcl.ac.uk/c4pgv/), IEEE VIS, 2020-10-25."
 
 ---

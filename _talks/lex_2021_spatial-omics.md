@@ -11,6 +11,6 @@ note:
 date: 2021-10-25
 
 held: 
- - "[BioVis@VIS](http://biovis.net/2021/program_ieee/), IEEE VIS, New Orleans, USA (virtual), 2021-10-25"
+ - "[BioVis@VIS](http://biovis.net/2021/program_ieee/), IEEE VIS, New Orleans, USA (virtual), 2021-10-25."
 
 ---

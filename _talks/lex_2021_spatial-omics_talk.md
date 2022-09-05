@@ -11,6 +11,6 @@ note:
 date: 2021-12-09
 
 held: 
- - "Worcester Polytechnic Institute, BCB Seminar Series, 2021-12-09"
+ - "Worcester Polytechnic Institute, BCB Seminar Series, 2021-12-09."
 
 ---

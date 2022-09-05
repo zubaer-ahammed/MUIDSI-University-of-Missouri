@@ -11,6 +11,6 @@ note:
 date: 2021-10-24
 
 held: 
- - "[MLUI 2021: Machine Learning from User Interactions for Visualization and Analytics](https://learningfromusersworkshop.github.io/), IEEE VIS, New Orleans, USA (virtual), 2021-10-24"
+ - "[MLUI 2021: Machine Learning from User Interactions for Visualization and Analytics](https://learningfromusersworkshop.github.io/), IEEE VIS, New Orleans, USA (virtual), 2021-10-24."
 
 ---
