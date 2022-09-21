@@ -6,7 +6,7 @@ last_name: Abdelaal
 key: abdelaal
 permalink: /team/abdelaal/
 # Pick one of the following
-role: phdstudent | collaborator
+role: phdstudent
 email: moataz.abdelaal@visus.uni-stuttgart.de
 image: /assets/images/people/Abdelaal02_blackwhite.jpg
 organization: University of Utah 
@@ -32,12 +32,6 @@ address: |
 # flag used to determine whether to show teaching
 showteaching: false
 
-phd_students:
- - 
-phd_rotation_students:
- - 
-ms_students:
- - 
-former_students:
- - 
 ---
+
+I'm a PhD student at the University of Stuttgart and a visiting researcher at VDL / Utah.
