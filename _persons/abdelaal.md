@@ -13,7 +13,7 @@ organization: University of Utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: 
-interests: Visualization, Network Visualization, Empirical User Evaluation, Visualization Tools, Exploratory Visualization for Scientists
+interests: Visualization, Network Visualization, Empirical User Evaluation, Exploratory Visualizations for Scientists
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated: 
 
