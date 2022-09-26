@@ -57,7 +57,11 @@ external-project: http://vdl.sci.utah.edu/data-hunch/
 # Video entry and preview video
 videos:
  - name: 'VIS Preview'
- - file: 2022_vis_data_hunches_preview.mp4
+   youtube-id: 1Dfh4p8gA0A
+   file: 2022_vis_data_hunches_preview.mp4
+ - name: 'VIS Talk'
+   youtube-id: IqLqajd3mY0
+   file: 2022_vis_data_hunches_full.mp4
 
 # Provide a preprint and supplement pdf
 pdf: 2022_vis_data_hunches.pdf
