@@ -75,6 +75,17 @@ supplement: 2022_vis_data-hunches_supplement.xlsx
   # Defaults to a download icon, use this if you want a link-out icon
   #linksym: true
 
+images:
+- path: 2022_vis_data_hunches_overview.png
+  caption: The overall prototype to view and record data hunches.
+- path: 2022_vis_data_hunches_types.png
+  caption: A variety types of data hunches visualized on a single chart.
+- path: 2022_vis_data_hunches_options.png
+  caption: Different options to select from to add a data hunch to the chart.
+- path: 2022_vis_data_hunches_categorical.png
+  caption: Adding a categorical value hunch to the chart.
+- path: 2022_vis_data_hunches_vote.png
+  caption: Upvoting/downvoting to agree/disagree with the data hunch.
 # Link to the repository where the code is hosted
 code: https://github.com/visdesignlab/data-hunches-package
 
