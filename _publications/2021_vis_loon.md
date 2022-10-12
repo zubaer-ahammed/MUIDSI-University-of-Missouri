@@ -18,14 +18,14 @@ authors:
   - lex
 
 journal-short: VIS
-year: 2022
+year: 2021
 
 bibentry: article
 bib:
   journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
   publisher: IEEE
   doi: 10.1109/TVCG.2021.3114766
-  url: 
+  url:
   volume: 28
   number: 1
   pages: 248-258
