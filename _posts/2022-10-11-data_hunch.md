@@ -6,7 +6,7 @@ categories: blog
 type: blog
 authors:
 - lin
-abstract: "Have you ever looked at data visualization and thought: it doesn't look right. Did you then carry that hunch throughout your data analysis process, impacting your judgment and interpretation of the data? That thought, whether you were aware of it or not,  impacted your interpretation in an implicit way and should be externalized to others but current visualization methods do not support this. In this blog post, we dive into how we came up with the term *data hunch* to describe personal knowledge brought to data analysis. We explore methods and designs to record and communicate data hunches through visualizations explicitly."
+abstract: "Have you ever looked at data visualization and thought: it doesn't look right. Did you then carry that hunch throughout your data analysis process, impacting your judgment and interpretation of the data? That thought, whether you were aware of it or not,  impacted your interpretation in an implicit way and should be externalized to others but current visualization methods do not support this. In this blog post, we dive into how we came up with the term data hunch to describe personal knowledge brought to data analysis. We explore methods and designs to record and communicate data hunches through visualizations explicitly."
 lead-image: /assets/images/publications/2022_vis_data_hunches_teaser.png
 ---
 
