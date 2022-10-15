@@ -43,7 +43,7 @@ To demonstrate how a user can record their data hunches in visualization, we bui
 ![The prototype image]({{site.base_url}}/assets/images/posts/2022_data_hunch-prototype.png)
 _The prototype interface with a few data hunches added._
 
-With this prototype, we wanted to make it clear that the data hunch is recorded by a human, and not collected or modeled. To do this,, we  chose to show data hunches using [sketchyness](https://roughjs.com/) and a handwritten font to show the text related to a hunch. With data hunches on visualizations, users not only get a visual representation of their internal mental model, but also have an easier time collaborating with their colleagues.
+With this prototype, we wanted to make it clear that the data hunch is recorded by a human, and not collected or modeled. To do this, we  chose to show data hunches using [sketchyness](https://roughjs.com/) and a handwritten font to show the text related to a hunch. With data hunches on visualizations, users not only get a visual representation of their internal mental model, but also have an easier time collaborating with their colleagues.
 
 ![A animated figure, adding data hunch on prototype.]({{site.base_url}}/assets/images/posts/2022_data_hunch-add-dh.gif)
 _Adding a data hunch in our prototype through direct manipulation. The prototype also allows upvoting/downvoting_
