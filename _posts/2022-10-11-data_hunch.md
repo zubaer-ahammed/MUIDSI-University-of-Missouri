@@ -48,6 +48,6 @@ With this prototype, we wanted to make it clear that the data hunch is recorded 
 ![A animated figure, adding data hunch on prototype.]({{site.base_url}}/assets/images/posts/2022_data_hunch-add-dh.gif)
 _Adding a data hunch in our prototype through direct manipulation. The prototype also allows upvoting/downvoting_
 
-We are excited about the design possibility that data hunches can bring to the visualization research community. For more details about data hunches, design guidelines, and a discussion of the challenges, please refer to [the paper]({{site.base_url}}/publications/2022_vis_data_hunches/).
+We are excited about the design possibility that data hunches can bring to the visualization research community. We hope to open up new design opportunities by recognizing data hunches, but there are also some issues and ethical considerations. Do data hunches reinforce biases? Can there be potential harm in using data hunches? And how do data hunches impact trust in visualizations? For more details about data hunches, design guidelines, and a discussion of the challenges, please refer to [the paper]({{site.base_url}}/publications/2022_vis_data_hunches/).
 
 
