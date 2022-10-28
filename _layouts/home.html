@@ -8,7 +8,7 @@
     {% capture publications %} [ 
     {% for publication in site.publications %} 
       {% if publication.personal %} 
-      {% elsif publication.image_large and publication.year > 2019 and publication.type == "paper"%} 
+      {% elsif publication.image_large and publication.year > site.recent_pub_year and publication.type == "paper"%} 
         { "title" : "{{publication.title }}", 
         "shortname" : "{{ publication.shortname }}", 
         "url" : "{{ publication.url }}",
@@ -90,7 +90,7 @@
           {% assign sorted_publications = site.publications | sort: 'year' %} {%
           assign sorted_publications = sorted_publications | sort: 'order' %} {%
           for publication in sorted_publications reversed %} {% if
-          publication.personal %} {% elsif publication.year > 2019 and
+          publication.personal %} {% elsif publication.year > site.recent_pub_year and
           publication.type == "paper" %}
           <li>
             <div style="padding-right: 1.5em">

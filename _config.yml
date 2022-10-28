@@ -13,6 +13,8 @@ safe: false
 lsi: false
 google_analytics: "UA-69348306-1"
 use_analytics: true
+# publications are shown as recent on the front page for years strictly great than this year
+recent_pub_year: 2020
 
 paper_content_url: https://sci.utah.edu/~vdl/papers/
 
