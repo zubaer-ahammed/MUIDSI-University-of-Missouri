@@ -7,6 +7,7 @@ type: blog
 # Authors in the "database" can be used with just their person "key"
 authors:
   - rogers
+publication_key: 2020_infovis_insights
 redirect_from:
    - "/event/2020/10/26/interpret-lens/"
 # Use the abstract to provide a high-level overview of the blog post and main takeaways.

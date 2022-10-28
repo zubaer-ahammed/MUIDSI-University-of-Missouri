@@ -9,6 +9,7 @@ authors:
   - akbaba
   - wilburn
   - meyer
+publication_key: 2021_altvis_chartjunk
 # redirect_from:
   # - "/event/2020/07/20/state-dashboards/"
 # Use the abstract to provide a high-level overview of the blog post and main takeaways.

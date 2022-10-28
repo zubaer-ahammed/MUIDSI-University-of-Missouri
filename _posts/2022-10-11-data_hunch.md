@@ -8,6 +8,7 @@ authors:
 - lin
 - lex
 - akbaba
+publication_key: 2022_vis_data_hunches
 
 abstract: "Have you ever looked at data visualization and thought: that doesn't look right. Maybe you knew more about the data than is actually contained in the dataset. Did you then remember that hunch throughout your data analysis process, impacting your judgment and interpretation of the data? That thought, whether you were aware of it or not,  possibly impacted your interpretation. Especially if that hunch is based on knowledge you have about the data, it would be useful to externalize that hunch, so others can learn about it and also consider it in their analysis.  However,  current visualization methods do not support this. In this blog post, we dive into how we came up with data hunches to describe personal knowledge brought to data analysis. We explore methods and designs to record and communicate data hunches through visualizations explicitly."
 lead-image: /assets/images/publications/2022_vis_data_hunches_teaser.png
