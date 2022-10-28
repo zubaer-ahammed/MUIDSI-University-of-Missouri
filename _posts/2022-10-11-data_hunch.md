@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Hunches - Recording and Communicating Personal Knowledge in Visualizations
+title: Data Hunches – Recording and Communicating Personal Knowledge in Visualizations
 date: 2022-10-11 1:00:00
 categories: blog
 type: blog
@@ -27,7 +27,7 @@ We dug into uncertainty literature, expecting to find an appropriate definition 
 ![A cartoon figure]({{site.base_url}}/assets/images/posts/2022_data_hunch-cartoon.png)
 _Analysts should have the tools to record and communicate their knowledge._
 
-## And here is where data hunches come into play.
+## And here is where data hunches come into play
 
 If we keep using the term uncertainty to describe everything and anything unknown from an unsituated perspective, agnostic to **who** does not know the data, we will continue to ignore the deep and expansive knowledge that experts bring to their visual analysis sessions. Instead, we introduce the term **data hunch** to define and highlight the importance of the personal knowledge of experts. The definition we used in our publication goes, _an analyst’s knowledge about how and why the data is an imperfect and partial representation of the phenomena of interest_. It can be used to record knowledge about something big in scope, as when countries use different approaches to report Zika cases. Or, it can be narrow, only applying to a subset of a dataset. For example, in the figure below, the COVID cases reported in Utah showed two dips during the holiday season. But based on our knowledge about COVID testing reporting, it is likely that fewer tests were conducted, and some agencies might not have reported them during the holiday season.
 
