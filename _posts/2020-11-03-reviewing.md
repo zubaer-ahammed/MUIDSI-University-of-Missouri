@@ -16,7 +16,7 @@ lead-image-alt-text: Reviewer 2 Jack-O-Lantern.
 
 *Image by [Clara Nellist](https://twitter.com/claranellist), used with permission.* 
 
-I’ve been thinking a lot about how to structure [VIS](http://ieeevis.org/) in my role as a member of the [reVISe committee](http://ieeevis.org/governance/restructuring). Last week at VIS, the committee got a few questions regarding changes to the review process. reVISe explicitly did not tackle reviewing beyond what was necessary for the unification of the three conferences. One step after another. 
+I’ve been thinking a lot about how to structure [VIS](http://ieeevis.org/) in my role as a member of the [reVISe committee](https://web.archive.org/web/20220125231024/http://ieeevis.org/governance/restructuring). Last week at VIS, the committee got a few questions regarding changes to the review process. reVISe explicitly did not tackle reviewing beyond what was necessary for the unification of the three conferences. One step after another. 
 
 I do have some **personal opinions** about the review process and what we should (not) change, which I wrote up here. Note that this does NOT reflect the reVISe committee’s opinion – we didn’t even discuss most of these issues. 
 
