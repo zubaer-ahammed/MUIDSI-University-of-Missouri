@@ -23,11 +23,7 @@ gs:
 gh: https://github.com/JakeWags
 twitter:
 cv:
-address: |
-    Scientific Computing and Imaging Institute, <br>
-    School of Computing, University of Utah <br>
-    72 South Central Campus Drive, Room 3632 <br>
-    Salt Lake City, Utah 84112
+room: "WEB 3632"
 
 ---
 
