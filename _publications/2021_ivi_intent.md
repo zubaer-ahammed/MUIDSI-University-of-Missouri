@@ -68,8 +68,6 @@ preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
-- path: 2021_ivi_intent_prototype.png
-  caption: Prototype to demonstrate techniques for capturing analyst intent.
 - path: 2021_ivi_intent_gapminder.png
   caption: Gapminder public health dataset loaded in the prototype.
 - path: 2021_ivi_intent_brush.png
