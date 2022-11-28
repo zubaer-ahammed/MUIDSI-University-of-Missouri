@@ -60,7 +60,7 @@ external-project: https://reapply-workflows.github.io/reapply-workflows/#/projec
 
 
 # Provide a preprint and supplement pdf
-pdf: 2022_preprint_reusing_intent.pdf
+pdf: 2022_eurovis_reusing_workflows.pdf
 supplement: 2022_eurovis_reusing_supplement.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
