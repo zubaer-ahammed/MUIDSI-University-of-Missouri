@@ -67,21 +67,25 @@ preprint_server: http://dx.doi.org/10.31219/osf.io/mq2rk
 # - link:
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-#images:
-# - path: 2020_chi_mvnv_study_am_large_continent_sort.png
-#   caption: Adjacency matrix, sorted by continent.
-# - path: 2020_chi_mvnv_study_am_large_edge_encodings.png
-#   caption: Adjacency matrix showing two numerical edge attributes.
-# - path: 2020_chi_mvnv_study_am_small_node_neighbor_highlight.png
-#   caption: Small adjacency matrix showing neighbor highlighting.
-# - path: 2020_chi_mvnv_study_nl_large_color.png
-#   caption: Node-link diagram using size and color to encode attributes.
-# - path: 2020_chi_mvnv_study_nl_large_nested_bars.png
-#   caption: Node-link diagram using nested bars and glyphs to encode attributes.
-# - path: 2020_chi_mvnv_study_nl_large_nested_bars_neighbor_highlight.png
-#   caption: Neighborhood highligthing in node-link diagram.
-# - path: 2020_chi_mvnv_study_nl_small_nested_bars.png
-#    caption: Small node-link diagram with nested bars.
+images:
+- path: 2021_ivi_intent_prototype.png
+  caption: Prototype to demonstrate techniques for capturing analyst intent.
+- path: 2021_ivi_intent_gapminder.png
+  caption: Gapminder public health dataset loaded in the prototype.
+- path: 2021_ivi_intent_brush.png
+  caption: Selections can be made using paint brush of varying sizes.
+- path: 2021_ivi_intent_brush_union.png
+  caption: Analyst can specify using union of multiple selections.
+- path: 2021_ivi_intent_brush_intersection.png
+  caption: Analyst can specify using intersection of multiple selections.
+- path: 2021_ivi_intent_study_UD_instructions.png
+  caption: Instructions for user driven tasks in the study.
+- path: 2021_ivi_intent_study_UD.png
+  caption: Example of user driven task in the study.
+- path: 2021_ivi_intent_study_CS_instructions.png
+  caption: Instructions for computer supported tasks in the study.
+- path: 2021_ivi_intent_study_CS.png
+  caption: Example of computer supported task in the study.
 
 code: https://github.com/visdesignlab/intent-system
 
