@@ -18,6 +18,7 @@ updated: 2022-11-29
 publications: 
  - 2014_infovis_upset
  - 2017_bioinformatics_upsetr
+ - 2019_infovis_upset
  
 staff:
  - lex
