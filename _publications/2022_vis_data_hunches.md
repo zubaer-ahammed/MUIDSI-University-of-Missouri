@@ -38,9 +38,9 @@ year: 2022
 
 bibentry: article
 bib:
-  booktitle: IEEE VIS, to appear
-  url: https://osf.io/zud5t/
-  doi:
+  booktitle: IEEE Transactions on Visualization and Computer Graphics
+  url: https://ieeexplore.ieee.org/document/9903288
+  doi: 10.1109/TVCG.2022.3209451
   pages:
   award:
 

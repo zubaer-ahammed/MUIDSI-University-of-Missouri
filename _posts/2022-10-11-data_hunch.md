@@ -39,7 +39,7 @@ _NYTimes COVID dashboard of UT cases._
 
 Based on this idea, we can start to explore the possible ways of explicitly recording and communicating data hunches. We want the process to be intuitive and direct, with tools like annotations, drawings, and direct manipulations. We explored many visual channels and marks to annotate data hunches. In the end, we decided to use similar marks and channels to the original visualization to keep things simple. This way, we can have the best chance of keeping data hunches close to the data and similar to the original visualization.
 
-To demonstrate how a user can record their data hunches in visualization, we built [a prototype for visualizing bar charts]({{site.base_url}}/data-hunch)) with three data sets to choose from: student research area data, greenhouse gas related to food production data, and COVID case data of selected countries. We implemented an array of techniques, such as direct manipulation, graphical annotation, and direct input. Feel free to play with the prototype and add your own hunches!
+To demonstrate how a user can record their data hunches in visualization, we built [a prototype for visualizing bar charts](http://vdl.sci.utah.edu/data-hunch) with three data sets to choose from: student research area data, greenhouse gas related to food production data, and COVID case data of selected countries. We implemented an array of techniques, such as direct manipulation, graphical annotation, and direct input. Feel free to play with the prototype and add your own hunches!
 
 ![The prototype image]({{site.base_url}}/assets/images/posts/2022_data_hunch-prototype.png)
 _The prototype interface with a few data hunches added._
