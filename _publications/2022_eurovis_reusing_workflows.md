@@ -57,7 +57,10 @@ preprint_server: https://osf.io/udqjr/
 external-project: https://reapply-workflows.github.io/reapply-workflows/#/project
 
 # Video entry and preview video
-
+videos:
+ - name: 'EuroVis Paper Talk'
+   youtube-id: O1S09hrqJLU
+   file: 2022_eurovis_reusing_workflows_talk.mp4
 
 # Provide a preprint and supplement pdf
 pdf: 2022_eurovis_reusing_workflows.pdf
@@ -70,6 +73,10 @@ supplement: 2022_eurovis_reusing_supplement.zip
  # abslink: http://vials.io/talk/
   # Defaults to a download icon, use this if you want a link-out icon
   #linksym: true
+
+supplements:
+- name: EuroVis Talk Slides
+  link: 2022_eurovis_reusing_workflows_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
