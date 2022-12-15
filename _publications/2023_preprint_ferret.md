@@ -72,21 +72,18 @@ preprint_server: https://doi.org/10.31219/osf.io/anj8v
 #   link: 2021_vis_loon_talk_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-# images:
-# - path: 2021_vis_loon_overview.png
-#   caption: The overall Loon interface includes multiple visualizations.
-# - path: 2021_vis_loon_exemplars.png
-#   caption: The exemplar view displays representative cells compactly.
-# - path: 2021_vis_loon_condition.png
-#   caption: Specific experimental conditions can be selected.
-# - path: 2021_vis_loon_comparison.png
-#   caption: Experimental conditions can be carefully compared.
-# - path: 2021_vis_loon_image_selection.png
-#   caption: Specific images can be selected by condition and time.
-# - path: 2021_vis_loon_image_viewer.png
-#   caption: Single images can be viewed with cell boundaries.
-# - path: 2021_vis_loon_metadata.png
-#   caption: Cell attributes can be viewed and selected.
+images:
+- path: 2023_preprint_ferret_domain.png
+  caption: Ferret has the option to include a visualization panel.
+- path: 2023_preprint_ferret_description.png
+  caption: Each analysis includes advice on how to use the charts.
+- path: 2023_preprint_ferret_formatting.png
+  caption: Patterns in formatting can be seen in the overview mode.
+- path: 2023_preprint_ferret_highlight.png
+  caption: Highlighting values brings them to the top of the table.
+- path: 2023_preprint_ferret_overview.png
+  caption: Repeated regions can be easier to see in the overview mode.
+
 
 
 code: https://github.com/visdesignlab/Ferret
