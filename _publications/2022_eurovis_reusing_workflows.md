@@ -58,9 +58,14 @@ external-project: https://reapply-workflows.github.io/reapply-workflows/#/projec
 
 # Video entry and preview video
 videos:
+ - name: 'Introduction'
+   youtube-id: 6zUdTOarBIo 
+   file: 2022_eurovis_reusing_workflows_intro.mp4
  - name: 'EuroVis Paper Talk'
    youtube-id: O1S09hrqJLU
    file: 2022_eurovis_reusing_workflows_talk.mp4
+
+
 
 # Provide a preprint and supplement pdf
 pdf: 2022_eurovis_reusing_workflows.pdf
