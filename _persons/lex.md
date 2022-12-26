@@ -90,6 +90,7 @@ former_students:
 
 projects:
  - 2022-nsf-revisit
+ - 2022-czi-upset
  - 2020-nsf-misinformation
  - 2019-nsf-multinet
  - 2018-nsf-reproducibility
