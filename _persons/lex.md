@@ -28,7 +28,7 @@ office-hours: Tuesdays, 4-5pm
 showteaching: true
 
 phd_students:
- - rogers
+
  - kiran
  - lin
  - lange
@@ -39,6 +39,7 @@ ms_students:
 ug_students:
 
 phd_graduates:
+ - rogers
  - nobre
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
 
