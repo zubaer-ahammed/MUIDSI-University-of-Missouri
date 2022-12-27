@@ -14,7 +14,7 @@ organization: University of Utah
 position: Associate Professor
 degree: PhD, MSc
 website: /team/lex/
-interests: Biological Data Visualization, Multivariate Graphs, Visualization Tools, Provenance and Reproducibility
+interests: Data Visualization, Visualization Tools, Provenance and Reproducibility, Evaluation, Life Science Applications
 graduated:
 # stuff below can be ignored if you don't use the group website for your private website
 gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
@@ -22,7 +22,7 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-office-hours: Tuesdays, 4-5pm
+office-hours: TBD
 
 # flag used to determine whether to show teaching   
 showteaching: true
