@@ -28,7 +28,6 @@ office-hours: Tuesdays, 4-5pm
 showteaching: true
 
 phd_students:
-
  - kiran
  - lin
  - lange
