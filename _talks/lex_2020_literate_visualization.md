@@ -17,7 +17,7 @@ held:
  - VRVis Zentrum für Virtual Reality und Visualisierung, Vienna, Austria, 2022-03-24.
  - Graz University of Technology, Graz, Austria, 2021-11-11.
  - "[Séminaire LIRIS](https://liris.cnrs.fr/en/event/liris-seminar-alexander-lex-univ.-utah-literate-visualization-making-visual-analysis-sessions), CNRS / INSA Lyon / Université Lyon 1 & 2 / École Centrale de Lyon, Lyon, France, 2021-10-18."
- - "[Visualization of Biological Data - From Analysis to Communication](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=21401), Dagstuhl Seminar, Schloss Dagstuhl, Germany, 2021-10-04."
+ - "[Visualization of Biological Data - From Analysis to Communication](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/21401), Dagstuhl Seminar, Schloss Dagstuhl, Germany, 2021-10-04."
  - "Datavisyn Public Lecture Series, datavisyn, Linz, Austria, 2021-07-02."
  - "[ICG Lab Talk](https://www.jku.at/en/institute-of-computer-graphics/press-events/icg-lab-talk-series/2021/#c138311), Johannes Kepler University, Linz, Austria, 2021-06-15."
  - "[Departmental Seminar](https://www.gicentre.net/news/2020/11/17/alexandeer-lex-university-of-utah), Department of Computer Science, City University London, London, UK (virtual), 2020-11-17."
