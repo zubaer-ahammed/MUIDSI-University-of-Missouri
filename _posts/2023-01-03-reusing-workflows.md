@@ -12,6 +12,7 @@ abstract: "
 Interactive data analysis leverages human perception to enable various analysis tasks; however, a prior analysis can rarely be used when the dataset updates or is transferred to a different analysis environment, like a computational notebook. In this post, we discuss how we can capture reusable interactive workflows.
 "
 lead-image: /assets/images/posts/2023_reusing_workflows_lead.png
+lead-image-alt-text: Figure shows a scatterplot with a cluster dataset. One cluster is selected. Next to the scatterplot is a provenance graph with three steps - adding scatterplot, select 61 points, and apply cluster selections. The caption reads 'Curate workflow from analysis provenance' There are two arrows originating from the scatterplot. One points to another scatterplot, which shows the selected cluster moving along Y-axis. Polygons indicate selected cluster. The caption reads 'Reapply the workflows on updated datasets' The other arrow points to a screenshot of jupyter notebook which demonstrate use of the Reapply library. The caption reads 'Apply the workflow in different environment'
 ---
 _For the publication and prototype for capturing reusable workflows, please see [the paper page]({{site.base_url}}/publications/2022_eurovis_reusing_workflows)._
 
@@ -70,5 +71,5 @@ Finally, check out our [interactive prototype](https://reapply-workflows.github.
 
 
 <div style="padding:56.25% 0 0 0;position:relative;">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O1S09hrqJLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6zUdTOarBIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
