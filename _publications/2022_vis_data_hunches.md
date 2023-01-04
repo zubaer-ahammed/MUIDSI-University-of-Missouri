@@ -39,10 +39,12 @@ year: 2022
 bibentry: article
 bib:
   booktitle: IEEE Transactions on Visualization and Computer Graphics
-  url: https://ieeexplore.ieee.org/document/9903288
+  url:
   doi: 10.1109/TVCG.2022.3209451
-  pages:
+  pages: 504-514
   award:
+  volume: 29
+  number: 1
 
 # Provide a link to the publisher's webpage if no DOI is available
 publisherURL:
