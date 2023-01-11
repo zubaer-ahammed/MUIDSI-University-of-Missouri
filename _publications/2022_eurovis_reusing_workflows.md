@@ -57,7 +57,7 @@ preprint_server: https://osf.io/udqjr/
 external-project: https://reapply-workflows.github.io/reapply-workflows/#/project
 
 
-blog: 2023/01/02/reusing-workflows/
+blog-post: 2023/01/02/reusing-workflows/
 
 
 # Video entry and preview video

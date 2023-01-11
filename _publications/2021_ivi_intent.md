@@ -25,6 +25,8 @@ authors:
 journal-short: IVI
 year: 2021
 
+blog: 2022/10/27/intent/
+
 bibentry: article
 bib:
   journal: Information Visualization

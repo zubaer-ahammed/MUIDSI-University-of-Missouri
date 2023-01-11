@@ -20,7 +20,7 @@ authors:
 journal-short: VIS Short Papers
 year: 2020
 
-blog-post: "blog/2020/10/28/trrack/"
+blog-post: "2020/10/28/trrack/"
 
 
 bibentry: article

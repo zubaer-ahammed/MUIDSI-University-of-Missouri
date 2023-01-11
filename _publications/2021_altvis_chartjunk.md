@@ -31,7 +31,7 @@ bib:
   pages:
   month:
 
-blog-post: blog/2021/09/19/chartjunk
+blog-post: 2021/09/19/chartjunk
 
 # Provide a link to the publisher's webpage if no DOI is available
 publisherURL: https://altvis.github.io/

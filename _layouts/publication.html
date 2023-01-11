@@ -11,18 +11,16 @@ layout: default
     {% if page.image_large %}
     <img id="publication-image-large" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
     {% endif %}
-
-    <div class="note">
-      Check out the <a href="{{site.baseurl}}/blog/{{page.blog}}">blog post about this paper</a>.
+    {% if page.blog-post %}
+        <div class="note">
+      Check out the <a href="{{site.baseurl}}/blog/{{page.blog-post}}">blog post about this paper</a>.
       </div>
+      {% endif %}
 
     <h1>Abstract</h1>
     {{ page.abstract }}
 
-    {% if page.blog %}
-   
-   
-    {% endif %}
+
     <h1>Citation</h1>
     <div class="citation">
       <p>

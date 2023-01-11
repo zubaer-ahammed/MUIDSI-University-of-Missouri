@@ -26,7 +26,7 @@ bib:
   pages: 1-12
   award:
 
-blog-post: blog/2020/07/23/crowdsourced-evaluation/  
+blog-post: 2020/07/23/crowdsourced-evaluation/  
 
 # Links to a project hosted on VDL, or else externally on your own site
 

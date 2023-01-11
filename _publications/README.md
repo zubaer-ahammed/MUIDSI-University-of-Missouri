@@ -84,7 +84,7 @@ authors:
 - gratzl
 
 # A link to an internal blog post (use only the relative URL)
-blog-post: 
+blog-post: 2022/10/27/intent/
 
 # Include a shortened name for the journal or conference/proceedings. 
 # Generally go for the colloquial name here, so InfoVis, VIS, EuroVis, VAST, CHI, TVCG. 

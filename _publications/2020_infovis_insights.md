@@ -58,7 +58,7 @@ supplement:
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/2008.11564
 
-blog-post: blog/2020/10/30/interpret-lens/
+blog-post: 2020/10/30/interpret-lens/
 
 # # Extra supplements, such as talk slides, data sets, etc.
 

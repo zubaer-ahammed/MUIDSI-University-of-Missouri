@@ -33,6 +33,8 @@ bib:
 
 award: IEEE VIS 2021 Honorable Mention Award
 
+blog-post: 2022/04/27/loon/
+
 # Links to a project hosted on VDL, or else externally on your own site
 
 project:
