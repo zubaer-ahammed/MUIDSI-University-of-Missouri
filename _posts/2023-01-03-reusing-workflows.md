@@ -12,6 +12,7 @@ abstract: "
 Interactive data analysis leverages human perception to enable various analysis tasks; however, a prior analysis can rarely be used when the dataset updates or is transferred to a different analysis environment, like a computational notebook. In this post, we discuss how we can capture reusable interactive workflows.
 "
 lead-image: /assets/images/posts/2023_reusing_workflows_lead.png
+lead-image-alt-text:
 ---
 _For the publication and prototype for capturing reusable workflows, please see [the paper page]({{site.base_url}}/publications/2022_eurovis_reusing_workflows)._
 

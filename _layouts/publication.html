@@ -12,9 +12,17 @@ layout: default
     <img id="publication-image-large" alt="{{ page.shortname }} screenshot" class="paper-image-small-aside" src="{{ site.baseurl }}/assets/images/publications/{{ page.image_large }}">
     {% endif %}
 
+    <div class="note">
+      Check out the <a href="{{site.baseurl}}/blog/{{page.blog}}">blog post about this paper</a>.
+      </div>
+
     <h1>Abstract</h1>
     {{ page.abstract }}
 
+    {% if page.blog %}
+   
+   
+    {% endif %}
     <h1>Citation</h1>
     <div class="citation">
       <p>

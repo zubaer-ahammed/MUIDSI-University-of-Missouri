@@ -56,6 +56,10 @@ preprint_server: https://osf.io/udqjr/
 #project: http://vdl.sci.utah.edu/data-hunch/
 external-project: https://reapply-workflows.github.io/reapply-workflows/#/project
 
+
+blog: 2023/01/02/reusing-workflows/
+
+
 # Video entry and preview video
 videos:
  - name: 'Introduction'
@@ -82,6 +86,9 @@ supplement: 2022_eurovis_reusing_supplement.zip
 supplements:
 - name: EuroVis Talk Slides
   link: 2022_eurovis_reusing_workflows_slides.pdf
+
+
+
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:

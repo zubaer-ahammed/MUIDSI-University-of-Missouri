@@ -1321,3 +1321,18 @@ pre.bibtex {
 .fa{
   min-width: 18px
 }
+
+
+.note {
+  padding: 20px;
+  //padding-bottom: 10px;
+  overflow-x: auto;
+  background: #f0f7fb;
+  color: #2b2a2a;
+
+
+  border: solid 2px #3376A0;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+}
