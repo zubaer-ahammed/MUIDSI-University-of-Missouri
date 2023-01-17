@@ -35,7 +35,7 @@ award:
 project:
 
 # Use this if you have an external project website 
-external-project: http://poemage.org
+external-project: http://www.sci.utah.edu/~nmccurdy/Poemage/
 
 # The reference to the video entry
 video: 
@@ -44,16 +44,7 @@ preview-video:
 
 # the prerint
 pdf: 2015_infovis_poemage.pdf
-# A supplement PDF
-supplement: 
 
-# Extra supplements, such as talk slides, data sets, etc. 
-supplements:
-- name: 
-  # use link instead of abslink if you want to link to the master directory
-  abslink: 
-  # defaults to a download icon, use this if you want a link-out icon
-  linksym:
 
 # Link to the repository where the code is hostet
 code: 
