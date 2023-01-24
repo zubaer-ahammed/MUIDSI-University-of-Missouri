@@ -12,12 +12,12 @@ image: /assets/images/people/Abdelaal02_blackwhite.jpg
 organization: University of Utah 
 position: PhD Student
 # use either a local link like here, or a URL
-website: https://scholar.google.de/citations?user=g-867ZoAAAAJ&hl=en
+website: https://scholar.google.de/citations?user=67PIFQFVcBMC&hl=en
 interests: Visualization, Network Visualization, Empirical User Evaluation, Exploratory Visualizations for Scientists
 
 # stuff below can be ignored if you don't use the group website for your private website
 
-gs: https://scholar.google.de/citations?user=g-867ZoAAAAJ&hl=en
+gs: https://scholar.google.de/citations?user=67PIFQFVcBMC&hl=en
 gh: https://github.com/mottazabdelfattah
 twitter: 
 cv: 
