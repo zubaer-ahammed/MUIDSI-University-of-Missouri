@@ -35,7 +35,7 @@ We previously developed the [Trrack library]({{site.base_url}}/blog/2020/10/28/t
 ![The figure shows captured analysis in the first column, curated workflow in the second column, and results of applying the workflow in the third column. The captured analysis has four steps — add scatterplot, select points, filter out selections, and resize plot. The curated workflow has three steps — add scatterplot, select points and filter out selections. The workflow is labeled ‘Filter outliers workflow.’]({{site.base_url}}/assets/images/posts/2023_reusing_workflows_non_smart_workflow.png)
 _An analyst curated a “Filter Outliers Workflow” from captured provenance. The workflow is then applied to an updated dataset where three new outliers are added (red). Reapplying the workflow on the updated dataset results in two points (highlighted in green) not being detected as outliers._
 
-To make workflows reusable and enable their application on updated datasets, we use methods that [add semantic information about the patterns selected to the captured interactions]({{site.base_url}}/blog/2022/10/27/intent/). Instead of selecting a list of points as part of a workflow, we select the underlying higher-level pattern, such as “outliers” or “clusters.”
+To make workflows reusable and enable their application on updated datasets, we use methods that [add semantic information about the patterns selected to the captured interactions]({{site.base_url}}/blog/2022/10/28/intent/). Instead of selecting a list of points as part of a workflow, we select the underlying higher-level pattern, such as “outliers” or “clusters.”
 The following figure illustrates the process.
 
 
