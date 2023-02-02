@@ -54,7 +54,7 @@ bib:
 # Provide a preprint and supplement pdf
 
 pdf: 2023_chi_troubling.pdf
-# supplement: 2021_vis_loon_supplement.pdf
+supplement: 2023_chi_troubling_supplement.zip
 
 # Link to an official preprint server
 preprint_server: https://doi.org/10.31219/osf.io/5y7ar
