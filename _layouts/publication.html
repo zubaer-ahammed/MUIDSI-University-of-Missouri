@@ -32,12 +32,8 @@ layout: default
           {% assign known = false %}
             {% for person in site.persons %}
               {% if author == person.key %}
-                {% if person.website %}
-                  <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>
-                {% else %}
-                  {{ person.first_name }}&nbsp;{{ person.last_name }}
-                {% endif %}
-                {% if author != page.authors.last%}, {% endif %}
+                {% if person.website %} <!-- the next line has to be on one line, otherwise we're introducing undesired white-spaces.-->
+                  <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name}}</a>{% else %}{{ person.first_name }}&nbsp;{{ person.last_name }}{% endif %}{% if author != page.authors.last%}, {% endif %}
                 {% if author == page.authors.first %} 
                   {% assign bibauthors = person.first_name | append: ' ' | append: person.last_name %}
                   {% assign authorlist = person.first_name | append: ' ' | append: person.last_name %}
