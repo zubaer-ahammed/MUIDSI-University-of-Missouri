@@ -42,6 +42,12 @@
   font-size: $page-title-font-size * 0.35;
 }
 
+
+/* the style for the headings on the team page */
+.team-heading {
+  padding-top: 20px;
+}
+
 .person-list-block {
   @include outer-container;
   @include span-columns(12);

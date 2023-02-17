@@ -34,9 +34,8 @@ layout: default
     {% endfor %}
 
   <article class="team-content">
-      <h1>Faculty</h1>
+      <h1 class="team-heading">Faculty</h1>
 
-      {% include person.html key="meyer" %}
       {% include person.html key="lex" %}
 
       {% if ifpostdoc %}
@@ -48,52 +47,46 @@ layout: default
 
 
       {% if ifphdstudent %}
-      <p class="space">&nbsp;</p>
-      <h1>PhD Students</h1>
+      <h1 class="team-heading">PhD Students</h1>
       {% include person.html role="phdstudent" %}
       {% endif %}
 
       {% if phd_rotation %}
-      <p class="space">&nbsp;</p>
-      <h1>PhD Rotation Students</h1>
+
+      <h1 class="team-heading">PhD Rotation Students</h1>
       {% include person.html role="phd_rotation" %}
       {% endif %}
 
        {% if visitor %}
-      <p class="space">&nbsp;</p>
-      <h1>Visitors</h1>
+      <h1 class="team-heading">Visitors</h1>
       {% include person.html role="visitor" %}
       {% endif %}
 
       {% if ifmsstudent %}
-        <p class="space">&nbsp;</p>
-        <h1>Master's Students</h1>
+         <h1 class="team-heading">Master's Students</h1>
 
         {% include person.html role="msstudent" %}
       {% endif %}
 
       {% if ifundergrad %}
-        <p class="space">&nbsp;</p>
-        <h1>Undergraduate Students</h1>
+        <h1 class="team-heading">Undergraduate Students</h1>
 
         {% include person.html role="undergrad" %}
       {% endif %}
 
       {% if ifintern %}
-        <p class="space">&nbsp;</p>
-        <h1>Interns</h1>
+        <h1 class="team-heading">Interns</h1>
       {% include person.html role="intern" %}
       {% endif %}
 
       {% if ifengineer %}
-		<p class="space">&nbsp;</p>
-		<h1>Software Engineers</h1>
+		<h1 class="team-heading">Software Engineers</h1>
         {% include person.html role="engineer" %}
       {% endif %}
 
       <p class="space-alumni">&nbsp;</p>
 
-      <h1>PhD Graduates</h1>
+      <h1 class="team-heading">PhD Graduates</h1>
       <p class="person-list-block">
       {% assign persons = site.persons | sort: 'graduated' %}
       {% for p in persons %}
@@ -105,9 +98,12 @@ layout: default
           </span>
       {% endif %}
       {% endfor %}
-      </p> <br><br>
+      </p>
 
-      <h1>Former Faculty and PostDocs</h1>
+    
+
+      <h1 class="team-heading">Former Faculty and PostDocs</h1>
+
       <p class="person-list-block">
       {% for p in site.persons %}
       {% if p.postdoc_alumni %}
@@ -118,10 +114,9 @@ layout: default
           </span>
       {% endif %}
       {% endfor %}
-      </p> <br><br>
+      </p>
 
-
-      <h1>Other Alumni</h1>
+      <h1 class="team-heading">Other Alumni</h1>
       <p class="person-list-block">
       {% for p in site.persons %}
         {% if p.graduated %}
