@@ -6,8 +6,8 @@ type: paper
 order: 2021-06
 
 shortname: Intent-Inference
-image: 2021_intent.png
-image_large: 2021_intent_teaser.png
+image: 2021_ivi_intent.png
+image_large: 2021_ivi_intent_teaser.png
 redirect_from: 
  - /publications/2020_intent/
  - /publications/2020_preprint_intent/
@@ -25,7 +25,8 @@ authors:
 journal-short: IVI
 year: 2021
 
-blog: 2022/10/27/intent/
+# relative link to a blog post about the paper
+blog-post: 2022/10/27/intent/
 
 bibentry: article
 bib:
