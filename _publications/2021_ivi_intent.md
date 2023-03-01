@@ -26,7 +26,7 @@ journal-short: IVI
 year: 2021
 
 # relative link to a blog post about the paper
-blog-post: 2022/10/27/intent/
+blog-post: 2022/10/28/intent/
 
 bibentry: article
 bib:
