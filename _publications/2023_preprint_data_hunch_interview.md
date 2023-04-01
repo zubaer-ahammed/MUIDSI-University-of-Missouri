@@ -60,7 +60,7 @@ pdf: paper_2023_data_hunches_interview_preprint.pdf
 # supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
-preprint_server: https://osf.io/dn32z
+preprint_server: https://doi.org/10.31219/osf.io/dn32z
 
 
 # # Extra supplements, such as talk slides, data sets, etc.
