@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Ferret: Reviewing Tabular Datasets for Manipulation"
+title: "Here’s what you need to know about my data: Exploring Expert Knowledge’s Role in Data Analysis"
 key: 2023_preprint_data_hunch_interview
 type: preprint
 order: 2023-3
@@ -60,7 +60,7 @@ pdf: paper_2023_data_hunches_interview_preprint.pdf
 # supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
-preprint_server: https://doi.org/10.31219/osf.io/dn32z
+preprint_server: https://osf.io/dn32z
 
 
 # # Extra supplements, such as talk slides, data sets, etc.
