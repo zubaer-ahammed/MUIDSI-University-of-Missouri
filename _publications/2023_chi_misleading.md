@@ -29,6 +29,8 @@ bib:
 # project:
 external-project: https://hashtag-misleading.netlify.app/
 
+blog-post: 2023/04/17/misleading/
+
 # Provide a preprint and supplement pdf
 
 pdf: 2023_chi_misleading.pdf
