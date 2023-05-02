@@ -35,8 +35,8 @@ showteaching: false
 
 ---
 I am a PhD student at the Kahlert School of Computing completing a research rotation
-under the supervision of [Alex Lex](https://vdl.sci.utah.edu/team/lex/). My prior
-research experience used exclusively tools from Computational Topology to develop
+under the supervision of [Alexander Lex](https://vdl.sci.utah.edu/team/lex/). My
+prior research experience used exclusively tools from Computational Topology to develop
 provably robust Machine Learning methods suitable for high-dimensional spaces with
 non-Euclidean structure. Most recently, I work on Digital Accessibility with the
 long-term goal of making the web a more inclusive and participatory space for all.
