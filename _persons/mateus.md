@@ -44,7 +44,7 @@ long-term goal of making the web a more inclusive and participatory space for al
 In support of my research efforts, I was awarded the [Google DeepMind Post-Graduate
 Fellowship](https://www.deepmind.com/scholarships) in 2020 and the [University of Utah
 Graduate Research Fellowship](https://gradschool.utah.edu/funding/fellowships-scholarships-awards/grad-school-administered/graduate-research-fellowship.php)
-in 2022. Prior to these awards, I completed a Bachelors of Arts in Computer Science from
+in 2022. Prior to these awards, I completed a Bachelor of Arts in Computer Science from
 [Westminster College](https://wcmo.edu) jointly advised by Professor Peng Yu, Professor
 [Erin Martin](https://www.lindenwood.edu/about/directories/faculty-staff-directory/details/emartin/),
 and Professor [Christopher Mooney](https://sites.google.com/site/chrismooneymath/).
