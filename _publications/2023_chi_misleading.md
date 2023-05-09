@@ -23,6 +23,7 @@ bib:
   booktitle: "SIGCHI Conference on Human Factors in Computing Systems (CHI)"
   publisher: ACM
   doi: 10.1145/3544548.3580910
+  pages: 1-21
 
 # Links to a project hosted on VDL, or else externally on your own site
 
@@ -30,6 +31,19 @@ bib:
 external-project: https://hashtag-misleading.netlify.app/
 
 blog-post: 2023/04/17/misleading/
+
+# Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
+# you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
+
+videos:
+ - name: "CHI Preview"
+   youtube-id: hQZjDGzddlg
+   file: 2023_chi_misleading_preview.mp4
+   subtitles: 2023_chi_misleading_preview.srt
+ - name: "CHI Talk"
+   youtube-id: 4DhBAYvDnzk
+   file: 2023_chi_misleading_talk.mp4
+   subtitles: 2023_chi_misleading_talk.srt
 
 # Provide a preprint and supplement pdf
 
