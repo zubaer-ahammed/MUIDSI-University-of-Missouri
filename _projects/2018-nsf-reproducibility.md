@@ -11,12 +11,12 @@ title: "CAREER: Enabling Reproducibility of Interactive Visual Data Analysis"
 pi: lex
 copi: 
 coinvestigators:
-time: 04/01/2018-03/31/2023
+time: 04/01/2018-03/31/2024
 program: IIS CAREER 
 agency-website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751238
 number: NSF IIS 1751238
 active: true
-updated: 2021-01-13
+updated: 2022-05-09
 publications: 
  - 2018_vahc_composer
  - 2019_aci_composer
@@ -28,10 +28,13 @@ publications:
  - 2020_preprint_intent
  - 2021_chi_revisit
  - 2021_ivi_intent
+ - 2022_eurovis_reusing
+ - 2023_preprint_ferret
 
 staff:
  - lex
  - kiran
+ - lange
 
  
 alumni:
@@ -61,11 +64,10 @@ We are also working on a visualization tool to capture analysis intent using the
 
 The following image illustrates the interface: 
 
-![The predicting intent visualization user interface]({{ site.base_url }}/assets/images/publications/2021_intent_teaser.png)
+![The predicting intent visualization user interface]({{ site.base_url }}/assets/images/publications/2021_ivi_intent_teaser.png)
 
 
-
-The core paper for this project is [also available]({{ site.base_url }}/publications/2021_ivi_intent/). 
+Check out the two core paper for this project, on  [predicting intent]({{ site.base_url }}/publications/2021_ivi_intent/) and [reusing workflows]({{ site.base_url }}/publications/2022_eurovis_reusing/). 
 
 
 
