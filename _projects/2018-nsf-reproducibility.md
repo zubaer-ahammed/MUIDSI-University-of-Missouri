@@ -67,7 +67,7 @@ The following image illustrates the interface:
 ![The predicting intent visualization user interface]({{ site.base_url }}/assets/images/publications/2021_ivi_intent_teaser.png)
 
 
-Check out the two core paper for this project, on  [predicting intent]({{ site.base_url }}/publications/2021_ivi_intent/) and [reusing workflows]({{ site.base_url }}/publications/2022_eurovis_reusing/). 
+Check out the two core paper for this project, on  [predicting intent]({{ site.base_url }}/publications/2021_ivi_intent/) and [reusing workflows]({{ site.base_url }}/publications/2022_eurovis_reusing_workflows/). 
 
 
 
