@@ -32,3 +32,4 @@ address: |
 # flag used to determine whether to show teaching
 showteaching: false
 ---
+I'm working at SCI for the summer of 2023, writing code to generate alt text for UpSet. When I'm not working or studying, you can find me skiing, climbing, or hiking in the Wasatch mountains!
