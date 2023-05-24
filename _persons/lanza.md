@@ -21,8 +21,8 @@ graduated:
 
 gs: 
 gh: https://github.com/natelanza
-twitter: "@alexander_lex"
-cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
+twitter: 
+cv: 
 address: |
     Scientific Computing and Imaging Institute, <br>
     School of Computing, University of Utah <br>
@@ -31,13 +31,4 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-
-phd_students:
- - None
-phd_rotation_students:
- - None
-ms_students:
- - None
-former_students:
- - None
 ---
