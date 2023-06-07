@@ -56,7 +56,7 @@ preprint_server: https://osf.io/zud5t/
 #project: http://vdl.sci.utah.edu/data-hunch/
 external-project: http://vdl.sci.utah.edu/data-hunch/
 
-blog-post: 2022/04/27/loon/
+blog-post: 2022/10/11/data_hunch/
 
 # Video entry and preview video
 videos:
