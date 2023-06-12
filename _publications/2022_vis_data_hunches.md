@@ -53,8 +53,8 @@ publisherURL:
 preprint_server: https://osf.io/zud5t/
 
 # Links to a project hosted on VDL, or else externally on your own site
-#project: http://vdl.sci.utah.edu/data-hunch/
-external-project: http://vdl.sci.utah.edu/data-hunch/
+#project: https://vdl.sci.utah.edu/data-hunch/
+external-project: https://vdl.sci.utah.edu/data-hunch/
 
 blog-post: 2022/10/11/data_hunch/
 
