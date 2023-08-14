@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: "Ferret: Reviewing Tabular Datasets for Manipulation"
-key: 2023_preprint_ferret
-type: preprint
-order: 2022-12
-# redirect_from: /publications/2023_preprint_ferret/
+key: 2023_eurovis_ferret
+type: paper
+order: 2023-6
+redirect_from: /publications/2023_preprint_ferret/
 
 shortname: Ferret
-image: 2023_preprint_ferret.png
-image_large: 2023_preprint_ferret_teaser.png
+image: 2023_eurovis_ferret.png
+image_large: 2023_eurovis_ferret_teaser.png
 
 authors:
   - lange
@@ -16,21 +16,15 @@ authors:
   - Jeff M. Phillips
   - lex
 
-journal-short: Preprint
+journal-short: EuroVis
 year: 2023
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
-  doi: 10.31219/osf.io/anj8v
-  # journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
-  # publisher: IEEE
-  # doi: 10.1109/TVCG.2021.3114766
-  # url:
-  # volume: 28
-  # number: 1
-  # pages: 248-258
-  # month:
+  journal: Computer Graphics Forum (EuroVis)
+  doi: 10.1111/cgf.14822
+  volume: 42
+  number: 3
 
 # award: IEEE VIS 2021 Honorable Mention Award
 
@@ -73,15 +67,15 @@ preprint_server: https://doi.org/10.31219/osf.io/anj8v
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
-- path: 2023_preprint_ferret_domain.png
+- path: 2023_eurovis_ferret_domain.png
   caption: Ferret has the option to include a visualization panel.
-- path: 2023_preprint_ferret_description.png
+- path: 2023_eurovis_ferret_description.png
   caption: Each analysis includes advice on how to use the charts.
-- path: 2023_preprint_ferret_formatting.png
+- path: 2023_eurovis_ferret_formatting.png
   caption: Patterns in formatting can be seen in the overview mode.
-- path: 2023_preprint_ferret_highlight.png
+- path: 2023_eurovis_ferret_highlight.png
   caption: Highlighting values brings them to the top of the table.
-- path: 2023_preprint_ferret_overview.png
+- path: 2023_eurovis_ferret_overview.png
   caption: Repeated regions can be easier to see in the overview mode.
 
 
