@@ -36,24 +36,27 @@ external-project: https://ferret.sci.utah.edu/
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
 
-# videos:
-#  - name: 'Loon Introduction'
-#    youtube-id: Y7u3Kg3At9A
-#    file: 2021_vis_loon.mp4
-#  - name: 'Loon VIS Preview'
-#    youtube-id: iRsL3WiZbhI
-#    file: 2021_vis_loon_preview.mp4
-#  - name: 'Loon VIS Talk'
-#    youtube-id: Xz5VrBXk5J0
-#    file: 2021_vis_loon_talk.mp4
+videos:
+  - name: 'Teaser'
+    youtube-id: NtYGV-XJoBE
+    file: 2023_eurovis_ferret_teaser.mp4
+    subtitles: 2023_eurovis_ferret_teaser_subtitles.srt
+  - name: 'EuroVis Talk'
+    youtube-id: NcKqIBiipvA
+    file: 2023_eurovis_ferret_talk.mp4
+    subtitles: 2023_eurovis_ferret_talk_subtitles.srt
+  - name: 'Case Study Demo'
+    youtube-id: T3_Rmy3pBqU
+    file: 2023_eurovis_ferret_case_study_demo.mp4
+    subtitles: 2023_eurovis_ferret_case_study_demo_subtitles.srt
 
 
 
 
 # Provide a preprint and supplement pdf
 
-pdf: 2023_preprint_ferret.pdf
-# supplement: 2021_vis_loon_supplement.pdf
+pdf: 2023_eurovis_ferret.pdf
+supplement: 2023_eurovis_ferret_supplemental.pdf
 
 # Link to an official preprint server
 preprint_server: https://doi.org/10.31219/osf.io/anj8v
@@ -61,9 +64,11 @@ preprint_server: https://doi.org/10.31219/osf.io/anj8v
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
-# supplements:
-# - name: VIS Talk Slides
-#   link: 2021_vis_loon_talk_slides.pdf
+supplements:
+- name: EuroVis Talk Slides - Keynote
+  link: 2023_eurovis_ferret_slides.key
+- name: EuroVis Talk Slides - PDF
+  link: 2023_eurovis_ferret_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
