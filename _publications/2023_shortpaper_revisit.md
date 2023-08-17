@@ -1,13 +1,13 @@
 ---
 layout: publication
 title: "reVISit: Supporting Scalable Evaluation of Interactive Visualizations"
-key: 2023_preprint_revisit
-type: preprint
+key: 2023_shortpaper_revisit
+type: paper
 order: 2023-8
 
 shortname: reVISit
-image: 2023_preprint_revisit.png
-image_large: 2023_preprint_revisit.png
+image: 2023_shortpaper_revisit.png
+image_large: 2023_shortpaper_revisit.png
 
 authors:
 - Yiren Ding
@@ -22,25 +22,27 @@ authors:
 journal-short: Preprint
 year: 2023
 
-bibentry: article
+bibentry: inproceedings
 bib:
-  booktitle: "Preprint"
-  doi: 10.31219/osf.io/hdzyv
-  # journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
-  # publisher: IEEE
-  # doi: 10.1109/TVCG.2021.3114766
-  # url:
-  # volume: 28
-  # number: 1
-  # pages: 248-258
-  # month:
+  journal: 
+  booktitle: IEEE Visualization Short Papers, to appear
+  editor:
+  publisher: IEEE
+  address:
+  doi:
+  url:
+  volume:
+  number:
+  pages: 
+  month:
 
 # award: IEEE VIS 2021 Honorable Mention Award
 
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
-
+journal-short: VIS Short Papers
+year: 2023
 
 # Use this if you have an external project website
 external-project: https://revisit.dev/
@@ -48,18 +50,13 @@ external-project: https://revisit.dev/
 
 # Provide a preprint and supplement pdf
 
-pdf: 2023_preprint_revisit.pdf
-# supplement: 2021_vis_loon_supplement.pdf
+pdf: 2023_shortpaper_revisit.pdf
 
 # Link to an official preprint server
 preprint_server: https://osf.io/hdzyv/
 
 
 # # Extra supplements, such as talk slides, data sets, etc.
-
-# supplements:
-# - name: VIS Talk Slides
-#   link: 2021_vis_loon_talk_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 
