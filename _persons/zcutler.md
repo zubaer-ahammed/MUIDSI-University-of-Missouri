@@ -6,7 +6,7 @@ last_name: Cutler
 key: zcutler
 permalink: /team/zcutler/
 # Pick one of the following
-role:  msstudent
+role:  phdstudent
 email: zach.t.cutler@gmail.com
 image: /assets/images/people/zcutler.jpg
 organization: University of Utah
@@ -15,7 +15,7 @@ position: Undergraduate Researcher
 website: /team/zcutler/
 interests: Provenance in Visualization Systems
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated: "BS/MS '21"
+graduated:
 # stuff below can be ignored if you don't use the group website for your private website
 gs:
 gh: https://github.com/ZachCutler04
