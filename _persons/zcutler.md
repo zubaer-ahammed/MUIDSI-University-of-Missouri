@@ -10,10 +10,10 @@ role:  phdstudent
 email: zach.t.cutler@gmail.com
 image: /assets/images/people/zcutler.jpg
 organization: University of Utah
-position: Undergraduate Researcher
+position: PhD Student
 # use either a local link like here, or a URL
 website: /team/zcutler/
-interests: Provenance in Visualization Systems
+interests: Visualization tools, Provenance, Storytelling
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
 graduated:
 # stuff below can be ignored if you don't use the group website for your private website
@@ -32,4 +32,4 @@ showteaching: false
 
 ---
 
-I'm a combined BS/MS student working with Alexander Lex. My current research is focused on tracking provenance in visualization systems, mostly through the development of a provenance library, Trrack. Apart from provenance, I am also interested in making data visualization more accessible and better understanding the impact that visualization can have.
+I'm a first year PhD student at the School of Computing working with Alexander Lex. My current research is focused on making user studies easier to design, run, and analyze. I've previously worked mostly on provenance in visualization systems, and helped develop both [Trrack]({{site.base_url}}/blog/2020/10/28/trrack/) and [Trrack-Vis](https://www.chromatic.com/library?appId=63ee57592a53ae7413d27e43)
