@@ -28,6 +28,9 @@ bib:
 
 # award: IEEE VIS 2021 Honorable Mention Award
 
+
+blog-post: 2023/09/15/ferret/
+
 # Links to a project hosted on VDL, or else externally on your own site
 
 project:
