@@ -22,22 +22,24 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-office-hours: TBD
+office-hours: Wednesdays, 4:30-5:30pm
 
 # flag used to determine whether to show teaching   
 showteaching: true
 
 phd_students:
  - kiran
- - lin
  - lange
  - lisnic
+ - zcutler
+ - eliza
 
 ms_students:
  
 ug_students:
 
 phd_graduates:
+ - lin
  - rogers
  - nobre
  - Christian Partl, PhD '18 (co-advised with Dieter Schmalstieg)
@@ -89,6 +91,8 @@ former_students:
  - Stefan Sauer, BS '09 (with D. Schmalstieg)
 
 projects:
+ - 2023-nih-quick
+ - 2023-nih-enhancing-loon
  - 2022-nsf-revisit
  - 2022-czi-upset
  - 2020-nsf-misinformation
@@ -100,14 +104,14 @@ projects:
 
 ---
 
-My research is on data visualization methods for domain experts. I design, build, and study interactive visual data analysis solutions that aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets.
+My research is on data visualization and human computer interaction. I design, build, and study interactive visual data analysis solutions to aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets. I also investigate how to make visualization reproducable, how to integrate visualizations with computational workflows, and how to make data visualizations accessible to blind and low-vision users. Finally, I also develop infrastructure for crowd-sourced user studies.  
 
 ## Bio
 
-I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the School of Computing at the University of Utah. I direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
+I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the Kahlert School of Computing at the University of Utah. I direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
 
-Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
+I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visual analytics solutions for the pharmaceutical industry. I am an associate editor for IEEE TVCG and IEEE CG\&A, and I served as area papers chair for IEEE VIS in 2021 and 2023. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). Other tools include [reVISit](https://revisit.dev/), a platform for designing online user sutdies, [MultiNet](https://multinet.app/), a network visualization platform and [trrack](https://github.com/trrack/), a library for tracking provenance in interactive applications. You can find other software on our [GitHub Page](https://github.com/visdesignlab).
 
-I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visual analytics solutions for the pharmaceutical industry. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). You can find other visualization software on our [GitHub Page](https://github.com/visdesignlab).
+I currently serve as the Director of Graduate Studies for the Kahlert School of Computing, overseeing more than 500 graduate students. Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
 
 

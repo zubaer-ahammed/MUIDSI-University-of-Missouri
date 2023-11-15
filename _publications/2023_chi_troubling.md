@@ -24,7 +24,7 @@ bib:
   booktitle: "SIGCHI Conference on Human Factors in Computing Systems (CHI)"
   publisher: ACM
   doi: 10.1145/3544548.3581168
-  # pages: 1-12
+  pages: 1-15
   award:
 
 # award: IEEE VIS 2021 Honorable Mention Award
