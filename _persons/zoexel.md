@@ -6,7 +6,7 @@ last_name: Exelbert
 key: zoexel
 permalink: /team/zoexel/
 # Pick one of the following
-role:  bsthesisstudent
+role:  
 email: u1355256@umail.utah.edu
 image: /assets/images/people/zoexel.jpg
 organization: University of Utah
