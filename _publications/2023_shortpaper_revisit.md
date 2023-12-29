@@ -19,21 +19,21 @@ authors:
 - lex
 - Lane Harrison
 
-journal-short: Preprint
+journal-short: VIS Short Papers
 year: 2023
 
 bibentry: inproceedings
 bib:
   journal: 
-  booktitle: IEEE Visualization Short Papers, to appear
+  booktitle: IEEE Visualization and Visual Analytics (VIS)
   editor:
   publisher: IEEE
   address:
-  doi:
+  doi: 10.1109/VIS54172.2023.00015
   url:
   volume:
   number:
-  pages: 
+  pages: 31-35
   month:
 
 # award: IEEE VIS 2021 Honorable Mention Award

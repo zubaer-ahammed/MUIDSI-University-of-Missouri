@@ -25,6 +25,7 @@ bib:
   doi: 10.1111/cgf.14822
   volume: 42
   number: 3
+  pages: 187-198
 
 # award: IEEE VIS 2021 Honorable Mention Award
 
