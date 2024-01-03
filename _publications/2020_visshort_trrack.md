@@ -40,7 +40,7 @@ bib:
 
 # Links to a project hosted on VDL, or else externally on your own site
 
-external-project: https://trrackjs.vercel.app/
+external-project: https://apps.vdl.sci.utah.edu/trrack/
 
 # Provide a preprint and supplement pdf
 
