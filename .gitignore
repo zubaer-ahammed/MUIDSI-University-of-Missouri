@@ -21,3 +21,5 @@ css/site.css
 # Link checking remnants
 .cookies
 /.vs
+
+.bundle
