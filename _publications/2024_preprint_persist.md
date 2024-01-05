@@ -100,4 +100,4 @@ We evaluated Persist in a user study targeting data manipulations with 11 partic
 
 We would like to thank our interviewees for their time and participation in the study, and the Visualization Design Lab for the fruitful discussions and feedback.
 Special thanks to Jake Wagoner for helping with the `intent_inference` library.
-We gratefully acknowledge funding from the National Science Foundation (IIS 1751238).
+We gratefully acknowledge funding from the National Science Foundation (IIS 1751238 and CNS 213756).
