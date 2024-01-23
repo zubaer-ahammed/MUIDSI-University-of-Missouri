@@ -6,11 +6,11 @@ last_name: Eliza
 key: eliza
 permalink: /team/isheliza/
 # Pick one of the following
-role: phd_rotation
+role: phdstudent
 email: u1472593@umail.utah.edu
 image: /assets/images/people/eliza.jpg
 organization: University of Utah
-position: Fellowship Researcher
+position: PhD Student
 # use either a local link like here, or a URL
 website: https://elizaan.github.io/
 interests: Human Centered Computing, Accessibility, Humen Centered Data Science
