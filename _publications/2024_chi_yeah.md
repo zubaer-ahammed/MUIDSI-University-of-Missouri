@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "\"Yeah, this graph doesn't show that\": Analysis of Online Engagement with Misleading Data Visualizations"
+title: "&#8220;Yeah, this graph doesn't show that&#8221;: Analysis of Online Engagement with Misleading Data Visualizations"
 key: 2024_chi_yeah
 type: paper
 order: 2024-2
