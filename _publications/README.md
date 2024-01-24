@@ -200,7 +200,7 @@ Here is a sync script that you can run to sync a local folder with the SCI serve
 
 Try first with --dry-run to see what would happen. It will say "sent", but it won't send any data with --dry-run.
 
-If it's just adding your paper, remove --dry-run and run again. If you see any deletions in the dry run, stop and ask Alex for help
+If it's just adding your paper, remove --dry-run and run again. If you see any deletions (other files than just your paper files) in the dry run, stop and ask Alex for help
 
 ``` bash
 rsync * alex@shell.sci.utah.edu:/usr/sci/www/vdl/papers -avzu --dry-run
