@@ -22,7 +22,7 @@ github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
 room: WEB 3887
-office-hours: Wednesdays, 4:30-5:30pm
+office-hours: Fridays, 12:45-1:45pm
 
 # flag used to determine whether to show teaching   
 showteaching: true
@@ -37,6 +37,7 @@ phd_students:
 ms_students:
  
 ug_students:
+ - zoexel
 
 phd_graduates:
  - lin
