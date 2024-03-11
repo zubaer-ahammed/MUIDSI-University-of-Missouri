@@ -6,16 +6,16 @@ last_name: Lanza
 key: lanza
 permalink: /team/nlanza/
 # Pick one of the following
-role: intern
+role: engineer
 email: u1156908@utah.edu
 image: /assets/images/people/lanza.jpg
 organization: University of Utah
-position: Student
+position: Software Developer
 # use either a local link like here, or a URL
 website: /team/nlanza
-interests: Alt-Text Generation, Acessibility, Computer Vision, Machine Learning
+interests: Visualization design, Accessibility, Human-Centered Computing, Software Verification
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated: "N"
+graduated: 
 
 # stuff below can be ignored if you don't use the group website for your private website
 
@@ -32,4 +32,4 @@ address: |
 # flag used to determine whether to show teaching
 showteaching: false
 ---
-I'm working at SCI for the summer of 2023, writing code to generate alt text for UpSet. When I'm not working or studying, you can find me skiing, climbing, or hiking in the Wasatch mountains!
+I recently joined VDL as a web developer and I'm currently working on Upset2 and Trrack, both developing new features and ensuring reliability of existing code. When I'm not working or studying, you can find me skiing, climbing, biking, and hiking in the Wasatch mountains!
