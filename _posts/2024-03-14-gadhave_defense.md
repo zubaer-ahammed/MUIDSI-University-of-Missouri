@@ -14,3 +14,9 @@ abstract: Congratulations to Kiran!
 Congrats, and good luck with your next steps!
 
 ![Kiran presenting]({{site.base_url}}/assets/images/posts/2024-03_Kiran_defense.jpg) 
+
+![Kiran and Alex]({{site.base_url}}/assets/images/posts/2024-03-Kiran_Alex.jpg) 
+
+![Kiran opening a bottle of champaign]({{site.base_url}}/assets/images/posts/2024-03-Kiran_bottle.jpg)
+
+![Kiran with a graduation sword]({{site.base_url}}/assets/images/posts/2024-03-Kiran_sword.jpg)
