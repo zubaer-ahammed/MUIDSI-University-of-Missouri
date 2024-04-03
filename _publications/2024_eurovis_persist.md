@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: "Persist: Persistent and Reusable Interactions in Computational Notebooks"
-key: 2023_preprint_persist
-type: preprint
+key: 2024_eurovis_persist
+type: paper
 order: 2024-1
+redirect_from: /publications/2023_preprint_persist/
 
 shortname: Persist
 image: 2024_preprint_persist.png
@@ -19,9 +20,9 @@ year: 2024
 
 bibentry: article
 bib:
-  booktitle: "Preprint"
+  #booktitle: "Preprint"
   doi: 10.31219/osf.io/9x8eq
-  # journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
+  journal: Computer Graphics Forum (EuroVis), to appear
   # publisher: IEEE
   # doi: 10.1109/TVCG.2021.3114766
   # url:
