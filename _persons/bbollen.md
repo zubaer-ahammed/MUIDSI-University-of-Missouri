@@ -4,7 +4,7 @@ layout: person
 first_name: Brian
 last_name: Bollen
 key: bollen
-permalink: /team/lex/
+permalink: /team/bollen/
 # Pick one of the following
 role: engineer
 email: briancbollen@gmail.com

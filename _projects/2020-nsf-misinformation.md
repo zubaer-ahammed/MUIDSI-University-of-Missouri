@@ -20,6 +20,8 @@ number: NSF IIS 2041136
 active: true
 updated: 2021-02-17
 publications: 
+ - 2024_chi_yeah
+ - 2023_chi_misleading
 
  
 staff:

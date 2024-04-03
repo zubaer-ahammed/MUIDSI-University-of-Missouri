@@ -22,6 +22,7 @@ number: NSF CNS 2213756
 active: true
 updated: 2022-07-07
 publications: 
+ - 2024_eurovis_persist
  - 2021_chi_revisit
  
 staff:

@@ -25,11 +25,13 @@ publications:
  - 2019_vast_origraph
  - 2019_ivi_taggle
  - 2020_visshort_trrack
- - 2020_preprint_intent
  - 2021_chi_revisit
  - 2021_ivi_intent
  - 2022_eurovis_reusing
- - 2023_preprint_ferret
+ - 2022_vis_data_hunches
+ - 2023_eurovis_ferret
+ - 2024_eurovis_persist
+
 
 staff:
  - lex
