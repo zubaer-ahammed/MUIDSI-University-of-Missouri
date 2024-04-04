@@ -37,7 +37,10 @@ publications:
  - 2020_chi_mvnv_study
  - 2020_infovis_insights
  - 2021_chi_revisit
+ - 2022_vis_data_hunches
  - 2023_chi_troubling
+ - 2023_nsf_multinet
+
  
 staff:
  - meyer

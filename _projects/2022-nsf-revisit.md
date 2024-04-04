@@ -23,6 +23,8 @@ active: true
 updated: 2022-07-07
 publications: 
  - 2024_eurovis_persist
+ - 2023_nsf_revisit
+ - 2023_shortpaper_revisit
  - 2021_chi_revisit
  
 staff:
