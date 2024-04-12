@@ -85,7 +85,7 @@ images:
 - path: 2024_eurovis_persist_altair.png
   caption: Persist supports Vega-Altair charts including composite charts.
 - path: 2024_eurovis_persist_datatable.png
-  caption: Persist supports Vega-Altair charts including composite charts.
+  caption: Persist supports an interactive DataTable.
 # supplements:
 # - name: Study Results and Example Notebooks
 #  link: https://github.com/visdesignlab/persist-examples/
