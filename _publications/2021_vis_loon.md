@@ -14,7 +14,7 @@ authors:
   - lange
   - Eddie Polanco
   - Robert Judson-Torres
-  - Thomas Zangle
+  - Thomas A. Zangle
   - lex
 
 journal-short: VIS
