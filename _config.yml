@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://vdl.sci.utah.edu"
 twitter_username: visdesignlab
 github_username: visdesignlab
-youtube_username:
+youtube_username: UCwdLyKe0EcYGQX8553tyFrA
 facebook_page:
 photos: "https://photos.google.com/share/AF1QipOiyDMtNW04qkwUVlFvbdpHKLOaFtXiq-UTEjlCd9lLzESfwSkDFsjss6F8cozTVw?key=RmM2dnVTVWk3eTEySE9HQWxLcGdzZ3dTQ3pNTmpR"
 safe: false
@@ -43,4 +43,3 @@ collections:
     output: true
   talks:
     output: false
-
