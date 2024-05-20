@@ -15,7 +15,7 @@ authors:
 - zcutler
 - lex
 
-journal-short: Preprint
+journal-short: EuroVis
 year: 2024
 
 bibentry: article
@@ -26,8 +26,8 @@ bib:
   # publisher: IEEE
   # doi: 10.1109/TVCG.2021.3114766
   # url:
-  # volume: 28
-  # number: 1
+  volume: 43
+  number: 3
   # pages: 248-258
   # month:
 
@@ -61,7 +61,7 @@ videos:
 
 # Provide a preprint and supplement pdf
 
-pdf: 2024_preprint_persist.pdf
+pdf: 2024_eurovis_persist.pdf
 # supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
@@ -75,7 +75,17 @@ preprint_server: https://doi.org/10.31219/osf.io/9x8eq
 #   link: 2021_vis_loon_talk_slides.pdf
 
 # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-
+images:
+- path: 2024_eurovis_persist_overview.png
+  caption: Different outputs supported by Persist.
+- path: 2024_eurovis_persist_toolbar.png
+  caption: Operations injected by Persist in the output header.
+- path: 2024_eurovis_persist_df_manager.png
+  caption: Persist inserts a dataframe manager in the footer for created dataframes.
+- path: 2024_eurovis_persist_altair.png
+  caption: Persist supports Vega-Altair charts including composite charts.
+- path: 2024_eurovis_persist_datatable.png
+  caption: Persist supports an interactive DataTable.
 # supplements:
 # - name: Study Results and Example Notebooks
 #  link: https://github.com/visdesignlab/persist-examples/
@@ -89,11 +99,8 @@ code: https://github.com/visdesignlab/persist/
 
 abstract: "
 <p>
-Computational notebooks, such as Jupyter, support rich data visualization. However, even when visualizations in notebooks are interactive, they still are a dead end: Interactive data manipulations, such as selections, applying labels, filters, categorizations, or fixes to column or cell values, could be efficiently apply in interactive visual components, but interactive components typically cannot manipulate Python data structures. Furthermore, actions performed in interactive plots are volatile, i.e., they are lost as soon as the cell is re-run, prohibiting reusability and reproducibility. To remedy this, we introduce Persist, a family of techniques to capture and apply interaction provenance to enable persistence of interactions. When interactions manipulate data, we make the transformed data available in dataframes that can be accessed in downstream code cells. We implement our approach as a JupyterLab extension that supports tracking interactions in Vega-Altair plots and in a data table view. Persist can re-execute the interaction provenance when a notebook or a cell is re-executed enabling reproducibility and re-use. 
-</p>
-<p>
-We evaluated Persist in a user study targeting data manipulations with 11 participants skilled in Python and Pandas, comparing it to traditional code-based approaches. Participants were consistently faster with Persist, were able to correctly complete more tasks, and expressed a strong preference for Persist.
-</p>
+Computational notebooks, such as Jupyter, support rich data visualization. However, even when visualizations in notebooks are interactive, they are a dead end: Interactive data manipulations, such as selections, applying labels, filters, categorizations, or fixes to column or cell values, could be efficiently applied in interactive visual components, but interactive components typically cannot manipulate Python data structures. Furthermore, actions performed in interactive plots are lost as soon as the cell is re-run, prohibiting reusability and reproducibility. To remedy this problem, we introduce Persist, a family of techniques to (a) capture interaction provenance, enabling the persistence of interactions, and (b) map interactions to data manipulations that can be applied to dataframes. We implement our approach as a JupyterLab extension that supports tracking interactions in Vega-Altair plots and in a data table view. Persist can re-execute interaction provenance when a notebook or a cell is re-executed, enabling reproducibility and re-use. 
+We evaluate Persist in a user study targeting data manipulations with 11 participants skilled in Python and Pandas, comparing it to traditional code-based approaches. Participants were consistently faster and were able to correctly complete more tasks with Persist.</p>
 "
 ---
 

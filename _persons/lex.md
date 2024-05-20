@@ -92,6 +92,7 @@ former_students:
  - Stefan Sauer, BS '09 (with D. Schmalstieg)
 
 projects:
+ - 2023-cdc-foresite
  - 2023-nih-quick
  - 2023-nih-enhancing-loon
  - 2022-nsf-revisit
