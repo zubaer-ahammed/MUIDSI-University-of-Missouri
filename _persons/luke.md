@@ -7,7 +7,7 @@ key: luke
 permalink: /team/luke/
 # Pick one of the following
 role: undergrad
-email: u1282370@umail.utah.edu
+email: luke.schreiber@utah.edu
 image: /assets/images/people/luke.jpg
 organization: University of Utah
 position: Undergrad Intern
