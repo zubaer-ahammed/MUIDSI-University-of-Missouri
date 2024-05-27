@@ -159,8 +159,9 @@
     box-shadow: 0 0 3px 4px darkgray;
   }
 
+  // Change this to fit more or fewer ppl on the page. 40px for <8 ppl, less for more
   &.not-first {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 }
 
