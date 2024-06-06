@@ -5,9 +5,9 @@ $base-font-family: $sans-serif;
 
 // Sizes
 $base-font-size: 1em;
-$base-line-height: $base-font-size * 1.4;
-$unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
-$title-line-height: $base-font-size * 1.25;
+$base-line-height: calc($base-font-size * 1.4);
+$unitless-line-height: strip-units($base-line-height);
+$title-line-height: calc($base-font-size * 1.25);
 $base-border-radius: em(3);
 
 
