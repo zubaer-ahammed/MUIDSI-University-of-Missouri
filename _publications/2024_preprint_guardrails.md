@@ -26,8 +26,8 @@ bib:
 
 # Links to a project hosted on VDL, or else externally on your own site
 
-project: https://vdl.sci.utah.edu/viz-guardrails-study/sandbox/interface
-external-project: 
+project: 
+external-project: https://vdl.sci.utah.edu/viz-guardrails-study/
 
 # Video entries, a preview , talk, and intro video. Vimeo IDs or youtube IDs are supported
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
