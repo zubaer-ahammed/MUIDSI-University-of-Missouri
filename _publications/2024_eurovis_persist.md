@@ -21,10 +21,9 @@ year: 2024
 bibentry: article
 bib:
   #booktitle: "Preprint"
-  doi: 10.31219/osf.io/9x8eq
-  journal: Computer Graphics Forum (EuroVis), to appear
+  journal: Computer Graphics Forum (EuroVis)
   # publisher: IEEE
-  # doi: 10.1109/TVCG.2021.3114766
+  doi: 10.1111/cgf.15092
   # url:
   volume: 43
   number: 3
