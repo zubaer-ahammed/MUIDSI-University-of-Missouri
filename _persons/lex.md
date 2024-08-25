@@ -28,18 +28,20 @@ office-hours: Fridays, 12:45-1:45pm
 showteaching: true
 
 phd_students:
- - kiran
- - lange
  - lisnic
  - zcutler
  - eliza
+ - Khandaker Abrar Nadib
 
 ms_students:
  
 ug_students:
  - zoexel
+ - luke
 
 phd_graduates:
+ - lange
+ - kiran
  - lin
  - rogers
  - nobre
