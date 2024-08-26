@@ -31,7 +31,7 @@ phd_students:
  - lisnic
  - zcutler
  - eliza
- - Khandaker Abrar Nadib
+ - abrar
 
 ms_students:
  

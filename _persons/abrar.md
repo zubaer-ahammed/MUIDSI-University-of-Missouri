@@ -3,7 +3,7 @@
 layout: person
 first_name: Khandaker Abrar
 last_name: Nadib
-key: Abrar
+key: abrar
 permalink: /team/abrar/
 # Pick one of the following
 role: phdstudent
