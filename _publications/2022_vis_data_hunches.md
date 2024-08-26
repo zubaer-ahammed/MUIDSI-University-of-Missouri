@@ -38,7 +38,7 @@ year: 2022
 
 bibentry: article
 bib:
-  booktitle: IEEE Transactions on Visualization and Computer Graphics
+  booktitle: IEEE Transactions on Visualization and Computer Graphics (VIS)
   url:
   doi: 10.1109/TVCG.2022.3209451
   pages: 504-514
