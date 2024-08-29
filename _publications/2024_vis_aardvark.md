@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: "Aardvark: Composite Visualizations of Trees, Time-Series, and Images"
-key: 2024_preprint_aardvark
-type: preprint
+key: 2024_vis_aardvark
+type: paper
 order: 2024-4
 redirect_from: /publications/2024_preprint_aardvark/
 
 shortname: Aardvark
-image: 2024_preprint_aardvark.png
-image_large: 2024_preprint_aardvark_teaser.png
+image: 2024_vis_aardvark.png
+image_large: 2024_vis_aardvark_teaser.png
 
 authors:
   - lange
@@ -16,20 +16,26 @@ authors:
   - Thomas A. Zangle
   - lex
 
-journal-short: Preprint
+journal-short: IEEE VIS
 year: 2024
 
-bibentry: preprint
+bibentry: article
 bib:
-  booktitle: "Preprint"
-  doi: 10.31219/osf.io/cdbm6
-#   url:
-#   volume: 28
-#   number: 1
-#   pages: 248-258
-#   month:
+  journal: IEEE Transactions on Visualization and Computer Graphics (VIS)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi:  10.31219/osf.io/cdbm6
+  url: 
+  volume: 
+  number: 
+  pages: 
+  month:
 
-# award: IEEE VIS 2021 Honorable Mention Award
+preprint: https://osf.io/cdbm6
+
+award: IEEE VIS 2024 Best Paper Award
 
 # blog-post: 2022/04/27/loon/
 
@@ -44,8 +50,8 @@ external-project: https://aardvark.sci.utah.edu/
 videos:
  - name: 'Aardvark Introduction'
    youtube-id: mA6H4-i04g4
-   file: 2024_preprint_aardvark.mp4
-   subtitles: 2024_preprint_aardvark_subtitles.srt
+   file: 2024_vis_aardvark.mp4
+   subtitles: 2024_vis_aardvark_subtitles.srt
 
 #  - name: 'Loon VIS Preview'
 #    youtube-id: iRsL3WiZbhI
@@ -59,7 +65,7 @@ videos:
 
 # Provide a preprint and supplement pdf
 
-pdf: 2024_preprint_aardvark.pdf
+pdf: 2024_vis_aardvark.pdf
 # supplement: 2021_vis_loon_supplement.pdf
 
 # Link to an official preprint server
@@ -67,12 +73,21 @@ preprint_server: https://doi.org/10.31219/osf.io/cdbm6
 
 # # Extra supplements, such as talk slides, data sets, etc.
 
-# supplements:
-# - name: VIS Talk Slides
+supplements:
+- name: Supplemental Material
+  abslink: https://osf.io/3f6kr/
 #   link: 2021_vis_loon_talk_slides.pdf
 
 # # Supplemental, cc-by images. Make caption brief (at most 60 chars)
-# images:
+images:
+- path: 2024_vis_aardvark_overview.png
+  caption: The Aardvark interface includes several visualizations.
+- path: 2024_vis_aardvark_time-series.png
+  caption: The time-series-first visualization.
+- path: 2024_vis_aardvark_tree.png
+  caption: The tree-first visualization.
+- path: 2024_vis_aardvark_image.png
+  caption: The image-first visualization.
 # - path: 2021_vis_loon_overview.png
 #   caption: The overall Loon interface includes multiple visualizations.
 # - path: 2021_vis_loon_exemplars.png
