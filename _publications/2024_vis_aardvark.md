@@ -26,7 +26,7 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi:  10.31219/osf.io/cdbm6
+  doi:  10.1109/TVCG.2024.3456193
   url: 
   volume: 
   number: 
