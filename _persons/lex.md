@@ -108,7 +108,7 @@ projects:
 
 ---
 
-My research is on data visualization and human computer interaction. I design, build, and study interactive visual data analysis solutions to aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets. I also investigate how to make visualization reproducable, how to integrate visualizations with computational workflows, and how to make data visualizations accessible to blind and low-vision users. Finally, I also develop infrastructure for crowd-sourced user studies.  
+My research is on data visualization and human computer interaction. I design, build, and study interactive visual data analysis solutions to aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets. I also investigate how to make visualization reproducible, how to integrate visualizations with computational workflows, and how to make data visualizations accessible to blind and low-vision users. Finally, I also develop infrastructure for crowd-sourced user studies.  
 
 ## Bio
 
