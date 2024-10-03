@@ -37,7 +37,7 @@ preprint: https://osf.io/cdbm6
 
 award: IEEE VIS 2024 Best Paper Award
 
-# blog-post: 2022/04/27/loon/
+blog-post: 2024/09/30/aardvark/
 
 # Links to a project hosted on VDL, or else externally on your own site
 
