@@ -3,7 +3,7 @@
 layout: person
 first_name: Tingying
 last_name: He
-key: lange
+key: he
 permalink: /team/he/
 role: postdoc
 email: hetingying.hty@gmail.com
