@@ -55,9 +55,14 @@ At this point I realized that I’ll need help to pull this off, especially with
 Everyone on this team was an experienced visualization researcher, and magically, everyone found the time to really pour their heart into the project. We had many lively discussions on our wall-spanning whiteboard, and lots of heated arguments about UpSet features in its early days.   
 We were able to pull the UpSet paper off in just three months – from idea, to design and refinement, to evaluation, to writeup – and you can still admire the result here: [https://vcg.github.io/upset/](https://vcg.github.io/upset/) 
 
-*![The UpSet system as published in the paper](/assets/images/posts/2024-10-upset/upset_original.png)*
+![The UpSet system as published in the paper](/assets/images/posts/2024-10-upset/upset_original.png)
 
 As you can see this is actually a fairly complicated interactive visualization system. While the basic design remained the same, everyone contributed immensely to make it all come together. It took a million design decisions to actually make this work. We also used interaction extensively to enable users to answer a variety of questions. The system includes supplementary visualizations, queries, aggregations of intersections, attribute visualizations, and so on. 
+
+We made the deadline and properly celebrated the submission!
+
+![Celebrations with the authors in a collage](/assets/images/posts/2024-10-upset/celebrate.png)
+
 
 The paper received mostly strong reviews on its first submission to InfoVis.   
 Of course, the dreaded “Reviewer 2” found that “*The proposed software and its associated methodology does not go beyond what this area has been providing as standard for the last 15 years.”* Nevertheless, the other reviews were sufficiently positive, and we were happy to present it that year in [Paris at the 2014 Visualization](https://ieeevis.org/year/2014/info/vis-welcome/welcome) conference.  
