@@ -21,7 +21,7 @@ lead-image-alt-text: A screenshot of the UpSet system as originally published in
 
 As of October 2024 the [UpSet paper](https://vdl.sci.utah.edu/publications/2014_infovis_upset/) has been cited 1900 times. Together with Jake Conway and Nils Gehlenborg, I also wrote a short [follow-up paper introducing an R version of UpSet](https://vdl.sci.utah.edu/publications/2017_bioinformatics_upsetr/), which has been cited 2500 times. So clearly, those papers have hit a nerve – UpSet is now the de-facto standard for visualizing set data with more than 3 sets. Also, UpSet has been [re-implemented many times](https://upset.app/implementations/), making it available on various platforms and in many programming languages, which certainly contributed significantly to its success. 
 
-In this post, I want to first give a brief history on how UpSet came to be and acknowledge the giants on whose shoulders we stood, and then share my thoughts on [what made UpSet successful](#what-made-upset-successful?). 
+In this post, I want to first give a brief history on how UpSet came to be and acknowledge the giants on whose shoulders we stood, and then share my thoughts on [what made UpSet successful](#what-made-upset-successful). 
 
 ## **How UpSet Came to Be**
 
