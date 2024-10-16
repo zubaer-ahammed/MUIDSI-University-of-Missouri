@@ -11,7 +11,7 @@ publication_key: 2014_infovis_upset
 # redirect_from:
 # - "/event/2020/07/20/state-dashboards/"
 # Use the abstract to provide a high-level overview of the blog post and main takeaways.
-abstract: "This blog post was triggered by UpSet winning the 10-year Test of Time Award at IEEE VIS. I want to reflect a little bit on how UpSet came about, and what made it successful."
+abstract: "This blog post was triggered by UpSet winning the 10-year Test of Time Award at IEEE VIS. In this post, I reflect on how UpSet came about, and what made it successful."
 # Create a lead image that is <500k so that it shows up on twitter link preview
 lead-image: /assets/images/posts/2024-10-upset/upset_original.png
 lead-image-alt-text: A screenshot of the UpSet system as originally published in 2014. 
@@ -71,7 +71,7 @@ Of course, the dreaded “Reviewer 2” found that “*The proposed software and
 
 So, what made UpSet more successful than some of my other visualization papers? I think it was a multitude of factors. Some of them might be unique to this project, but others may be relevant as a lesson also for other visualization projects. 
 
-### **It Solved a Real and Pressing Need**
+### **UpSet Solved a Real and Pressing Need**
 
 There really wasn’t a good way to visualize set intersections of four, five or even more sets. Existing Venn or Euler diagram solutions just don’t work, it gets too complicated to understand what sets are involved in an intersection, and area-proportionality is incredibly hard for Venn diagrams with more than three sets. And especially in the biomedical domain we saw a lot of bizarre many-set Venn diagrams: 
 
@@ -79,7 +79,7 @@ There really wasn’t a good way to visualize set intersections of four, five or
 
 Other solutions required interaction, or were difficult to interpret. In contrast, UpSet plots are at least somewhat self-explanatory and solve the problem. 
 
-### **Meeting Users Where They Are** 
+### **UpSet Met Users Where They Are** 
 
 If we had just stopped with our UpSet implementation where we were with our InfoVis paper, I doubt that it would have been a big success. I’m sure people in our community would have appreciated it, and might even have built extensions based on our open source code. But we realized that for broad adoption, we have to meet users where they are, and we have to communicate with them. 
 
@@ -103,7 +103,7 @@ While some features, such as sorting made it into UpSetR, others didn’t. That 
 
 While I do think software tools and libraries add tremendous value to our community, and my team invests a lot of energy in building and maintaining software, it is certainly nice to see that an idea takes off, not at least because you don’t have to maintain the software yourself\! 
 
-### **Useful for Communication, Not Only Discovery**
+### **UpSet is Useful for Communication, Not Only Discovery**
 
 Finally, UpSet hits the sweet-spot between being useful for discovery / exploration, but also for communication. Like scatter plots or histograms, UpSet can be used in the discovery process, but is still simple enough so that they can be used as a figure in scientific articles. 
 
