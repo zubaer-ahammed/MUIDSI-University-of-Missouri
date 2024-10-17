@@ -76,7 +76,10 @@ preprint_server: https://doi.org/10.31219/osf.io/cdbm6
 supplements:
 - name: Supplemental Material
   abslink: https://osf.io/3f6kr/
-#   link: 2021_vis_loon_talk_slides.pdf
+- name: VIS Talk Slides - Keynote
+  link: 2024_vis_aardvark_slides.key
+- name: VIS Talk Slides - PDF
+  link: 2024_vis_aardvark_slides.pdf
 
 # # Supplemental, cc-by images. Make caption brief (at most 60 chars)
 images:
