@@ -12,7 +12,8 @@ note:
 date: 2024-06-03
 
 held:
- - "[Media and Information Technology (MIT)](https://liu.se/en/organisation/liu/itn/mit) Seminar, Linköping University, Norrköping, Sweden, 2024-06-03"
+ - "[Department of Informatics](https://www.ifi.uzh.ch/) Colloquium, University of Zürich, Zürich, Switzerland, 2024-10-03."
+ - "[Media and Information Technology (MIT)](https://liu.se/en/organisation/liu/itn/mit) Seminar, Linköping University, Norrköping, Sweden, 2024-06-03."
 ---
 In this talk I want to introduce three not particularly related research topics: provenance, user studies, and visualization-based misinformation.
 
