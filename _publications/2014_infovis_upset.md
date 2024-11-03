@@ -25,7 +25,9 @@ bib:
   number: 12
   pages: 1983--1992
 
-award:
+award: 10 Year InfoVis Test of Time Award, 2024
+
+blog-post: 2024/10/16/upset_reflections/
 
 external-project: http://vcg.github.io/upset/
 code: https://github.com/vcg/upset
