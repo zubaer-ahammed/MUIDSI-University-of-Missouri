@@ -31,4 +31,5 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
+graduated: N
 ---
