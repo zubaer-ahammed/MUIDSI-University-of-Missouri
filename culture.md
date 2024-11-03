@@ -9,13 +9,24 @@ We care about a friendly culture in our lab, so we have a series of activities t
 
 ## Group Meetings
 
-We meet weekly as a group to discuss a research paper, give feedback on research proposals, give test-talks for conferences, and build other soft-skills. Our meetings include all our PostDocs and PhD students, but also MS and BS students interacting with the group.
+We meet weekly as a group to discuss a research paper, give feedback on research proposals, give test-talks for conferences, and build other soft-skills. Our meetings include all our PostDocs, PhD students, and software engineers, but also MS and BS students interacting with the group.
 
 ## Group Retreat
 
-Once a year we go on a hike and meet for food and drinks at Alex' house afterwards. Here are some pictures from these events.
+Once a year we do something fun for a group retreat. Here are some pictures from these events.
+
+### 2024 Group Retreat
+
+<img class="social" src="../assets/images/social/2024_group_retreat.jpg " alt="2024 VDL Social Group Photo at Top Golf.">
+
+### 2023 Social
+
+2023 had a lot of events, so we didn't do a retreat, but celebrated Haihan's defense. 
+<img class="social" src="../assets/images/social/2023_haihans_defense_and_retreat.jpg" alt="2023 VDL Social Group Photo.">
 
 ### 2022 Group Retreat
+
+
 
 <img class="social" src="../assets/images/social/2022_social.jpg" alt="2022 VDL Social Group Photo.">
 
