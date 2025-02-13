@@ -1,15 +1,15 @@
 ---
 # use person layout if you want a page generated for you
-layout: person
+layout: person 
 first_name: Jorge
-last_name: Acosta
-key: jacosta
-permalink: /team/jacosta/
+last_name: Acosta 
+key: jacosta 
+permalink: /team/jacosta/ 
 # Pick one of the following
 role: visitor
-email: jorge.acosta@upm.es
-image: /assets/images/people/jacosta.jpg
-organization: Polythecnic University of Madrid & University of Utah 
+email: jorge.acosta@upm.es 
+image: /assets/images/people/jacosta.jpg 
+organization: Polytechnic University of Madrid and University of Utah 
 position: PhD Student
 # use either a local link like here, or a URL
 website: /team/jacosta/
@@ -27,7 +27,6 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-graduated: N
 ---
 
-I'm a PhD student at the Polythecnic University of Madrid and a visiting researcher at VDL / Utah.
+I'm a PhD student at the Polytechnic University of Madrid and a visiting researcher at VDL / Utah.
