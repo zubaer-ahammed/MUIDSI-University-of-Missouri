@@ -5,23 +5,29 @@ first_name: Jorge
 last_name: Acosta
 key: jacosta
 permalink: /team/jacosta/
-role: PhD Student
+# Pick one of the following
+role: visitor
 email: jorge.acosta@upm.es
 image: /assets/images/people/jacosta.jpg
-organization: Polytechnic University of Madrid & University of Utah
-position: PhD rotation
+organization: Polythecnic University of Madrid & University of Utah 
+position: PhD Student
 # use either a local link like here, or a URL
 website: /team/jacosta/
-interests: Visualization Tools, Multivariate Network Visualization, Neurological Data Visualization
-#  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDL before you got a degree.
-graduated:
-phd_graduate: 
+interests: Multivariate Network Visualization, Empirical User Evaluation, Neurscience Data Visualization 
 
 # stuff below can be ignored if you don't use the group website for your private website
-gh: https://github.com/tingying-he
-# cv:
-address:
+
+twitter: 
+cv: 
+address: |
+    Scientific Computing and Imaging Institute, <br>
+    School of Computing, University of Utah <br>
+    72 South Central Campus Drive, Room 2720 <br>
+    Salt Lake City, Utah 84112
 
 # flag used to determine whether to show teaching
 showteaching: false
+graduated: N
 ---
+
+I'm a PhD student at the Polythecnic University of Madrid and a visiting researcher at VDL / Utah.
