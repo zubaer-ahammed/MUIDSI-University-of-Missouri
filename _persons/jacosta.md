@@ -13,7 +13,7 @@ organization: Polythecnic University of Madrid & University of Utah
 position: PhD Student
 # use either a local link like here, or a URL
 website: /team/jacosta/
-interests: Multivariate Network Visualization, Empirical User Evaluation, Neurscience Data Visualization 
+interests: Multivariate Network Visualization, Empirical User Evaluation, Neuroscience Data Visualization 
 
 # stuff below can be ignored if you don't use the group website for your private website
 
