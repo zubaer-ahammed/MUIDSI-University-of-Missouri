@@ -6,11 +6,11 @@ last_name: Schreiber
 key: luke
 permalink: /team/luke/
 # Pick one of the following
-role: undergrad
+role: engineer
 email: luke.schreiber@utah.edu
 image: /assets/images/people/luke.jpg
 organization: University of Utah
-position: Undergrad Intern
+position: Software Developer
 # use either a local link like here, or a URL
 website: /team/luke/
 interests: Data Visualization, Health Science
