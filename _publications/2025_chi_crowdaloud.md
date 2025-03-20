@@ -35,6 +35,10 @@ external-project: https://vdl.sci.utah.edu/ThinkAloud/
 # you need to pick either a vimeo or youtube ID. We definitely want a downloadable video too.
 
 videos:
+ - name: 'CrowdAloud Introduction'
+   youtube-id: H2LD-S7JtmU
+   file: 2025_chi_crowdaloud.mp4
+   subtitles: 2025_chi_crowdaloud.srt
 
 
 # Provide a preprint and supplement pdf
