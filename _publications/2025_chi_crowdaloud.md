@@ -6,7 +6,7 @@ type: paper
 order: 2025-1
 
 
-shortname: Crowdaloud
+shortname: CrowdaAloud
 image: 2025_chi_crowdaloud.png
 image_large: 2025_chi_crowdaloud_teaser.png
 
@@ -40,7 +40,7 @@ videos:
 # Provide a preprint and supplement pdf
 
 pdf: 2025_chi_crowdaloud.pdf
-supplement: 2025_chi_crowdaloud.zip
+supplement: 2025_chi_crowdaloud_supplement.zip
 
 # Link to an official preprint server
 preprint_server: https://osf.io/preprints/osf/8jb7e_v1
