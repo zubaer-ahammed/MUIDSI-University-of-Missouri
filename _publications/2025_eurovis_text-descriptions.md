@@ -48,7 +48,7 @@ bib:
   pages: 
   month:
 
-preprint:  # here you can put all preprint links (arxiv.org, osf.io,...)
+preprint_server: https://arxiv.org/abs/2503.17517
 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
@@ -63,7 +63,7 @@ supplement: 2025_eurovis_text-descriptions_supplement.zip
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-- name: Supplemental Material OSF
+- name: Supplementary Material OSF
   # Use link instead of abslink if you want to link to the master directory
   abslink: https://osf.io/kbvs9/
   # Defaults to a download icon, use this if you want a link-out icon
