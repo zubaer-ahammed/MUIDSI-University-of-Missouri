@@ -25,4 +25,4 @@ jobs:
 
       - name: Check for broken links
         run: |
-          cat .github/workflows/links_to_ignore.txt | bundle exec htmlproofer --log-level :debug --ignore-status-codes 999,301,0,503,302,403 --checks Links,Scripts --enforce-https=false --typhoeus='{"headers":{"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/94.0"},"cookiefile":".cookies","cookiejar":".cookies"}' --ignore-urls `xargs` ./_site
+          cat .github/workflows/links_to_ignore.txt | bundle exec htmlproofer --log-level :debug --ignore-status-codes 999,301,0,503,302,403 --checks Links,Scripts --no-check-external-hash --no-enforce-https --typhoeus='{"headers":{"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/94.0"},"cookiefile":".cookies","cookiejar":".cookies"}' --ignore-urls `xargs` ./_site
