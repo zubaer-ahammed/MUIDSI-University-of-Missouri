@@ -81,6 +81,16 @@ supplements:
   abslink: https://vdl.sci.utah.edu/Upset-alttxt-study/Upset-Alttext-User-Survey/
   linksym: false
 
+# # Supplemental, cc-by images. Make caption brief (at most 60 chars)
+images:
+  - path: 2025_eurovis_text-descriptions_longdescription.png
+    caption: UpSet 2 interface with generated text description.
+  - path: 2025_eurovis_text-descriptions_text.png
+    caption: UpSet 2 full text description with alternative configuration.
+  - path: 2025_eurovis_text-descriptions_notebook.jpg
+    caption: UpsetPlot (Python) generated text descriptions.
+  - path: 2025_eurovis_text-descriptions_revisit.png
+    caption: A screenshot from Experiment 1 (reVISit).
 
 # Link to the repository where the code is hostet
 code: https://github.com/visdesignlab/upset-alt-txt-gen  
