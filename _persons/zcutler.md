@@ -32,4 +32,4 @@ showteaching: false
 
 ---
 
-I'm a first year PhD student at the School of Computing working with Alexander Lex. My current research is focused on making user studies easier to design, run, and analyze. I've previously worked mostly on provenance in visualization systems, and helped develop both [Trrack]({{site.base_url}}/blog/2020/10/28/trrack/) and [Trrack-Vis](https://www.chromatic.com/library?appId=63ee57592a53ae7413d27e43)
+I'm a third year PhD student at the School of Computing working with Alexander Lex. My current research is focused on making user studies easier to design, run, and analyze. I've previously worked mostly on provenance in visualization systems, and helped develop both [Trrack]({{site.base_url}}/blog/2020/10/28/trrack/) and [Trrack-Vis](https://www.chromatic.com/library?appId=63ee57592a53ae7413d27e43). For more information, see my [personal site](https://zach-cutler.com/).
