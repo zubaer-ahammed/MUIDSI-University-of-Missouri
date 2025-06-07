@@ -5,6 +5,7 @@ date: 2025-06-07 06:00:00
 categories: blog
 type: blog
 publication_key: 2025_eurovis_text-descriptions
+hide-author-images: true
 authors: 
  - Maggie McCracken
  - Andrew McNutt
@@ -42,7 +43,7 @@ skewed intersection sizes or dominant sets that shaped the narrative focus of ou
 descriptions. These insights informed a modular, rule-based pipeline that produces both brief
 summaries and extended descriptions. As shown in the annotated example below, the generated text incorporates multiple layers of information, from basic chart elements to statistical summaries.
 
-![A long piece of text, one of the upset plot descriptions, with colorful annotations. At the top is a legend describing what the colors mean. It reads Level 1 (element and encoded), Level 2 (Statistical and relational), Level 3 (perceptual and cognitive), and Level 4 (Contextual and domain-specific). Each piece of the text is colored by one of these tags. On the left-hand side, it is indicated which piece of the text is the long description and which part is the short description. On the right-hand side are indications which of our developed patterns are relevant to each piece of text.](/assets/images/posts/2025_eurovis_text-description.png)
+<img src="/assets/images/posts/2025_eurovis_text-description.png" alt="A long piece of text, one of the upset plot descriptions, with colorful annotations. At the top is a legend describing what the colors mean. It reads Level 1 (element and encoded), Level 2 (Statistical and relational), Level 3 (perceptual and cognitive), and Level 4 (Contextual and domain-specific). Each piece of the text is colored by one of these tags. On the left-hand side, it is indicated which piece of the text is the long description and which part is the short description. On the right-hand side are indications which of our developed patterns are relevant to each piece of text." width="400px">
 
 ## But do these text descriptions actually work?
 
@@ -57,7 +58,5 @@ So yes, making charts more accessible helps blind readers. But more than that, i
 If you are curious, you can try it out for yourself at [https://upset.multinet.app](https://upset.multinet.app). You can also upload your own data and generate descriptions instantly.
 
 This project serves as a reminder that accessibility is not just a technical challenge. It is about asking who gets to be included in scientific conversations. Accessibility is not just a bonus feature but part of that conversation. Charts included.
-
-For more information on this project, [read our paper](https://vdl.sci.utah.edu/publications/2025_eurovis_text-descriptions/).
 
 *This work was generously supported by the Chan Zuckerberg Initiative.*
