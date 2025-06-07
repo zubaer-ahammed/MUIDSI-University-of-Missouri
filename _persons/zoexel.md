@@ -15,7 +15,7 @@ position: BS Thesis Student
 website: /team/zoexel/
 interests: Data Visualization, Storytelling, Environmental Data Science, 
 #  leave empty if you're active. Add something like "M.S.'16" or "B.S.'17" if you got a degree while at VDL. Add "N" if you left VDS before you got a degree.
-graduated:
+graduated: BS '25
 # stuff below can be ignored if you don't use the group website for your private website
 gs:
 gh: https://github.com/zoexelbert
