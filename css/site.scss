@@ -17,6 +17,35 @@ $small-display: new-breakpoint(max-width 749px $small-display-columns);
 $medium-display: new-breakpoint(min-width 750px max-width 1199px $medium-display-columns);
 $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
+#lab-move-banner {
+  background-color: #fffae6;
+  color: #333;
+  text-align: left;
+  padding: 1em 1.5em;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #f0c000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+#lab-move-banner a {
+  color: #b85c00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#lab-move-banner a:hover {
+  color: #8a4500;
+}
+
+@media screen and (max-width: 600px) {
+  #lab-move-banner {
+    font-size: 1rem;
+    padding: 0.8em;
+     margin-bottom: 0;
+  }
+}
+
 /* site specific changes that do not fit into base */
 
 @mixin navigation-button($color) {
@@ -98,7 +127,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 .banner {
   display: block;
   //height: 40px;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
   //margin-bottom: 20px;
   //padding-bottom:20px;
