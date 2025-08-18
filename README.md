@@ -25,7 +25,7 @@ https://jekyllrb.com/docs/installation/
 ### Run Jekyll
 
 ``` shell
-jekyll serve -i
+bundle exec jekyll serve -i
 ```
 
 Running Jekyll in incremental (`-i`) mode is _significantly_ faster.
@@ -37,6 +37,12 @@ Running Jekyll in incremental (`-i`) mode is _significantly_ faster.
 open http://0.0.0.0:4000/
 ```
 
+### Generate Production Build
+``` shell
+bundle exec jekyll build
+```
+
+Your production build will be generated in the _site/ directory, which contains all the static files ready for deployment.
 
 ## Contributions
 
