@@ -68,7 +68,7 @@
     margin-top: 1px;
     font-size: $page-content-font-size * 1.15;
     font-weight: 700;
-    color: #3476A0;
+    color: $missouri-yellow;
 
     .dot {
       margin: 0px 1px 0 1px;
@@ -139,19 +139,19 @@
 
 
   &.color0 {
-    border-color: #C03A2B;
+    border-color: $missouri-yellow;
   }
 
   &.color1 {
-    border-color: #3476A0;
+    border-color: $missouri-black;
   }
 
   &.color2 {
-    border-color: #2C3E50;
+    border-color: darken($missouri-yellow, 15%);
   }
 
   &.color3 {
-    border-color: #E66558;
+    border-color: lighten($missouri-yellow, 10%);
   }
 
   &.selected,

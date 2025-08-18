@@ -1,7 +1,7 @@
 ---
 # use person layout if you want a page generated for you
 layout: person
-first_name: Maxim
+first_name: Zubaer
 last_name: Lisnic
 key: lisnic
 permalink: /team/lisnic/

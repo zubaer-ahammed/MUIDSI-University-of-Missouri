@@ -1,18 +1,18 @@
 ---
 # use person if you want to have a personal website created
 layout: person
-first_name: Alexander
-last_name: Lex
-title: Alexander Lex
+first_name: Chi-Ren
+last_name: Shyu
+title: Chi-Ren Shyu
 key: lex
 permalink: /team/lex/
 # faculty | phdstudent | phd_rotation | postdoc | msstudent | engineer
 role: faculty
-email: alex@sci.utah.edu
-image: /assets/images/people/lex.jpg
-organization: University of Utah
-position: Associate Professor
-degree: PhD, MSc
+email: shyuc@missouri.edu
+image: /assets/images/people/ChiRenShyu.jpg
+organization: University of Missouri
+position: Associate Dean for Graduate Education and Strategic Initiatives, Director of MU Institute for Data Science and Informatics, Paul K. and Dianne Shumaker Professor
+degree:  PhD, FACMI, FAMIA
 website: /team/lex/
 interests: Data Visualization, Visualization Tools, Provenance and Reproducibility, Evaluation, Life Science Applications
 graduated:
@@ -21,7 +21,7 @@ gs: https://scholar.google.com/citations?user=JFNLCUcAAAAJ
 github: https://github.com/alexsb
 twitter: "@alexander_lex"
 cv: https://sci.utah.edu/~vdl/files/cv_alexander_lex.pdf
-room: WEB 3887
+room: 031
 office-hours: Fridays, 12:45-1:45pm
 
 # flag used to determine whether to show teaching   
@@ -108,14 +108,14 @@ projects:
 
 ---
 
-My research is on data visualization and human computer interaction. I design, build, and study interactive visual data analysis solutions to aid researchers in data driven fields, such as biology and medicine, in understanding and communicating complex data sets. I also investigate how to make visualization reproducible, how to integrate visualizations with computational workflows, and how to make data visualizations accessible to blind and low-vision users. Finally, I also develop infrastructure for crowd-sourced user studies.  
+Dr. Chi-Ren Shyu’s research lies at the intersection of biomedical informatics, explainable artificial intelligence (AI), and spatial big data analytics. He is particularly focused on developing AI-driven solutions to improve healthcare decision-making, with an emphasis on transparency, interpretability, and clinical relevance. His work also explores cybersecurity and quantum computing applications in medical and geospatial contexts. Dr. Shyu has led numerous interdisciplinary projects involving large-scale data integration and analysis, often in collaboration with healthcare providers and public health agencies.
 
 ## Bio
 
-I am an Associate Professor of Computer Science at the Scientific Computing and Imaging Institute and the Kahlert School of Computing at the University of Utah. I direct the Visualization Design Lab where we develop visualization methods and systems to help solve today’s scientific problems.
+Chi-Ren Shyu (he/him/his) is a professor in Electrical Engineering and Computer Science, associate dean for graduate education and strategic initiatives and serves as the Director of the MU Institute for Data Science and Informatics (MUIDSI). The institute comprises 68 interdisciplinary core faculty from 24 departments and schools, supporting over 140 graduate students in the MS degree program in Data Science & Analytics and the PhD degree program in Informatics, with emphasis areas in bioinformatics, health informatics, and geospatial informatics.
 
-I am the recipient of an NSF CAREER award and multiple best paper awards or honorable mentions at IEEE VIS, ACM CHI, and other conferences. I also received a best dissertation award from my alma mater. I co-founded [Datavisyn](http://datavisyn.io), a startup company developing visualization solutions for the pharmaceutical industry. I am an associate editor for IEEE TVCG and IEEE CG&A, and I served as area papers chair for IEEE VIS in 2021 and 2023. In addition to writing papers, our lab publishes a lot of visualization software. My most popular tool is [UpSet, a set visualization technique](http://upset.app/). Other tools include [reVISit](https://revisit.dev/), a platform for designing online user sutdies, [MultiNet](https://multinet.app/), a network visualization platform and [trrack](https://github.com/trrack/), a library for tracking provenance in interactive applications. You can find other software on our [GitHub Page](https://github.com/visdesignlab).
+Dr. Shyu has organized and chaired technical program committees for several IEEE conferences, including IEEE HealthCom, IEEE BigMM, IEEE BIBM, and IEEE BIBE. He represents MU on the Southeast Conference (SEC) Artificial Intelligence Consortium and currently serves as the President of the MU Graduate Faculty Senate (Fall 2024-Summer 2025). He is the PI of Mizzou’s NSF CyberCorps SFS project ($3.6M) including a newly funded supplement in microelectronics training program. Since joining MU in 2000, Dr. Shyu has received numerous awards, including the National Science Foundation CAREER Award, Engineering Faculty Research Award, Engineering Teaching Excellence Award, MU Faculty Interdisciplinary Entrepreneurial Award, MU Faculty and Alumni Awards, the UM System President’s Leadership Award, and multiple teaching awards within the CS undergraduate and Data Science & Informatics graduate programs.
 
-I currently serve as the Director of Graduate Studies for the Kahlert School of Computing, overseeing more than 500 graduate students. Before joining the University of Utah, I was a lecturer and post-doctoral visualization researcher at Harvard University. I received my PhD, master’s, and undergraduate degrees from Graz University of Technology. In 2011 I was a visiting researcher at Harvard Medical School.
+His interdisciplinary research focuses on biomedical informatics, explainable AI, quantum computing, cybersecurity, and spatial Big Data analytics. Dr. Shyu is a member of Eta Kappa Nu, an elected Fellow of the American College of Medical Informatics (FACMI), and a fellow the American Medical Informatics Association (FAMIA).
 
 

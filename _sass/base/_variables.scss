@@ -11,46 +11,42 @@ $title-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
 
 
-// Colors
-//$blue:#3376A0;
-$blue: #477DCA;
-$dark-gray: #333;
-$medium-gray: #999;
+// Colors - Updated to University of Missouri colors
+// Primary colors: Yellow (#F1B82D) and Black (#111111)
+$missouri-yellow: #F1B82D;
+$missouri-black: #111111;
+$missouri-dark-yellow: darken($missouri-yellow, 15%);
+$missouri-light-yellow: lighten($missouri-yellow, 20%);
+
+// Legacy color variables updated to Missouri theme
+$blue: $missouri-yellow;
+$dark-gray: $missouri-black;
+$medium-gray: #666;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
+$light-yellow: lighten($missouri-yellow, 35%);
 $light-green: #E6EFC2;
-$blue2:#3376A0;
-$dark-blue:#2C3E50;
+$blue2: $missouri-yellow;
+$dark-blue: $missouri-black;
 
-//$home-color: #AD3A33;
-$home-color: #C03A2B;
-//$home-color: #149747;
-//$team-color: #D44942;
-$team-color:#3376A0;
-//$team-color: #3DB7DD;
-$project-color: #EB0021;
-$download-color: #F36229;
-
-//$publication-color: #D66157;
-//$publication-color: #3376A0;
-//$publication-color: #48A5D3;
-$publication-color: #E58035;
-$recent-publications-color:#3376A0; //this is being darkened somewhere...
-//$publication-color: #4CB0D8;
-//$publication-color: #FDB938;
-$presentation-color: $download-color;
+// Page-specific colors updated to Missouri theme
+$home-color: $missouri-yellow;
+$team-color: $missouri-black;
+$project-color: $missouri-yellow;
+$download-color: $missouri-yellow;
+$publication-color: $missouri-yellow;
+$recent-publications-color: $missouri-black;
+$presentation-color: $missouri-yellow;
 $help-color: #B2B2B2;
 $neutral-color: $help-color;
-
 
 // Background Color
 $base-background-color: white;
 $base-body-color: white;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: $missouri-black;
+$base-accent-color: $missouri-yellow;
 
 // Link Colors
 $base-link-color: $base-accent-color;

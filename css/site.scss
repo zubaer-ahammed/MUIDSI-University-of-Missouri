@@ -18,24 +18,24 @@ $medium-display: new-breakpoint(min-width 750px max-width 1199px $medium-display
 $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
 #lab-move-banner {
-  background-color: #fffae6;
-  color: #333;
+  background-color: lighten($missouri-yellow, 35%);
+  color: $missouri-black;
   text-align: left;
   padding: 1em 1.5em;
   font-size: 1.1rem;
-  border-bottom: 2px solid #f0c000;
+  border-bottom: 2px solid $missouri-yellow;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   z-index: 1000;
 }
 
 #lab-move-banner a {
-  color: #b85c00;
+  color: darken($missouri-yellow, 20%);
   font-weight: bold;
   text-decoration: underline;
 }
 
 #lab-move-banner a:hover {
-  color: #8a4500;
+  color: darken($missouri-yellow, 30%);
 }
 
 @media screen and (max-width: 600px) {
@@ -49,7 +49,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 /* site specific changes that do not fit into base */
 
 @mixin navigation-button($color) {
-  color: $dark-blue;
+  color: $missouri-black;
   font-family: $navigation-button-font-family;
   font-weight: $navigation-button-font-weight;
   font-style: $navigation-button-font-style;
@@ -67,7 +67,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
     display: block;
     height: 28px;
     padding: 3px 0px;
-    color: $dark-blue;
+    color: $missouri-black;
 
     border-bottom: 2px $color solid;
     height: 30px;
@@ -80,7 +80,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
     &:focus, &:hover, &:active, &.active {
       //background-color: darken( $color, 20% );
-      //color: #2C3E50;
+      //color: $missouri-black;
       //color: darken( $color, 20% );
       height: 30px;
       border-bottom: 5px $color solid;
@@ -135,7 +135,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   min-height: 20px;
 
   img {
-    border: 2px solid $dark-blue;
+    border: 2px solid $missouri-black;
   }
 
   .home-image {
@@ -157,7 +157,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   .banner-image-title {
     font-family: $condensed-font-family;
     font-weight: 500;
-    color: #3376A0;
+    color: $missouri-yellow;
     margin-left: 2px;
     display: block;
     max-width: 95%;
@@ -443,7 +443,7 @@ body {
     //color: $blue2;
     position: relative;
     text-decoration: none;
-    border-bottom: dotted 1px #E64C3C; //note: use of :after code below unfortuenatly doesn't work with line breaks... using fall-back
+    border-bottom: dotted 1px $missouri-yellow; //note: use of :after code below unfortuenatly doesn't work with line breaks... using fall-back
   }
   a:hover {
     border-bottom-color: transparent;
@@ -683,7 +683,7 @@ a.project-website {
   font-family: $condensed-font-family;
   font-size: 1em;
   font-weight: 700;
-  color: $dark-blue;
+  color: $missouri-black;
 }
 
 .all-news-link {
@@ -693,7 +693,7 @@ a.project-website {
     font-family: $condensed-font-family;
     font-size: 1em;
     font-weight: 700;
-    color: $dark-blue;
+    color: $missouri-black;
   }
 }
 
@@ -728,7 +728,7 @@ a.project-website {
    
 
     b {
-      color: #3376A0;
+      color: $missouri-yellow;
     }
     
   }
@@ -747,7 +747,7 @@ a.project-website {
   }
 
   .post-list-title {
-    color: $dark-blue;// #F1F2F2;
+    color: $missouri-black;// #F1F2F2;
     //color: lighten(#F1F2F2,0.5);
     //background: lighten($home-color, 30%);
     
@@ -779,7 +779,7 @@ a.project-website {
       //display: block;
       //height: 28px;
       padding: 3px 0px;
-      color: $dark-blue;
+      color: $missouri-black;
   
       border-bottom: 2px $home-color solid;
       //height: 30px;
@@ -968,18 +968,18 @@ a.project-website {
     }
 
 
-    .paper-title {
-      @include reverse-dotted-link-underline;
+          .paper-title {
+        @include reverse-dotted-link-underline;
 
-      a {
-        color: $blue2;
-        font-weight: 700;
-      }
+        a {
+          color: $missouri-yellow;
+          font-weight: 700;
+        }
 
-      a:after {
-        border-bottom-width: 0px;
+        a:after {
+          border-bottom-width: 0px;
+        }
       }
-    }
 
     /*
     @include span-columns(10);
@@ -1233,7 +1233,7 @@ iframe:not(.skip-absolute) {
       .paper-title {
         font-weight: 700;
         font-family: $condensed-font-family;
-        color: $blue2;
+        color: $missouri-yellow;
 
       }
 
@@ -1245,14 +1245,14 @@ iframe:not(.skip-absolute) {
   }
 
   i {
-    color: $blue2;
+    color: $missouri-yellow;
   }
 
 }
 
 .publication-content-aside {
   i {
-    color: $blue2;
+    color: $missouri-yellow;
   }
 
   h1 {
@@ -1266,20 +1266,20 @@ iframe:not(.skip-absolute) {
   .video {
     p {
       font-size: 0.9em;
-      color: $blue2;
+      color: $missouri-yellow;
     }
   }
 }
 
-.paper-image-small-aside {
-  width: auto;
-  height: auto;
-  //float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  border: 2px solid $dark-blue;
-  //@include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
-  //@include border-radius( 3px );
+  .paper-image-small-aside {
+    width: auto;
+    height: auto;
+    //float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid $missouri-black;
+    //@include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
+    //@include border-radius( 3px );
 
   /*
   @include span-columns(2);
@@ -1358,11 +1358,11 @@ pre.bibtex {
   padding: 20px;
   //padding-bottom: 10px;
   overflow-x: auto;
-  background: #f0f7fb;
-  color: #2b2a2a;
+  background: lighten($missouri-yellow, 40%);
+  color: $missouri-black;
 
 
-  border: solid 2px #3376A0;
+  border: solid 2px $missouri-yellow;
   border-radius: 6px;
   line-height: 18px;
   overflow: hidden;

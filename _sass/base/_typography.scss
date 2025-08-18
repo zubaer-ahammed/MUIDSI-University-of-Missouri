@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h5 {
   font-family: $content-title-font-family;
   font-weight: $content-title-font-weight;
   font-style: $content-title-font-style; 
-  color:#2C3E50;
+  color: $missouri-black;
   margin-top: 15px;
   margin-bottom: 10px;
   //padding-left: 5px;
@@ -98,7 +98,7 @@ h6 {
 
 p {
   margin: 0 0 ($base-line-height * .5);
-  color:#2B2F33;
+  color: $missouri-black;
 }
 
 a {
@@ -150,5 +150,5 @@ cite {
   font-weight: $page-title-font-weight;
   font-style: $page-title-font-style;  
   font-size: $base-font-size * 3; // 16 * 3 = 48px
-  color: $blue2;
+  color: $missouri-yellow;
 }
