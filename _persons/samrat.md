@@ -30,7 +30,7 @@ address: |
 
 # flag used to determine whether to show teaching
 showteaching: false
-graduated: N
+graduated: 
 ---
 
 Hi! I'm Samrat Kumar Dey, currently pursuing my PhD in Informatics with a specialization in Medical Informatics at the University of Missouri-Columbia. Alongside my doctoral studies, I serve as a Graduate Research Assistant at the MU Institute for Data Science and Informatics, working within the Interdisciplinary Data Analytics and Search (iDAS) Lab under the supervision of Prof. Dr. Chi-Ren Shyu. My research interests include Machine Learning, AI for Healthcare, Agentic AI, and Healthcare Informatics.
