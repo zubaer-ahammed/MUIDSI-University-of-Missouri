@@ -93,8 +93,8 @@ layout: default
       {% if p.graduated and p.phd_graduate %}
       {% capture name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
       <span class="alumni">
-              {% if p.website %}
-              <a href="{{ p.website }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
+              {% if p.permalink %}
+              <a href="{{ p.permalink }}">{{ name }}</a>{% else %}{{ name }}{% endif %}{% if p.graduated != "N" %}, {{ p.graduated }}{% endif %}
           </span>
       {% endif %}
       {% endfor %}

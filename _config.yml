@@ -1,9 +1,9 @@
 # Site settings
 title: Visualization Design Lab
 email: vdl-faculty@sci.utah.edu
-description: "Data visualization research lab at SCI, SoC, University of Utah"
+description: "iDAS Research Lab, MU Institute for Data Science and Informatics, University of Missouri"
 baseurl: ""
-url: "https://vdl.sci.utah.edu"
+url: "https://vmdl.missouri.edu"
 twitter_username: visdesignlab
 github_username: visdesignlab
 youtube_username: UCwdLyKe0EcYGQX8553tyFrA

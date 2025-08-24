@@ -29,7 +29,6 @@ address: |
     22 Heinkel Building, Columbia, MO 65211
 
 # flag used to determine whether to show teaching
-showteaching: false
 graduated: 
 ---
 

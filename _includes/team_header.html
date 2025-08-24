@@ -2,7 +2,7 @@
 {% for person in site.persons %}
 {% if person.graduated %}
 {% elsif person.role == "faculty" %}
-<a class="personKey {{ person.key}}" href="{{ person.website }}">
+<a class="personKey {{ person.key}}" href="{{ person.permalink }}">
   <!-- onclick="selectPerson('{{ person.key }}')"> -->
   {% if person.image %}
   <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image offset{{iter}}"
@@ -19,7 +19,7 @@
 {% elsif person.role == "postdoc" or person.role == "phdstudent" or person.role == "phd_rotation" or person.role ==
 "msstudent" or person.role == "undergrad" or person.role =="intern" or person.role =="visitor" or person.role
 =="engineer"%}
-<a class="personKey {{ person.key}}" href="{{ person.website }}">
+<a class="personKey {{ person.key}}" href="{{ person.permalink }}">
   <!--   onclick="selectPerson('{{ person.key }}')">-->
   {% if person.image %}
   <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-img person-image-small offset{{iter}}"
