@@ -23,9 +23,10 @@
   </head>
 
   <body>
+    {% include header.html %}
     <div class="wrap">
-      {% include header.html %} {% include banner.html %}
-
+      
+      {% include banner.html %}
       <article class="home-content-main">
         <h1>About</h1>
 
@@ -110,8 +111,10 @@
 
       </article>
 
-      {% include footer.html %}
+      
     </div>
+
+    {% include footer.html %}
 
     {% if site.use_analytics == true %} {% include google_analytics.html %} {%
     endif %}

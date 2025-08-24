@@ -1,49 +1,52 @@
-<div class="navigation">
-  <div id="svg" class="logo">
-    <img style="margin-top: 30px;" width="314" x="0px" y="0px" viewBox="0 0 62 80.6" src="{{ site.baseurl }}/assets/images/logos/iDASLogo.jpg" alt="vdl logo">
+<header>
+  <div class="navigation">
+    <div id="svg" class="logo">
+      <img style="margin-top: 30px;" width="314" x="0px" y="0px" viewBox="0 0 62 80.6" src="{{ site.baseurl }}/assets/images/logos/iDASLogo.jpg" alt="vdl logo">
+    </div>
+    <div class="navigation-buttons">
+      <ul>
+        {% assign navButtons = "home|team|publications|blog|culture|positions" | split: "|" %}
+        {% for nav in navButtons %}
+        {% assign navURL = nav %}
+        {% assign pageURL = page.url %}
+        {% assign pageURLSplit = page.url | split: "/" %}
+        {% if nav == "home" %}
+        {% assign navURL = "" %}
+        {% endif %}
+  
+        {% if pageURLSplit[1] == navURL %}
+        <li class="{{ nav }}-button">
+          <a class="active" href="{{ site.baseurl }}/{{ navURL }}/">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+        </li>
+   
+        {% elsif navURL == "" and page.url == "/"%}
+        <li class="{{ nav }}-button">
+          <a class="active" href="{{ site.baseurl }}/">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+        </li>
+  
+        {% elsif navURL == "" %}
+        <li class="{{ nav }}-button">
+          <a href="{{ site.baseurl }}/">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+        </li>
+  
+        {% else %}
+        <li class="{{ nav }}-button">
+          <a href="{{ site.baseurl }}/{{ navURL }}/">
+            <span class="nav-text">{{ nav | upcase }}</span></a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-  <div class="navigation-buttons">
-    <ul>
-      {% assign navButtons = "home|team|publications|blog|culture|positions" | split: "|" %}
-      {% for nav in navButtons %}
-      {% assign navURL = nav %}
-      {% assign pageURL = page.url %}
-      {% assign pageURLSplit = page.url | split: "/" %}
-      {% if nav == "home" %}
-      {% assign navURL = "" %}
-      {% endif %}
+  <br><br>
+  <!-- <div id="lab-move-banner">
+    <p><strong>🚚 Part of the lab is moving to TU Graz in Austria!</strong> <br>
+       Visit our new website at <a href="https://visdesignlab.net">visdesignlab.net</a>. This site will remain available indefinitely for archival purposes, but it will no longer be updated after August 2025. For more information, see our <a href="https://www.visdesignlab.net/blog/2025/07/30/vdl-moves/">move announcement</a>.</p>
+      </div> -->
+</header>
 
-      {% if pageURLSplit[1] == navURL %}
-      <li class="{{ nav }}-button">
-        <a class="active" href="{{ site.baseurl }}/{{ navURL }}/">
-          <span class="nav-text">{{ nav | upcase }}</span></a>
-      </li>
- 
-      {% elsif navURL == "" and page.url == "/"%}
-      <li class="{{ nav }}-button">
-        <a class="active" href="{{ site.baseurl }}/">
-          <span class="nav-text">{{ nav | upcase }}</span></a>
-      </li>
-
-      {% elsif navURL == "" %}
-      <li class="{{ nav }}-button">
-        <a href="{{ site.baseurl }}/">
-          <span class="nav-text">{{ nav | upcase }}</span></a>
-      </li>
-
-      {% else %}
-      <li class="{{ nav }}-button">
-        <a href="{{ site.baseurl }}/{{ navURL }}/">
-          <span class="nav-text">{{ nav | upcase }}</span></a>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-<br><br>
-<!-- <div id="lab-move-banner">
-  <p><strong>🚚 Part of the lab is moving to TU Graz in Austria!</strong> <br>
-     Visit our new website at <a href="https://visdesignlab.net">visdesignlab.net</a>. This site will remain available indefinitely for archival purposes, but it will no longer be updated after August 2025. For more information, see our <a href="https://www.visdesignlab.net/blog/2025/07/30/vdl-moves/">move announcement</a>.</p>
-    </div> -->
 

@@ -270,13 +270,10 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 }
 
-.wrap {
+.navigation, .footer-content {
   @include outer-container;
   @include clearfix;
-}
 
-
-body {
   width: 750px;
   margin: 30px auto 0px auto;
 
@@ -288,6 +285,33 @@ body {
     width: 300px;
     margin: 10px auto 0px auto;
   }
+}
+
+.wrap {
+  @include outer-container;
+  @include clearfix;
+
+  width: 750px;
+  margin: 30px auto 0px auto;
+
+  @include media($large-display) {
+    width: 1200px;
+  }
+
+  @include media($small-display) {
+    width: 300px;
+    margin: 10px auto 0px auto;
+  }
+
+}
+
+
+body {
+  // width: 750px;
+  width: 100%;
+  // margin: 30px auto 0px auto;
+  margin: 0;
+
 }
 
 .home-button {

@@ -4,13 +4,14 @@
 {% include head.html %}
 
 <body>
-  <div class="wrap">
-    {% include header.html %}
 
+  {% include header.html %}
+  <div class="wrap">
+  
     {{ content }}
 
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
 
   {% if site.use_analytics == true %}
   {% include google_analytics.html %}
