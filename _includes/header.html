@@ -1,48 +1,64 @@
 <header>
-  <div class="navigation">
-    <div id="svg" class="logo">
-      <img style="margin-top: 30px;" width="314" x="0px" y="0px" viewBox="0 0 62 80.6" src="{{ site.baseurl }}/assets/images/logos/iDASLogo.jpg" alt="vdl logo">
+  <div class="header-content">
+    <div class="header-left">
+      <div class="mu-logo">
+        <img src="{{ site.baseurl }}/assets/images/logos/mu_logo.svg" alt="University of Missouri logo">
+      </div>
+      <div class="header-text">
+        <h1>MU Institute for Data Science and Informatics</h1>
+        <p>University of Missouri</p>
+      </div>
     </div>
-    <div class="navigation-buttons">
-      <ul>
-        {% assign navButtons = "home|team|publications|blog|culture|positions" | split: "|" %}
-        {% for nav in navButtons %}
-        {% assign navURL = nav %}
-        {% assign pageURL = page.url %}
-        {% assign pageURLSplit = page.url | split: "/" %}
-        {% if nav == "home" %}
-        {% assign navURL = "" %}
-        {% endif %}
-  
-        {% if pageURLSplit[1] == navURL %}
-        <li class="{{ nav }}-button">
-          <a class="active" href="{{ site.baseurl }}/{{ navURL }}/">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
-        </li>
-   
-        {% elsif navURL == "" and page.url == "/"%}
-        <li class="{{ nav }}-button">
-          <a class="active" href="{{ site.baseurl }}/">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
-        </li>
-  
-        {% elsif navURL == "" %}
-        <li class="{{ nav }}-button">
-          <a href="{{ site.baseurl }}/">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
-        </li>
-  
-        {% else %}
-        <li class="{{ nav }}-button">
-          <a href="{{ site.baseurl }}/{{ navURL }}/">
-            <span class="nav-text">{{ nav | upcase }}</span></a>
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+    <div class="header-right">
+      <div class="idas-logo">
+        <img src="{{ site.baseurl }}/assets/images/logos/iDASLogo.jpg" alt="iDAS logo">
+      </div>
     </div>
   </div>
-  <br><br>
+  
+  <div class="navigation">
+    <div class="navigation-content">
+      <div class="navigation-buttons">
+        <ul>
+          {% assign navButtons = "home|team|publications|blog|culture|positions" | split: "|" %}
+          {% for nav in navButtons %}
+          {% assign navURL = nav %}
+          {% assign pageURL = page.url %}
+          {% assign pageURLSplit = page.url | split: "/" %}
+          {% if nav == "home" %}
+          {% assign navURL = "" %}
+          {% endif %}
+
+          {% if pageURLSplit[1] == navURL %}
+          <li class="{{ nav }}-button">
+            <a class="active" href="{{ site.baseurl }}/{{ navURL }}/">
+              <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+       
+          {% elsif navURL == "" and page.url == "/"%}
+          <li class="{{ nav }}-button">
+            <a class="active" href="{{ site.baseurl }}/">
+              <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+
+          {% elsif navURL == "" %}
+          <li class="{{ nav }}-button">
+            <a href="{{ site.baseurl }}/">
+              <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+
+          {% else %}
+          <li class="{{ nav }}-button">
+            <a href="{{ site.baseurl }}/{{ navURL }}/">
+              <span class="nav-text">{{ nav | upcase }}</span></a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
   <!-- <div id="lab-move-banner">
     <p><strong>🚚 Part of the lab is moving to TU Graz in Austria!</strong> <br>
        Visit our new website at <a href="https://visdesignlab.net">visdesignlab.net</a>. This site will remain available indefinitely for archival purposes, but it will no longer be updated after August 2025. For more information, see our <a href="https://www.visdesignlab.net/blog/2025/07/30/vdl-moves/">move announcement</a>.</p>

@@ -64,13 +64,14 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 
   a {
+    text-align: center;
     display: block;
-    height: 28px;
-    padding: 3px 0px;
+    //height: 28px;
+    //padding: 3px 0px;
     color: $missouri-black;
 
-    border-bottom: 2px $color solid;
-    height: 30px;
+    //border-bottom: 2px $color solid;
+    //height: 30px;
     //background-color: #444;
 
     transition-property: background-color, color;
@@ -79,11 +80,10 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
     transition-delay: 25ms;
 
     &:focus, &:hover, &:active, &.active {
-      //background-color: darken( $color, 20% );
-      //color: $missouri-black;
-      //color: darken( $color, 20% );
-      height: 30px;
-      border-bottom: 5px $color solid;
+      background-color: white; // White background for active/hover state like VMDL
+      color: $missouri-black;
+      //height: 30px;
+      //border-bottom: 5px $color solid;
     }
   }
 
@@ -139,7 +139,8 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 
   .home-image {
-    padding-top: 50px;
+    //padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
     padding-left: 0px;
     padding-right: 0px;
@@ -147,6 +148,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
     margin-bottom: 250px;
     @include media($small-display) {
       margin-bottom: 100px;
+      padding-top: 0;
     }
   }
 
@@ -226,29 +228,71 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 }
 
+
 .navigation {
-  display: block;
-  height: 40px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  width: 100%;
+  //display: flex;
+  //display: -webkit-flex;
+  //align-items: center;
+  //justify-content: flex-start;
+  //position: relative;
+  //display: block;
+  //height: 40px;
+  //margin-bottom: 20px;
+  //padding-bottom: 20px;
+  //width: 100vw; // Full viewport width
+  //left: 50%;
+  //right: 50%;
+  //margin-left: -50vw;
+  //margin-right: -50vw;
+  background-color: $missouri-yellow; // Yellow-orange background like VMDL
+  //padding: 10px 0; // Add padding for better appearance
+  padding: 0;
+
+  // Navigation content wrapper to center the navigation within the full-width bar
+  .navigation-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    //padding: 0 40px; // Add horizontal padding to align with header content
+
+    @include media($large-display) {
+      max-width: 1200px;
+    }
+
+    @include media($medium-display) {
+      max-width: 750px;
+      padding: 0 30px;
+    }
+
+    @include media($small-display) {
+      max-width: 90%;
+      padding: 0.25em;
+    }
+  }
 
   @include media($small-display) {
-    margin-left: 0px;
-    height: 35px;
+    //left: 50%;
+    //right: 50%;
+    //margin-left: -50vw;
+    //margin-right: -50vw;
+    //height: 35px;
   }
 }
 
 .navigation-buttons {
-  display: block;
-  float: left;
-  padding-top: 65px;
-  padding-bottom: 15px;
+  display: flex;
+  display: -webkit-flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;;
+  //float: left;
+  //padding-top: 15px; // Reduced padding since we have background now
+  //padding-bottom: 15px;
 
   @include media($small-display) {
     margin-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 15px;
+    //padding-top: 0px;
+    //padding-bottom: 15px;
   }
 }
 
@@ -270,19 +314,21 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 }
 
-.navigation, .footer-content {
+.footer-content {
   @include outer-container;
   @include clearfix;
 
   width: 750px;
-  margin: 30px auto 0px auto;
+  //margin: 30px auto 0px auto;
+  margin: 0;
+  padding: 0.25em;
 
   @include media($large-display) {
     width: 1200px;
   }
 
   @include media($small-display) {
-    width: 300px;
+    width: 90%;
     margin: 10px auto 0px auto;
   }
 }
@@ -299,7 +345,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
   }
 
   @include media($small-display) {
-    width: 300px;
+    width: 90%;
     margin: 10px auto 0px auto;
   }
 
@@ -311,6 +357,11 @@ body {
   width: 100%;
   // margin: 30px auto 0px auto;
   margin: 0;
+
+  .navigation {
+    display: flex;
+    display: -webkit-flex;
+  }
 
 }
 
@@ -1076,16 +1127,24 @@ footer {
     @include single-column-content();
   }
 
-  $footer-background: $base-background-color;
-  $footer-color: black;
-  $footer-link-color: $footer-color; //transparentize($footer-color, .6);
-  $footer-disclaimer-color: $footer-color; //transparentize($footer-color, .6);
+  $footer-background: $missouri-black; // Dark background like VMDL
+  $footer-color: white; // White text on dark background
+  $footer-link-color: $missouri-yellow; // Yellow-orange links like VMDL
+  //$footer-disclaimer-color: lighten($missouri-black, 60%); // Light gray for disclaimer
+  $footer-disclaimer-color: white; // Light gray for disclaimer
 
   background: $footer-background;
   width: 100%;
   margin-top: 15px;
-  padding-top: 15px;
-  border-top: 4px solid $footer-border-color;
+  padding-top: 1em;
+  border-top: 4px solid $missouri-yellow; // Yellow-orange border like VMDL
+  color: $footer-color; // Set text color to white
+
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   .logo-footer-svg {
     height: 50px;
@@ -1101,16 +1160,17 @@ footer {
   }
 
   .institution-logo {
-    height: 50px;
+    height: 70px;
 
     @include media($small-display) {
-      height: 20px;
+      height: 30px;
     }
   }
 
   .footer-text {
     font-family: $footer-content-font-family;
     font-size: $footer-content-font-size;
+    color: $footer-color; // White text
 
     @include media($small-display) {
       display: none;
@@ -1158,7 +1218,7 @@ footer {
         }
 
         a {
-          color: $footer-link-color;
+          color: $footer-link-color; // Yellow-orange links
         }
       }
     }
@@ -1175,11 +1235,11 @@ footer {
   .footer-disclaimer {
     display: block;
     margin-top: 0.25em;
-    opacity: 0.33;
+    opacity: 0.7;
 
     p {
       text-align: center;
-
+      color: $footer-disclaimer-color; // Light gray for disclaimer text
       font-family: $sans-serif-font-family;
       font-size: $footer-content-font-size * 1.2;
       font-weight: 700;
@@ -1390,4 +1450,138 @@ pre.bibtex {
   border-radius: 6px;
   line-height: 18px;
   overflow: hidden;
+}
+
+/* Header styling to match VMDL layout */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 0px 0px; // Increased padding for better spacing
+  background-color: white;
+  //border-bottom: 1px solid #ddd;
+  margin-bottom: 0;
+  max-width: 1200px; // Match content width
+  margin: 0 auto; // Center the header content
+
+  @include media($large-display) {
+    max-width: 1200px;
+  }
+
+  @include media($medium-display) {
+    max-width: 750px;
+    padding: 25px 30px;
+  }
+
+  @include media($small-display) {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px;
+    max-width: 90%;
+  }
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px; // Increased gap between MU logo and text
+
+  @include media($small-display) {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.mu-logo {
+
+  display: flex;
+  display: -webkit-flex;
+
+  img {
+    height: 60px;
+    width: auto;
+
+    @include media($small-display) {
+      height: 60px;
+    }
+  }
+}
+
+.header-text {
+  h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: $missouri-black;
+    font-family: $serif-font-family;
+
+    @include media($small-display) {
+      font-size: 1.4em;
+    }
+  }
+
+  p {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    color: $missouri-black;
+    font-family: $serif-font-family;
+
+    @include media($small-display) {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.header-right {
+  .idas-logo {
+    img {
+      height: 90px;
+      width: auto;
+
+      @include media($small-display) {
+        height: 80px;
+        margin-top: 0.75em;
+      }
+    }
+  }
+}
+
+.header-text h1 {
+  font-size: 1em;
+}
+
+.navigation-buttons ul li {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+
+  @include media($small-display) {
+      margin: 0;
+      padding: 0;
+  }
+
+}
+
+.navigation-buttons ul li a {
+  height: 100% !important;
+  margin: 0;
+  padding: 18px;
+  border-bottom: none;
+
+  @include media($small-display) {
+      padding: 0.5em;
+  }
+
+}
+
+.navigation-buttons > ul {
+
+  @include media($small-display) { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
