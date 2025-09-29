@@ -28,7 +28,7 @@ publications:
  - 2021_chi_revisit
  
 staff:
- - lex
+ - chi-ren
  - wilburn
  
 # otherstaff: 

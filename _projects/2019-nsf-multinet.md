@@ -13,7 +13,7 @@ recipients:
  - Knowledge Vis
  - Duke University
  - Carnegie Institution of Science
-pi: lex
+pi: chi-ren
 copi: 
  - meyer
  - Jeff Baumes 
@@ -44,7 +44,7 @@ publications:
  
 staff:
  - meyer
- - lex
+ - chi-ren
  - wilburn
  - akbaba
  

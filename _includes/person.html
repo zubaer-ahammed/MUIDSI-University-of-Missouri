@@ -4,6 +4,7 @@
 {% endif %}
 {% if person.graduated == null %}
 {% if person.key == include.key  or person.role == include.role %}
+{% if person.key != null %}
 <p class="person-list-block" id="{{ person.key }}" onclick="selectPerson(this.id)" onmouseenter="highlightPerson(this.id)" onmouseleave="clearClass('highlighted')">
     <!--<img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">-->
     {% capture name %}{{ person.first_name }} {{ person.last_name }}{% endcapture %}
@@ -11,8 +12,8 @@
 
     {% if person.role != "alumnus" %}
     <span class="name">
-        {% if person.website %}
-      <a href="{{ person.website }}">{{ name }}</a>
+        {% if person.permalink %}
+      <a href="{{ person.permalink }}">{{ name }}</a>
         {% else %}
         {{ name }}
         {% endif %}
@@ -32,6 +33,7 @@
     </span>
     {% endif %}
 </p>
+{% endif %}
 {% endif %}
 {% endif %}
 {% endfor %}

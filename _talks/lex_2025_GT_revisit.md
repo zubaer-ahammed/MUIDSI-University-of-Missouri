@@ -1,5 +1,5 @@
 ---
-speaker: lex
+speaker: chi-ren
 title: "reVISit: A Toolking for Data Visualization Experiments"
 # paper | invited | keynote | tutorial | panel
 type: invited

@@ -8,7 +8,7 @@ logo: nsf.jpg
 title: "EAGER: Understanding and Mitigating Misinformation in Visualizations On Social Media"
 recipients:
  - University of Utah
-pi: lex
+pi: chi-ren
 copi: 
  - Marina Kogan
 coinvestigators:
@@ -25,7 +25,7 @@ publications:
 
  
 staff:
- - lex
+ - chi-ren
  - lisnic
 
  

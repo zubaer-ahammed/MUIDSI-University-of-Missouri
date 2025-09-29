@@ -8,7 +8,7 @@ logo: czi-logo-circle.svg
 title: "Achieving Accessibility for UpSet Plots"
 recipients:
  - University of Utah
-pi: lex
+pi: chi-ren
 time: 08/31/2022-08/31/2024
 program: Essential Open Source Software for Science (Cycle 5)
 agency-website: https://chanzuckerberg.com/eoss/proposals/achieving-accessibility-for-upset-plots/

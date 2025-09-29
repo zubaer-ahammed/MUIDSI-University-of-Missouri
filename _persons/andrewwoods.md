@@ -3,7 +3,7 @@
 layout: person #keep this
 first_name: Andrew #Your first name
 last_name: Woods #your last name
-key: AndrewWoods
+key: andrewwoods
 permalink: /team/andrewwoods/ #just replace samratkumardey with your full name (lowercase)
 # Pick one of the following
 role: phdstudent #keep this if you are PhDstudent, for MS write msstudent

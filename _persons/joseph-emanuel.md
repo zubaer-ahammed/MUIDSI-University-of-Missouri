@@ -4,7 +4,7 @@ layout: person #keep this
 first_name: Joseph #Your first name
 last_name: Emanuel #your last name
 key: josephemanuel
-permalink: /team/josephemanuel #just replace samratkumardey with your full name (lowercase)
+permalink: /team/josephemanuel/ #just replace samratkumardey with your full name (lowercase)
 # Pick one of the following
 role: phdstudent #keep this if you are PhDstudent, for MS write msstudent
 email: jaecm9@umsystem.edu #your missouri email
